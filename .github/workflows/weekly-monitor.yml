@@ -1,9 +1,9 @@
-name: Weekly Gerrit Monitor
+name: Daily Gerrit Monitor
 
 on:
   schedule:
-    # Run every Monday at 9:00 AM UTC (2:30 PM IST)
-    - cron: '0 9 * * 1'
+    # Run every day at 7:05 AM UTC (12:35 PM IST)
+    - cron: '5 7 * * *'
   
   # Allow manual trigger
   workflow_dispatch:
@@ -31,6 +31,21 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           python monitor.py
+      
+      - name: Commit and push report
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add GERRIT_WEEKLY_REPORT.md
+          git diff --staged --quiet || git commit -m "📊 Weekly Gerrit Activity Report - $(date +'%Y-%m-%d')"
+          git push
+      
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gerrit-weekly-report
+          path: GERRIT_WEEKLY_REPORT.md
+          retention-days: 30
       
       - name: Upload logs on failure
         if: failure()

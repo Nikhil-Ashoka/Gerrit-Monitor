@@ -1,6 +1,10 @@
 # Environment variables
 .env
 
+# Generated reports (will be committed by GitHub Actions)
+# Uncomment the line below if you don't want to track the report in git
+# GERRIT_WEEKLY_REPORT.md
+
 # Python
 __pycache__/
 *.py[cod]
