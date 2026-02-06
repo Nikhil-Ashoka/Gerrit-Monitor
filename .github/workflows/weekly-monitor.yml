@@ -1,10 +1,8 @@
 name: Daily Gerrit Monitor
-
 on:
   schedule:
-    # Run every day at 7:05 AM UTC (12:35 PM IST)
-    - cron: '5 7 * * *'
-  
+    # Run every 15 minutes
+    - cron: '*/15 * * * *'
   # Allow manual trigger
   workflow_dispatch:
 
@@ -14,7 +12,6 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -58,5 +55,3 @@ jobs:
           path: |
             *.log
           retention-days: 7
-
-# Made with Bob
