@@ -1,0 +1,6 @@
+{
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "project": "openbmc/webui-vue",
+  "check_days": 7,
+  "max_results": 100
+}
