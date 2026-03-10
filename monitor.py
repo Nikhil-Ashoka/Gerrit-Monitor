@@ -138,7 +138,7 @@ class ReportGenerator:
         end_date = datetime.utcnow().strftime('%Y-%m-%d')
         
         report = []
-        report.append("# 📊 Weekly Gerrit Activity Report\n")
+        report.append("# 📊 WebUI Gerrit Activity Report\n")
         report.append(f"**Generated:** {report_date}\n")
         report.append(f"**Project:** [{project}]({gerrit_url}/q/project:{project})\n")
         report.append(f"**Period:** {start_date} to {end_date} ({days} days)\n")
