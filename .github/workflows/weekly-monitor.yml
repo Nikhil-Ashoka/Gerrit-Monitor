@@ -1,9 +1,8 @@
 name: Daily Gerrit Monitor
 on:
   schedule:
-    # Run every 2 days at 7:05 AM UTC (12:35 PM IST)
-    # Runs on odd days of the month (1st, 3rd, 5th, etc.)
-    - cron: '5 7 1-31/2 * *'
+    # Run daily at 7:05 AM UTC (12:35 PM IST)
+    - cron: '5 7 * * *'
   # Allow manual trigger
   workflow_dispatch:
 
