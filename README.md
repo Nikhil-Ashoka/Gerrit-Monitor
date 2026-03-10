@@ -4,9 +4,9 @@ Automated monitoring system for tracking daily activities in the OpenBMC WebUI V
 
 ## Features
 
-- Monitors https://gerrit.openbmc.org/q/project:openbmc/webui-vue for weekly activities
+- Monitors https://gerrit.openbmc.org/q/project:openbmc/webui-vue for daily activities
 - Fetches changes (commits, reviews, merges) from the past week
-- **Generates a detailed markdown report (GERRIT_WEEKLY_REPORT.md)** with all changes
+- **Generates a detailed markdown report (GERRIT_DAILY_REPORT.md)** with all changes
 - Optionally posts formatted updates to a Slack channel via webhook (when configured)
 - Runs automatically every week using GitHub Actions (or can be run locally with cron)
 - No external dependencies beyond Python standard library and requests
@@ -67,7 +67,7 @@ To enable:
 4. (Optional) To enable Slack notifications:
    - Go to Settings → Secrets and variables → Actions
    - Add a new secret named `SLACK_WEBHOOK_URL` with your webhook URL
-5. The workflow will run automatically daily and generate GERRIT_WEEKLY_REPORT.md
+5. The workflow will run automatically daily and generate GERRIT_DAILY_REPORT.md
 
 ### Automated Execution (Local Cron)
 
@@ -78,7 +78,7 @@ Add to your crontab to run every day at 12:35 PM IST:
 
 ## Output Format
 
-The generated report (GERRIT_WEEKLY_REPORT.md) includes:
+The generated report (GERRIT_DAILY_REPORT.md) includes:
 - Report metadata (date, project, period)
 - Total number of changes in the week
 - **Merged changes** with code statistics (+/- lines)
@@ -99,7 +99,7 @@ If Slack webhook is configured, a formatted message is also sent to Slack with t
 ## Notes
 
 - **Slack is optional**: The monitor will generate a markdown report regardless of Slack configuration
-- **Report location**: GERRIT_WEEKLY_REPORT.md is created in the project root directory
+- **Report location**: GERRIT_DAILY_REPORT.md is created in the project root directory
 - **Schedule**: Runs **every day** at 7:05 AM UTC (12:35 PM IST)
 - **Report period**: By default, checks the last 7 days of activity (configurable in config.json)
 

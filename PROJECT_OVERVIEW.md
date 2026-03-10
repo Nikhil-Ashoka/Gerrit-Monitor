@@ -1,8 +1,8 @@
-# Gerrit Weekly Activity Monitor - Project Overview
+# Gerrit Daily Activity Monitor - Project Overview
 
 ## 📋 Project Summary
 
-This project provides an automated solution to monitor the OpenBMC WebUI Vue Gerrit repository and post weekly activity summaries to Slack. It requires **zero infrastructure** - just GitHub Actions and a Slack webhook.
+This project provides an automated solution to monitor the OpenBMC WebUI Vue Gerrit repository and post daily activity summaries to Slack. It requires **zero infrastructure** - just GitHub Actions and a Slack webhook.
 
 ## 🎯 Key Features
 
@@ -40,7 +40,7 @@ gerrit-monitor/
 │
 └── .github/
     └── workflows/
-        └── weekly-monitor.yml  # GitHub Actions workflow
+        └── daily-monitor.yml  # GitHub Actions workflow
 ```
 
 ## 🔧 Technical Architecture
@@ -93,7 +93,7 @@ GitHub Actions (Scheduler)
 
 The Slack message includes:
 
-- **Header**: Weekly activity summary
+- **Header**: Daily activity summary
 - **Merged Changes**: What got merged (with +/- lines)
 - **Open Changes**: What needs review
 - **Work in Progress**: What's being developed
@@ -112,13 +112,13 @@ The Slack message includes:
 
 - **Multiple Projects**: Easy to monitor multiple repos
 - **Custom Filters**: Filter by author, file path, etc.
-- **Flexible Schedule**: Daily, weekly, monthly reports
+- **Flexible Schedule**: Daily, bi-daily, monthly reports
 - **Multiple Channels**: Send to different Slack channels
 
 ## 🛠️ Customization Examples
 
 ### Change Schedule
-Edit `.github/workflows/weekly-monitor.yml`:
+Edit `.github/workflows/daily-monitor.yml`:
 ```yaml
 schedule:
   - cron: '0 9 * * 5'  # Every Friday at 9 AM
@@ -132,7 +132,7 @@ Edit `config.json`:
 }
 ```
 
-### Bi-weekly Reports
+### Bi-daily Reports
 Edit `config.json`:
 ```json
 {
@@ -182,7 +182,7 @@ MIT License - see [LICENSE](LICENSE) file
 
 ## 🎯 Use Cases
 
-1. **Team Updates**: Keep team informed of weekly progress
+1. **Team Updates**: Keep team informed of daily progress
 2. **Code Review Tracking**: Monitor pending reviews
 3. **Release Planning**: Track merged features
 4. **Activity Monitoring**: Understand project velocity

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Gerrit Weekly Activity Monitor
-Monitors Gerrit repository for weekly activities and generates reports.
+Gerrit Daily Activity Monitor
+Monitors Gerrit repository for daily activities and generates reports.
 Can optionally post updates to Slack if webhook URL is provided.
 """
 
@@ -189,7 +189,7 @@ class ReportGenerator:
         
         return ''.join(report)
     
-    def save_report(self, content: str, filename: str = "GERRIT_WEEKLY_REPORT.md") -> bool:
+    def save_report(self, content: str, filename: str = "GERRIT_DAILY_REPORT.md") -> bool:
         """Save report to a file."""
         try:
             with open(filename, 'w') as f:
@@ -219,7 +219,7 @@ class SlackNotifier:
                 "type": "header",
                 "text": {
                     "type": "plain_text",
-                    "text": f"📊 Weekly Gerrit Activity Report",
+                    "text": f"📊 Daily Gerrit Activity Report",
                     "emoji": True
                 }
             },
@@ -418,10 +418,10 @@ def main():
     report_saved = report_generator.save_report(markdown_report)
     
     if report_saved:
-        logger.info("✅ Weekly report generated successfully!")
-        logger.info("📄 Report saved to: GERRIT_WEEKLY_REPORT.md")
+        logger.info("✅ Daily report generated successfully!")
+        logger.info("📄 Report saved to: GERRIT_DAILY_REPORT.md")
     else:
-        logger.error("❌ Failed to generate weekly report")
+        logger.error("❌ Failed to generate daily report")
         sys.exit(1)
     
     # Optionally send to Slack if webhook URL is provided

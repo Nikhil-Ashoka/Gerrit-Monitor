@@ -63,7 +63,7 @@ pip install -r requirements.txt
 python monitor.py
 ```
 
-This will generate `GERRIT_WEEKLY_REPORT.md` in the current directory!
+This will generate `GERRIT_DAILY_REPORT.md` in the current directory!
 
 ### Step 3: (Optional) Add Slack
 
@@ -79,7 +79,7 @@ Now you'll get both the report file AND Slack notification!
 
 ## 📝 What You'll Get
 
-Every day, a detailed markdown report (`GERRIT_WEEKLY_REPORT.md`) with:
+Every day, a detailed markdown report (`GERRIT_DAILY_REPORT.md`) with:
 
 - 📊 **Report metadata** - Date, project, period covered
 - ✅ **Merged changes** - What got merged this week (with +/- line counts)
@@ -111,7 +111,7 @@ Edit `config.json` to change:
 }
 ```
 
-- `check_days`: Change to 14 for bi-weekly reports
+- `check_days`: Change to 14 for bi-daily reports
 - `project`: Monitor a different project
 - `max_results`: Increase if you have many changes
 
@@ -142,7 +142,7 @@ See [SETUP.md](SETUP.md) for detailed instructions.
 
 Default schedule: **Every day at 7:05 AM UTC (12:35 PM IST)**
 
-To change the schedule, edit `.github/workflows/weekly-monitor.yml`:
+To change the schedule, edit `.github/workflows/daily-monitor.yml`:
 
 ```yaml
 schedule:
@@ -161,7 +161,7 @@ Examples:
 
 1. ✅ Wait for your first daily report (runs at 12:35 PM IST)
 2. ✅ Customize the report period in config.json (default: 7 days)
-3. ✅ Adjust the schedule if needed (edit `.github/workflows/weekly-monitor.yml`)
+3. ✅ Adjust the schedule if needed (edit `.github/workflows/daily-monitor.yml`)
 4. ✅ Consider monitoring additional projects or repositories
 
 Happy monitoring! 🚀

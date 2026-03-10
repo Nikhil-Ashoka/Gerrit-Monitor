@@ -1,6 +1,6 @@
-# Setup Guide - Gerrit Weekly Activity Monitor
+# Setup Guide - Gerrit Daily Activity Monitor
 
-This guide will walk you through setting up the Gerrit Weekly Activity Monitor to automatically track and report repository activities to Slack.
+This guide will walk you through setting up the Gerrit Daily Activity Monitor to automatically track and report repository activities to Slack.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
@@ -102,7 +102,7 @@ python monitor.py
 
 You should see:
 - Log messages indicating the script is running
-- A message posted to your Slack channel with the weekly report
+- A message posted to your Slack channel with the daily report
 
 ## GitHub Actions Setup (Recommended)
 
@@ -133,7 +133,7 @@ git push -u origin main
 
 1. Go to the **Actions** tab in your repository
 2. If prompted, click **"I understand my workflows, go ahead and enable them"**
-3. The workflow is already configured in `.github/workflows/weekly-monitor.yml`
+3. The workflow is already configured in `.github/workflows/daily-monitor.yml`
 
 ### 4. Verify the Schedule
 
@@ -145,7 +145,7 @@ The workflow is set to run:
 
 To test immediately:
 1. Go to **Actions** tab
-2. Click **Weekly Gerrit Monitor** workflow
+2. Click **Daily Gerrit Monitor** workflow
 3. Click **Run workflow** → **Run workflow**
 
 ## Alternative: Local Cron Setup
@@ -175,7 +175,7 @@ Replace `/path/to/gerrit-monitor` with your actual path.
 
 1. Open **Task Scheduler**
 2. Create a new task:
-   - **Trigger**: Weekly, every Monday at 9:00 AM
+   - **Trigger**: Daily, every day at 9:00 AM
    - **Action**: Start a program
    - **Program**: `python`
    - **Arguments**: `C:\path\to\gerrit-monitor\monitor.py`
@@ -304,7 +304,7 @@ For issues or questions:
 ## Next Steps
 
 Once everything is working:
-1. ✅ Verify the first weekly report arrives successfully
-2. ✅ Adjust the schedule if needed (edit `.github/workflows/weekly-monitor.yml`)
+1. ✅ Verify the first daily report arrives successfully
+2. ✅ Adjust the schedule if needed (edit `.github/workflows/daily-monitor.yml`)
 3. ✅ Customize the message format to your team's preferences
 4. ✅ Consider monitoring additional projects or repositories

@@ -187,7 +187,7 @@ def main():
         print("\n🎉 All tests passed! Your setup is ready.")
         print("\nNext steps:")
         print("1. Run 'python monitor.py' to generate a full report")
-        print("2. Set up GitHub Actions for automated weekly runs")
+        print("2. Set up GitHub Actions for automated daily runs")
         print("3. See QUICKSTART.md for more information")
         return 0
     else:

@@ -1,4 +1,4 @@
-# 📊 Weekly Gerrit Activity Report
+# 📊 Daily Gerrit Activity Report
 **Generated:** 2026-03-10 13:51:17 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
 **Period:** 2026-03-08 to 2026-03-10 (2 days)
