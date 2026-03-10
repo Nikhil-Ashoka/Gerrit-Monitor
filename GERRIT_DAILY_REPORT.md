@@ -1,12 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-10 14:12:11 UTC
+**Generated:** 2026-03-10 17:16:07 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-08 to 2026-03-10 (2 days)
-**Total Changes:** 4
+**Period:** 2026-03-03 to 2026-03-10 (7 days)
+**Total Changes:** 6
 
 ---
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (3)
 
 ### [Implemented dynamic fetching of the sensors](https://gerrit.openbmc.org/c/87988)
 - **Change #:** 87988
@@ -20,7 +20,13 @@
 - **Changes:** +7604 / -6552 lines
 - **Updated:** 2026-03-09 04:43:51.000000000
 
-## 🔍 Open MRs (2)
+### [Implemented Sensors page with VueQuery and Composition API](https://gerrit.openbmc.org/c/86842)
+- **Change #:** 86842
+- **Author:** Nishant Tiwari
+- **Changes:** +15665 / -6516 lines
+- **Updated:** 2026-03-05 07:46:22.000000000
+
+## 🔍 Open MRs (3)
 
 ### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
 - **Change #:** 87572
@@ -31,6 +37,11 @@
 - **Change #:** 87281
 - **Author:** Nikhil Ashoka
 - **Updated:** 2026-03-09 10:37:19.000000000
+
+### [Fix build output filenames for bmcweb compatibility](https://gerrit.openbmc.org/c/87436)
+- **Change #:** 87436
+- **Author:** Jason Westover
+- **Updated:** 2026-03-04 20:14:50.000000000
 
 ---
 

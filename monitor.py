@@ -3,12 +3,16 @@
 Gerrit Daily Activity Monitor
 Monitors Gerrit repository for daily activities and generates reports.
 Can optionally post updates to Slack if webhook URL is provided.
+Can optionally send email reports if SMTP settings are configured.
 """
 
 import os
 import sys
 import json
 import logging
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 import requests
@@ -370,6 +374,240 @@ class SlackNotifier:
             return False
 
 
+class EmailNotifier:
+    """Send email notifications via SMTP."""
+    
+    def __init__(self, smtp_host: str, smtp_port: int, smtp_user: str,
+                 smtp_password: str, from_email: str, to_emails: List[str]):
+        """Initialize Email notifier with SMTP settings."""
+        self.smtp_host = smtp_host
+        self.smtp_port = smtp_port
+        self.smtp_user = smtp_user
+        self.smtp_password = smtp_password
+        self.from_email = from_email
+        self.to_emails = to_emails
+    
+    def send_email(self, subject: str, html_content: str, text_content: str) -> bool:
+        """Send email with both HTML and plain text versions."""
+        try:
+            logger.info(f"Sending email to {', '.join(self.to_emails)}")
+            
+            # Create message
+            msg = MIMEMultipart('alternative')
+            msg['Subject'] = subject
+            msg['From'] = self.from_email
+            msg['To'] = ', '.join(self.to_emails)
+            
+            # Attach both plain text and HTML versions
+            part1 = MIMEText(text_content, 'plain')
+            part2 = MIMEText(html_content, 'html')
+            msg.attach(part1)
+            msg.attach(part2)
+            
+            # Send email
+            with smtplib.SMTP(self.smtp_host, self.smtp_port) as server:
+                server.starttls()
+                server.login(self.smtp_user, self.smtp_password)
+                server.send_message(msg)
+            
+            logger.info("Email sent successfully")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error sending email: {e}")
+            return False
+    
+    def markdown_to_html(self, markdown_content: str) -> str:
+        """Convert markdown report to clean HTML matching the reference design."""
+        import re
+        
+        # Parse the markdown content
+        lines = markdown_content.split('\n')
+        
+        # Extract key information
+        project = ""
+        period = ""
+        total_changes = 0
+        
+        for line in lines:
+            if line.startswith('**Project:**'):
+                project_match = re.search(r'\[([^\]]+)\]', line)
+                if project_match:
+                    project = project_match.group(1)
+            elif line.startswith('**Period:**'):
+                period_match = re.search(r'(\d{4}-\d{2}-\d{2}) to (\d{4}-\d{2}-\d{2}) \((\d+) days\)', line)
+                if period_match:
+                    period = f"Last {period_match.group(3)} days"
+            elif line.startswith('**Total Changes:**'):
+                total_match = re.search(r'(\d+)', line)
+                if total_match:
+                    total_changes = int(total_match.group(1))
+        
+        # Build HTML sections
+        html_parts = []
+        
+        # Header
+        html_parts.append(f'''
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 800px; margin: 0; padding: 20px; background-color: #f5f5f5;">
+            <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <h1 style="margin: 0 0 20px 0; font-size: 24px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
+                    <span style="margin-right: 10px;">📊</span> Weekly Gerrit Activity Report
+                </h1>
+                
+                <div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #e0e0e0;">
+                    <p style="margin: 5px 0; font-size: 14px; color: #333;">
+                        <strong>Project:</strong> <span style="color: #d63384; font-family: monospace;">{project}</span>
+                    </p>
+                    <p style="margin: 5px 0; font-size: 14px; color: #333;">
+                        <strong>Period:</strong> {period}
+                    </p>
+                    <p style="margin: 5px 0; font-size: 14px; color: #333;">
+                        <strong>Total Changes:</strong> {total_changes}
+                    </p>
+                </div>
+        ''')
+        
+        # Parse sections
+        current_section = None
+        section_items = []
+        
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            
+            # Detect section headers
+            if line.startswith('## ✅ Merged'):
+                if current_section and section_items:
+                    html_parts.append(self._render_section(current_section, section_items))
+                current_section = 'merged'
+                section_items = []
+                count = re.search(r'\((\d+)\)', line)
+                html_parts.append(f'''
+                <div style="margin-top: 25px;">
+                    <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
+                        <span style="margin-right: 8px;">✅</span> Merged MRs ({count.group(1) if count else 0})
+                    </h2>
+                ''')
+            elif line.startswith('## 🔍 Open'):
+                if current_section and section_items:
+                    html_parts.append(self._render_section(current_section, section_items))
+                current_section = 'open'
+                section_items = []
+                count = re.search(r'\((\d+)\)', line)
+                html_parts.append(f'''
+                </div>
+                <div style="margin-top: 25px;">
+                    <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
+                        <span style="margin-right: 8px;">🔍</span> Open MRs ({count.group(1) if count else 0})
+                    </h2>
+                ''')
+            elif line.startswith('## 🚧 Work In Progress'):
+                if current_section and section_items:
+                    html_parts.append(self._render_section(current_section, section_items))
+                current_section = 'wip'
+                section_items = []
+                count = re.search(r'\((\d+)\)', line)
+                html_parts.append(f'''
+                </div>
+                <div style="margin-top: 25px;">
+                    <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
+                        <span style="margin-right: 8px;">🚧</span> Work In Progress ({count.group(1) if count else 0})
+                    </h2>
+                ''')
+            elif line.startswith('## ❌ Abandoned'):
+                if current_section and section_items:
+                    html_parts.append(self._render_section(current_section, section_items))
+                current_section = 'abandoned'
+                section_items = []
+                count = re.search(r'\((\d+)\)', line)
+                html_parts.append(f'''
+                </div>
+                <div style="margin-top: 25px;">
+                    <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
+                        <span style="margin-right: 8px;">❌</span> Abandoned MRs ({count.group(1) if count else 0})
+                    </h2>
+                ''')
+            elif line.startswith('### '):
+                # Parse change item with ALL details
+                title_match = re.search(r'\[([^\]]+)\]\(([^)]+)\)', line)
+                if title_match:
+                    item = {
+                        'title': title_match.group(1),
+                        'url': title_match.group(2),
+                        'details': []
+                    }
+                    
+                    # Collect ALL detail lines
+                    j = i + 1
+                    while j < len(lines) and lines[j].strip().startswith('- '):
+                        detail = lines[j].strip()[2:]  # Remove "- " prefix
+                        item['details'].append(detail)
+                        j += 1
+                    
+                    section_items.append(item)
+                    i = j - 1
+            
+            i += 1
+        
+        # Render last section
+        if current_section and section_items:
+            html_parts.append(self._render_section(current_section, section_items))
+        
+        # Footer
+        html_parts.append('''
+                </div>
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0; font-size: 12px; color: #666; text-align: center;">
+                    Generated on ''' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC') + '''
+                </div>
+            </div>
+        </div>
+        ''')
+        
+        return ''.join(html_parts)
+    
+    def _render_section(self, section_type: str, items: List[Dict]) -> str:
+        """Render a section of changes with all original details."""
+        import re
+        html = '<ul style="list-style: none; padding: 0; margin: 0;">'
+        
+        for item in items:
+            # Extract change number from first detail if available
+            change_num = ""
+            for detail in item['details']:
+                if 'Change #:' in detail:
+                    num_match = re.search(r'(\d+)', detail)
+                    if num_match:
+                        change_num = num_match.group(1)
+                        break
+            
+            html += f'''
+            <li style="margin-bottom: 20px; padding-left: 0;">
+                <div style="font-size: 14px; line-height: 1.6;">
+                    <div style="margin-bottom: 8px;">
+                        <span style="margin-right: 5px;">•</span>
+                        <a href="{item['url']}" style="color: #0969da; text-decoration: none; font-weight: 500;">#{change_num}</a>:
+                        {item['title']}
+                    </div>
+            '''
+            
+            # Add all detail lines
+            if item['details']:
+                html += '<div style="margin-left: 15px; font-size: 13px; color: #666;">'
+                for detail in item['details']:
+                    # Make the detail labels bold
+                    detail_html = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', detail)
+                    html += f'<div style="margin: 2px 0;">{detail_html}</div>'
+                html += '</div>'
+            
+            html += '''
+                </div>
+            </li>
+            '''
+        
+        html += '</ul>'
+        return html
+
+
 def main():
     """Main execution function."""
     # Load environment variables
@@ -439,6 +677,48 @@ def main():
     else:
         logger.info("ℹ️  No Slack webhook URL provided, skipping Slack notification")
         logger.info("   To enable Slack notifications, set SLACK_WEBHOOK_URL in .env file")
+    
+    # Optionally send email if SMTP settings are provided
+    smtp_host = os.getenv('SMTP_HOST')
+    smtp_port = os.getenv('SMTP_PORT', '587')
+    smtp_user = os.getenv('SMTP_USER')
+    smtp_password = os.getenv('SMTP_PASSWORD')
+    from_email = os.getenv('FROM_EMAIL')
+    to_emails_str = os.getenv('TO_EMAILS')
+    
+    if all([smtp_host, smtp_user, smtp_password, from_email, to_emails_str]):
+        logger.info("Email settings found, sending email notification...")
+        to_emails = [email.strip() for email in to_emails_str.split(',')]
+        
+        email_notifier = EmailNotifier(
+            smtp_host=smtp_host,
+            smtp_port=int(smtp_port),
+            smtp_user=smtp_user,
+            smtp_password=smtp_password,
+            from_email=from_email,
+            to_emails=to_emails
+        )
+        
+        # Generate email subject
+        report_date = datetime.utcnow().strftime('%Y-%m-%d')
+        subject = f"📊 Gerrit Activity Report - {monitor.project} - {report_date}"
+        
+        # Convert markdown to HTML
+        html_content = email_notifier.markdown_to_html(markdown_report)
+        
+        email_success = email_notifier.send_email(
+            subject=subject,
+            html_content=html_content,
+            text_content=markdown_report
+        )
+        
+        if email_success:
+            logger.info("✅ Email notification sent successfully!")
+        else:
+            logger.warning("⚠️  Failed to send email notification (report still saved)")
+    else:
+        logger.info("ℹ️  Email settings not fully configured, skipping email notification")
+        logger.info("   To enable email notifications, set SMTP_HOST, SMTP_USER, SMTP_PASSWORD, FROM_EMAIL, and TO_EMAILS in .env file")
 
 
 if __name__ == "__main__":
