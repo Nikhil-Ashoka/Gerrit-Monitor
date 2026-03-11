@@ -223,7 +223,7 @@ class SlackNotifier:
                 "type": "header",
                 "text": {
                     "type": "plain_text",
-                    "text": f"📊 Daily Gerrit Activity Report",
+                    "text": f"📊 WebUI Daily Gerrit Activity Report",
                     "emoji": True
                 }
             },
@@ -245,7 +245,7 @@ class SlackNotifier:
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"*✅ Merged Changes ({len(categorized_changes['merged'])})*"
+                    "text": f"*✅ Merged MRs ({len(categorized_changes['merged'])})*"
                 }
             })
             
@@ -276,7 +276,7 @@ class SlackNotifier:
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"*🔍 Open Changes Awaiting Review ({len(categorized_changes['open'])})*"
+                    "text": f"*🔍 Open MRs ({len(categorized_changes['open'])})*"
                 }
             })
             
@@ -329,7 +329,7 @@ class SlackNotifier:
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"*❌ Abandoned Changes ({len(categorized_changes['abandoned'])})*"
+                    "text": f"*❌ Abandoned MRs ({len(categorized_changes['abandoned'])})*"
                 }
             })
             
