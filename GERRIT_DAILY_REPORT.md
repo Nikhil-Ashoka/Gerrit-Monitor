@@ -1,8 +1,8 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-11 07:06:35 UTC
+**Generated:** 2026-03-11 08:55:47 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
 **Period:** 2026-03-09 to 2026-03-11 (2 days)
-**Total Changes:** 4
+**Total Changes:** 5
 
 ---
 
@@ -20,7 +20,12 @@
 - **Changes:** +7604 / -6552 lines
 - **Updated:** 2026-03-09 04:43:51.000000000
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (3)
+
+### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
+- **Change #:** 87222
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-11 07:29:40.000000000
 
 ### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
 - **Change #:** 87572
