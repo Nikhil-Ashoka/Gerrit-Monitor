@@ -1,8 +1,8 @@
 name: Daily Gerrit Monitor
 on:
   schedule:
-    # Run every hour at 5 minutes past the hour
-    - cron: '5 * * * *'
+    # Run daily at 9:00 AM UTC (2:30 PM IST)
+    - cron: '0 9 * * *'
   # Allow manual trigger
   workflow_dispatch:
 
