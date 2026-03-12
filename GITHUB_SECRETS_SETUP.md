@@ -61,7 +61,7 @@ After adding all 6 secrets, you should see them listed (values will be hidden fo
 
 ### Automatic Weekly Emails
 - **When:** Every Monday at 9:00 AM UTC (2:30 PM IST)
-- **To:** a.nikhil@ibm.com, Vedangi.Mittal@ibm.com, tiwari.nishant@ibm.com
+- **To:** rajivs12@in.ibm.com, a.nikhil@ibm.com, Vedangi.Mittal@ibm.com, tiwari.nishant@ibm.com
 - **Content:** Last 7 days of Gerrit activity
 - **No further action needed!**
 
