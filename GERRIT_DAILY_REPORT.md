@@ -1,12 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-11 11:41:08 UTC
+**Generated:** 2026-03-12 05:47:00 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-09 to 2026-03-11 (2 days)
-**Total Changes:** 5
+**Period:** 2026-03-05 to 2026-03-12 (7 days)
+**Total Changes:** 10
 
 ---
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (3)
 
 ### [Implemented dynamic fetching of the sensors](https://gerrit.openbmc.org/c/87988)
 - **Change #:** 87988
@@ -20,7 +20,38 @@
 - **Changes:** +7604 / -6552 lines
 - **Updated:** 2026-03-09 04:43:51.000000000
 
-## 🔍 Open MRs (3)
+### [Implemented Sensors page with VueQuery and Composition API](https://gerrit.openbmc.org/c/86842)
+- **Change #:** 86842
+- **Author:** Nishant Tiwari
+- **Changes:** +15665 / -6516 lines
+- **Updated:** 2026-03-05 07:46:22.000000000
+
+## 🔍 Open MRs (7)
+
+### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
+- **Change #:** 87876
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-11 18:06:03.000000000
+
+### [Keep the selected interface when refreshing Ethernet data](https://gerrit.openbmc.org/c/87647)
+- **Change #:** 87647
+- **Author:** khangng-ampere
+- **Updated:** 2026-03-11 17:09:25.000000000
+
+### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
+- **Change #:** 87472
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-11 16:52:07.000000000
+
+### [docs: Add design doc for Redfish privilege checking](https://gerrit.openbmc.org/c/87153)
+- **Change #:** 87153
+- **Author:** Jason Westover
+- **Updated:** 2026-03-11 16:35:59.000000000
+
+### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
+- **Change #:** 87281
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-03-11 16:10:43.000000000
 
 ### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
 - **Change #:** 87222
@@ -31,11 +62,6 @@
 - **Change #:** 87572
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-10 05:50:16.000000000
-
-### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
-- **Change #:** 87281
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-03-09 10:37:19.000000000
 
 ---
 
