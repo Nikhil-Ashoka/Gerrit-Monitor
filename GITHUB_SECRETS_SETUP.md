@@ -44,7 +44,7 @@ Click **"New repository secret"** and add each of these secrets one by one:
 
 #### Secret 6: TO_EMAILS
 - **Name:** `TO_EMAILS`
-- **Value:** `a.nikhil@ibm.com,Vedangi.Mittal@ibm.com,tiwari.nishant@ibm.com`
+- **Value:** `rajivs12@in.ibm.com,a.nikhil@ibm.com,Vedangi.Mittal@ibm.com,tiwari.nishant@ibm.com`
 - Click "Add secret"
 
 ### Step 3: Verify Setup
