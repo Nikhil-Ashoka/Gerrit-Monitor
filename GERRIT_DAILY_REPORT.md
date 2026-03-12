@@ -1,10 +1,30 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-12 10:14:15 UTC
+**Generated:** 2026-03-12 10:15:15 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-10 to 2026-03-12 (2 days)
-**Total Changes:** 7
+**Period:** 2026-03-05 to 2026-03-12 (7 days)
+**Total Changes:** 10
 
 ---
+
+## ✅ Merged MRs (3)
+
+### [Implemented dynamic fetching of the sensors](https://gerrit.openbmc.org/c/87988)
+- **Change #:** 87988
+- **Author:** Nishant Tiwari
+- **Changes:** +7 / -14 lines
+- **Updated:** 2026-03-09 08:48:27.000000000
+
+### [Implemented styling changes](https://gerrit.openbmc.org/c/87184)
+- **Change #:** 87184
+- **Author:** Vedangi Mittal
+- **Changes:** +7604 / -6552 lines
+- **Updated:** 2026-03-09 04:43:51.000000000
+
+### [Implemented Sensors page with VueQuery and Composition API](https://gerrit.openbmc.org/c/86842)
+- **Change #:** 86842
+- **Author:** Nishant Tiwari
+- **Changes:** +15665 / -6516 lines
+- **Updated:** 2026-03-05 07:46:22.000000000
 
 ## 🔍 Open MRs (7)
 
