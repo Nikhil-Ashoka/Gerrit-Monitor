@@ -1,32 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-12 16:27:51 UTC
+**Generated:** 2026-03-13 05:20:44 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-05 to 2026-03-12 (7 days)
-**Total Changes:** 10
+**Period:** 2026-03-11 to 2026-03-13 (2 days)
+**Total Changes:** 6
 
 ---
 
-## ✅ Merged MRs (3)
-
-### [Implemented dynamic fetching of the sensors](https://gerrit.openbmc.org/c/87988)
-- **Change #:** 87988
-- **Author:** Nishant Tiwari
-- **Changes:** +7 / -14 lines
-- **Updated:** 2026-03-09 08:48:27.000000000
-
-### [Implemented styling changes](https://gerrit.openbmc.org/c/87184)
-- **Change #:** 87184
-- **Author:** Vedangi Mittal
-- **Changes:** +7604 / -6552 lines
-- **Updated:** 2026-03-09 04:43:51.000000000
-
-### [Implemented Sensors page with VueQuery and Composition API](https://gerrit.openbmc.org/c/86842)
-- **Change #:** 86842
-- **Author:** Nishant Tiwari
-- **Changes:** +15665 / -6516 lines
-- **Updated:** 2026-03-05 07:46:22.000000000
-
-## 🔍 Open MRs (7)
+## 🔍 Open MRs (6)
 
 ### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
 - **Change #:** 87876
@@ -57,11 +37,6 @@
 - **Change #:** 87222
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-11 07:29:40.000000000
-
-### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
-- **Change #:** 87572
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-10 05:50:16.000000000
 
 ---
 
