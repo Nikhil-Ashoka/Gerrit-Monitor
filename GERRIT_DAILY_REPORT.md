@@ -1,26 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-16 09:58:37 UTC
+**Generated:** 2026-03-16 09:59:32 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-09 to 2026-03-16 (7 days)
-**Total Changes:** 10
+**Period:** 2026-03-14 to 2026-03-16 (2 days)
+**Total Changes:** 3
 
 ---
 
-## ✅ Merged MRs (2)
-
-### [Implemented dynamic fetching of the sensors](https://gerrit.openbmc.org/c/87988)
-- **Change #:** 87988
-- **Author:** Nishant Tiwari
-- **Changes:** +7 / -14 lines
-- **Updated:** 2026-03-09 08:48:27.000000000
-
-### [Implemented styling changes](https://gerrit.openbmc.org/c/87184)
-- **Change #:** 87184
-- **Author:** Vedangi Mittal
-- **Changes:** +7604 / -6552 lines
-- **Updated:** 2026-03-09 04:43:51.000000000
-
-## 🔍 Open MRs (8)
+## 🔍 Open MRs (3)
 
 ### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
 - **Change #:** 88309
@@ -36,31 +22,6 @@
 - **Change #:** 87876
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-16 06:15:51.000000000
-
-### [Keep the selected interface when refreshing Ethernet data](https://gerrit.openbmc.org/c/87647)
-- **Change #:** 87647
-- **Author:** khangng-ampere
-- **Updated:** 2026-03-11 17:09:25.000000000
-
-### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
-- **Change #:** 87472
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-11 16:52:07.000000000
-
-### [docs: Add design doc for Redfish privilege checking](https://gerrit.openbmc.org/c/87153)
-- **Change #:** 87153
-- **Author:** Jason Westover
-- **Updated:** 2026-03-11 16:35:59.000000000
-
-### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
-- **Change #:** 87222
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-11 07:29:40.000000000
-
-### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
-- **Change #:** 87572
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-10 05:50:16.000000000
 
 ---
 
