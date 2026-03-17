@@ -1,22 +1,32 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-16 09:59:32 UTC
+**Generated:** 2026-03-17 09:50:56 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-14 to 2026-03-16 (2 days)
-**Total Changes:** 3
+**Period:** 2026-03-15 to 2026-03-17 (2 days)
+**Total Changes:** 5
 
 ---
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (5)
 
-### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
-- **Change #:** 88309
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-03-16 09:57:39.000000000
+### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
+- **Change #:** 87572
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-17 09:31:57.000000000
+
+### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
+- **Change #:** 87222
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-17 06:40:18.000000000
 
 ### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
 - **Change #:** 87281
 - **Author:** Nikhil Ashoka
-- **Updated:** 2026-03-16 09:39:26.000000000
+- **Updated:** 2026-03-16 10:22:01.000000000
+
+### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
+- **Change #:** 88309
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-03-16 10:04:27.000000000
 
 ### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
 - **Change #:** 87876
