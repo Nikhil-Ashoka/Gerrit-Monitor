@@ -1,12 +1,22 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-18 09:47:18 UTC
+**Generated:** 2026-03-19 09:37:03 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-16 to 2026-03-18 (2 days)
+**Period:** 2026-03-17 to 2026-03-19 (2 days)
 **Total Changes:** 7
 
 ---
 
 ## 🔍 Open MRs (7)
+
+### [Dumps: fix action to delete all dumps](https://gerrit.openbmc.org/c/88406)
+- **Change #:** 88406
+- **Author:** Tan Siewert
+- **Updated:** 2026-03-18 16:20:15.000000000
+
+### [Display UserType and privileges in user profile](https://gerrit.openbmc.org/c/88397)
+- **Change #:** 88397
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-18 10:50:57.000000000
 
 ### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
 - **Change #:** 88309
@@ -32,16 +42,6 @@
 - **Change #:** 87222
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-17 06:40:18.000000000
-
-### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
-- **Change #:** 87281
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-03-16 10:22:01.000000000
-
-### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
-- **Change #:** 87876
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-16 06:15:51.000000000
 
 ---
 
