@@ -1,12 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-19 09:37:03 UTC
+**Generated:** 2026-03-20 09:34:54 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-17 to 2026-03-19 (2 days)
-**Total Changes:** 7
+**Period:** 2026-03-18 to 2026-03-20 (2 days)
+**Total Changes:** 2
 
 ---
 
-## 🔍 Open MRs (7)
+## 🔍 Open MRs (2)
 
 ### [Dumps: fix action to delete all dumps](https://gerrit.openbmc.org/c/88406)
 - **Change #:** 88406
@@ -17,31 +17,6 @@
 - **Change #:** 88397
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-18 10:50:57.000000000
-
-### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
-- **Change #:** 88309
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-03-17 17:51:24.000000000
-
-### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
-- **Change #:** 88367
-- **Author:** Jason Westover
-- **Updated:** 2026-03-17 17:45:50.000000000
-
-### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
-- **Change #:** 87472
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-17 10:44:14.000000000
-
-### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
-- **Change #:** 87572
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-17 09:31:57.000000000
-
-### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
-- **Change #:** 87222
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-17 06:40:18.000000000
 
 ---
 
