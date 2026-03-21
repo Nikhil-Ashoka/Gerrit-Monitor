@@ -1,22 +1,10 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-20 09:34:54 UTC
+**Generated:** 2026-03-21 09:26:02 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-18 to 2026-03-20 (2 days)
-**Total Changes:** 2
+**Period:** 2026-03-19 to 2026-03-21 (2 days)
+**Total Changes:** 0
 
 ---
-
-## 🔍 Open MRs (2)
-
-### [Dumps: fix action to delete all dumps](https://gerrit.openbmc.org/c/88406)
-- **Change #:** 88406
-- **Author:** Tan Siewert
-- **Updated:** 2026-03-18 16:20:15.000000000
-
-### [Display UserType and privileges in user profile](https://gerrit.openbmc.org/c/88397)
-- **Change #:** 88397
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-18 10:50:57.000000000
 
 ---
 
