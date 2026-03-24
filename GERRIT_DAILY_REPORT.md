@@ -1,10 +1,22 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-03-23 09:57:11 UTC
+**Generated:** 2026-03-24 09:50:28 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-21 to 2026-03-23 (2 days)
-**Total Changes:** 2
+**Period:** 2026-03-22 to 2026-03-24 (2 days)
+**Total Changes:** 4
 
 ---
+
+## 🔍 Open MRs (2)
+
+### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
+- **Change #:** 88309
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-03-24 07:08:34.000000000
+
+### [Dumps: fix action to delete all dumps](https://gerrit.openbmc.org/c/88406)
+- **Change #:** 88406
+- **Author:** Tan Siewert
+- **Updated:** 2026-03-23 13:22:46.000000000
 
 ## 🚧 Work In Progress (1)
 
