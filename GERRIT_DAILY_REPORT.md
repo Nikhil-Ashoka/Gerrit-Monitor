@@ -1,12 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-01 10:02:30 UTC
+**Generated:** 2026-04-02 09:55:03 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-30 to 2026-04-01 (2 days)
-**Total Changes:** 6
+**Period:** 2026-03-31 to 2026-04-02 (2 days)
+**Total Changes:** 3
 
 ---
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (1)
 
 ### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
 - **Change #:** 88309
@@ -14,13 +14,7 @@
 - **Changes:** +0 / -186 lines
 - **Updated:** 2026-03-31 01:48:20.000000000
 
-### [Fix build output filenames for bmcweb compatibility](https://gerrit.openbmc.org/c/87436)
-- **Change #:** 87436
-- **Author:** Jason Westover
-- **Changes:** +5 / -3 lines
-- **Updated:** 2026-03-30 10:55:58.000000000
-
-## 🔍 Open MRs (4)
+## 🔍 Open MRs (2)
 
 ### [Keep the selected interface when refreshing Ethernet data](https://gerrit.openbmc.org/c/87647)
 - **Change #:** 87647
@@ -31,16 +25,6 @@
 - **Change #:** 87222
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-03-31 02:22:27.000000000
-
-### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
-- **Change #:** 88367
-- **Author:** Jason Westover
-- **Updated:** 2026-03-30 10:53:07.000000000
-
-### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
-- **Change #:** 87876
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-30 07:43:22.000000000
 
 ---
 
