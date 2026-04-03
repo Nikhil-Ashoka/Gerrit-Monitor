@@ -1,30 +1,17 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-02 09:55:03 UTC
+**Generated:** 2026-04-03 09:47:11 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-03-31 to 2026-04-02 (2 days)
-**Total Changes:** 3
+**Period:** 2026-04-01 to 2026-04-03 (2 days)
+**Total Changes:** 1
 
 ---
 
-## ✅ Merged MRs (1)
-
-### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
-- **Change #:** 88309
-- **Author:** Nikhil Ashoka
-- **Changes:** +0 / -186 lines
-- **Updated:** 2026-03-31 01:48:20.000000000
-
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [Keep the selected interface when refreshing Ethernet data](https://gerrit.openbmc.org/c/87647)
 - **Change #:** 87647
 - **Author:** khangng-ampere
 - **Updated:** 2026-04-01 04:08:40.000000000
-
-### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
-- **Change #:** 87222
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-03-31 02:22:27.000000000
 
 ---
 
