@@ -1,10 +1,51 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-05 09:33:34 UTC
+**Generated:** 2026-04-06 10:03:08 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-03 to 2026-04-05 (2 days)
-**Total Changes:** 0
+**Period:** 2026-03-30 to 2026-04-06 (7 days)
+**Total Changes:** 7
 
 ---
+
+## ✅ Merged MRs (2)
+
+### [Removed Unwanted files](https://gerrit.openbmc.org/c/88309)
+- **Change #:** 88309
+- **Author:** Nikhil Ashoka
+- **Changes:** +0 / -186 lines
+- **Updated:** 2026-03-31 01:48:20.000000000
+
+### [Fix build output filenames for bmcweb compatibility](https://gerrit.openbmc.org/c/87436)
+- **Change #:** 87436
+- **Author:** Jason Westover
+- **Changes:** +5 / -3 lines
+- **Updated:** 2026-03-30 10:55:58.000000000
+
+## 🔍 Open MRs (5)
+
+### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
+- **Change #:** 87472
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-06 09:08:09.000000000
+
+### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
+- **Change #:** 87222
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-04 12:06:33.000000000
+
+### [Keep the selected interface when refreshing Ethernet data](https://gerrit.openbmc.org/c/87647)
+- **Change #:** 87647
+- **Author:** khangng-ampere
+- **Updated:** 2026-04-01 04:08:40.000000000
+
+### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
+- **Change #:** 88367
+- **Author:** Jason Westover
+- **Updated:** 2026-03-30 10:53:07.000000000
+
+### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
+- **Change #:** 87876
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-03-30 07:43:22.000000000
 
 ---
 
