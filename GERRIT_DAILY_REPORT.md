@@ -1,22 +1,17 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-08 10:02:24 UTC
+**Generated:** 2026-04-09 08:58:40 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-06 to 2026-04-08 (2 days)
-**Total Changes:** 2
+**Period:** 2026-04-07 to 2026-04-09 (2 days)
+**Total Changes:** 1
 
 ---
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
 - **Change #:** 88367
 - **Author:** Jason Westover
-- **Updated:** 2026-04-08 02:49:12.000000000
-
-### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
-- **Change #:** 87472
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-04-06 09:08:09.000000000
+- **Updated:** 2026-04-09 00:45:43.000000000
 
 ---
 
