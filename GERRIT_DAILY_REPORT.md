@@ -1,12 +1,12 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-12 10:00:50 UTC
+**Generated:** 2026-04-12 10:02:38 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-10 to 2026-04-12 (2 days)
-**Total Changes:** 4
+**Period:** 2026-04-05 to 2026-04-12 (7 days)
+**Total Changes:** 5
 
 ---
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (4)
 
 ### [Display user privilege in profile settings](https://gerrit.openbmc.org/c/89123)
 - **Change #:** 89123
@@ -22,6 +22,11 @@
 - **Change #:** 87472
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-04-10 10:14:34.000000000
+
+### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
+- **Change #:** 88367
+- **Author:** Jason Westover
+- **Updated:** 2026-04-09 00:45:43.000000000
 
 ## 🚧 Work In Progress (1)
 
