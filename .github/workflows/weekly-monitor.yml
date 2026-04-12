@@ -63,4 +63,3 @@ jobs:
             *.log
           retention-days: 7
 
-# Made with Bob
