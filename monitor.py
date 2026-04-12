@@ -446,15 +446,15 @@ class EmailNotifier:
         # Build HTML sections
         html_parts = []
         
-        # Header
         html_parts.append(f'''
-        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 800px; margin: 0; padding: 20px; background-color: #f5f5f5;">
-            <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                <div style="margin-bottom: 20px; font-size: 14px; color: #333;">
-                    <p style="margin: 0 0 5px 0;">Hi Team,</p>
-                    <p style="margin: 0 0 15px 0;">Please find below the report on upstream activities for webui-vue.</p>
-                </div>
-                
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #ffffff;">
+            <div style="padding: 30px 20px 20px 20px; font-size: 14px; color: #333; line-height: 1.6;">
+                <p style="margin: 0 0 5px 0;">Hi Team,</p>
+                <p style="margin: 0;">Please find below the report on upstream activities for webui-vue.</p>
+            </div>
+            
+            <div style="background-color: #f5f5f5; padding: 30px 20px;">
+                <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 1200px; margin: 0 auto;">
                 <h1 style="margin: 0 0 20px 0; font-size: 24px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
                     <span style="margin-right: 10px;">📊</span> Weekly Gerrit Activity Report
                 </h1>
@@ -496,11 +496,11 @@ class EmailNotifier:
             elif line.startswith('## 🔍 Open'):
                 if current_section and section_items:
                     html_parts.append(self._render_section(current_section, section_items))
+                    html_parts.append('</div>')
                 current_section = 'open'
                 section_items = []
                 count = re.search(r'\((\d+)\)', line)
                 html_parts.append(f'''
-                </div>
                 <div style="margin-top: 25px;">
                     <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
                         <span style="margin-right: 8px;">🔍</span> Open MRs ({count.group(1) if count else 0})
@@ -509,11 +509,11 @@ class EmailNotifier:
             elif line.startswith('## 🚧 Work In Progress'):
                 if current_section and section_items:
                     html_parts.append(self._render_section(current_section, section_items))
+                    html_parts.append('</div>')
                 current_section = 'wip'
                 section_items = []
                 count = re.search(r'\((\d+)\)', line)
                 html_parts.append(f'''
-                </div>
                 <div style="margin-top: 25px;">
                     <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
                         <span style="margin-right: 8px;">🚧</span> Work In Progress ({count.group(1) if count else 0})
@@ -522,11 +522,11 @@ class EmailNotifier:
             elif line.startswith('## ❌ Abandoned'):
                 if current_section and section_items:
                     html_parts.append(self._render_section(current_section, section_items))
+                    html_parts.append('</div>')
                 current_section = 'abandoned'
                 section_items = []
                 count = re.search(r'\((\d+)\)', line)
                 html_parts.append(f'''
-                </div>
                 <div style="margin-top: 25px;">
                     <h2 style="margin: 0 0 15px 0; font-size: 18px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
                         <span style="margin-right: 8px;">❌</span> Abandoned MRs ({count.group(1) if count else 0})
@@ -558,18 +558,19 @@ class EmailNotifier:
         if current_section and section_items:
             html_parts.append(self._render_section(current_section, section_items))
         
-        # Close the last section div and add footer inside the white card
         html_parts.append('''
                 </div>
                 <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
-                    <div style="font-size: 12px; color: #666; text-align: center; margin-bottom: 15px;">
+                    <div style="font-size: 12px; color: #666; text-align: center;">
                         Generated on ''' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC') + '''
                     </div>
-                    <div style="font-size: 14px; color: #333;">
-                        <p style="margin: 0 0 5px 0;">Regards,</p>
-                        <p style="margin: 0;">Nikhil</p>
-                    </div>
                 </div>
+                </div>
+            </div>
+            
+            <div style="padding: 20px 20px 30px 20px; font-size: 14px; color: #333; line-height: 1.6;">
+                <p style="margin: 0 0 5px 0;">Regards,</p>
+                <p style="margin: 0;">Nikhil</p>
             </div>
         </div>
         ''')
