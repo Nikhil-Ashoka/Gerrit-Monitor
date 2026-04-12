@@ -450,6 +450,11 @@ class EmailNotifier:
         html_parts.append(f'''
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 800px; margin: 0; padding: 20px; background-color: #f5f5f5;">
             <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <div style="margin-bottom: 20px; font-size: 14px; color: #333;">
+                    <p style="margin: 0 0 5px 0;">Hi Team,</p>
+                    <p style="margin: 0 0 15px 0;">Please find below the report on upstream activities for webui-vue.</p>
+                </div>
+                
                 <h1 style="margin: 0 0 20px 0; font-size: 24px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center;">
                     <span style="margin-right: 10px;">📊</span> Weekly Gerrit Activity Report
                 </h1>
@@ -553,11 +558,17 @@ class EmailNotifier:
         if current_section and section_items:
             html_parts.append(self._render_section(current_section, section_items))
         
-        # Footer
+        # Close the last section div and add footer inside the white card
         html_parts.append('''
                 </div>
-                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0; font-size: 12px; color: #666; text-align: center;">
-                    Generated on ''' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC') + '''
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
+                    <div style="font-size: 12px; color: #666; text-align: center; margin-bottom: 15px;">
+                        Generated on ''' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC') + '''
+                    </div>
+                    <div style="font-size: 14px; color: #333;">
+                        <p style="margin: 0 0 5px 0;">Regards,</p>
+                        <p style="margin: 0;">Nikhil</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -582,7 +593,7 @@ class EmailNotifier:
             
             html += f'''
             <li style="margin-bottom: 20px; padding-left: 0;">
-                <div style="font-size: 14px; line-height: 1.6;">
+                <div style="font-size: 16px; line-height: 1.6;">
                     <div style="margin-bottom: 8px;">
                         <span style="margin-right: 5px;">•</span>
                         <a href="{item['url']}" style="color: #0969da; text-decoration: none; font-weight: 500;">#{change_num}</a>:
@@ -592,7 +603,7 @@ class EmailNotifier:
             
             # Add all detail lines
             if item['details']:
-                html += '<div style="margin-left: 15px; font-size: 13px; color: #666;">'
+                html += '<div style="margin-left: 15px; font-size: 14px; color: #666;">'
                 for detail in item['details']:
                     # Make the detail labels bold
                     detail_html = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', detail)
