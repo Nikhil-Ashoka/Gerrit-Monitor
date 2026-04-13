@@ -1,10 +1,39 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-13 14:06:37 UTC
+**Generated:** 2026-04-13 14:07:29 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-11 to 2026-04-13 (2 days)
-**Total Changes:** 0
+**Period:** 2026-04-06 to 2026-04-13 (7 days)
+**Total Changes:** 5
 
 ---
+
+## 🔍 Open MRs (4)
+
+### [Display user privilege in profile settings](https://gerrit.openbmc.org/c/89123)
+- **Change #:** 89123
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 13:37:57.000000000
+
+### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
+- **Change #:** 87222
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 10:24:24.000000000
+
+### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
+- **Change #:** 87472
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 10:14:34.000000000
+
+### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
+- **Change #:** 88367
+- **Author:** Jason Westover
+- **Updated:** 2026-04-09 00:45:43.000000000
+
+## 🚧 Work In Progress (1)
+
+### [Display UserType in the user profile](https://gerrit.openbmc.org/c/88397)
+- **Change #:** 88397
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 14:07:14.000000000
 
 ---
 
