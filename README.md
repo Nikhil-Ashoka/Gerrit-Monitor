@@ -1,10 +1,10 @@
 # Gerrit Monitor
 
-Automated monitoring for Gerrit projects with support for markdown report generation, optional Slack notifications, and optional weekly email delivery through GitHub Actions or local execution.
+Automated monitoring for Gerrit projects with support for markdown report generation, daily Slack notifications, and weekly email delivery through GitHub Actions or local execution.
 
 ## Overview
 
-This repository provides an automated solution for monitoring any Gerrit project, collecting recent Gerrit activity, generating a markdown report, and optionally distributing the results through Slack or email.
+This repository provides an automated solution for monitoring any Gerrit project, collecting recent Gerrit activity, generating a markdown report, and distributing the results through Slack (daily) or email (weekly).
 
 The current configuration uses [`openbmc/webui-vue`](https://gerrit.openbmc.org/q/project:openbmc/webui-vue) as an example target, but the monitor is designed to work with other Gerrit projects by updating [`config.json`](config.json).
 
@@ -14,8 +14,8 @@ The current configuration uses [`openbmc/webui-vue`](https://gerrit.openbmc.org/
 - Fetches changes from a configurable time window
 - Categorizes results by status such as merged, open, work in progress, and abandoned
 - Generates a markdown activity report in the repository root
-- Optionally posts formatted notifications to Slack
-- Optionally sends weekly email reports
+- Posts daily formatted notifications to Slack
+- Sends weekly email reports
 - Supports both GitHub Actions automation and local/manual execution
 
 ### Why use it
@@ -27,10 +27,11 @@ The current configuration uses [`openbmc/webui-vue`](https://gerrit.openbmc.org/
 
 ## Features
 
-- Daily or scheduled Gerrit activity monitoring
+- Daily Gerrit activity monitoring with Slack notifications
+- Weekly Gerrit activity monitoring with email reports
 - Markdown report generation in [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md)
-- Optional Slack webhook notifications
-- Optional weekly HTML email reporting
+- Slack webhook notifications (daily workflow only)
+- Weekly HTML email reporting (weekly workflow only)
 - GitHub Actions workflows for automated execution
 - Local cron or manual execution support
 - Troubleshooting guidance included in the repository documentation
@@ -130,7 +131,9 @@ On Windows, use `venv\Scripts\activate` instead of `source venv/bin/activate`.
 3. Optionally trigger the daily workflow manually from the Actions tab.
 4. Review the generated report file after the workflow completes.
 
-Default automation runs every day at **7:05 AM UTC (12:35 PM IST)** for the daily report workflow.
+Default automation runs:
+- **Daily workflow**: Every day at **9:00 AM UTC (2:30 PM IST)** - Sends to Slack only
+- **Weekly workflow**: Every Monday at **9:00 AM UTC (2:30 PM IST)** - Sends to Email only
 
 ### Local quick start
 
@@ -229,11 +232,17 @@ GitHub Actions is the recommended deployment model because it removes the need f
 
 ### Daily workflow behavior
 
-The daily workflow is configured to run automatically and generate the markdown report file.
+The daily workflow runs automatically every day at **9:00 AM UTC (2:30 PM IST)** and:
+- Generates the markdown report file
+- Sends notifications to **Slack only** (no email)
+- Requires `SLACK_WEBHOOK_URL` secret to be configured
 
 ### Weekly workflow behavior
 
-The weekly workflow is intended for email-based reporting and runs every **Monday at 9:00 AM UTC (2:30 PM IST)**.
+The weekly workflow runs every **Monday at 9:00 AM UTC (2:30 PM IST)** and:
+- Generates the markdown report file for the past 7 days
+- Sends notifications to **Email only** (no Slack)
+- Requires email-related secrets to be configured (SMTP_HOST, SMTP_USER, etc.)
 
 ### Manual workflow trigger
 
@@ -241,7 +250,7 @@ You can manually test either workflow from the GitHub Actions UI by selecting th
 
 ## Slack Notification Setup
 
-Slack integration is optional.
+Slack integration is used for **daily reports only**.
 
 ### Create a Slack webhook
 
@@ -270,7 +279,7 @@ Path in GitHub:
 
 ## Email Notification Setup
 
-Email support is optional and intended for weekly automated delivery.
+Email support is used for **weekly reports only**.
 
 The email values below are examples only and should be replaced with your own sender and recipient settings.
 
