@@ -34,14 +34,23 @@ class GerritMonitor:
         self.config = self._load_config(config_path)
         self.gerrit_url = self.config.get('gerrit_url', 'https://gerrit.openbmc.org')
         
+        # Check for environment variable override for check_days
+        env_check_days = os.getenv('CHECK_DAYS')
+        override_check_days = int(env_check_days) if env_check_days else None
+        
         # Support both old single-project and new multi-project config
         if 'projects' in self.config:
             self.projects = self.config['projects']
+            # Override check_days if environment variable is set
+            if override_check_days is not None:
+                for project in self.projects:
+                    project['check_days'] = override_check_days
         else:
             # Backward compatibility: convert old format to new
+            check_days = override_check_days if override_check_days is not None else self.config.get('check_days', 7)
             self.projects = [{
                 'name': self.config.get('project', 'openbmc/webui-vue'),
-                'check_days': self.config.get('check_days', 7),
+                'check_days': check_days,
                 'max_results': self.config.get('max_results', 100)
             }]
         
@@ -197,7 +206,8 @@ class ReportGenerator:
             
             # Project header - using original style
             report.append(f"\n## Project: [{project_name}]({gerrit_url}/q/project:{project_name})\n")
-            report.append(f"**Period:** {start_date} to {end_date} ({days} days)\n")
+            day_label = "day" if days == 1 else "days"
+            report.append(f"**Period:** {start_date} to {end_date} ({days} {day_label})\n")
             report.append(f"**Changes:** {project_total}\n")
             report.append("\n")
         
@@ -283,7 +293,7 @@ class SlackNotifier:
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"*Project:* `{project_name}`\n*Period:* Last {days} days\n*Changes:* {project_total}"
+                    "text": f"*Project:* `{project_name}`\n*Period:* Last {days} {'day' if days == 1 else 'days'}\n*Changes:* {project_total}"
                 }
             }
         ]
@@ -491,7 +501,7 @@ class SlackNotifier:
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"*Project:* `{project_name}`\n*Period:* Last {days} days\n*Changes:* {project_total}"
+                        "text": f"*Project:* `{project_name}`\n*Period:* Last {days} {'day' if days == 1 else 'days'}\n*Changes:* {project_total}"
                     }
                 })
                 blocks.append({
@@ -791,9 +801,11 @@ class EmailNotifier:
                     period = ""
                     changes = ""
                     if i + 1 < len(lines) and lines[i + 1].strip().startswith('**Period:**'):
-                        period_match = re.search(r'(\d{4}-\d{2}-\d{2}) to (\d{4}-\d{2}-\d{2}) \((\d+) days\)', lines[i + 1])
+                        period_match = re.search(r'(\d{4}-\d{2}-\d{2}) to (\d{4}-\d{2}-\d{2}) \((\d+) days?\)', lines[i + 1])
                         if period_match:
-                            period = f"Last {period_match.group(3)} days"
+                            num_days = int(period_match.group(3))
+                            day_label = "day" if num_days == 1 else "days"
+                            period = f"Last {num_days} {day_label}"
                     if i + 2 < len(lines) and lines[i + 2].strip().startswith('**Changes:**'):
                         changes_match = re.search(r'(\d+)', lines[i + 2])
                         if changes_match:
