@@ -1,8 +1,7 @@
-# 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-15 10:11:52 UTC
-**Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-13 to 2026-04-15 (2 days)
-**Total Changes:** 4
+# 📊 Gerrit Activity Report
+**Generated:** 2026-04-15 14:04:11 UTC
+**Project:** openbmc/webui-vue
+**Changes:** 5
 
 ---
 
@@ -10,15 +9,23 @@
 **Period:** 2026-04-14 to 2026-04-15 (1 days)
 **Changes:** 5
 
-### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
-- **Change #:** 87876
+
+## 🔍 Open MRs (5)
+
+### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
+- **Change #:** 87222
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-04-15 10:06:19.000000000
+- **Updated:** 2026-04-15 10:49:32.000000000
 
 ### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
 - **Change #:** 87572
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-04-15 06:35:42.000000000
+- **Updated:** 2026-04-15 10:43:31.000000000
+
+### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
+- **Change #:** 87876
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-15 10:35:22.000000000
 
 ### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
 - **Change #:** 87472
