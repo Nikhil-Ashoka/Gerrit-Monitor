@@ -709,27 +709,39 @@ class EmailNotifier:
         # Parse the markdown content
         lines = markdown_content.split('\n')
         
-        # Extract key information
+        # Extract key information from header only (before first "---")
         total_changes = 0
         projects = []
         is_single_project = False
+        in_header = True
         
         for line in lines:
-            if line.startswith('**Total Changes:**') or line.startswith('**Changes:**'):
-                total_match = re.search(r'(\d+)', line)
-                if total_match:
-                    total_changes = int(total_match.group(1))
-            elif line.startswith('**Projects:**'):
-                # Multiple projects
-                projects_match = re.search(r'\*\*Projects:\*\* (.+)', line)
-                if projects_match:
-                    projects = [p.strip() for p in projects_match.group(1).split(',')]
-            elif line.startswith('**Project:**'):
-                # Single project
-                project_match = re.search(r'\*\*Project:\*\* (.+)', line)
-                if project_match:
-                    projects = [project_match.group(1)]
-                    is_single_project = True
+            # Stop processing header after first divider
+            if line.strip() == '---':
+                in_header = False
+                continue
+            
+            if in_header:
+                if line.startswith('**Total Changes:**'):
+                    total_match = re.search(r'(\d+)', line)
+                    if total_match:
+                        total_changes = int(total_match.group(1))
+                elif line.startswith('**Changes:**'):
+                    # Single project format
+                    total_match = re.search(r'(\d+)', line)
+                    if total_match:
+                        total_changes = int(total_match.group(1))
+                elif line.startswith('**Projects:**'):
+                    # Multiple projects
+                    projects_match = re.search(r'\*\*Projects:\*\* (.+)', line)
+                    if projects_match:
+                        projects = [p.strip() for p in projects_match.group(1).split(',')]
+                elif line.startswith('**Project:**'):
+                    # Single project
+                    project_match = re.search(r'\*\*Project:\*\* (.+)', line)
+                    if project_match:
+                        projects = [project_match.group(1)]
+                        is_single_project = True
             elif line.startswith('## Project:'):
                 # Extract project name from section header (fallback)
                 project_match = re.search(r'\[([^\]]+)\]', line)
