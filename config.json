@@ -5,6 +5,16 @@
       "name": "openbmc/webui-vue",
       "check_days": 1,
       "max_results": 100
+    },
+    {
+      "name": "openbmc/pldm",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/bmcweb",
+      "check_days": 1,
+      "max_results": 100
     }
   ]
 }
