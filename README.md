@@ -4,13 +4,13 @@ Automated monitoring for Gerrit projects with support for markdown report genera
 
 ## Overview
 
-This repository provides an automated solution for monitoring any Gerrit project, collecting recent Gerrit activity, generating a markdown report, and distributing the results through Slack (daily) or email (weekly).
+This repository provides an automated solution for monitoring Gerrit projects, collecting recent Gerrit activity, generating a markdown report, and distributing the results through Slack (daily) or email (weekly).
 
-The current configuration uses [`openbmc/webui-vue`](https://gerrit.openbmc.org/q/project:openbmc/webui-vue) as an example target, but the monitor is designed to work with other Gerrit projects by updating [`config.json`](config.json).
+The current configuration monitors [`openbmc/webui-vue`](https://gerrit.openbmc.org/q/project:openbmc/webui-vue). The monitor can be configured to work with any Gerrit projects by updating [`config.json`](config.json).
 
 ### What it does
 
-- Monitors a configurable Gerrit project
+- Monitors configurable Gerrit projects
 - Fetches changes from a configurable time window
 - Categorizes results by status such as merged, open, work in progress, and abandoned
 - Generates a markdown activity report in the repository root
@@ -146,9 +146,39 @@ This generates [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md) in the reposit
 
 ## Configuration
 
-Edit [`config.json`](config.json) to customize the monitored Gerrit target and reporting window.
+Edit [`config.json`](config.json) to customize the monitored Gerrit projects and reporting window.
 
-Example:
+Example (Multi-Project Configuration):
+
+```json
+{
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "projects": [
+    {
+      "name": "openbmc/webui-vue",
+      "check_days": 2,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/bmcweb",
+      "check_days": 2,
+      "max_results": 100
+    }
+  ]
+}
+```
+
+### Configuration fields
+
+- `gerrit_url`: Gerrit instance URL
+- `projects`: Array of project configurations, each containing:
+  - `name`: Gerrit project path to monitor
+  - `check_days`: Number of days to look back for this project
+  - `max_results`: Maximum number of changes to fetch for this project
+
+### Backward Compatibility
+
+The monitor still supports the old single-project configuration format for backward compatibility:
 
 ```json
 {
@@ -158,13 +188,6 @@ Example:
   "max_results": 100
 }
 ```
-
-### Configuration fields
-
-- `gerrit_url`: Gerrit instance URL
-- `project`: Gerrit project path to monitor
-- `check_days`: Number of days to look back
-- `max_results`: Maximum number of changes to fetch
 
 ## Usage
 
@@ -363,15 +386,32 @@ If email is configured, a formatted HTML email can also be delivered.
 
 ## Customization
 
-### Change the monitored project
+### Add or remove monitored projects
 
-Edit [`config.json`](config.json) with the Gerrit project path you want to monitor.
+Edit [`config.json`](config.json) to add, remove, or modify the projects you want to monitor.
 
-Example:
+Example - Adding a third project:
 
 ```json
 {
-  "project": "example-org/example-project"
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "projects": [
+    {
+      "name": "openbmc/webui-vue",
+      "check_days": 2,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/bmcweb",
+      "check_days": 2,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/phosphor-webui",
+      "check_days": 7,
+      "max_results": 50
+    }
+  ]
 }
 ```
 
@@ -413,7 +453,6 @@ schedule:
 
 Potential enhancements supported by the current design include:
 
-- Monitoring multiple projects with separate configuration files
 - Adding custom change filters by author, path, or review status
 - Adjusting report formatting in [`monitor.py`](monitor.py)
 - Sending reports to multiple channels or multiple recipients
@@ -490,6 +529,7 @@ This monitor is generic and can be used for many Gerrit-hosted repositories.
 Example project targets include:
 
 - `openbmc/webui-vue`
+- `openbmc/bmcweb`
 - `openbmc/phosphor-webui`
 - `company/platform-ui`
 - `team/internal-service`
