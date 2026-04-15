@@ -1,10 +1,32 @@
 # 📊 WebUI Gerrit Activity Report
-**Generated:** 2026-04-14 10:11:15 UTC
+**Generated:** 2026-04-15 10:11:52 UTC
 **Project:** [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-12 to 2026-04-14 (2 days)
-**Total Changes:** 0
+**Period:** 2026-04-13 to 2026-04-15 (2 days)
+**Total Changes:** 4
 
 ---
+
+## 🔍 Open MRs (4)
+
+### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
+- **Change #:** 87876
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-15 10:06:19.000000000
+
+### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
+- **Change #:** 87572
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-15 06:35:42.000000000
+
+### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
+- **Change #:** 87472
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-15 06:34:52.000000000
+
+### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
+- **Change #:** 87281
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-04-15 05:06:22.000000000
 
 ---
 
