@@ -1,16 +1,16 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-04-15 14:43:19 UTC
+**Generated:** 2026-04-15 14:44:23 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 58
+**Total Changes:** 90
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-14 to 2026-04-15 (1 day)
-**Changes:** 5
+**Period:** 2026-04-08 to 2026-04-15 (7 days)
+**Changes:** 8
 
 
-## 🔍 Open MRs (5)
+## 🔍 Open MRs (7)
 
 ### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
 - **Change #:** 87222
@@ -37,11 +37,28 @@
 - **Author:** Nikhil Ashoka
 - **Updated:** 2026-04-15 05:06:22.000000000
 
+### [Display user privilege in profile settings](https://gerrit.openbmc.org/c/89123)
+- **Change #:** 89123
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 13:37:57.000000000
+
+### [Fix SOL console frozen rows, scrollbar, and text selection](https://gerrit.openbmc.org/c/88367)
+- **Change #:** 88367
+- **Author:** Jason Westover
+- **Updated:** 2026-04-09 00:45:43.000000000
+
+## 🚧 Work In Progress (1)
+
+### [Display UserType in the user profile](https://gerrit.openbmc.org/c/88397)
+- **Change #:** 88397
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-04-10 14:07:14.000000000
+
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-04-14 to 2026-04-15 (1 day)
-**Changes:** 19
+**Period:** 2026-04-08 to 2026-04-15 (7 days)
+**Changes:** 26
 
 
 ## ✅ Merged MRs (8)
@@ -94,7 +111,7 @@
 - **Changes:** +15 / -17 lines
 - **Updated:** 2026-04-14 15:57:18.000000000
 
-## 🔍 Open MRs (11)
+## 🔍 Open MRs (17)
 
 ### [requester: Support MCTP over USB target](https://gerrit.openbmc.org/c/89302)
 - **Change #:** 89302
@@ -151,14 +168,51 @@
 - **Author:** Unive Tien
 - **Updated:** 2026-04-14 07:39:39.000000000
 
+### [oem-ibm: System specific PDR and other updates](https://gerrit.openbmc.org/c/87886)
+- **Change #:** 87886
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-04-13 11:53:36.000000000
+
+### [oem-ibm: Multi node BIOS attributes support](https://gerrit.openbmc.org/c/89219)
+- **Change #:** 89219
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-04-13 11:46:11.000000000
+
+### [Sanitize sensor auxiliary name](https://gerrit.openbmc.org/c/88049)
+- **Change #:** 88049
+- **Author:** Roger Gili Coscojuela
+- **Updated:** 2026-04-08 10:04:56.000000000
+
+### [oem-meta: Implement special event handling](https://gerrit.openbmc.org/c/85142)
+- **Change #:** 85142
+- **Author:** Sora Su
+- **Updated:** 2026-04-08 06:16:53.000000000
+
+### [oem-meta: Add file IO responder for crashdump from BIC](https://gerrit.openbmc.org/c/82143)
+- **Change #:** 82143
+- **Author:** Sora Su
+- **Updated:** 2026-04-08 03:42:46.000000000
+
+### [oem-meta: Add retry event deduplication for unified BIOS events](https://gerrit.openbmc.org/c/88272)
+- **Change #:** 88272
+- **Author:** Sora Su
+- **Updated:** 2026-04-08 03:42:37.000000000
+
+## ❌ Abandoned MRs (1)
+
+### [platform-mc: Add entity-type-specific D-Bus inventory interfaces](https://gerrit.openbmc.org/c/89130)
+- **Change #:** 89130
+- **Author:** garybeihl
+- **Updated:** 2026-04-10 15:36:47.000000000
+
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-04-14 to 2026-04-15 (1 day)
-**Changes:** 34
+**Period:** 2026-04-08 to 2026-04-15 (7 days)
+**Changes:** 56
 
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (9)
 
 ### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/89055)
 - **Change #:** 89055
@@ -172,7 +226,49 @@
 - **Changes:** +2 / -1 lines
 - **Updated:** 2026-04-15 01:50:14.000000000
 
-## 🔍 Open MRs (23)
+### [Software: Add D-Bus trace when internalError](https://gerrit.openbmc.org/c/89128)
+- **Change #:** 89128
+- **Author:** Gunnar Mills
+- **Changes:** +2 / -0 lines
+- **Updated:** 2026-04-13 20:10:10.000000000
+
+### [Remove now unused function](https://gerrit.openbmc.org/c/88899)
+- **Change #:** 88899
+- **Author:** Ed Tanous
+- **Changes:** +0 / -19 lines
+- **Updated:** 2026-04-13 18:48:59.000000000
+
+### [Expose date/time in local timezone](https://gerrit.openbmc.org/c/88649)
+- **Change #:** 88649
+- **Author:** Igor Kanyuka
+- **Changes:** +256 / -196 lines
+- **Updated:** 2026-04-13 13:40:58.000000000
+
+### [Add unit tests for GetDateTimeOffsetNow](https://gerrit.openbmc.org/c/88894)
+- **Change #:** 88894
+- **Author:** Ed Tanous
+- **Changes:** +15 / -0 lines
+- **Updated:** 2026-04-10 18:00:12.000000000
+
+### [Remove old gcc-13 backports](https://gerrit.openbmc.org/c/88893)
+- **Change #:** 88893
+- **Author:** Ed Tanous
+- **Changes:** +0 / -131 lines
+- **Updated:** 2026-04-10 18:00:12.000000000
+
+### [redfish-core:multi-host: no link to default system](https://gerrit.openbmc.org/c/83742)
+- **Change #:** 83742
+- **Author:** Alexander
+- **Changes:** +13 / -7 lines
+- **Updated:** 2026-04-10 00:09:20.000000000
+
+### [Readme: Minor grammar fixes and accuracy](https://gerrit.openbmc.org/c/89010)
+- **Change #:** 89010
+- **Author:** Justin Nguyen
+- **Changes:** +7 / -7 lines
+- **Updated:** 2026-04-09 01:32:04.000000000
+
+## 🔍 Open MRs (35)
 
 ### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
 - **Change #:** 88783
@@ -289,7 +385,67 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-04-14 07:24:21.000000000
 
-## 🚧 Work In Progress (8)
+### [WIP: RAII OpenSSL](https://gerrit.openbmc.org/c/84608)
+- **Change #:** 84608
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-13 19:11:48.000000000
+
+### [Add more unit tests for UPN functionality](https://gerrit.openbmc.org/c/89224)
+- **Change #:** 89224
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-04-13 17:20:06.000000000
+
+### [Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
+- **Change #:** 89226
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-04-13 17:15:08.000000000
+
+### [http: Make UPN domain matching case-insensitive](https://gerrit.openbmc.org/c/89225)
+- **Change #:** 89225
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-04-13 16:08:11.000000000
+
+### [bmcweb: add OperatingSpeedMHz to ProcessorMetrics](https://gerrit.openbmc.org/c/87802)
+- **Change #:** 87802
+- **Author:** Eric Liu
+- **Updated:** 2026-04-13 07:06:58.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-04-11 16:35:20.000000000
+
+### [redfish-core:multi-host: no link to log services](https://gerrit.openbmc.org/c/87082)
+- **Change #:** 87082
+- **Author:** Alexander
+- **Updated:** 2026-04-10 13:43:46.000000000
+
+### [bmcweb: add EnvironmentMetrics support for Processors](https://gerrit.openbmc.org/c/87018)
+- **Change #:** 87018
+- **Author:** Ender
+- **Updated:** 2026-04-09 07:09:16.000000000
+
+### [WIP: Prepare for clang 23](https://gerrit.openbmc.org/c/88939)
+- **Change #:** 88939
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-08 17:04:37.000000000
+
+### [Add ProcessorMetrics ECC error counts support](https://gerrit.openbmc.org/c/86977)
+- **Change #:** 86977
+- **Author:** Eric Liu
+- **Updated:** 2026-04-08 15:42:57.000000000
+
+### [redfish: Add error handling for empty chassis ID](https://gerrit.openbmc.org/c/88699)
+- **Change #:** 88699
+- **Author:** Arun1194
+- **Updated:** 2026-04-08 10:33:27.000000000
+
+### [Add validation for Redfish firmware uploads](https://gerrit.openbmc.org/c/87108)
+- **Change #:** 87108
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-04-08 09:42:11.000000000
+
+## 🚧 Work In Progress (9)
 
 ### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
 - **Change #:** 88035
@@ -331,12 +487,27 @@
 - **Author:** Prabha Veerubhotla
 - **Updated:** 2026-04-14 07:26:29.000000000
 
-## ❌ Abandoned MRs (1)
+### [audit: add simple audit handler for BMCWEB actions](https://gerrit.openbmc.org/c/88948)
+- **Change #:** 88948
+- **Author:** Ivan Mikhaylov
+- **Updated:** 2026-04-08 15:35:48.000000000
+
+## ❌ Abandoned MRs (3)
 
 ### [ethernet: Consolidate DefaultGateway calls in IPv4 static PATCH](https://gerrit.openbmc.org/c/88103)
 - **Change #:** 88103
 - **Author:** garybeihl
 - **Updated:** 2026-04-14 19:37:27.000000000
+
+### [WIP: Expose date/time in local timezone](https://gerrit.openbmc.org/c/88895)
+- **Change #:** 88895
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-11 12:51:19.000000000
+
+### [update service: related item VersionPurpose.System](https://gerrit.openbmc.org/c/82221)
+- **Change #:** 82221
+- **Author:** Alexander
+- **Updated:** 2026-04-10 13:46:54.000000000
 
 ---
 
