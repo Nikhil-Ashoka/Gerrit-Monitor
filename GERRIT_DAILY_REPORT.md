@@ -1,7 +1,7 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-04-16 10:11:18 UTC
+**Generated:** 2026-04-16 11:40:06 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 64
+**Total Changes:** 65
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
 **Period:** 2026-04-15 to 2026-04-16 (1 day)
-**Changes:** 20
+**Changes:** 21
 
 
 ## ✅ Merged MRs (7)
@@ -135,6 +135,13 @@
 - **Author:** Vishnunithyasoundhar S
 - **Updated:** 2026-04-15 03:54:22.000000000
 
+## 🚧 Work In Progress (1)
+
+### [pldmtool: SetStateEffecter: size request buffer by effecterCount](https://gerrit.openbmc.org/c/89372)
+- **Change #:** 89372
+- **Author:** Vishnunithyasoundhar S
+- **Updated:** 2026-04-16 10:53:56.000000000
+
 ## ❌ Abandoned MRs (4)
 
 ### [platform-mc : Add setNumericSensorEnable](https://gerrit.openbmc.org/c/85810)
@@ -186,10 +193,15 @@
 
 ## 🔍 Open MRs (27)
 
+### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
+- **Change #:** 88644
+- **Author:** JY-Voon
+- **Updated:** 2026-04-16 11:12:07.000000000
+
 ### [bmcweb: add Controllers Links PCIeDevices to NetworkAdapter](https://gerrit.openbmc.org/c/88439)
 - **Change #:** 88439
 - **Author:** Ender
-- **Updated:** 2026-04-16 09:50:31.000000000
+- **Updated:** 2026-04-16 10:13:53.000000000
 
 ### [bmcweb: refactor getCpuLocationCode](https://gerrit.openbmc.org/c/88781)
 - **Change #:** 88781
@@ -296,11 +308,6 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-04-15 14:47:16.000000000
 
-### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
-- **Change #:** 88644
-- **Author:** JY-Voon
-- **Updated:** 2026-04-15 12:27:07.000000000
-
 ### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/88129)
 - **Change #:** 88129
 - **Author:** Ender
@@ -326,17 +333,17 @@
 ### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
 - **Change #:** 89357
 - **Author:** JY-Voon
-- **Updated:** 2026-04-16 08:23:53.000000000
+- **Updated:** 2026-04-16 11:21:10.000000000
+
+### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
+- **Change #:** 88035
+- **Author:** Eric Liu
+- **Updated:** 2026-04-16 11:10:36.000000000
 
 ### [bmcweb: add NetworkDeviceFunctions support](https://gerrit.openbmc.org/c/88776)
 - **Change #:** 88776
 - **Author:** Eric Liu
 - **Updated:** 2026-04-16 06:31:50.000000000
-
-### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
-- **Change #:** 88035
-- **Author:** Eric Liu
-- **Updated:** 2026-04-15 07:15:22.000000000
 
 ### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
 - **Change #:** 87185
