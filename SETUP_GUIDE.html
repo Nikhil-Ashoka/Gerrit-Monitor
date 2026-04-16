@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerrit Monitor - Setup Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .section h4 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        code {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            line-height: 1.5;
+        }
+        
+        pre code {
+            background: none;
+            padding: 0;
+        }
+        
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .note strong {
+            color: #856404;
+        }
+        
+        .warning {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .warning strong {
+            color: #721c24;
+        }
+        
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .success strong {
+            color: #155724;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .toc h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .toc li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            background: #2d2d2d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Gerrit Monitor Setup Guide</h1>
+            <p>Complete guide to fork, configure automation, and subscribe to Gerrit repositories</p>
+        </header>
+        
+        <div class="content">
+            <!-- Table of Contents -->
+            <div class="toc">
+                <h3>📋 Table of Contents</h3>
+                <ul>
+                    <li><a href="#fork">1. How to Fork the Repository</a></li>
+                    <li><a href="#slack">2. Set Up Slack for Automation</a></li>
+                    <li><a href="#email">3. Set Up Email for Automation</a></li>
+                    <li><a href="#subscribe">4. Subscribe to Desired Gerrit Repositories</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 1: Fork -->
+            <div class="section" id="fork">
+                <h2>1. How to Fork the Repository</h2>
+                
+                <p>Forking creates your own copy of the Gerrit Monitor repository, allowing you to customize and run it independently.</p>
+                
+                <h3>Step-by-Step Instructions</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Navigate to the Repository</strong>
+                    <p>Go to the original Gerrit Monitor repository on GitHub:</p>
+                    <p><a href="https://github.com/Nikhil-Ashoka/Gerrit-Monitor" target="_blank">https://github.com/Nikhil-Ashoka/Gerrit-Monitor</a></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Click the Fork Button</strong>
+                    <p>In the top-right corner of the repository page, click the <strong>Fork</strong> button.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Select Your Account</strong>
+                    <p>Choose where to fork the repository (your personal account or an organization you have access to).</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <strong>Wait for Fork Completion</strong>
+                    <p>GitHub will create a copy of the repository under your account. This usually takes a few seconds.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">5</span>
+                    <strong>Clone Your Fork Locally</strong>
+                    <p>Clone your forked repository to your local machine:</p>
+                    <pre><code>git clone https://github.com/YOUR-USERNAME/Gerrit-Monitor.git
+cd Gerrit-Monitor</code></pre>
+                </div>
+                
+                <div class="success">
+                    <strong>✅ Success!</strong> You now have your own copy of the Gerrit Monitor repository that you can customize and configure.
+                </div>
+                
+                <h3>Enable GitHub Actions</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Go to Actions Tab</strong>
+                    <p>In your forked repository, click on the <strong>Actions</strong> tab.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Enable Workflows</strong>
+                    <p>If prompted, click <strong>"I understand my workflows, go ahead and enable them"</strong> to activate the automation workflows.</p>
+                </div>
+                
+                <div class="note">
+                    <strong>📝 Note:</strong> GitHub Actions are free for public repositories and include 2,000 minutes per month for private repositories on free accounts.
+                </div>
+            </div>
+
+            <!-- Section 2: Slack Setup -->
+            <div class="section" id="slack">
+                <h2>2. Set Up Slack for Automation</h2>
+                
+                <p>Slack integration enables <strong>daily automated notifications</strong> of Gerrit activity directly to your team's Slack channel.</p>
+                
+                <h3>Create a Slack Incoming Webhook</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Go to Slack API</strong>
+                    <p>Visit <a href="https://api.slack.com/apps" target="_blank">https://api.slack.com/apps</a></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Create New App</strong>
+                    <p>Click <strong>"Create New App"</strong> and select <strong>"From scratch"</strong></p>
+                    <ul>
+                        <li><strong>App Name:</strong> Gerrit Monitor (or your preferred name)</li>
+                        <li><strong>Workspace:</strong> Select your Slack workspace</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Enable Incoming Webhooks</strong>
+                    <p>In your app settings:</p>
+                    <ul>
+                        <li>Click on <strong>"Incoming Webhooks"</strong> in the left sidebar</li>
+                        <li>Toggle <strong>"Activate Incoming Webhooks"</strong> to <strong>On</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <strong>Add Webhook to Workspace</strong>
+                    <p>Scroll down and click <strong>"Add New Webhook to Workspace"</strong></p>
+                    <ul>
+                        <li>Select the channel where you want notifications to appear</li>
+                        <li>Click <strong>"Allow"</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">5</span>
+                    <strong>Copy Webhook URL</strong>
+                    <p>Copy the generated webhook URL. It will look like:</p>
+                    <pre><code>https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX</code></pre>
+                </div>
+                
+                <h3>Configure Slack in GitHub Actions</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Go to Repository Settings</strong>
+                    <p>In your forked repository, navigate to <strong>Settings → Secrets and variables → Actions</strong></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Add Repository Secret</strong>
+                    <p>Click <strong>"New repository secret"</strong> and add:</p>
+                    <ul>
+                        <li><strong>Name:</strong> <code>SLACK_WEBHOOK_URL</code></li>
+                        <li><strong>Value:</strong> Paste your webhook URL</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Save the Secret</strong>
+                    <p>Click <strong>"Add secret"</strong> to save.</p>
+                </div>
+                
+                <h3>Configure Slack for Local Testing (Optional)</h3>
+                
+                <p>If you want to test Slack notifications locally:</p>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Create .env File</strong>
+                    <p>Copy the example environment file:</p>
+                    <pre><code>cp .env.example .env</code></pre>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Add Webhook URL</strong>
+                    <p>Edit <code>.env</code> and uncomment the Slack webhook line:</p>
+                    <pre><code>SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK/URL</code></pre>
+                </div>
+                
+                <div class="warning">
+                    <strong>⚠️ Security Warning:</strong> Never commit your <code>.env</code> file to Git. It's already included in <code>.gitignore</code> to prevent accidental commits.
+                </div>
+                
+                <h3>Test Slack Integration</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Trigger Daily Workflow Manually</strong>
+                    <p>Go to <strong>Actions → Daily Gerrit Monitor → Run workflow</strong></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Check Your Slack Channel</strong>
+                    <p>Within a few minutes, you should see a formatted notification in your selected Slack channel.</p>
+                </div>
+                
+                <div class="success">
+                    <strong>✅ Slack Setup Complete!</strong> Daily reports will now be automatically posted to your Slack channel at 9:00 AM UTC (2:30 PM IST).
+                </div>
+            </div>
+
+            <!-- Section 3: Email Setup -->
+            <div class="section" id="email">
+                <h2>3. Set Up Email for Automation</h2>
+                
+                <p>Email integration enables <strong>weekly automated reports</strong> sent via email to your team members.</p>
+                
+                <h3>Gmail Setup (Recommended)</h3>
+                
+                <h4>Generate Gmail App Password</h4>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Enable 2-Step Verification</strong>
+                    <p>Go to <a href="https://myaccount.google.com/security" target="_blank">Google Account Security</a></p>
+                    <ul>
+                        <li>Click on <strong>"2-Step Verification"</strong></li>
+                        <li>Follow the prompts to enable it if not already enabled</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Create App Password</strong>
+                    <p>Visit <a href="https://myaccount.google.com/apppasswords" target="_blank">https://myaccount.google.com/apppasswords</a></p>
+                    <ul>
+                        <li>Select <strong>"Mail"</strong> as the app</li>
+                        <li>Select <strong>"Other (Custom name)"</strong> as the device</li>
+                        <li>Enter <strong>"Gerrit Monitor"</strong> as the name</li>
+                        <li>Click <strong>"Generate"</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Copy App Password</strong>
+                    <p>Google will display a 16-character password. Copy it (remove any spaces).</p>
+                    <pre><code>Example: abcdabcdabcdabcd</code></pre>
+                </div>
+                
+                <div class="note">
+                    <strong>📝 Important:</strong> Use the app password, NOT your regular Gmail password. Regular passwords will not work with SMTP authentication.
+                </div>
+                
+                <h3>Configure Email in GitHub Actions</h3>
+                
+                <p>Add the following secrets to your repository:</p>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Navigate to Secrets</strong>
+                    <p>Go to <strong>Settings → Secrets and variables → Actions</strong></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Add Email Secrets</strong>
+                    <p>Click <strong>"New repository secret"</strong> for each of the following:</p>
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Secret Name</th>
+                            <th>Value</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>SMTP_HOST</code></td>
+                            <td><code>smtp.gmail.com</code></td>
+                            <td>Gmail SMTP server</td>
+                        </tr>
+                        <tr>
+                            <td><code>SMTP_PORT</code></td>
+                            <td><code>587</code></td>
+                            <td>SMTP port for TLS</td>
+                        </tr>
+                        <tr>
+                            <td><code>SMTP_USER</code></td>
+                            <td><code>your-email@gmail.com</code></td>
+                            <td>Your Gmail address</td>
+                        </tr>
+                        <tr>
+                            <td><code>SMTP_PASSWORD</code></td>
+                            <td><code>your-app-password</code></td>
+                            <td>16-character app password</td>
+                        </tr>
+                        <tr>
+                            <td><code>FROM_EMAIL</code></td>
+                            <td><code>your-email@gmail.com</code></td>
+                            <td>Sender email address</td>
+                        </tr>
+                        <tr>
+                            <td><code>TO_EMAILS</code></td>
+                            <td><code>team@example.com,user@example.com</code></td>
+                            <td>Comma-separated recipient emails</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Configure Email for Local Testing (Optional)</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Edit .env File</strong>
+                    <p>Open your <code>.env</code> file and uncomment the email section:</p>
+                    <pre><code>SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+FROM_EMAIL=your-email@gmail.com
+TO_EMAILS=recipient1@example.com,recipient2@example.com</code></pre>
+                </div>
+                
+                <h3>Alternative SMTP Providers</h3>
+                
+                <p>You can use other email providers besides Gmail:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Provider</th>
+                            <th>SMTP Host</th>
+                            <th>Port</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gmail</td>
+                            <td>smtp.gmail.com</td>
+                            <td>587</td>
+                            <td>Requires app password</td>
+                        </tr>
+                        <tr>
+                            <td>Outlook</td>
+                            <td>smtp-mail.outlook.com</td>
+                            <td>587</td>
+                            <td>Use regular password</td>
+                        </tr>
+                        <tr>
+                            <td>Yahoo</td>
+                            <td>smtp.mail.yahoo.com</td>
+                            <td>587</td>
+                            <td>Requires app password</td>
+                        </tr>
+                        <tr>
+                            <td>SendGrid</td>
+                            <td>smtp.sendgrid.net</td>
+                            <td>587</td>
+                            <td>Use API key as password</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Test Email Integration</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Trigger Weekly Workflow Manually</strong>
+                    <p>Go to <strong>Actions → Weekly Gerrit Monitor → Run workflow</strong></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Check Your Email</strong>
+                    <p>Within a few minutes, check the recipient email inbox(es) for the HTML report.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Check Spam Folder</strong>
+                    <p>If you don't see the email, check your spam/junk folder and mark it as "Not Spam".</p>
+                </div>
+                
+                <div class="success">
+                    <strong>✅ Email Setup Complete!</strong> Weekly reports will now be automatically sent every Monday at 9:00 AM UTC (2:30 PM IST).
+                </div>
+            </div>
+
+            <!-- Section 4: Subscribe to Gerrit Repos -->
+            <div class="section" id="subscribe">
+                <h2>4. Subscribe to Desired Gerrit Repositories</h2>
+                
+                <p>Configure which Gerrit repositories you want to monitor by editing the <code>config.json</code> file.</p>
+                
+                <h3>Understanding config.json</h3>
+                
+                <p>The configuration file supports monitoring multiple Gerrit projects simultaneously. Each project can have its own settings.</p>
+                
+                <h3>Configuration Structure</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Open config.json</strong>
+                    <p>Edit the <code>config.json</code> file in your repository:</p>
+                    <pre><code>{
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "projects": [
+    {
+      "name": "openbmc/webui-vue",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/bmcweb",
+      "check_days": 1,
+      "max_results": 100
+    }
+  ]
+}</code></pre>
+                </div>
+                
+                <h3>Configuration Parameters</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Description</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>gerrit_url</code></td>
+                            <td>Base URL of your Gerrit instance</td>
+                            <td><code>https://gerrit.openbmc.org</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>name</code></td>
+                            <td>Full project path in Gerrit</td>
+                            <td><code>openbmc/webui-vue</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>check_days</code></td>
+                            <td>Number of days to look back for changes</td>
+                            <td><code>1</code> (daily), <code>7</code> (weekly)</td>
+                        </tr>
+                        <tr>
+                            <td><code>max_results</code></td>
+                            <td>Maximum number of changes to fetch</td>
+                            <td><code>100</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Add a New Repository</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Find Your Gerrit Project</strong>
+                    <p>Navigate to your Gerrit instance and find the project you want to monitor.</p>
+                    <p>Example: <code>https://gerrit.openbmc.org/q/project:openbmc/pldm</code></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Extract Project Name</strong>
+                    <p>The project name is the part after <code>project:</code> in the URL.</p>
+                    <p>Example: <code>openbmc/pldm</code></p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Add to config.json</strong>
+                    <p>Add a new project object to the <code>projects</code> array:</p>
+                    <pre><code>{
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "projects": [
+    {
+      "name": "openbmc/webui-vue",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/bmcweb",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/pldm",
+      "check_days": 1,
+      "max_results": 100
+    }
+  ]
+}</code></pre>
+                </div>
+                
+                <h3>Monitor Different Gerrit Instances</h3>
+                
+                <p>To monitor projects from a different Gerrit instance, change the <code>gerrit_url</code>:</p>
+                
+                <pre><code>{
+  "gerrit_url": "https://gerrit.example.com",
+  "projects": [
+    {
+      "name": "your-org/your-project",
+      "check_days": 7,
+      "max_results": 50
+    }
+  ]
+}</code></pre>
+                
+                <h3>Recommended Settings</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Use Case</th>
+                            <th>check_days</th>
+                            <th>max_results</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Daily monitoring</td>
+                            <td>1-2</td>
+                            <td>100</td>
+                            <td>Captures recent activity</td>
+                        </tr>
+                        <tr>
+                            <td>Weekly monitoring</td>
+                            <td>7</td>
+                            <td>200</td>
+                            <td>Comprehensive weekly summary</td>
+                        </tr>
+                        <tr>
+                            <td>High-activity projects</td>
+                            <td>1</td>
+                            <td>200-500</td>
+                            <td>Ensures all changes are captured</td>
+                        </tr>
+                        <tr>
+                            <td>Low-activity projects</td>
+                            <td>7-14</td>
+                            <td>50</td>
+                            <td>Reduces noise, captures trends</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Remove a Repository</h3>
+                
+                <p>Simply delete the corresponding project object from the <code>projects</code> array in <code>config.json</code>.</p>
+                
+                <h3>Commit and Push Changes</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Save config.json</strong>
+                    <p>Save your changes to the configuration file.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Commit Changes</strong>
+                    <pre><code>git add config.json
+git commit -m "Update monitored Gerrit repositories"</code></pre>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Push to GitHub</strong>
+                    <pre><code>git push origin main</code></pre>
+                </div>
+                
+                <div class="success">
+                    <strong>✅ Configuration Complete!</strong> Your workflows will now monitor the updated list of repositories.
+                </div>
+                
+                <h3>Test Your Configuration</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Test Locally</strong>
+                    <p>Run the monitor script locally to verify your configuration:</p>
+                    <pre><code>python monitor.py</code></pre>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Check Output</strong>
+                    <p>Review the generated <code>GERRIT_DAILY_REPORT.md</code> file to ensure all projects are included.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Trigger Workflow Manually</strong>
+                    <p>Go to <strong>Actions</strong> and manually trigger the daily or weekly workflow to test the automation.</p>
+                </div>
+            </div>
+
+            <!-- Summary Section -->
+            <div class="section">
+                <h2>🎉 Setup Complete!</h2>
+                
+                <p>You have successfully configured the Gerrit Monitor with:</p>
+                
+                <ul>
+                    <li>✅ Forked repository with GitHub Actions enabled</li>
+                    <li>✅ Slack integration for daily notifications</li>
+                    <li>✅ Email integration for weekly reports</li>
+                    <li>✅ Custom Gerrit repository subscriptions</li>
+                </ul>
+                
+                <h3>What Happens Next?</h3>
+                
+                <div class="note">
+                    <strong>📅 Automated Schedule:</strong>
+                    <ul>
+                        <li><strong>Daily:</strong> Every day at 9:00 AM UTC (2:30 PM IST) - Slack notification</li>
+                        <li><strong>Weekly:</strong> Every Monday at 9:00 AM UTC (2:30 PM IST) - Email report</li>
+                    </ul>
+                </div>
+                
+                <h3>Troubleshooting</h3>
+                
+                <h4>Workflow Not Running</h4>
+                <ul>
+                    <li>Verify GitHub Actions are enabled in your repository</li>
+                    <li>Check that all required secrets are configured</li>
+                    <li>Review the Actions tab for error messages</li>
+                </ul>
+                
+                <h4>Slack Notifications Not Appearing</h4>
+                <ul>
+                    <li>Verify the webhook URL is correct</li>
+                    <li>Check that the webhook hasn't been revoked</li>
+                    <li>Ensure the daily workflow is running (not the weekly one)</li>
+                </ul>
+                
+                <h4>Emails Not Received</h4>
+                <ul>
+                    <li>Check spam/junk folders</li>
+                    <li>Verify SMTP credentials are correct</li>
+                    <li>Ensure you're using an app password for Gmail</li>
+                    <li>Check the weekly workflow logs for errors</li>
+                </ul>
+                
+                <h4>Empty Reports</h4>
+                <ul>
+                    <li>Verify the Gerrit project names are correct</li>
+                    <li>Increase <code>check_days</code> if there's low activity</li>
+                    <li>Check that the Gerrit instance is accessible</li>
+                </ul>
+                
+                <h3>Additional Resources</h3>
+                
+                <ul>
+                    <li><a href="https://api.slack.com/messaging/webhooks" target="_blank">Slack Webhook Documentation</a></li>
+                    <li><a href="https://myaccount.google.com/apppasswords" target="_blank">Gmail App Passwords</a></li>
+                    <li><a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions Documentation</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Gerrit Monitor Setup Guide | MIT License</p>
+            <p>For more information, see the README.md file in the repository</p>
+        </footer>
+    </div>
+</body>
+</html>
