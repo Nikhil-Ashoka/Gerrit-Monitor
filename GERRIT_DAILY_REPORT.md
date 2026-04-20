@@ -1,52 +1,151 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-04-19 09:41:17 UTC
+**Generated:** 2026-04-20 10:29:32 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 4
+**Total Changes:** 23
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-18 to 2026-04-19 (1 day)
+**Period:** 2026-04-19 to 2026-04-20 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-04-18 to 2026-04-19 (1 day)
-**Changes:** 0
+**Period:** 2026-04-19 to 2026-04-20 (1 day)
+**Changes:** 1
 
+
+## 🔍 Open MRs (1)
+
+### [platform-mc: Add entity-type-specific D-Bus inventory interfaces](https://gerrit.openbmc.org/c/89127)
+- **Change #:** 89127
+- **Author:** garybeihl
+- **Updated:** 2026-04-19 17:14:56.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-04-18 to 2026-04-19 (1 day)
-**Changes:** 4
+**Period:** 2026-04-19 to 2026-04-20 (1 day)
+**Changes:** 22
 
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (18)
+
+### [implement multi-host fan inventory](https://gerrit.openbmc.org/c/87061)
+- **Change #:** 87061
+- **Author:** Alexander
+- **Updated:** 2026-04-20 10:22:55.000000000
+
+### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
+- **Change #:** 87185
+- **Author:** Eric Liu
+- **Updated:** 2026-04-20 08:49:43.000000000
+
+### [metadata: Serve XML schemas dynamically to reduce RAM usage](https://gerrit.openbmc.org/c/89173)
+- **Change #:** 89173
+- **Author:** Vinoth Kumar Shanmugavel
+- **Updated:** 2026-04-20 08:03:10.000000000
+
+### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-04-20 04:56:45.000000000
+
+### [bmcweb: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
+- **Change #:** 87387
+- **Author:** Ender
+- **Updated:** 2026-04-20 04:32:48.000000000
+
+### [bmcweb: add clock speed support for Processors](https://gerrit.openbmc.org/c/87279)
+- **Change #:** 87279
+- **Author:** Ender
+- **Updated:** 2026-04-20 04:21:31.000000000
+
+### [Fix GetUniqueEntryIDUnique unit test](https://gerrit.openbmc.org/c/89298)
+- **Change #:** 89298
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 21:33:10.000000000
+
+### [Refactor Task payload into its own file](https://gerrit.openbmc.org/c/89333)
+- **Change #:** 89333
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 21:32:28.000000000
+
+### [Simplify json types on tasks](https://gerrit.openbmc.org/c/89335)
+- **Change #:** 89335
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 21:12:15.000000000
+
+### [WIP: Update and add unit tests for date string function](https://gerrit.openbmc.org/c/89021)
+- **Change #:** 89021
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 21:09:49.000000000
+
+### [Use methods that don't throw](https://gerrit.openbmc.org/c/89381)
+- **Change #:** 89381
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 20:33:27.000000000
+
+### [http_client: Add TLS hostname verification on outbound connections](https://gerrit.openbmc.org/c/89410)
+- **Change #:** 89410
+- **Author:** garybeihl
+- **Updated:** 2026-04-19 18:22:21.000000000
+
+### [Remove static variables](https://gerrit.openbmc.org/c/89022)
+- **Change #:** 89022
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 17:57:19.000000000
+
+### [Deduplicate function](https://gerrit.openbmc.org/c/89020)
+- **Change #:** 89020
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 17:46:42.000000000
+
+### [Remove time_t](https://gerrit.openbmc.org/c/89019)
+- **Change #:** 89019
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-19 17:44:06.000000000
+
+### [ssl: Fix inverted VerifyCertificate enum values](https://gerrit.openbmc.org/c/89409)
+- **Change #:** 89409
+- **Author:** garybeihl
+- **Updated:** 2026-04-19 17:38:37.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-04-19 16:13:44.000000000
 
 ### [Add Memory MemoryMetrics ECC support](https://gerrit.openbmc.org/c/87169)
 - **Change #:** 87169
 - **Author:** Eric Liu
 - **Updated:** 2026-04-19 05:48:02.000000000
 
-### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/89407)
-- **Change #:** 89407
-- **Author:** JY-Voon
-- **Updated:** 2026-04-18 08:31:51.000000000
+## 🚧 Work In Progress (3)
 
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-04-18 07:19:14.000000000
+### [storage: Add Drive.Reset action support](https://gerrit.openbmc.org/c/89403)
+- **Change #:** 89403
+- **Author:** Eric Yang
+- **Updated:** 2026-04-20 09:09:44.000000000
 
-## 🚧 Work In Progress (1)
+### [Provide the mapping for all the entities and to configure the respective privileges](https://gerrit.openbmc.org/c/89414)
+- **Change #:** 89414
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-04-20 05:47:13.000000000
 
 ### [Add dual SSL context for satellite authentication](https://gerrit.openbmc.org/c/87711)
 - **Change #:** 87711
 - **Author:** priyair
-- **Updated:** 2026-04-19 05:08:55.000000000
+- **Updated:** 2026-04-20 02:52:33.000000000
+
+## ❌ Abandoned MRs (1)
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/89407)
+- **Change #:** 89407
+- **Author:** JY-Voon
+- **Updated:** 2026-04-19 15:40:53.000000000
 
 ---
 
