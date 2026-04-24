@@ -1,55 +1,35 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-04-23 10:17:36 UTC
+**Generated:** 2026-04-24 10:17:28 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 34
+**Total Changes:** 26
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-22 to 2026-04-23 (1 day)
-**Changes:** 3
+**Period:** 2026-04-23 to 2026-04-24 (1 day)
+**Changes:** 1
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [Implemented Basic Auth in Policies](https://gerrit.openbmc.org/c/89544)
 - **Change #:** 89544
 - **Author:** Nikhil Ashoka
 - **Updated:** 2026-04-23 05:32:40.000000000
 
-### [Add expandable rows to Certificates page](https://gerrit.openbmc.org/c/89535)
-- **Change #:** 89535
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-04-22 21:04:31.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [Fix UI alignment issues on Logs and Dumps pages](https://gerrit.openbmc.org/c/87222)
-- **Change #:** 87222
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-04-22 12:22:16.000000000
-
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-04-22 to 2026-04-23 (1 day)
-**Changes:** 7
+**Period:** 2026-04-23 to 2026-04-24 (1 day)
+**Changes:** 3
 
 
-## ✅ Merged MRs (1)
-
-### [config: remove unused configuration](https://gerrit.openbmc.org/c/88190)
-- **Change #:** 88190
-- **Author:** Brad Bishop
-- **Changes:** +41 / -154 lines
-- **Updated:** 2026-04-22 04:10:12.000000000
-
-## 🔍 Open MRs (6)
+## 🔍 Open MRs (3)
 
 ### [fw_update: Reimplement package parser to use new libpldm API](https://gerrit.openbmc.org/c/80194)
 - **Change #:** 80194
 - **Author:** Unive Tien
-- **Updated:** 2026-04-23 03:25:39.000000000
+- **Updated:** 2026-04-24 01:30:45.000000000
 
 ### [fw-update: Create firmware inventory for ImageSetVersion](https://gerrit.openbmc.org/c/89351)
 - **Change #:** 89351
@@ -61,29 +41,82 @@
 - **Author:** Unive Tien
 - **Updated:** 2026-04-23 02:21:04.000000000
 
-### [Add back maximum transfer size configuration](https://gerrit.openbmc.org/c/89514)
-- **Change #:** 89514
-- **Author:** James Athappilly
-- **Updated:** 2026-04-22 11:10:25.000000000
-
-### [Add back sensor polling time configuration](https://gerrit.openbmc.org/c/89509)
-- **Change #:** 89509
-- **Author:** James Athappilly
-- **Updated:** 2026-04-22 11:09:14.000000000
-
-### [mctp-discovery: af-mctp: add support for Network ID](https://gerrit.openbmc.org/c/85952)
-- **Change #:** 85952
-- **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-04-22 06:21:17.000000000
-
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-04-22 to 2026-04-23 (1 day)
-**Changes:** 24
+**Period:** 2026-04-23 to 2026-04-24 (1 day)
+**Changes:** 22
 
 
-## 🔍 Open MRs (21)
+## ✅ Merged MRs (1)
+
+### [http: Make UPN domain matching case-insensitive](https://gerrit.openbmc.org/c/89225)
+- **Change #:** 89225
+- **Author:** Igor Kanyuka
+- **Changes:** +14 / -1 lines
+- **Updated:** 2026-04-23 16:23:00.000000000
+
+## 🔍 Open MRs (18)
+
+### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
+- **Change #:** 89152
+- **Author:** JY-Voon
+- **Updated:** 2026-04-24 08:13:42.000000000
+
+### [Multi-host/HW-inventory: add processor subtree](https://gerrit.openbmc.org/c/83773)
+- **Change #:** 83773
+- **Author:** Christopher Meis
+- **Updated:** 2026-04-24 07:46:19.000000000
+
+### [Multi-host/HW-inventory: add memory subtree](https://gerrit.openbmc.org/c/83945)
+- **Change #:** 83945
+- **Author:** Christopher Meis
+- **Updated:** 2026-04-24 07:41:07.000000000
+
+### [http: Add SSL context factory](https://gerrit.openbmc.org/c/89586)
+- **Change #:** 89586
+- **Author:** Abhilash Raju
+- **Updated:** 2026-04-24 05:37:58.000000000
+
+### [RAII OpenSSL](https://gerrit.openbmc.org/c/84608)
+- **Change #:** 84608
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-24 00:11:35.000000000
+
+### [redfish: fall back to fan_tach sensor for fan Health](https://gerrit.openbmc.org/c/89489)
+- **Change #:** 89489
+- **Author:** Samuel Cook
+- **Updated:** 2026-04-23 19:42:08.000000000
+
+### [WIP: Prepare for clang 23](https://gerrit.openbmc.org/c/88939)
+- **Change #:** 88939
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-23 16:32:02.000000000
+
+### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
+- **Change #:** 89226
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-04-23 16:30:10.000000000
+
+### [Add more unit tests for UPN functionality](https://gerrit.openbmc.org/c/89224)
+- **Change #:** 89224
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-04-23 16:27:14.000000000
+
+### [Make ssh port not trigger 500](https://gerrit.openbmc.org/c/86071)
+- **Change #:** 86071
+- **Author:** Ed Tanous
+- **Updated:** 2026-04-23 15:49:03.000000000
+
+### [UpdateService: Add empty body validation for HTTP update](https://gerrit.openbmc.org/c/89561)
+- **Change #:** 89561
+- **Author:** Vinoth Kumar Shanmugavel
+- **Updated:** 2026-04-23 11:15:32.000000000
+
+### [Store Log Entry URI for Redfish event](https://gerrit.openbmc.org/c/88954)
+- **Change #:** 88954
+- **Author:** Archit Mehrotra
+- **Updated:** 2026-04-23 10:51:52.000000000
 
 ### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/88129)
 - **Change #:** 88129
@@ -115,97 +148,24 @@
 - **Author:** John Chung
 - **Updated:** 2026-04-23 00:24:46.000000000
 
-### [redfish: fall back to fan_tach sensor for fan Health](https://gerrit.openbmc.org/c/89489)
-- **Change #:** 89489
-- **Author:** Samuel Cook
-- **Updated:** 2026-04-22 19:20:23.000000000
+## 🚧 Work In Progress (2)
 
-### [Add more unit tests for UPN functionality](https://gerrit.openbmc.org/c/89224)
-- **Change #:** 89224
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-22 18:49:29.000000000
-
-### [http: Make UPN domain matching case-insensitive](https://gerrit.openbmc.org/c/89225)
-- **Change #:** 89225
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-22 18:31:13.000000000
-
-### [RAII OpenSSL](https://gerrit.openbmc.org/c/84608)
-- **Change #:** 84608
-- **Author:** Ed Tanous
-- **Updated:** 2026-04-22 18:21:45.000000000
-
-### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
-- **Change #:** 89226
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-22 16:23:22.000000000
-
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-04-22 13:53:32.000000000
-
-### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
-- **Change #:** 88035
-- **Author:** Eric Liu
-- **Updated:** 2026-04-22 12:18:36.000000000
-
-### [Move privileges to separate entity](https://gerrit.openbmc.org/c/86573)
-- **Change #:** 86573
+### [Added Support for getting PowerSuplies](https://gerrit.openbmc.org/c/84795)
+- **Change #:** 84795
 - **Author:** Sandeep Akant Patil
-- **Updated:** 2026-04-22 11:25:05.000000000
-
-### [implement multi-host fan inventory](https://gerrit.openbmc.org/c/87061)
-- **Change #:** 87061
-- **Author:** Alexander
-- **Updated:** 2026-04-22 10:59:24.000000000
-
-### [Multi-host support for PostCodes LogService](https://gerrit.openbmc.org/c/76320)
-- **Change #:** 76320
-- **Author:** Oliver Brewka
-- **Updated:** 2026-04-22 08:50:49.000000000
-
-### [Multi-host support for Managers](https://gerrit.openbmc.org/c/85599)
-- **Change #:** 85599
-- **Author:** Oliver Brewka
-- **Updated:** 2026-04-22 08:49:47.000000000
-
-### [Improvements for object path creation under ComputerSystem](https://gerrit.openbmc.org/c/85598)
-- **Change #:** 85598
-- **Author:** Oliver Brewka
-- **Updated:** 2026-04-22 08:47:24.000000000
-
-### [Increase crashdump Task timeout](https://gerrit.openbmc.org/c/87968)
-- **Change #:** 87968
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-04-22 07:41:16.000000000
-
-### [memory: add OperatingSpeedMHz to MemoryMetrics](https://gerrit.openbmc.org/c/88011)
-- **Change #:** 88011
-- **Author:** Eric Liu
-- **Updated:** 2026-04-22 04:13:37.000000000
-
-### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
-- **Change #:** 87185
-- **Author:** Eric Liu
-- **Updated:** 2026-04-22 03:08:17.000000000
-
-## 🚧 Work In Progress (3)
+- **Updated:** 2026-04-24 07:55:43.000000000
 
 ### [storage: Add Drive.Reset action with association-based state lookup](https://gerrit.openbmc.org/c/89403)
 - **Change #:** 89403
 - **Author:** Eric Yang
 - **Updated:** 2026-04-23 09:25:07.000000000
 
-### [Add dual SSL context for satellite authentication](https://gerrit.openbmc.org/c/87711)
-- **Change #:** 87711
-- **Author:** priyair
-- **Updated:** 2026-04-22 14:29:17.000000000
+## ❌ Abandoned MRs (1)
 
-### [Added Support for getting PowerSuplies](https://gerrit.openbmc.org/c/84795)
-- **Change #:** 84795
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-04-22 11:27:56.000000000
+### [SSL: Add context factory for customisation support](https://gerrit.openbmc.org/c/89564)
+- **Change #:** 89564
+- **Author:** Abhilash Raju
+- **Updated:** 2026-04-24 04:37:57.000000000
 
 ---
 
