@@ -1,121 +1,35 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-04-25 09:45:01 UTC
+**Generated:** 2026-04-26 09:48:26 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 17
+**Total Changes:** 1
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-04-24 to 2026-04-25 (1 day)
+**Period:** 2026-04-25 to 2026-04-26 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-04-24 to 2026-04-25 (1 day)
-**Changes:** 3
+**Period:** 2026-04-25 to 2026-04-26 (1 day)
+**Changes:** 1
 
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (1)
 
 ### [sdbusplus: rename SdBusError](https://gerrit.openbmc.org/c/89637)
 - **Change #:** 89637
 - **Author:** Patrick Williams
 - **Updated:** 2026-04-25 03:04:50.000000000
 
-### [platform-mc: Bounds-check Sensor Auxiliary Names PDR parsing](https://gerrit.openbmc.org/c/89617)
-- **Change #:** 89617
-- **Author:** garybeihl
-- **Updated:** 2026-04-24 16:08:38.000000000
-
-### [fw_update: Reimplement package parser to use new libpldm API](https://gerrit.openbmc.org/c/80194)
-- **Change #:** 80194
-- **Author:** Unive Tien
-- **Updated:** 2026-04-24 01:30:45.000000000
-
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-04-24 to 2026-04-25 (1 day)
-**Changes:** 14
+**Period:** 2026-04-25 to 2026-04-26 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (10)
-
-### [RAII OpenSSL](https://gerrit.openbmc.org/c/84608)
-- **Change #:** 84608
-- **Author:** Ed Tanous
-- **Updated:** 2026-04-24 23:46:40.000000000
-
-### [Store Log Entry URI for Redfish event](https://gerrit.openbmc.org/c/88954)
-- **Change #:** 88954
-- **Author:** Archit Mehrotra
-- **Updated:** 2026-04-24 18:19:54.000000000
-
-### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
-- **Change #:** 89226
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-24 18:11:12.000000000
-
-### [Add more unit tests for UPN functionality](https://gerrit.openbmc.org/c/89224)
-- **Change #:** 89224
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-24 18:10:53.000000000
-
-### [Make ssh port not trigger 500](https://gerrit.openbmc.org/c/86071)
-- **Change #:** 86071
-- **Author:** Ed Tanous
-- **Updated:** 2026-04-24 18:09:13.000000000
-
-### [Report only StorageId 1 in StorageCollection](https://gerrit.openbmc.org/c/89615)
-- **Change #:** 89615
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-04-24 15:43:00.000000000
-
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-04-24 08:13:42.000000000
-
-### [Multi-host/HW-inventory: add processor subtree](https://gerrit.openbmc.org/c/83773)
-- **Change #:** 83773
-- **Author:** Christopher Meis
-- **Updated:** 2026-04-24 07:46:19.000000000
-
-### [Multi-host/HW-inventory: add memory subtree](https://gerrit.openbmc.org/c/83945)
-- **Change #:** 83945
-- **Author:** Christopher Meis
-- **Updated:** 2026-04-24 07:41:07.000000000
-
-### [http: Add SSL context factory](https://gerrit.openbmc.org/c/89586)
-- **Change #:** 89586
-- **Author:** Abhilash Raju
-- **Updated:** 2026-04-24 05:37:58.000000000
-
-## 🚧 Work In Progress (2)
-
-### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
-- **Change #:** 89319
-- **Author:** Jacky Huang
-- **Updated:** 2026-04-24 16:43:32.000000000
-
-### [Added Support for getting PowerSuplies](https://gerrit.openbmc.org/c/84795)
-- **Change #:** 84795
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-04-24 07:55:43.000000000
-
-## ❌ Abandoned MRs (2)
-
-### [Make update service timeout configurable](https://gerrit.openbmc.org/c/89542)
-- **Change #:** 89542
-- **Author:** Jae Hyun Yoo
-- **Updated:** 2026-04-24 22:31:35.000000000
-
-### [SSL: Add context factory for customisation support](https://gerrit.openbmc.org/c/89564)
-- **Change #:** 89564
-- **Author:** Abhilash Raju
-- **Updated:** 2026-04-24 04:37:57.000000000
 
 ---
 
