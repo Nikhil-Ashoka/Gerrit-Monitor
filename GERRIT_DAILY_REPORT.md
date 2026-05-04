@@ -1,57 +1,28 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-03 09:59:53 UTC
+**Generated:** 2026-05-04 10:59:19 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 5
+**Total Changes:** 0
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-02 to 2026-05-03 (1 day)
-**Changes:** 2
+**Period:** 2026-04-27 to 2026-05-04 (7 days)
+**Changes:** 0
 
-
-## ❌ Abandoned MRs (2)
-
-### [Fix Date and Time sync when switching manual to NTP](https://gerrit.openbmc.org/c/60500)
-- **Change #:** 60500
-- **Author:** Kiran Kumar Ballapalli
-- **Updated:** 2026-05-03 02:29:15.000000000
-
-### [Fix payload setting error in delete function](https://gerrit.openbmc.org/c/58684)
-- **Change #:** 58684
-- **Author:** Qi Wang 
-- **Updated:** 2026-05-03 02:29:14.000000000
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-05-02 to 2026-05-03 (1 day)
+**Period:** 2026-04-27 to 2026-05-04 (7 days)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-02 to 2026-05-03 (1 day)
-**Changes:** 3
+**Period:** 2026-04-27 to 2026-05-04 (7 days)
+**Changes:** 0
 
-
-## 🔍 Open MRs (3)
-
-### [UpdateService: Validate empty body in HTTP firmware update](https://gerrit.openbmc.org/c/89561)
-- **Change #:** 89561
-- **Author:** Vinoth Kumar Shanmugavel
-- **Updated:** 2026-05-02 05:39:50.000000000
-
-### [WIP: OpenSSL cleanup](https://gerrit.openbmc.org/c/89860)
-- **Change #:** 89860
-- **Author:** Ed Tanous
-- **Updated:** 2026-05-02 01:30:05.000000000
-
-### [Convert generateEcKey to be RAII](https://gerrit.openbmc.org/c/89845)
-- **Change #:** 89845
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-05-02 00:32:13.000000000
 
 ---
 
