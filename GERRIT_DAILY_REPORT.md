@@ -1,7 +1,7 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-05 05:17:54 UTC
+**Generated:** 2026-05-05 10:28:42 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 11
+**Total Changes:** 23
 
 ---
 
@@ -21,10 +21,20 @@
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
 **Period:** 2026-05-04 to 2026-05-05 (1 day)
-**Changes:** 4
+**Changes:** 6
 
 
-## 🔍 Open MRs (4)
+## 🔍 Open MRs (6)
+
+### [fw_update: Reimplement package parser to use new libpldm API](https://gerrit.openbmc.org/c/80194)
+- **Change #:** 80194
+- **Author:** Unive Tien
+- **Updated:** 2026-05-05 06:42:28.000000000
+
+### [pldmtool: SetStateEffecter: size request buffer by effecterCount](https://gerrit.openbmc.org/c/89372)
+- **Change #:** 89372
+- **Author:** Vishnunithyasoundhar S
+- **Updated:** 2026-05-05 06:28:03.000000000
 
 ### [platform-mc: Defer FRU decorators until data](https://gerrit.openbmc.org/c/89472)
 - **Change #:** 89472
@@ -50,10 +60,63 @@
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
 **Period:** 2026-05-04 to 2026-05-05 (1 day)
-**Changes:** 6
+**Changes:** 16
 
 
-## 🔍 Open MRs (5)
+## ✅ Merged MRs (1)
+
+### [Deduplicate function](https://gerrit.openbmc.org/c/89020)
+- **Change #:** 89020
+- **Author:** Ed Tanous
+- **Changes:** +5 / -45 lines
+- **Updated:** 2026-05-05 10:07:50.000000000
+
+## 🔍 Open MRs (14)
+
+### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
+- **Change #:** 71685
+- **Author:** Abhilash Raju
+- **Updated:** 2026-05-05 10:18:15.000000000
+
+### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
+- **Change #:** 88644
+- **Author:** JY-Voon
+- **Updated:** 2026-05-05 09:25:42.000000000
+
+### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
+- **Change #:** 89120
+- **Author:** JY-Voon
+- **Updated:** 2026-05-05 09:21:35.000000000
+
+### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-05-05 09:06:39.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-05-05 08:39:56.000000000
+
+### [bmcweb: add PCIeDevices link to NetworkAdapter](https://gerrit.openbmc.org/c/88439)
+- **Change #:** 88439
+- **Author:** Ender
+- **Updated:** 2026-05-05 06:53:14.000000000
+
+### [bmcweb: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
+- **Change #:** 88540
+- **Author:** Ender
+- **Updated:** 2026-05-05 06:43:50.000000000
+
+### [bmcweb: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
+- **Change #:** 88522
+- **Author:** Ender
+- **Updated:** 2026-05-05 06:42:47.000000000
+
+### [bmcweb: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
+- **Change #:** 87995
+- **Author:** Ender
+- **Updated:** 2026-05-05 06:40:08.000000000
 
 ### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
 - **Change #:** 87185
