@@ -1,28 +1,91 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-04 17:36:34 UTC
+**Generated:** 2026-05-05 05:17:54 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 0
+**Total Changes:** 11
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-03 to 2026-05-04 (1 day)
-**Changes:** 0
+**Period:** 2026-05-04 to 2026-05-05 (1 day)
+**Changes:** 1
 
+
+## ❌ Abandoned MRs (1)
+
+### [Update Server status in Server power operations page](https://gerrit.openbmc.org/c/64481)
+- **Change #:** 64481
+- **Author:** Hieu Huynh
+- **Updated:** 2026-05-04 17:53:27.000000000
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-05-03 to 2026-05-04 (1 day)
-**Changes:** 0
+**Period:** 2026-05-04 to 2026-05-05 (1 day)
+**Changes:** 4
 
+
+## 🔍 Open MRs (4)
+
+### [platform-mc: Defer FRU decorators until data](https://gerrit.openbmc.org/c/89472)
+- **Change #:** 89472
+- **Author:** Eric Yang
+- **Updated:** 2026-05-05 03:32:44.000000000
+
+### [fw-update: add phase-tracking test suite](https://gerrit.openbmc.org/c/89880)
+- **Change #:** 89880
+- **Author:** garybeihl
+- **Updated:** 2026-05-04 23:49:29.000000000
+
+### [fw-update: enforce DSP0267 Sec. 12.6-12.9 phase sequencing](https://gerrit.openbmc.org/c/89879)
+- **Change #:** 89879
+- **Author:** garybeihl
+- **Updated:** 2026-05-04 23:31:04.000000000
+
+### [platform-mc: Add entity-type-specific D-Bus inventory interfaces](https://gerrit.openbmc.org/c/89127)
+- **Change #:** 89127
+- **Author:** garybeihl
+- **Updated:** 2026-05-04 20:57:18.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-03 to 2026-05-04 (1 day)
-**Changes:** 0
+**Period:** 2026-05-04 to 2026-05-05 (1 day)
+**Changes:** 6
 
+
+## 🔍 Open MRs (5)
+
+### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
+- **Change #:** 87185
+- **Author:** Eric Liu
+- **Updated:** 2026-05-05 05:01:06.000000000
+
+### [Add Memory MemoryMetrics ECC support](https://gerrit.openbmc.org/c/87169)
+- **Change #:** 87169
+- **Author:** Eric Liu
+- **Updated:** 2026-05-05 04:37:02.000000000
+
+### [Fix socket reuse in HTTP server accept loop](https://gerrit.openbmc.org/c/89896)
+- **Change #:** 89896
+- **Author:** kokilavaradhan
+- **Updated:** 2026-05-05 02:49:44.000000000
+
+### [WIP: Fuzzer](https://gerrit.openbmc.org/c/89858)
+- **Change #:** 89858
+- **Author:** Ed Tanous
+- **Updated:** 2026-05-04 20:12:25.000000000
+
+### [UpdateService: Validate empty body in HTTP firmware update](https://gerrit.openbmc.org/c/89561)
+- **Change #:** 89561
+- **Author:** Vinoth Kumar Shanmugavel
+- **Updated:** 2026-05-04 20:10:03.000000000
+
+## ❌ Abandoned MRs (1)
+
+### [Change virtual media default to virtual-media](https://gerrit.openbmc.org/c/69335)
+- **Change #:** 69335
+- **Author:** Ed Tanous
+- **Updated:** 2026-05-04 17:53:25.000000000
 
 ---
 
