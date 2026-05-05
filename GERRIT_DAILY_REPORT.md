@@ -1,14 +1,21 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-05 10:28:42 UTC
+**Generated:** 2026-05-05 15:55:24 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 23
+**Total Changes:** 35
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
 **Period:** 2026-05-04 to 2026-05-05 (1 day)
-**Changes:** 1
+**Changes:** 2
 
+
+## 🔍 Open MRs (1)
+
+### [Add screenshot capture button to KVM console](https://gerrit.openbmc.org/c/89928)
+- **Change #:** 89928
+- **Author:** Hariharan Rangasamy
+- **Updated:** 2026-05-05 10:44:10.000000000
 
 ## ❌ Abandoned MRs (1)
 
@@ -21,20 +28,35 @@
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
 **Period:** 2026-05-04 to 2026-05-05 (1 day)
-**Changes:** 6
+**Changes:** 9
 
 
-## 🔍 Open MRs (6)
+## 🔍 Open MRs (9)
+
+### [pldmtool: SetStateEffecter: size request buffer by effecterCount](https://gerrit.openbmc.org/c/89372)
+- **Change #:** 89372
+- **Author:** Vishnunithyasoundhar S
+- **Updated:** 2026-05-05 12:00:50.000000000
+
+### [oem-ibm: System specific PDR and other updates](https://gerrit.openbmc.org/c/87886)
+- **Change #:** 87886
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-05 10:54:50.000000000
+
+### [oem-ibm: Processor core presence support](https://gerrit.openbmc.org/c/87986)
+- **Change #:** 87986
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-05 10:53:38.000000000
+
+### [oem-ibm: New PDR support in Huygens](https://gerrit.openbmc.org/c/89400)
+- **Change #:** 89400
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-05 10:36:04.000000000
 
 ### [fw_update: Reimplement package parser to use new libpldm API](https://gerrit.openbmc.org/c/80194)
 - **Change #:** 80194
 - **Author:** Unive Tien
 - **Updated:** 2026-05-05 06:42:28.000000000
-
-### [pldmtool: SetStateEffecter: size request buffer by effecterCount](https://gerrit.openbmc.org/c/89372)
-- **Change #:** 89372
-- **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-05-05 06:28:03.000000000
 
 ### [platform-mc: Defer FRU decorators until data](https://gerrit.openbmc.org/c/89472)
 - **Change #:** 89472
@@ -60,7 +82,7 @@
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
 **Period:** 2026-05-04 to 2026-05-05 (1 day)
-**Changes:** 16
+**Changes:** 24
 
 
 ## ✅ Merged MRs (1)
@@ -71,12 +93,72 @@
 - **Changes:** +5 / -45 lines
 - **Updated:** 2026-05-05 10:07:50.000000000
 
-## 🔍 Open MRs (14)
+## 🔍 Open MRs (21)
+
+### [Fix socket reuse in HTTP server accept loop](https://gerrit.openbmc.org/c/89896)
+- **Change #:** 89896
+- **Author:** kokilavaradhan
+- **Updated:** 2026-05-05 15:48:31.000000000
+
+### [bmcweb: add clock speed support for Processors](https://gerrit.openbmc.org/c/87279)
+- **Change #:** 87279
+- **Author:** Ender
+- **Updated:** 2026-05-05 14:08:56.000000000
+
+### [bmcweb: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
+- **Change #:** 88540
+- **Author:** Ender
+- **Updated:** 2026-05-05 14:08:35.000000000
+
+### [bmcweb: add PCIeDevices link to NetworkAdapter](https://gerrit.openbmc.org/c/88439)
+- **Change #:** 88439
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:55:57.000000000
+
+### [bmcweb: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
+- **Change #:** 87387
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:53:22.000000000
+
+### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:52:57.000000000
+
+### [bmcweb: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
+- **Change #:** 88522
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:37:33.000000000
+
+### [bmcweb: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
+- **Change #:** 87995
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:36:33.000000000
+
+### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/88129)
+- **Change #:** 88129
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:36:24.000000000
+
+### [bmcweb: add Links for PCIe Switch in Fabrics API](https://gerrit.openbmc.org/c/88428)
+- **Change #:** 88428
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:32:11.000000000
+
+### [bmcweb: add EnvironmentMetrics support for Processors](https://gerrit.openbmc.org/c/87018)
+- **Change #:** 87018
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:32:07.000000000
 
 ### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
 - **Change #:** 71685
 - **Author:** Abhilash Raju
-- **Updated:** 2026-05-05 10:18:15.000000000
+- **Updated:** 2026-05-05 13:13:53.000000000
+
+### [Add uint64_t fallback when unpacking float values](https://gerrit.openbmc.org/c/89930)
+- **Change #:** 89930
+- **Author:** Swaroop Aradhya
+- **Updated:** 2026-05-05 11:48:39.000000000
 
 ### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
 - **Change #:** 88644
@@ -98,26 +180,6 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-05-05 08:39:56.000000000
 
-### [bmcweb: add PCIeDevices link to NetworkAdapter](https://gerrit.openbmc.org/c/88439)
-- **Change #:** 88439
-- **Author:** Ender
-- **Updated:** 2026-05-05 06:53:14.000000000
-
-### [bmcweb: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
-- **Change #:** 88540
-- **Author:** Ender
-- **Updated:** 2026-05-05 06:43:50.000000000
-
-### [bmcweb: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
-- **Change #:** 88522
-- **Author:** Ender
-- **Updated:** 2026-05-05 06:42:47.000000000
-
-### [bmcweb: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
-- **Change #:** 87995
-- **Author:** Ender
-- **Updated:** 2026-05-05 06:40:08.000000000
-
 ### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
 - **Change #:** 87185
 - **Author:** Eric Liu
@@ -128,11 +190,6 @@
 - **Author:** Eric Liu
 - **Updated:** 2026-05-05 04:37:02.000000000
 
-### [Fix socket reuse in HTTP server accept loop](https://gerrit.openbmc.org/c/89896)
-- **Change #:** 89896
-- **Author:** kokilavaradhan
-- **Updated:** 2026-05-05 02:49:44.000000000
-
 ### [WIP: Fuzzer](https://gerrit.openbmc.org/c/89858)
 - **Change #:** 89858
 - **Author:** Ed Tanous
@@ -142,6 +199,13 @@
 - **Change #:** 89561
 - **Author:** Vinoth Kumar Shanmugavel
 - **Updated:** 2026-05-04 20:10:03.000000000
+
+## 🚧 Work In Progress (1)
+
+### [bmcweb: add Switch.Reset action under Fabrics](https://gerrit.openbmc.org/c/89936)
+- **Change #:** 89936
+- **Author:** Ender
+- **Updated:** 2026-05-05 13:16:59.000000000
 
 ## ❌ Abandoned MRs (1)
 
