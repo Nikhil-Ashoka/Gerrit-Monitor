@@ -1,47 +1,43 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-08 10:19:59 UTC
+**Generated:** 2026-05-09 10:01:41 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 47
+**Total Changes:** 39
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-07 to 2026-05-08 (1 day)
-**Changes:** 4
+**Period:** 2026-05-08 to 2026-05-09 (1 day)
+**Changes:** 2
 
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (1)
 
 ### [Add screenshot capture button to KVM console](https://gerrit.openbmc.org/c/89928)
 - **Change #:** 89928
 - **Author:** Hariharan Rangasamy
 - **Updated:** 2026-05-08 07:01:10.000000000
 
-### [ProfileSettings: show current session privilege](https://gerrit.openbmc.org/c/89123)
-- **Change #:** 89123
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-07 16:52:13.000000000
-
-### [Prevent root user from bulk selection](https://gerrit.openbmc.org/c/89398)
-- **Change #:** 89398
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-07 13:12:20.000000000
-
 ## ❌ Abandoned MRs (1)
 
-### [Fix unit data inconsistencies](https://gerrit.openbmc.org/c/69645)
-- **Change #:** 69645
-- **Author:** GinnieZhang
-- **Updated:** 2026-05-07 17:54:58.000000000
+### [Implemented Identify LEDs for Fans and Power supplies](https://gerrit.openbmc.org/c/70052)
+- **Change #:** 70052
+- **Author:** Renuka9527
+- **Updated:** 2026-05-08 17:55:19.000000000
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-05-07 to 2026-05-08 (1 day)
-**Changes:** 17
+**Period:** 2026-05-08 to 2026-05-09 (1 day)
+**Changes:** 18
 
 
-## ✅ Merged MRs (6)
+## ✅ Merged MRs (4)
+
+### [platform-mc: initialize numeric sensor values to NaN](https://gerrit.openbmc.org/c/88909)
+- **Change #:** 88909
+- **Author:** Vishnunithyasoundhar S
+- **Changes:** +4 / -0 lines
+- **Updated:** 2026-05-08 14:11:02.000000000
 
 ### [fix readability-make-member-function-const](https://gerrit.openbmc.org/c/89987)
 - **Change #:** 89987
@@ -61,35 +57,42 @@
 - **Changes:** +3 / -15 lines
 - **Updated:** 2026-05-08 05:30:24.000000000
 
-### [platform-mc: Add entity-type-specific D-Bus inventory interfaces](https://gerrit.openbmc.org/c/89127)
-- **Change #:** 89127
+## 🔍 Open MRs (12)
+
+### [fw_update: target specific startUpdate implementation](https://gerrit.openbmc.org/c/74774)
+- **Change #:** 74774
+- **Author:** Unive Tien
+- **Updated:** 2026-05-08 18:14:29.000000000
+
+### [fw-update: remove inotify-based update flow](https://gerrit.openbmc.org/c/90014)
+- **Change #:** 90014
+- **Author:** Dhruv Rathi
+- **Updated:** 2026-05-08 17:44:31.000000000
+
+### [fix modernize-use-override](https://gerrit.openbmc.org/c/87542)
+- **Change #:** 87542
+- **Author:** Brad Bishop
+- **Updated:** 2026-05-08 15:45:18.000000000
+
+### [fix another readability-make-member-function-const](https://gerrit.openbmc.org/c/90062)
+- **Change #:** 90062
+- **Author:** Brad Bishop
+- **Updated:** 2026-05-08 15:41:21.000000000
+
+### [fix cppcoreguidelines-init-variables](https://gerrit.openbmc.org/c/87829)
+- **Change #:** 87829
+- **Author:** Brad Bishop
+- **Updated:** 2026-05-08 13:38:45.000000000
+
+### [fw-update: add phase-tracking test suite](https://gerrit.openbmc.org/c/89880)
+- **Change #:** 89880
 - **Author:** garybeihl
-- **Changes:** +277 / -135 lines
-- **Updated:** 2026-05-07 16:22:29.000000000
-
-### [replace cpp defines with constexpr](https://gerrit.openbmc.org/c/89851)
-- **Change #:** 89851
-- **Author:** Brad Bishop
-- **Changes:** +18 / -18 lines
-- **Updated:** 2026-05-07 11:46:19.000000000
-
-### [remove unused using namespace](https://gerrit.openbmc.org/c/89825)
-- **Change #:** 89825
-- **Author:** Brad Bishop
-- **Changes:** +0 / -16 lines
-- **Updated:** 2026-05-07 11:46:19.000000000
-
-## 🔍 Open MRs (10)
+- **Updated:** 2026-05-08 12:35:33.000000000
 
 ### [pldmtool: Add mctp network flag in pldmtool](https://gerrit.openbmc.org/c/86624)
 - **Change #:** 86624
 - **Author:** Vishnunithyasoundhar S
 - **Updated:** 2026-05-08 08:32:08.000000000
-
-### [platform-mc: initialize numeric sensor values to NaN](https://gerrit.openbmc.org/c/88909)
-- **Change #:** 88909
-- **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-05-08 05:58:06.000000000
 
 ### [oem-meta: santabarbara: add handler for asic event logs from rainbow MMC](https://gerrit.openbmc.org/c/90037)
 - **Change #:** 90037
@@ -116,36 +119,61 @@
 - **Author:** Unive Tien
 - **Updated:** 2026-05-08 02:41:46.000000000
 
+## 🚧 Work In Progress (2)
+
+### [fix cppcoreguidelines-special-member-functions](https://gerrit.openbmc.org/c/87519)
+- **Change #:** 87519
+- **Author:** Brad Bishop
+- **Updated:** 2026-05-08 16:17:29.000000000
+
 ### [tidy: enable cppcoreguidelines-prefer-member-initializer](https://gerrit.openbmc.org/c/87835)
 - **Change #:** 87835
 - **Author:** Brad Bishop
-- **Updated:** 2026-05-07 13:47:47.000000000
-
-### [fw-update: remove inotify-based update flow](https://gerrit.openbmc.org/c/90014)
-- **Change #:** 90014
-- **Author:** Dhruv Rathi
-- **Updated:** 2026-05-07 13:27:28.000000000
-
-### [tools: pldm_fwup_pkg_creator.py: Add more DSP0267 revisions support](https://gerrit.openbmc.org/c/80289)
-- **Change #:** 80289
-- **Author:** Unive Tien
-- **Updated:** 2026-05-07 09:49:42.000000000
-
-## 🚧 Work In Progress (1)
-
-### [platform-mc: sensor: implement change detection for status updates](https://gerrit.openbmc.org/c/89999)
-- **Change #:** 89999
-- **Author:** carter-chen-wiwynn
-- **Updated:** 2026-05-07 01:56:30.000000000
+- **Updated:** 2026-05-08 16:03:19.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-07 to 2026-05-08 (1 day)
-**Changes:** 26
+**Period:** 2026-05-08 to 2026-05-09 (1 day)
+**Changes:** 19
 
 
-## 🔍 Open MRs (22)
+## 🔍 Open MRs (18)
+
+### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
+- **Change #:** 89120
+- **Author:** JY-Voon
+- **Updated:** 2026-05-09 09:51:44.000000000
+
+### [pcie: map FunctionType and DeviceClass through generated enum types](https://gerrit.openbmc.org/c/89751)
+- **Change #:** 89751
+- **Author:** AKash-A007
+- **Updated:** 2026-05-09 08:36:18.000000000
+
+### [EthernetInterface properties does not match the API documentation](https://gerrit.openbmc.org/c/90038)
+- **Change #:** 90038
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-05-08 12:59:25.000000000
+
+### [Move privileges to separate entity](https://gerrit.openbmc.org/c/86573)
+- **Change #:** 86573
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-05-08 12:42:22.000000000
+
+### [Add PrivilegeRegistry Redfish endpoint support](https://gerrit.openbmc.org/c/89414)
+- **Change #:** 89414
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-05-08 11:59:11.000000000
+
+### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-05-08 11:06:34.000000000
+
+### [http: Add SSL context factory](https://gerrit.openbmc.org/c/89586)
+- **Change #:** 89586
+- **Author:** Abhilash Raju
+- **Updated:** 2026-05-08 10:52:53.000000000
 
 ### [Increase crashdump Task timeout](https://gerrit.openbmc.org/c/87968)
 - **Change #:** 87968
@@ -167,20 +195,10 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-05-08 06:44:06.000000000
 
-### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
-- **Change #:** 89120
-- **Author:** JY-Voon
-- **Updated:** 2026-05-08 06:42:12.000000000
-
 ### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
 - **Change #:** 88644
 - **Author:** JY-Voon
 - **Updated:** 2026-05-08 06:40:38.000000000
-
-### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
-- **Change #:** 88783
-- **Author:** Ender
-- **Updated:** 2026-05-08 05:27:25.000000000
 
 ### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
 - **Change #:** 88035
@@ -207,77 +225,17 @@
 - **Author:** Eric Liu
 - **Updated:** 2026-05-08 04:35:36.000000000
 
-### [http: Add SSL context factory](https://gerrit.openbmc.org/c/89586)
-- **Change #:** 89586
-- **Author:** Abhilash Raju
-- **Updated:** 2026-05-08 04:03:42.000000000
-
 ### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
 - **Change #:** 89152
 - **Author:** JY-Voon
 - **Updated:** 2026-05-08 03:06:00.000000000
 
-### [Store Log Entry URI for Redfish event](https://gerrit.openbmc.org/c/88954)
-- **Change #:** 88954
-- **Author:** Archit Mehrotra
-- **Updated:** 2026-05-07 13:40:25.000000000
-
-### [Return 404 instead of 500 for missing resources](https://gerrit.openbmc.org/c/89985)
-- **Change #:** 89985
-- **Author:** Hariharan Rangasamy
-- **Updated:** 2026-05-07 12:21:05.000000000
-
-### [bmcweb: add OperatingSpeedMHz to ProcessorMetrics](https://gerrit.openbmc.org/c/87802)
-- **Change #:** 87802
-- **Author:** Eric Liu
-- **Updated:** 2026-05-07 08:42:55.000000000
-
-### [bmcweb: add Assembly properties for GPU chassis](https://gerrit.openbmc.org/c/88571)
-- **Change #:** 88571
-- **Author:** Eric Liu
-- **Updated:** 2026-05-07 08:26:42.000000000
-
-### [Add ProcessorMetrics ECC error counts support](https://gerrit.openbmc.org/c/86977)
-- **Change #:** 86977
-- **Author:** Eric Liu
-- **Updated:** 2026-05-07 08:08:12.000000000
-
-### [network_adapter: add NetworkAdapter.Reset POST action](https://gerrit.openbmc.org/c/89764)
-- **Change #:** 89764
-- **Author:** Eric Liu
-- **Updated:** 2026-05-07 08:01:49.000000000
-
-### [AccountService: Return 204 for auth methods PATCH](https://gerrit.openbmc.org/c/86782)
-- **Change #:** 86782
-- **Author:** Ramya Sivakumar
-- **Updated:** 2026-05-07 06:54:50.000000000
-
-### [Added missing Description properties as per design](https://gerrit.openbmc.org/c/89478)
-- **Change #:** 89478
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-07 03:25:03.000000000
-
-## 🚧 Work In Progress (4)
-
-### [EthernetInterface properties does not match the API documentation](https://gerrit.openbmc.org/c/90038)
-- **Change #:** 90038
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-08 06:28:13.000000000
+## 🚧 Work In Progress (1)
 
 ### [bmcweb: add NetworkDeviceFunctions support](https://gerrit.openbmc.org/c/88776)
 - **Change #:** 88776
 - **Author:** Eric Liu
 - **Updated:** 2026-05-08 05:20:47.000000000
-
-### [Add PowerSupply Redfish schema support](https://gerrit.openbmc.org/c/84795)
-- **Change #:** 84795
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-07 07:29:09.000000000
-
-### [Add SSH session type to SessionService](https://gerrit.openbmc.org/c/89811)
-- **Change #:** 89811
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-07 06:49:49.000000000
 
 ---
 
