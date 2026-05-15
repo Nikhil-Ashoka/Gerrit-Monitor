@@ -1,16 +1,22 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-14 11:10:04 UTC
+**Generated:** 2026-05-15 11:14:27 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 28
+**Total Changes:** 29
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-13 to 2026-05-14 (1 day)
-**Changes:** 3
+**Period:** 2026-05-14 to 2026-05-15 (1 day)
+**Changes:** 8
 
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (3)
+
+### [OWNERS: Promote Jason Westover to maintainer](https://gerrit.openbmc.org/c/89838)
+- **Change #:** 89838
+- **Author:** Jason Westover
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-05-14 20:39:37.000000000
 
 ### [ProfileSettings: show current session privilege](https://gerrit.openbmc.org/c/89123)
 - **Change #:** 89123
@@ -24,67 +30,111 @@
 - **Changes:** +103 / -13 lines
 - **Updated:** 2026-05-14 07:13:01.000000000
 
-## 🔍 Open MRs (1)
+## 🔍 Open MRs (4)
+
+### [Add privilege check for firmware update page](https://gerrit.openbmc.org/c/83738)
+- **Change #:** 83738
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-05-15 06:32:50.000000000
+
+### [Add dynamic language selector in header](https://gerrit.openbmc.org/c/89992)
+- **Change #:** 89992
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-05-15 06:14:42.000000000
+
+### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
+- **Change #:** 87876
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-05-15 06:14:10.000000000
 
 ### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
 - **Change #:** 87472
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-13 13:29:13.000000000
+- **Updated:** 2026-05-15 06:14:06.000000000
+
+## ❌ Abandoned MRs (1)
+
+### [Add kvm connection retries](https://gerrit.openbmc.org/c/71225)
+- **Change #:** 71225
+- **Author:** Konstantin Maskov
+- **Updated:** 2026-05-14 17:58:16.000000000
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-05-13 to 2026-05-14 (1 day)
-**Changes:** 5
+**Period:** 2026-05-14 to 2026-05-15 (1 day)
+**Changes:** 6
 
 
-## 🔍 Open MRs (3)
+## ✅ Merged MRs (2)
 
-### [requester: Parse MCTP endpoint from InterfacesRemoved signal](https://gerrit.openbmc.org/c/87426)
-- **Change #:** 87426
-- **Author:** Eric Yang
-- **Updated:** 2026-05-13 15:16:36.000000000
+### [fix cppcoreguidelines-init-variables](https://gerrit.openbmc.org/c/87829)
+- **Change #:** 87829
+- **Author:** Brad Bishop
+- **Changes:** +99 / -98 lines
+- **Updated:** 2026-05-15 09:29:57.000000000
 
-### [oem-meta: santabarbara: add handler for asic event logs from rainbow MMC](https://gerrit.openbmc.org/c/89715)
-- **Change #:** 89715
-- **Author:** Frank Chen
-- **Updated:** 2026-05-13 12:30:17.000000000
+### [remove using namespace at global scope](https://gerrit.openbmc.org/c/89830)
+- **Change #:** 89830
+- **Author:** Brad Bishop
+- **Changes:** +5 / -5 lines
+- **Updated:** 2026-05-15 09:08:13.000000000
 
-### [platform-mc: Defer FRU decorators until data](https://gerrit.openbmc.org/c/89472)
-- **Change #:** 89472
-- **Author:** Eric Yang
-- **Updated:** 2026-05-13 08:50:41.000000000
-
-## 🚧 Work In Progress (1)
+## 🔍 Open MRs (4)
 
 ### [pldmtool: fru: fix crashes on malformed FRU table responses](https://gerrit.openbmc.org/c/90202)
 - **Change #:** 90202
 - **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-05-14 05:48:33.000000000
+- **Updated:** 2026-05-15 10:24:10.000000000
 
-## ❌ Abandoned MRs (1)
+### [oem-ibm: Processor core presence support](https://gerrit.openbmc.org/c/87986)
+- **Change #:** 87986
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-14 15:07:00.000000000
 
-### [fw-update: remove inotify-based update flow](https://gerrit.openbmc.org/c/90014)
-- **Change #:** 90014
-- **Author:** Dhruv Rathi
-- **Updated:** 2026-05-13 10:33:08.000000000
+### [oem-ibm: New PDR support in Huygens](https://gerrit.openbmc.org/c/89400)
+- **Change #:** 89400
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-14 15:05:07.000000000
+
+### [oem-ibm: System specific PDR and other updates](https://gerrit.openbmc.org/c/87886)
+- **Change #:** 87886
+- **Author:** Jayashankar Padath
+- **Updated:** 2026-05-14 15:03:45.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-13 to 2026-05-14 (1 day)
-**Changes:** 20
+**Period:** 2026-05-14 to 2026-05-15 (1 day)
+**Changes:** 15
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (13)
 
-### [Fix bad merge resolution](https://gerrit.openbmc.org/c/90164)
-- **Change #:** 90164
+### [Fix static file responses returning empty body](https://gerrit.openbmc.org/c/90290)
+- **Change #:** 90290
+- **Author:** Haiyue Wang
+- **Updated:** 2026-05-15 10:03:13.000000000
+
+### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
+- **Change #:** 90223
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-05-15 06:02:37.000000000
+
+### [Remove unneeded test](https://gerrit.openbmc.org/c/89846)
+- **Change #:** 89846
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-05-15 03:28:57.000000000
+
+### [WIP: OpenSSL cleanup](https://gerrit.openbmc.org/c/89860)
+- **Change #:** 89860
 - **Author:** Ed Tanous
-- **Changes:** +10 / -2 lines
-- **Updated:** 2026-05-13 17:51:06.000000000
+- **Updated:** 2026-05-14 23:02:12.000000000
 
-## 🔍 Open MRs (14)
+### [Return PropertyMissing when RoleId is omitted in account create](https://gerrit.openbmc.org/c/90221)
+- **Change #:** 90221
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-05-14 13:15:40.000000000
 
 ### [Return unauthorized for empty session credentials](https://gerrit.openbmc.org/c/90093)
 - **Change #:** 90093
@@ -126,64 +176,17 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-05-14 02:21:03.000000000
 
-### [Fix: POST Chassis.Reset for invalid chassis now returns 404 Not Found](https://gerrit.openbmc.org/c/90193)
-- **Change #:** 90193
-- **Author:** Justin Nguyen
-- **Updated:** 2026-05-13 19:39:55.000000000
-
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 18:45:51.000000000
-
-### [update service: related item by association](https://gerrit.openbmc.org/c/82485)
-- **Change #:** 82485
-- **Author:** Alexander
-- **Updated:** 2026-05-13 18:33:58.000000000
-
-### [bmcweb: refactor getCpuLocationCode](https://gerrit.openbmc.org/c/88781)
-- **Change #:** 88781
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 17:53:30.000000000
-
-### [bmcweb: add GPU Processor Redfish properties](https://gerrit.openbmc.org/c/88594)
-- **Change #:** 88594
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 17:50:50.000000000
-
-### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
-- **Change #:** 88644
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 17:33:40.000000000
-
-## 🚧 Work In Progress (3)
-
-### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
-- **Change #:** 90171
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 05:50:05.000000000
-
-### [bmcweb: add NetworkAdapter inventory properties](https://gerrit.openbmc.org/c/90146)
-- **Change #:** 90146
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 04:22:09.000000000
-
-### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
-- **Change #:** 90169
-- **Author:** JY-Voon
-- **Updated:** 2026-05-13 03:56:00.000000000
-
 ## ❌ Abandoned MRs (2)
+
+### [RFA - Enhancement to fix Id property](https://gerrit.openbmc.org/c/80001)
+- **Change #:** 80001
+- **Author:** Rohit PAI 
+- **Updated:** 2026-05-14 17:58:11.000000000
 
 ### [EthernetInterface properties does not match the API documentation](https://gerrit.openbmc.org/c/90038)
 - **Change #:** 90038
 - **Author:** Sandeep Akant Patil
 - **Updated:** 2026-05-14 09:34:54.000000000
-
-### [Revert "Optimize bmcweb memory usage for multipart fw update"](https://gerrit.openbmc.org/c/90115)
-- **Change #:** 90115
-- **Author:** Justin Nguyen
-- **Updated:** 2026-05-13 18:17:38.000000000
 
 ---
 
