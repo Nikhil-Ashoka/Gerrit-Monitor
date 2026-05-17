@@ -1,116 +1,42 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-16 10:09:53 UTC
+**Generated:** 2026-05-17 10:18:42 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 15
+**Total Changes:** 2
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-15 to 2026-05-16 (1 day)
-**Changes:** 5
+**Period:** 2026-05-16 to 2026-05-17 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (5)
-
-### [Enforce logout after user password change](https://gerrit.openbmc.org/c/87572)
-- **Change #:** 87572
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-15 12:49:02.000000000
-
-### [Add privilege check for firmware update page](https://gerrit.openbmc.org/c/83738)
-- **Change #:** 83738
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-15 12:47:32.000000000
-
-### [Add dynamic language selector in header](https://gerrit.openbmc.org/c/89992)
-- **Change #:** 89992
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-15 06:14:42.000000000
-
-### [Show image name during virtual media redirection](https://gerrit.openbmc.org/c/87876)
-- **Change #:** 87876
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-15 06:14:10.000000000
-
-### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
-- **Change #:** 87472
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-15 06:14:06.000000000
 
 ---
 
 ## Project: [openbmc/pldm](https://gerrit.openbmc.org/q/project:openbmc/pldm)
-**Period:** 2026-05-15 to 2026-05-16 (1 day)
-**Changes:** 6
+**Period:** 2026-05-16 to 2026-05-17 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (3)
-
-### [config: remove unused configuration](https://gerrit.openbmc.org/c/88190)
-- **Change #:** 88190
-- **Author:** Brad Bishop
-- **Changes:** +41 / -154 lines
-- **Updated:** 2026-05-15 13:20:56.000000000
-
-### [fix cppcoreguidelines-init-variables](https://gerrit.openbmc.org/c/87829)
-- **Change #:** 87829
-- **Author:** Brad Bishop
-- **Changes:** +99 / -98 lines
-- **Updated:** 2026-05-15 09:29:57.000000000
-
-### [remove using namespace at global scope](https://gerrit.openbmc.org/c/89830)
-- **Change #:** 89830
-- **Author:** Brad Bishop
-- **Changes:** +5 / -5 lines
-- **Updated:** 2026-05-15 09:08:13.000000000
-
-## 🔍 Open MRs (2)
-
-### [remove const from member data](https://gerrit.openbmc.org/c/89989)
-- **Change #:** 89989
-- **Author:** Brad Bishop
-- **Updated:** 2026-05-15 15:21:38.000000000
-
-### [pldmtool: fru: fix crashes on malformed FRU table responses](https://gerrit.openbmc.org/c/90202)
-- **Change #:** 90202
-- **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-05-15 10:24:10.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [Add payload checksum validation for PLDM firmware update packages](https://gerrit.openbmc.org/c/79940)
-- **Change #:** 79940
-- **Author:** ananyaNvidia
-- **Updated:** 2026-05-15 17:58:13.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-15 to 2026-05-16 (1 day)
-**Changes:** 4
+**Period:** 2026-05-16 to 2026-05-17 (1 day)
+**Changes:** 2
 
 
-## 🔍 Open MRs (4)
+## 🔍 Open MRs (1)
 
-### [Add uint64_t fallback when unpacking float values](https://gerrit.openbmc.org/c/89930)
-- **Change #:** 89930
-- **Author:** Swaroop Aradhya
-- **Updated:** 2026-05-15 14:32:10.000000000
-
-### [Fix static file responses returning empty body](https://gerrit.openbmc.org/c/90290)
-- **Change #:** 90290
-- **Author:** Haiyue Wang
-- **Updated:** 2026-05-15 10:03:13.000000000
-
-### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
-- **Change #:** 90223
+### [Return PropertyMissing when RoleId is omitted in account create](https://gerrit.openbmc.org/c/90221)
+- **Change #:** 90221
 - **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-15 06:02:37.000000000
+- **Updated:** 2026-05-16 16:42:48.000000000
 
-### [Remove unneeded test](https://gerrit.openbmc.org/c/89846)
-- **Change #:** 89846
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-05-15 03:28:57.000000000
+## 🚧 Work In Progress (1)
+
+### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-05-16 10:51:00.000000000
 
 ---
 
