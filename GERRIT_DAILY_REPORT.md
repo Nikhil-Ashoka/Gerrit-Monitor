@@ -1,7 +1,7 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-19 10:54:32 UTC
+**Generated:** 2026-05-19 11:56:05 UTC
 **Projects:** openbmc/webui-vue, openbmc/pldm, openbmc/bmcweb
-**Total Changes:** 40
+**Total Changes:** 43
 
 ---
 
@@ -82,7 +82,7 @@
 ### [platform-mc: Fix null deref in initTerminus](https://gerrit.openbmc.org/c/90366)
 - **Change #:** 90366
 - **Author:** Eric Yang
-- **Updated:** 2026-05-19 10:37:34.000000000
+- **Updated:** 2026-05-19 11:03:39.000000000
 
 ### [fw-update: enable both inotify and non-inotify path](https://gerrit.openbmc.org/c/90126)
 - **Change #:** 90126
@@ -118,15 +118,25 @@
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
 **Period:** 2026-05-18 to 2026-05-19 (1 day)
-**Changes:** 23
+**Changes:** 26
 
 
-## 🔍 Open MRs (21)
+## 🔍 Open MRs (23)
+
+### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
+- **Change #:** 89319
+- **Author:** Jacky Huang
+- **Updated:** 2026-05-19 11:40:08.000000000
 
 ### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
 - **Change #:** 71685
 - **Author:** Abhilash Raju
-- **Updated:** 2026-05-19 10:52:45.000000000
+- **Updated:** 2026-05-19 11:37:52.000000000
+
+### [Controls: Initial implementation for the schema](https://gerrit.openbmc.org/c/86196)
+- **Change #:** 86196
+- **Author:** Aditya Kurdunkar
+- **Updated:** 2026-05-19 11:33:20.000000000
 
 ### [Return unauthorized for empty session credentials](https://gerrit.openbmc.org/c/90093)
 - **Change #:** 90093
@@ -228,7 +238,12 @@
 - **Author:** Sandeep Akant Patil
 - **Updated:** 2026-05-18 06:59:18.000000000
 
-## 🚧 Work In Progress (1)
+## 🚧 Work In Progress (2)
+
+### [audit: add simple audit handler for BMCWEB actions](https://gerrit.openbmc.org/c/88948)
+- **Change #:** 88948
+- **Author:** Ivan Mikhaylov
+- **Updated:** 2026-05-19 10:58:52.000000000
 
 ### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
 - **Change #:** 90171
