@@ -2,8 +2,9 @@
 .env
 
 # Generated reports (will be committed by GitHub Actions)
-# Uncomment the line below if you don't want to track the report in git
+# Uncomment the lines below if you don't want to track the reports in git
 # GERRIT_DAILY_REPORT.md
+# GERRIT_EMAIL_REPORT.md
 
 # Python
 __pycache__/

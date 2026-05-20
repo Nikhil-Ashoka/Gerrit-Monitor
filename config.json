@@ -7,12 +7,29 @@
       "max_results": 100
     },
     {
-      "name": "openbmc/pldm",
+      "name": "openbmc/phosphor-debug-collector",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/phosphor-inventory-manager",
+      "check_days": 1,
+      "max_results": 100
+    },
+    {
+      "name": "openbmc/phosphor-logging",
       "check_days": 1,
       "max_results": 100
     },
     {
       "name": "openbmc/bmcweb",
+      "check_days": 1,
+      "max_results": 100
+    }
+  ],
+  "emails": [
+    {
+      "email": "ed@tanous.net",
       "check_days": 1,
       "max_results": 100
     }
