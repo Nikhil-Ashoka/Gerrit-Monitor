@@ -1,117 +1,54 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-23 10:23:14 UTC
+**Generated:** 2026-05-24 10:27:09 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 13
+**Total Changes:** 2
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-22 to 2026-05-23 (1 day)
-**Changes:** 1
+**Period:** 2026-05-23 to 2026-05-24 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [Add privilege check for firmware update page](https://gerrit.openbmc.org/c/83738)
-- **Change #:** 83738
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-05-22 13:48:03.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-05-22 to 2026-05-23 (1 day)
+**Period:** 2026-05-23 to 2026-05-24 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-05-22 to 2026-05-23 (1 day)
+**Period:** 2026-05-23 to 2026-05-24 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-05-22 to 2026-05-23 (1 day)
-**Changes:** 1
+**Period:** 2026-05-23 to 2026-05-24 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
-- **Change #:** 90338
-- **Author:** Riya Sabu
-- **Updated:** 2026-05-22 15:22:56.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-22 to 2026-05-23 (1 day)
-**Changes:** 11
+**Period:** 2026-05-23 to 2026-05-24 (1 day)
+**Changes:** 2
 
 
-## 🔍 Open MRs (9)
+## 🔍 Open MRs (2)
 
-### [bmcweb: surface LocationType on Chassis](https://gerrit.openbmc.org/c/90481)
-- **Change #:** 90481
+### [bmcweb: add DeviceType to PCIeDevice response](https://gerrit.openbmc.org/c/90390)
+- **Change #:** 90390
 - **Author:** Eric Liu
-- **Updated:** 2026-05-22 22:35:57.000000000
+- **Updated:** 2026-05-24 09:30:00.000000000
 
-### [WIP: OpenSSL cleanup](https://gerrit.openbmc.org/c/89860)
-- **Change #:** 89860
-- **Author:** Ed Tanous
-- **Updated:** 2026-05-22 13:39:10.000000000
-
-### [Return only PropertyNotWritable for MaxPasswordLength](https://gerrit.openbmc.org/c/90478)
-- **Change #:** 90478
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-05-22 11:18:10.000000000
-
-### [bmcweb: surface SKU on Chassis](https://gerrit.openbmc.org/c/90468)
-- **Change #:** 90468
+### [Add Memory MemoryMetrics ECC support](https://gerrit.openbmc.org/c/87169)
+- **Change #:** 87169
 - **Author:** Eric Liu
-- **Updated:** 2026-05-22 06:14:46.000000000
-
-### [bmcweb: add GPU DRAM memory support](https://gerrit.openbmc.org/c/87974)
-- **Change #:** 87974
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 03:06:56.000000000
-
-### [Add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
-- **Change #:** 87185
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 02:49:01.000000000
-
-### [http: zstd: do not attempt compressing already opened files](https://gerrit.openbmc.org/c/90446)
-- **Change #:** 90446
-- **Author:** Tan Siewert
-- **Updated:** 2026-05-22 02:24:17.000000000
-
-### [bmcweb: surface UUID and PowerWatts on Chassis](https://gerrit.openbmc.org/c/90463)
-- **Change #:** 90463
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 00:49:28.000000000
-
-### [bmcweb: add DeviceType to PCIeDevice](https://gerrit.openbmc.org/c/90433)
-- **Change #:** 90433
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 00:47:48.000000000
-
-## 🚧 Work In Progress (1)
-
-### [bmcweb: add NetworkDeviceFunctions support](https://gerrit.openbmc.org/c/88776)
-- **Change #:** 88776
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 03:42:31.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [bmcweb: add Chassis Links.Switches and PCIeDevices](https://gerrit.openbmc.org/c/90472)
-- **Change #:** 90472
-- **Author:** Eric Liu
-- **Updated:** 2026-05-22 07:31:41.000000000
+- **Updated:** 2026-05-24 09:28:11.000000000
 
 ---
 
