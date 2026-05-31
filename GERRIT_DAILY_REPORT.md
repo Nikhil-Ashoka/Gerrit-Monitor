@@ -1,145 +1,42 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-05-30 10:44:27 UTC
+**Generated:** 2026-05-31 10:52:59 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 18
+**Total Changes:** 0
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-05-29 to 2026-05-30 (1 day)
+**Period:** 2026-05-30 to 2026-05-31 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-05-29 to 2026-05-30 (1 day)
+**Period:** 2026-05-30 to 2026-05-31 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-05-29 to 2026-05-30 (1 day)
+**Period:** 2026-05-30 to 2026-05-31 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-05-29 to 2026-05-30 (1 day)
-**Changes:** 4
+**Period:** 2026-05-30 to 2026-05-31 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (3)
-
-### [CLI11: simplify CLI11.wrap](https://gerrit.openbmc.org/c/90697)
-- **Change #:** 90697
-- **Author:** Patrick Williams
-- **Updated:** 2026-05-29 12:42:11.000000000
-
-### [CLI11: disable tests](https://gerrit.openbmc.org/c/90681)
-- **Change #:** 90681
-- **Author:** Patrick Williams
-- **Updated:** 2026-05-29 12:03:16.000000000
-
-### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
-- **Change #:** 90338
-- **Author:** Riya Sabu
-- **Updated:** 2026-05-29 05:00:40.000000000
-
-## 🚧 Work In Progress (1)
-
-### [Phosphor audit API and audit daemon](https://gerrit.openbmc.org/c/76959)
-- **Change #:** 76959
-- **Author:** schle1fer
-- **Updated:** 2026-05-29 14:06:40.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-05-29 to 2026-05-30 (1 day)
-**Changes:** 14
+**Period:** 2026-05-30 to 2026-05-31 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (1)
-
-### [Fix coredump in http_client during rapid connection destruction](https://gerrit.openbmc.org/c/90540)
-- **Change #:** 90540
-- **Author:** Myung Bae
-- **Changes:** +16 / -4 lines
-- **Updated:** 2026-05-29 11:57:47.000000000
-
-## 🔍 Open MRs (11)
-
-### [Fix HTTP client coredump by removing raw 'this' pointers](https://gerrit.openbmc.org/c/90541)
-- **Change #:** 90541
-- **Author:** Myung Bae
-- **Updated:** 2026-05-29 17:33:33.000000000
-
-### [Fix: POST Chassis.Reset for invalid chassis now returns 404 Not Found](https://gerrit.openbmc.org/c/90193)
-- **Change #:** 90193
-- **Author:** Justin Nguyen
-- **Updated:** 2026-05-29 16:28:39.000000000
-
-### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
-- **Change #:** 89226
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-05-29 16:04:21.000000000
-
-### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/88129)
-- **Change #:** 88129
-- **Author:** Ender
-- **Updated:** 2026-05-29 16:00:44.000000000
-
-### [implement multi-host fan inventory](https://gerrit.openbmc.org/c/87061)
-- **Change #:** 87061
-- **Author:** Alexander
-- **Updated:** 2026-05-29 12:39:36.000000000
-
-### [ethernet: restrict PATCH to ConfigureManager privilege](https://gerrit.openbmc.org/c/90375)
-- **Change #:** 90375
-- **Author:** AKash-A007
-- **Updated:** 2026-05-29 09:33:04.000000000
-
-### [bmcweb: add CapacityUtilizationPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90363)
-- **Change #:** 90363
-- **Author:** Eric Liu
-- **Updated:** 2026-05-29 07:24:47.000000000
-
-### [WIP: pid updates](https://gerrit.openbmc.org/c/88962)
-- **Change #:** 88962
-- **Author:** Ed Tanous
-- **Updated:** 2026-05-29 04:33:40.000000000
-
-### [account_service: Add PasswordChangeRequired PATCH](https://gerrit.openbmc.org/c/90598)
-- **Change #:** 90598
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-05-29 02:40:00.000000000
-
-### [bmcweb: add GPU DRAM memory support](https://gerrit.openbmc.org/c/87974)
-- **Change #:** 87974
-- **Author:** Eric Liu
-- **Updated:** 2026-05-29 02:35:00.000000000
-
-### [bmcweb: add Assembly properties for GPU chassis](https://gerrit.openbmc.org/c/88571)
-- **Change #:** 88571
-- **Author:** Eric Liu
-- **Updated:** 2026-05-29 01:02:27.000000000
-
-## 🚧 Work In Progress (1)
-
-### [Cable: Get Decorator.Asset properties](https://gerrit.openbmc.org/c/70197)
-- **Change #:** 70197
-- **Author:** Gunnar Mills
-- **Updated:** 2026-05-29 16:28:54.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [Add PartNumber to Cables](https://gerrit.openbmc.org/c/58419)
-- **Change #:** 58419
-- **Author:** Shantappa Teekappanavar
-- **Updated:** 2026-05-29 16:26:01.000000000
 
 ---
 
