@@ -1,24 +1,31 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-06-10 12:15:39 UTC
+**Generated:** 2026-06-11 12:37:51 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 69
+**Total Changes:** 57
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-06-09 to 2026-06-10 (1 day)
-**Changes:** 7
+**Period:** 2026-06-10 to 2026-06-11 (1 day)
+**Changes:** 8
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (8)
 
-### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
-- **Change #:** 87281
+### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
+- **Change #:** 90453
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-06-11 11:58:59.000000000
+
+### [Fix network interface reset on data refresh](https://gerrit.openbmc.org/c/91166)
+- **Change #:** 91166
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-06-11 05:26:16.000000000
+
+### [Implemented Basic Auth in Policies](https://gerrit.openbmc.org/c/89544)
+- **Change #:** 89544
 - **Author:** Nikhil Ashoka
-- **Changes:** +505 / -210 lines
-- **Updated:** 2026-06-09 16:55:25.000000000
-
-## 🔍 Open MRs (6)
+- **Updated:** 2026-06-10 15:10:29.000000000
 
 ### [Downgrade xterm to v4 for bmcweb CSP compatibility](https://gerrit.openbmc.org/c/90565)
 - **Change #:** 90565
@@ -29,11 +36,6 @@
 - **Change #:** 91086
 - **Author:** Nishant Tiwari
 - **Updated:** 2026-06-10 09:04:03.000000000
-
-### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
-- **Change #:** 90453
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-06-10 07:14:47.000000000
 
 ### [Add expandable rows to Certificates page](https://gerrit.openbmc.org/c/89535)
 - **Change #:** 89535
@@ -53,102 +55,148 @@
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-06-09 to 2026-06-10 (1 day)
-**Changes:** 2
+**Period:** 2026-06-10 to 2026-06-11 (1 day)
+**Changes:** 1
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [faultlog: Add CPER decode support using libcper](https://gerrit.openbmc.org/c/91108)
 - **Change #:** 91108
 - **Author:** meghan1006
-- **Updated:** 2026-06-09 16:55:23.000000000
-
-### [faultlog: Use PrimaryLogId as faultlog file for CPER](https://gerrit.openbmc.org/c/91083)
-- **Change #:** 91083
-- **Author:** meghan1006
-- **Updated:** 2026-06-09 06:06:29.000000000
+- **Updated:** 2026-06-11 09:36:00.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-06-09 to 2026-06-10 (1 day)
+**Period:** 2026-06-10 to 2026-06-11 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-06-09 to 2026-06-10 (1 day)
-**Changes:** 5
+**Period:** 2026-06-10 to 2026-06-11 (1 day)
+**Changes:** 4
 
 
-## ✅ Merged MRs (2)
+## 🔍 Open MRs (3)
 
-### [phosphor-rsyslog-config: Use lg2 in server-conf](https://gerrit.openbmc.org/c/91040)
-- **Change #:** 91040
-- **Author:** Palaniappanarunachalam
-- **Changes:** +7 / -6 lines
-- **Updated:** 2026-06-09 16:03:53.000000000
-
-### [Fix spelling typos in handler comments](https://gerrit.openbmc.org/c/91048)
-- **Change #:** 91048
-- **Author:** MeghanaVangapandu
-- **Changes:** +7 / -8 lines
-- **Updated:** 2026-06-09 15:54:59.000000000
-
-## 🔍 Open MRs (2)
+### [Add helpers class to aid generation of AdditionalData easier](https://gerrit.openbmc.org/c/91172)
+- **Change #:** 91172
+- **Author:** Amithash Prasad
+- **Updated:** 2026-06-10 22:44:31.000000000
 
 ### [Add capability to pass additional data to log-create](https://gerrit.openbmc.org/c/90230)
 - **Change #:** 90230
 - **Author:** Amithash Prasad
-- **Updated:** 2026-06-09 22:06:23.000000000
+- **Updated:** 2026-06-10 22:38:06.000000000
 
 ### [lg2: commit: Allow users to provide additional data](https://gerrit.openbmc.org/c/88675)
 - **Change #:** 88675
 - **Author:** Amithash Prasad
-- **Updated:** 2026-06-09 22:03:20.000000000
+- **Updated:** 2026-06-10 21:00:50.000000000
 
 ## 🚧 Work In Progress (1)
 
 ### [Add support for finding entries by additional data fields](https://gerrit.openbmc.org/c/90231)
 - **Change #:** 90231
 - **Author:** Amithash Prasad
-- **Updated:** 2026-06-09 18:15:00.000000000
+- **Updated:** 2026-06-10 22:38:05.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-06-09 to 2026-06-10 (1 day)
-**Changes:** 55
+**Period:** 2026-06-10 to 2026-06-11 (1 day)
+**Changes:** 44
 
 
-## ✅ Merged MRs (3)
+## 🔍 Open MRs (39)
 
-### [http: improve JSON parse error logging](https://gerrit.openbmc.org/c/88325)
-- **Change #:** 88325
-- **Author:** AKash-A007
-- **Changes:** +4 / -2 lines
-- **Updated:** 2026-06-09 22:41:16.000000000
+### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
+- **Change #:** 90223
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-06-11 12:25:13.000000000
 
-### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/91093)
-- **Change #:** 91093
-- **Author:** Patrick Williams
-- **Changes:** +1 / -1 lines
-- **Updated:** 2026-06-09 22:14:48.000000000
+### [bmcweb: add clock speed support for Processors](https://gerrit.openbmc.org/c/87279)
+- **Change #:** 87279
+- **Author:** Ender
+- **Updated:** 2026-06-11 12:22:20.000000000
 
-### [account_service: invalidate sessions when account is disabled](https://gerrit.openbmc.org/c/90319)
-- **Change #:** 90319
+### [bmcweb: support PATCH for Processor clock speed](https://gerrit.openbmc.org/c/90503)
+- **Change #:** 90503
+- **Author:** Ender
+- **Updated:** 2026-06-11 12:18:48.000000000
+
+### [http2: pass client IP address to HTTP/2 requests](https://gerrit.openbmc.org/c/91206)
+- **Change #:** 91206
+- **Author:** Vijaysankar Ravi
+- **Updated:** 2026-06-11 12:14:03.000000000
+
+### [bmcweb: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
+- **Change #:** 87387
+- **Author:** Ender
+- **Updated:** 2026-06-11 12:12:34.000000000
+
+### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-06-11 12:12:04.000000000
+
+### [ethernet: return PropertyNotWritable for blocked interface IP changes](https://gerrit.openbmc.org/c/91203)
+- **Change #:** 91203
 - **Author:** Chandra Harkude
-- **Changes:** +56 / -1 lines
-- **Updated:** 2026-06-09 03:55:28.000000000
-
-## 🔍 Open MRs (42)
+- **Updated:** 2026-06-11 12:10:57.000000000
 
 ### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
 - **Change #:** 90169
 - **Author:** JY-Voon
-- **Updated:** 2026-06-10 10:54:22.000000000
+- **Updated:** 2026-06-11 12:08:00.000000000
+
+### [account-service: prevent deletion of own account](https://gerrit.openbmc.org/c/90332)
+- **Change #:** 90332
+- **Author:** Tan Siewert
+- **Updated:** 2026-06-11 11:52:12.000000000
+
+### [ethernet: restrict PATCH to ConfigureManager privilege](https://gerrit.openbmc.org/c/90375)
+- **Change #:** 90375
+- **Author:** AKash-A007
+- **Updated:** 2026-06-11 09:47:24.000000000
+
+### [storage: use PrettyName for Drive Name field](https://gerrit.openbmc.org/c/90364)
+- **Change #:** 90364
+- **Author:** AKash-A007
+- **Updated:** 2026-06-11 09:30:06.000000000
+
+### [WIP: Update security compiler flags](https://gerrit.openbmc.org/c/91173)
+- **Change #:** 91173
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-10 23:23:58.000000000
+
+### [WIP: Allow setting Mozilla modern](https://gerrit.openbmc.org/c/90549)
+- **Change #:** 90549
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-10 22:50:48.000000000
+
+### [AccountService: fix PATCH error-path response handling](https://gerrit.openbmc.org/c/90478)
+- **Change #:** 90478
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-06-10 18:33:21.000000000
+
+### [Restrict bootStrap accounts for the socket support them](https://gerrit.openbmc.org/c/82855)
+- **Change #:** 82855
+- **Author:** Thu Nguyen
+- **Updated:** 2026-06-10 17:41:50.000000000
+
+### [rhi: Support patch the CredentialBootstrapping properties](https://gerrit.openbmc.org/c/83966)
+- **Change #:** 83966
+- **Author:** Thu Nguyen
+- **Updated:** 2026-06-10 17:39:44.000000000
+
+### [rhi: Support Redfish Hostinterface schema](https://gerrit.openbmc.org/c/82853)
+- **Change #:** 82853
+- **Author:** Thu Nguyen
+- **Updated:** 2026-06-10 17:39:12.000000000
 
 ### [bmcweb: add NetworkAdapter Location properties](https://gerrit.openbmc.org/c/90146)
 - **Change #:** 90146
@@ -260,154 +308,32 @@
 - **Author:** YouPengWu
 - **Updated:** 2026-06-10 00:26:37.000000000
 
-### [pcie: map FunctionType and DeviceClass through generated enum types](https://gerrit.openbmc.org/c/89751)
-- **Change #:** 89751
-- **Author:** AKash-A007
-- **Updated:** 2026-06-09 22:44:01.000000000
+## 🚧 Work In Progress (5)
 
-### [Support BootProgress's OemLastState](https://gerrit.openbmc.org/c/78110)
-- **Change #:** 78110
-- **Author:** John Chung
-- **Updated:** 2026-06-09 22:40:11.000000000
-
-### [Add PrivilegeRegistry Redfish endpoint support](https://gerrit.openbmc.org/c/89414)
-- **Change #:** 89414
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-06-09 22:38:32.000000000
-
-### [Implement SubProcessors for processor collection](https://gerrit.openbmc.org/c/38570)
-- **Change #:** 38570
-- **Author:** George Liu
-- **Updated:** 2026-06-09 21:58:17.000000000
-
-### [Implement SubProcessors core for processor](https://gerrit.openbmc.org/c/64982)
-- **Change #:** 64982
-- **Author:** George Liu
-- **Updated:** 2026-06-09 21:57:54.000000000
-
-### [redfish: Add FaultLog attachment download support](https://gerrit.openbmc.org/c/91085)
-- **Change #:** 91085
-- **Author:** meghan1006
-- **Updated:** 2026-06-09 18:24:47.000000000
-
-### [Break out port number](https://gerrit.openbmc.org/c/86074)
-- **Change #:** 86074
-- **Author:** Ed Tanous
-- **Updated:** 2026-06-09 18:18:39.000000000
-
-### [Add Attributes property under Bios routes](https://gerrit.openbmc.org/c/79698)
-- **Change #:** 79698
-- **Author:** Prithvi Pai
-- **Updated:** 2026-06-09 17:54:08.000000000
-
-### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
-- **Change #:** 90223
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-06-09 14:55:31.000000000
-
-### [bmcweb: support PATCH for Processor clock speed](https://gerrit.openbmc.org/c/90503)
-- **Change #:** 90503
-- **Author:** Ender
-- **Updated:** 2026-06-09 14:24:13.000000000
-
-### [bmcweb: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
-- **Change #:** 87387
-- **Author:** Ender
-- **Updated:** 2026-06-09 12:28:34.000000000
-
-### [bmcweb: add clock speed support for Processors](https://gerrit.openbmc.org/c/87279)
-- **Change #:** 87279
-- **Author:** Ender
-- **Updated:** 2026-06-09 10:11:10.000000000
-
-### [bmcweb: add PCIeDevices link to NetworkAdapter](https://gerrit.openbmc.org/c/88439)
-- **Change #:** 88439
-- **Author:** Ender
-- **Updated:** 2026-06-09 10:11:00.000000000
-
-### [bmcweb: add DataSourceUri to Processor clock range](https://gerrit.openbmc.org/c/88783)
-- **Change #:** 88783
-- **Author:** Ender
-- **Updated:** 2026-06-09 10:10:50.000000000
-
-### [Make ssh port not trigger 500](https://gerrit.openbmc.org/c/86071)
-- **Change #:** 86071
-- **Author:** Ed Tanous
-- **Updated:** 2026-06-09 10:05:34.000000000
-
-### [certificate_service: fix GenerateCSR error handling](https://gerrit.openbmc.org/c/90084)
-- **Change #:** 90084
-- **Author:** Chandra Harkude
-- **Updated:** 2026-06-09 08:09:16.000000000
-
-### [Memory: add Processor MemorySummary ECCModeEnabled](https://gerrit.openbmc.org/c/90348)
-- **Change #:** 90348
-- **Author:** Eric Liu
-- **Updated:** 2026-06-09 05:11:19.000000000
-
-### [Memory: add Processor Settings for ECC mode](https://gerrit.openbmc.org/c/90349)
-- **Change #:** 90349
-- **Author:** Eric Liu
-- **Updated:** 2026-06-09 05:03:24.000000000
-
-### [bmcweb: add EnvironmentMetrics support for Processors](https://gerrit.openbmc.org/c/87018)
-- **Change #:** 87018
-- **Author:** Ender
-- **Updated:** 2026-06-09 02:08:56.000000000
-
-## 🚧 Work In Progress (8)
-
-### [AccountService: fix PATCH error-path response handling](https://gerrit.openbmc.org/c/90478)
-- **Change #:** 90478
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-06-10 12:05:29.000000000
+### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
+- **Change #:** 91118
+- **Author:** Ravi Teja
+- **Updated:** 2026-06-11 08:46:18.000000000
 
 ### [Cable: Get Decorator.Asset properties](https://gerrit.openbmc.org/c/70197)
 - **Change #:** 70197
 - **Author:** Gunnar Mills
-- **Updated:** 2026-06-10 02:44:26.000000000
+- **Updated:** 2026-06-10 23:49:24.000000000
+
+### [Add PrivilegeRegistry Redfish endpoint support](https://gerrit.openbmc.org/c/89414)
+- **Change #:** 89414
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-06-10 17:33:19.000000000
+
+### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-06-10 16:49:43.000000000
 
 ### [NetworkDevice: add NetworkDeviceFunctions support](https://gerrit.openbmc.org/c/88776)
 - **Change #:** 88776
 - **Author:** Eric Liu
 - **Updated:** 2026-06-10 02:41:13.000000000
-
-### [sensor: add charge type support](https://gerrit.openbmc.org/c/91132)
-- **Change #:** 91132
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-06-09 22:46:46.000000000
-
-### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
-- **Change #:** 91118
-- **Author:** Ravi Teja
-- **Updated:** 2026-06-09 17:54:35.000000000
-
-### [redfish: CPER extraction support for FaultLog in bmcweb](https://gerrit.openbmc.org/c/91103)
-- **Change #:** 91103
-- **Author:** meghan1006
-- **Updated:** 2026-06-09 15:18:14.000000000
-
-### [Expose current/pending BIOS settings via Redfish](https://gerrit.openbmc.org/c/76419)
-- **Change #:** 76419
-- **Author:** Joseph-Jonathan Salzano
-- **Updated:** 2026-06-09 05:24:33.000000000
-
-### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
-- **Change #:** 89357
-- **Author:** JY-Voon
-- **Updated:** 2026-06-09 02:22:38.000000000
-
-## ❌ Abandoned MRs (2)
-
-### [Add required MemberId to the EventRecord definition](https://gerrit.openbmc.org/c/78880)
-- **Change #:** 78880
-- **Author:** Igor Kanyuka
-- **Updated:** 2026-06-09 17:46:43.000000000
-
-### [bmcweb: add Switch.Reset action under Fabrics](https://gerrit.openbmc.org/c/89936)
-- **Change #:** 89936
-- **Author:** Ender
-- **Updated:** 2026-06-09 06:25:38.000000000
 
 ---
 
