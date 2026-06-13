@@ -1,16 +1,22 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-06-12 12:13:09 UTC
+**Generated:** 2026-06-13 11:09:50 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 33
+**Total Changes:** 40
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-06-11 to 2026-06-12 (1 day)
-**Changes:** 12
+**Period:** 2026-06-12 to 2026-06-13 (1 day)
+**Changes:** 13
 
 
-## ✅ Merged MRs (1)
+## ✅ Merged MRs (2)
+
+### [Downgrade xterm to v4 for bmcweb CSP compatibility](https://gerrit.openbmc.org/c/90565)
+- **Change #:** 90565
+- **Author:** Jason Westover
+- **Changes:** +41 / -39 lines
+- **Updated:** 2026-06-12 12:21:10.000000000
 
 ### [Register missing Bootstrap-Vue dropdown component](https://gerrit.openbmc.org/c/91208)
 - **Change #:** 91208
@@ -18,12 +24,22 @@
 - **Changes:** +4 / -0 lines
 - **Updated:** 2026-06-12 03:44:34.000000000
 
-## 🔍 Open MRs (9)
+## 🔍 Open MRs (10)
+
+### [Add useAuthStore seam for the auth store](https://gerrit.openbmc.org/c/91277)
+- **Change #:** 91277
+- **Author:** Jason Westover
+- **Updated:** 2026-06-12 22:11:07.000000000
+
+### [Refactor Redfish API client](https://gerrit.openbmc.org/c/91267)
+- **Change #:** 91267
+- **Author:** Jason Westover
+- **Updated:** 2026-06-12 22:07:35.000000000
 
 ### [Implemented Sessions page with VueQuery and Composition API](https://gerrit.openbmc.org/c/91253)
 - **Change #:** 91253
 - **Author:** Vedangi Mittal
-- **Updated:** 2026-06-12 10:29:56.000000000
+- **Updated:** 2026-06-12 18:04:55.000000000
 
 ### [Implemented Basic Auth in Policies](https://gerrit.openbmc.org/c/89544)
 - **Change #:** 89544
@@ -45,11 +61,6 @@
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-06-12 06:56:02.000000000
 
-### [Downgrade xterm to v4 for bmcweb CSP compatibility](https://gerrit.openbmc.org/c/90565)
-- **Change #:** 90565
-- **Author:** Jason Westover
-- **Updated:** 2026-06-12 06:48:03.000000000
-
 ### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
 - **Change #:** 90453
 - **Author:** Aravinth Sri Krishna Raja Raghavan
@@ -65,54 +76,54 @@
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-06-12 06:44:10.000000000
 
-## ❌ Abandoned MRs (2)
+## ❌ Abandoned MRs (1)
 
 ### [Implemented Sessions page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87382)
 - **Change #:** 87382
 - **Author:** Vedangi Mittal
 - **Updated:** 2026-06-12 12:09:03.000000000
 
-### [Handle invalid date instance](https://gerrit.openbmc.org/c/45800)
-- **Change #:** 45800
-- **Author:** John Liu
-- **Updated:** 2026-06-11 18:12:44.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-06-11 to 2026-06-12 (1 day)
-**Changes:** 1
+**Period:** 2026-06-12 to 2026-06-13 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [faultlog: Add CPER decode support using libcper](https://gerrit.openbmc.org/c/91108)
-- **Change #:** 91108
-- **Author:** meghan1006
-- **Updated:** 2026-06-11 09:36:00.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-06-11 to 2026-06-12 (1 day)
+**Period:** 2026-06-12 to 2026-06-13 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-06-11 to 2026-06-12 (1 day)
+**Period:** 2026-06-12 to 2026-06-13 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-06-11 to 2026-06-12 (1 day)
-**Changes:** 20
+**Period:** 2026-06-12 to 2026-06-13 (1 day)
+**Changes:** 27
 
 
-## ✅ Merged MRs (1)
+## ✅ Merged MRs (3)
+
+### [Generate 64 bit serial numbers](https://gerrit.openbmc.org/c/90552)
+- **Change #:** 90552
+- **Author:** Ed Tanous
+- **Changes:** +6 / -3 lines
+- **Updated:** 2026-06-12 16:01:54.000000000
+
+### [OpenSSL cleanup](https://gerrit.openbmc.org/c/89860)
+- **Change #:** 89860
+- **Author:** Ed Tanous
+- **Changes:** +603 / -419 lines
+- **Updated:** 2026-06-12 16:01:54.000000000
 
 ### [sensor: add charge type support](https://gerrit.openbmc.org/c/91132)
 - **Change #:** 91132
@@ -120,7 +131,77 @@
 - **Changes:** +22 / -1 lines
 - **Updated:** 2026-06-12 00:07:56.000000000
 
-## 🔍 Open MRs (15)
+## 🔍 Open MRs (20)
+
+### [Memory: add CapacityUtilizationPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90363)
+- **Change #:** 90363
+- **Author:** Eric Liu
+- **Updated:** 2026-06-13 07:50:03.000000000
+
+### [Chassis: add Assembly properties](https://gerrit.openbmc.org/c/88571)
+- **Change #:** 88571
+- **Author:** Eric Liu
+- **Updated:** 2026-06-13 07:20:22.000000000
+
+### [memory: add BandwidthPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90323)
+- **Change #:** 90323
+- **Author:** Eric Liu
+- **Updated:** 2026-06-13 07:16:40.000000000
+
+### [Memory: add Processor MemorySummary ECCModeEnabled](https://gerrit.openbmc.org/c/90348)
+- **Change #:** 90348
+- **Author:** Eric Liu
+- **Updated:** 2026-06-13 07:13:38.000000000
+
+### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
+- **Change #:** 90169
+- **Author:** JY-Voon
+- **Updated:** 2026-06-13 07:10:44.000000000
+
+### [Add firmware update events to task messages](https://gerrit.openbmc.org/c/91029)
+- **Change #:** 91029
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-06-12 22:09:32.000000000
+
+### [dbus_utility: add string map variant alternative](https://gerrit.openbmc.org/c/91273)
+- **Change #:** 91273
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-06-12 21:59:23.000000000
+
+### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
+- **Change #:** 89226
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-06-12 21:51:52.000000000
+
+### [ethernet: restrict PATCH to ConfigureManager privilege](https://gerrit.openbmc.org/c/90375)
+- **Change #:** 90375
+- **Author:** AKash-A007
+- **Updated:** 2026-06-12 19:39:12.000000000
+
+### [Change cipher suite defaults to modern](https://gerrit.openbmc.org/c/91275)
+- **Change #:** 91275
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-12 19:26:21.000000000
+
+### [Allow setting Mozilla modern](https://gerrit.openbmc.org/c/90549)
+- **Change #:** 90549
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-12 19:16:02.000000000
+
+### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
+- **Change #:** 90333
+- **Author:** Tan Siewert
+- **Updated:** 2026-06-12 18:18:41.000000000
+
+### [WIP: Fix uses of starts_with](https://gerrit.openbmc.org/c/91270)
+- **Change #:** 91270
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-12 17:27:45.000000000
+
+### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
+- **Change #:** 90223
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-06-12 14:38:27.000000000
 
 ### [bmcweb: support PATCH for Processor clock speed](https://gerrit.openbmc.org/c/90503)
 - **Change #:** 90503
@@ -147,79 +228,34 @@
 - **Author:** Ender
 - **Updated:** 2026-06-12 06:26:08.000000000
 
-### [ethernet: restrict PATCH to ConfigureManager privilege](https://gerrit.openbmc.org/c/90375)
-- **Change #:** 90375
-- **Author:** AKash-A007
-- **Updated:** 2026-06-12 01:59:44.000000000
-
 ### [Support BootProgress's OemLastState](https://gerrit.openbmc.org/c/78110)
 - **Change #:** 78110
 - **Author:** John Chung
 - **Updated:** 2026-06-12 01:23:10.000000000
 
-### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
-- **Change #:** 90169
-- **Author:** JY-Voon
-- **Updated:** 2026-06-11 16:53:58.000000000
+## 🚧 Work In Progress (3)
 
-### [WIP: Update security compiler flags](https://gerrit.openbmc.org/c/91173)
-- **Change #:** 91173
-- **Author:** Ed Tanous
-- **Updated:** 2026-06-11 15:22:04.000000000
+### [Add ResetRequired event to task messages](https://gerrit.openbmc.org/c/91030)
+- **Change #:** 91030
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-06-12 22:12:00.000000000
 
-### [http2: pass client IP address to HTTP/2 requests](https://gerrit.openbmc.org/c/91206)
-- **Change #:** 91206
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-06-11 14:15:43.000000000
-
-### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
-- **Change #:** 90333
-- **Author:** Tan Siewert
-- **Updated:** 2026-06-11 13:40:35.000000000
-
-### [Return ResourceNotFound for invalid AccountService Roles paths](https://gerrit.openbmc.org/c/90223)
-- **Change #:** 90223
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-06-11 12:25:13.000000000
-
-### [ethernet: return PropertyNotWritable for blocked interface IP changes](https://gerrit.openbmc.org/c/91203)
-- **Change #:** 91203
-- **Author:** Chandra Harkude
-- **Updated:** 2026-06-11 12:10:57.000000000
-
-### [account-service: prevent deletion of own account](https://gerrit.openbmc.org/c/90332)
-- **Change #:** 90332
-- **Author:** Tan Siewert
-- **Updated:** 2026-06-11 11:52:12.000000000
-
-### [storage: use PrettyName for Drive Name field](https://gerrit.openbmc.org/c/90364)
-- **Change #:** 90364
-- **Author:** AKash-A007
-- **Updated:** 2026-06-11 09:30:06.000000000
-
-## 🚧 Work In Progress (2)
+### [Expose current/pending BIOS settings via Redfish](https://gerrit.openbmc.org/c/76419)
+- **Change #:** 76419
+- **Author:** Joseph-Jonathan Salzano
+- **Updated:** 2026-06-12 18:58:04.000000000
 
 ### [Cable: Get Decorator.Asset properties](https://gerrit.openbmc.org/c/70197)
 - **Change #:** 70197
 - **Author:** Gunnar Mills
-- **Updated:** 2026-06-11 23:24:46.000000000
+- **Updated:** 2026-06-12 15:10:45.000000000
 
-### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
-- **Change #:** 91118
-- **Author:** Ravi Teja
-- **Updated:** 2026-06-11 23:22:57.000000000
+## ❌ Abandoned MRs (1)
 
-## ❌ Abandoned MRs (2)
-
-### [WIP: make connections destroy](https://gerrit.openbmc.org/c/56711)
-- **Change #:** 56711
+### [Rearrange folder creation logic](https://gerrit.openbmc.org/c/71952)
+- **Change #:** 71952
 - **Author:** Ed Tanous
-- **Updated:** 2026-06-11 18:12:43.000000000
-
-### [Move privileges to separate entity](https://gerrit.openbmc.org/c/86573)
-- **Change #:** 86573
-- **Author:** Sandeep Akant Patil
-- **Updated:** 2026-06-11 17:51:18.000000000
+- **Updated:** 2026-06-12 18:13:21.000000000
 
 ---
 
