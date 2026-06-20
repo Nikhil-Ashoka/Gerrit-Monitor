@@ -1,76 +1,68 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-06-19 12:42:03 UTC
+**Generated:** 2026-06-20 11:10:54 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 19
+**Total Changes:** 12
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-06-18 to 2026-06-19 (1 day)
-**Changes:** 3
+**Period:** 2026-06-19 to 2026-06-20 (1 day)
+**Changes:** 1
 
 
-## ✅ Merged MRs (1)
-
-### [Fix sensors page being empty](https://gerrit.openbmc.org/c/91429)
-- **Change #:** 91429
-- **Author:** Grégoire Layet
-- **Changes:** +1 / -2 lines
-- **Updated:** 2026-06-18 14:19:37.000000000
-
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
 - **Change #:** 90453
 - **Author:** Aravinth Sri Krishna Raja Raghavan
 - **Updated:** 2026-06-19 10:02:30.000000000
 
-### [Preserve Content-Encoding header on dev proxy response](https://gerrit.openbmc.org/c/91395)
-- **Change #:** 91395
-- **Author:** Grégoire Layet
-- **Updated:** 2026-06-18 10:42:58.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-06-18 to 2026-06-19 (1 day)
+**Period:** 2026-06-19 to 2026-06-20 (1 day)
 **Changes:** 1
 
 
-## 🔍 Open MRs (1)
+## ✅ Merged MRs (1)
 
 ### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/91490)
 - **Change #:** 91490
 - **Author:** Patrick Williams
-- **Updated:** 2026-06-19 12:34:50.000000000
+- **Changes:** +6 / -6 lines
+- **Updated:** 2026-06-20 09:53:06.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-06-18 to 2026-06-19 (1 day)
+**Period:** 2026-06-19 to 2026-06-20 (1 day)
 **Changes:** 1
 
 
-## 🔍 Open MRs (1)
+## ✅ Merged MRs (1)
 
 ### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/91494)
 - **Change #:** 91494
 - **Author:** Patrick Williams
-- **Updated:** 2026-06-19 11:59:16.000000000
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-06-19 15:00:22.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-06-18 to 2026-06-19 (1 day)
+**Period:** 2026-06-19 to 2026-06-20 (1 day)
 **Changes:** 2
 
 
-## 🔍 Open MRs (2)
+## ✅ Merged MRs (1)
 
 ### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/91497)
 - **Change #:** 91497
 - **Author:** Patrick Williams
-- **Updated:** 2026-06-19 12:00:39.000000000
+- **Changes:** +14 / -15 lines
+- **Updated:** 2026-06-19 15:00:08.000000000
+
+## 🔍 Open MRs (1)
 
 ### [Refactor: Move fixed constants to a dedicated header](https://gerrit.openbmc.org/c/91301)
 - **Change #:** 91301
@@ -80,74 +72,49 @@
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-06-18 to 2026-06-19 (1 day)
-**Changes:** 12
+**Period:** 2026-06-19 to 2026-06-20 (1 day)
+**Changes:** 7
 
 
 ## ✅ Merged MRs (1)
 
-### [Refactor ManagerForChassis handler](https://gerrit.openbmc.org/c/86031)
-- **Change #:** 86031
-- **Author:** Oliver Brewka
-- **Changes:** +15 / -15 lines
-- **Updated:** 2026-06-18 08:47:04.000000000
-
-## 🔍 Open MRs (11)
-
-### [Add multi-host processor GET](https://gerrit.openbmc.org/c/83773)
-- **Change #:** 83773
-- **Author:** Christopher Meis
-- **Updated:** 2026-06-19 12:20:32.000000000
-
-### [Clean-up processor.hpp](https://gerrit.openbmc.org/c/91437)
-- **Change #:** 91437
-- **Author:** Oliver Brewka
-- **Updated:** 2026-06-19 12:20:27.000000000
-
 ### [sdbusplus: use shorter type aliases](https://gerrit.openbmc.org/c/91471)
 - **Change #:** 91471
 - **Author:** Patrick Williams
-- **Updated:** 2026-06-19 12:06:23.000000000
+- **Changes:** +28 / -31 lines
+- **Updated:** 2026-06-20 09:49:28.000000000
 
-### [bmcweb: Implement ProcessorSummary Model property](https://gerrit.openbmc.org/c/91436)
-- **Change #:** 91436
-- **Author:** Deng-Cyun Chen
-- **Updated:** 2026-06-19 09:05:40.000000000
-
-### [bmcweb: Clean up obsolete TODO for Manager Model](https://gerrit.openbmc.org/c/91434)
-- **Change #:** 91434
-- **Author:** Deng-Cyun Chen
-- **Updated:** 2026-06-19 08:40:59.000000000
+## 🔍 Open MRs (6)
 
 ### [Update subproject wrap files](https://gerrit.openbmc.org/c/91328)
 - **Change #:** 91328
 - **Author:** crzhuang1
-- **Updated:** 2026-06-18 23:58:32.000000000
+- **Updated:** 2026-06-19 21:56:55.000000000
 
-### [Add defensive callback invocation](https://gerrit.openbmc.org/c/91447)
-- **Change #:** 91447
-- **Author:** Myung Bae
-- **Updated:** 2026-06-18 18:28:02.000000000
+### [bmcweb: Implement ProcessorSummary Model property](https://gerrit.openbmc.org/c/91436)
+- **Change #:** 91436
+- **Author:** Deng-Cyun Chen
+- **Updated:** 2026-06-19 19:54:17.000000000
 
-### [account_service: Add PasswordChangeRequired PATCH](https://gerrit.openbmc.org/c/90598)
+### [Clean-up processor.hpp](https://gerrit.openbmc.org/c/91437)
+- **Change #:** 91437
+- **Author:** Oliver Brewka
+- **Updated:** 2026-06-19 19:53:37.000000000
+
+### [Add multi-host processor GET](https://gerrit.openbmc.org/c/83773)
+- **Change #:** 83773
+- **Author:** Christopher Meis
+- **Updated:** 2026-06-19 15:34:47.000000000
+
+### [account_service: PasswordChangeRequired support](https://gerrit.openbmc.org/c/90598)
 - **Change #:** 90598
 - **Author:** Vijaysankar Ravi
-- **Updated:** 2026-06-18 16:52:34.000000000
+- **Updated:** 2026-06-19 14:25:01.000000000
 
-### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
-- **Change #:** 90333
-- **Author:** Tan Siewert
-- **Updated:** 2026-06-18 11:22:43.000000000
-
-### [Improvements for object path creation under ComputerSystem](https://gerrit.openbmc.org/c/85598)
-- **Change #:** 85598
-- **Author:** Oliver Brewka
-- **Updated:** 2026-06-18 08:08:19.000000000
-
-### [account-service: prevent deletion of own account](https://gerrit.openbmc.org/c/90332)
-- **Change #:** 90332
-- **Author:** Tan Siewert
-- **Updated:** 2026-06-18 06:45:31.000000000
+### [bmcweb: Clean up obsolete TODO for Manager Model](https://gerrit.openbmc.org/c/91434)
+- **Change #:** 91434
+- **Author:** Deng-Cyun Chen
+- **Updated:** 2026-06-19 14:21:24.000000000
 
 ---
 
