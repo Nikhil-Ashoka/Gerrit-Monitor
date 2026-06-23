@@ -1,16 +1,28 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-06-22 14:30:35 UTC
+**Generated:** 2026-06-23 11:54:50 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 30
+**Total Changes:** 51
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-06-21 to 2026-06-22 (1 day)
-**Changes:** 5
+**Period:** 2026-06-22 to 2026-06-23 (1 day)
+**Changes:** 7
 
 
-## ✅ Merged MRs (1)
+## ✅ Merged MRs (3)
+
+### [Preserve Content-Encoding header on dev proxy response](https://gerrit.openbmc.org/c/91395)
+- **Change #:** 91395
+- **Author:** Grégoire Layet
+- **Changes:** +0 / -1 lines
+- **Updated:** 2026-06-23 08:52:45.000000000
+
+### [Fix typo in useDnsStateIpv6 computed property](https://gerrit.openbmc.org/c/91574)
+- **Change #:** 91574
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-06-22 18:21:45.000000000
 
 ### [Implemented Power page with VueQuery and Composition API](https://gerrit.openbmc.org/c/87281)
 - **Change #:** 87281
@@ -20,96 +32,183 @@
 
 ## 🔍 Open MRs (4)
 
-### [Fix typo in useDnsStateIpv6 computed property](https://gerrit.openbmc.org/c/91574)
-- **Change #:** 91574
+### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
+- **Change #:** 90453
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-06-22 14:29:32.000000000
+- **Updated:** 2026-06-23 09:19:16.000000000
 
 ### [OWNERS: Add myself as a reviewer](https://gerrit.openbmc.org/c/91573)
 - **Change #:** 91573
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-06-22 09:40:39.000000000
+- **Updated:** 2026-06-23 09:14:10.000000000
 
 ### [Fix redirect handling to prevent Redfish logout](https://gerrit.openbmc.org/c/87472)
 - **Change #:** 87472
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-06-22 06:58:04.000000000
+- **Updated:** 2026-06-23 09:12:24.000000000
 
-### [Add Access Denied alert to SOL console](https://gerrit.openbmc.org/c/90453)
-- **Change #:** 90453
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-06-22 06:57:55.000000000
+### [Add openapi-ts codegen tooling scaffold](https://gerrit.openbmc.org/c/91407)
+- **Change #:** 91407
+- **Author:** Jason Westover
+- **Updated:** 2026-06-22 17:43:11.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-06-21 to 2026-06-22 (1 day)
+**Period:** 2026-06-22 to 2026-06-23 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-06-21 to 2026-06-22 (1 day)
+**Period:** 2026-06-22 to 2026-06-23 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-06-21 to 2026-06-22 (1 day)
-**Changes:** 2
+**Period:** 2026-06-22 to 2026-06-23 (1 day)
+**Changes:** 3
 
 
 ## 🔍 Open MRs (2)
 
-### [log manager: enforce SEL policy on entry creation](https://gerrit.openbmc.org/c/91570)
-- **Change #:** 91570
-- **Author:** mahalakshmik-1
-- **Updated:** 2026-06-22 12:45:12.000000000
+### [logging: add OEM properties support in Entry](https://gerrit.openbmc.org/c/90968)
+- **Change #:** 90968
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-06-23 11:48:14.000000000
 
 ### [phosphor-rsyslog-config: fix restore when first line is comment/blank](https://gerrit.openbmc.org/c/91392)
 - **Change #:** 91392
-- **Author:** MeghanaVangapandu0
-- **Updated:** 2026-06-22 09:39:34.000000000
+- **Author:** Meghana Vangapandu
+- **Updated:** 2026-06-23 11:43:04.000000000
+
+## 🚧 Work In Progress (1)
+
+### [log manager: enforce SEL policy on entry creation](https://gerrit.openbmc.org/c/91570)
+- **Change #:** 91570
+- **Author:** mahalakshmik-1
+- **Updated:** 2026-06-23 10:30:02.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-06-21 to 2026-06-22 (1 day)
-**Changes:** 23
+**Period:** 2026-06-22 to 2026-06-23 (1 day)
+**Changes:** 41
 
 
 ## ✅ Merged MRs (2)
 
-### [Clean-up processor.hpp](https://gerrit.openbmc.org/c/91437)
-- **Change #:** 91437
-- **Author:** Oliver Brewka
-- **Changes:** +283 / -263 lines
-- **Updated:** 2026-06-21 19:42:45.000000000
+### [bmcweb: expose PID D term and hysteresis mode in OEM schema](https://gerrit.openbmc.org/c/85785)
+- **Change #:** 85785
+- **Author:** YouPengWu
+- **Changes:** +234 / -47 lines
+- **Updated:** 2026-06-22 23:55:23.000000000
 
-### [Update subproject wrap files](https://gerrit.openbmc.org/c/91328)
-- **Change #:** 91328
-- **Author:** crzhuang1
-- **Changes:** +31 / -31 lines
-- **Updated:** 2026-06-21 19:40:45.000000000
+### [Remove giant inline lambda in OpenBMC Manager](https://gerrit.openbmc.org/c/88961)
+- **Change #:** 88961
+- **Author:** Ed Tanous
+- **Changes:** +893 / -421 lines
+- **Updated:** 2026-06-22 17:18:23.000000000
 
-## 🔍 Open MRs (21)
+## 🔍 Open MRs (36)
+
+### [AccountService: fix PATCH error-path response handling](https://gerrit.openbmc.org/c/90478)
+- **Change #:** 90478
+- **Author:** Sandeep Akant Patil
+- **Updated:** 2026-06-23 11:16:50.000000000
+
+### [Fix event log timestamp parse error](https://gerrit.openbmc.org/c/91616)
+- **Change #:** 91616
+- **Author:** Haiyue Wang
+- **Updated:** 2026-06-23 09:46:47.000000000
+
+### [Manage user password expiration via REST](https://gerrit.openbmc.org/c/75372)
+- **Change #:** 75372
+- **Author:** Ivan Moiseev
+- **Updated:** 2026-06-23 06:40:57.000000000
+
+### [redfish_sessions: Fix SessionTimeout property name and error](https://gerrit.openbmc.org/c/91613)
+- **Change #:** 91613
+- **Author:** Joel P J
+- **Updated:** 2026-06-23 06:16:11.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-06-23 06:02:25.000000000
+
+### [Memory: add Processor Settings for ECC mode](https://gerrit.openbmc.org/c/90349)
+- **Change #:** 90349
+- **Author:** Eric Liu
+- **Updated:** 2026-06-23 05:47:31.000000000
+
+### [Chassis: add Assembly properties](https://gerrit.openbmc.org/c/88571)
+- **Change #:** 88571
+- **Author:** Eric Liu
+- **Updated:** 2026-06-23 05:28:24.000000000
+
+### [WIP: Replace all spirit parsers with boost.parsing](https://gerrit.openbmc.org/c/91610)
+- **Change #:** 91610
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-23 03:38:11.000000000
+
+### [bmcweb: add BandwidthPercent to ProcessorMetrics](https://gerrit.openbmc.org/c/91608)
+- **Change #:** 91608
+- **Author:** Eric Liu
+- **Updated:** 2026-06-23 02:56:44.000000000
+
+### [bmcweb: add GPU Processor Redfish properties](https://gerrit.openbmc.org/c/88594)
+- **Change #:** 88594
+- **Author:** JY-Voon
+- **Updated:** 2026-06-23 02:48:19.000000000
+
+### [bmcweb: tolerate missing deprecated Software Purpose](https://gerrit.openbmc.org/c/91606)
+- **Change #:** 91606
+- **Author:** JY-Voon
+- **Updated:** 2026-06-23 02:42:35.000000000
+
+### [Fix OpenBMCManager FanZone schema validation](https://gerrit.openbmc.org/c/90980)
+- **Change #:** 90980
+- **Author:** Amy Chang
+- **Updated:** 2026-06-23 00:43:02.000000000
+
+### [Flag long lambdas](https://gerrit.openbmc.org/c/91593)
+- **Change #:** 91593
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-23 00:21:18.000000000
+
+### [Fix CI collision](https://gerrit.openbmc.org/c/91599)
+- **Change #:** 91599
+- **Author:** Ed Tanous
+- **Updated:** 2026-06-23 00:11:16.000000000
+
+### [mTLS UPN: replace suffix match with exact + 1-label prefix](https://gerrit.openbmc.org/c/90581)
+- **Change #:** 90581
+- **Author:** 0xbinreaper
+- **Updated:** 2026-06-22 17:28:07.000000000
+
+### [WIP: Fix UPN certificate authentication vulnerabilities](https://gerrit.openbmc.org/c/89226)
+- **Change #:** 89226
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-06-22 17:25:26.000000000
+
+### [Add unit test for TelemetryService](https://gerrit.openbmc.org/c/87277)
+- **Change #:** 87277
+- **Author:** Ramya Sivakumar
+- **Updated:** 2026-06-22 17:22:17.000000000
 
 ### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
 - **Change #:** 91118
 - **Author:** Ravi Teja
-- **Updated:** 2026-06-22 13:32:15.000000000
+- **Updated:** 2026-06-22 17:00:28.000000000
 
 ### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
 - **Change #:** 89319
 - **Author:** Jacky Huang
 - **Updated:** 2026-06-22 13:27:41.000000000
-
-### [bmcweb: add GPU Processor Redfish properties](https://gerrit.openbmc.org/c/88594)
-- **Change #:** 88594
-- **Author:** JY-Voon
-- **Updated:** 2026-06-22 12:41:43.000000000
 
 ### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
 - **Change #:** 90169
@@ -135,11 +234,6 @@
 - **Change #:** 90363
 - **Author:** Eric Liu
 - **Updated:** 2026-06-22 11:25:18.000000000
-
-### [Memory: add Processor Settings for ECC mode](https://gerrit.openbmc.org/c/90349)
-- **Change #:** 90349
-- **Author:** Eric Liu
-- **Updated:** 2026-06-22 11:23:19.000000000
 
 ### [Memory: add Processor MemorySummary ECCModeEnabled](https://gerrit.openbmc.org/c/90348)
 - **Change #:** 90348
@@ -200,6 +294,23 @@
 - **Change #:** 91434
 - **Author:** Deng-Cyun Chen
 - **Updated:** 2026-06-22 06:54:10.000000000
+
+## ❌ Abandoned MRs (3)
+
+### [update_service: add support for multiple multipart interfaces](https://gerrit.openbmc.org/c/86075)
+- **Change #:** 86075
+- **Author:** Marc Olberding
+- **Updated:** 2026-06-22 17:23:04.000000000
+
+### [Check the dup code update after header read](https://gerrit.openbmc.org/c/87828)
+- **Change #:** 87828
+- **Author:** Myung Bae
+- **Updated:** 2026-06-22 17:21:33.000000000
+
+### [UpdateService: Validate empty body in HTTP firmware update](https://gerrit.openbmc.org/c/89561)
+- **Change #:** 89561
+- **Author:** Vinoth Kumar Shanmugavel
+- **Updated:** 2026-06-22 17:20:25.000000000
 
 ---
 
