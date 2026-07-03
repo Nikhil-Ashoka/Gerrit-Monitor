@@ -1,21 +1,26 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-07-02 11:28:10 UTC
+**Generated:** 2026-07-03 11:27:24 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 28
+**Total Changes:** 29
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-07-01 to 2026-07-02 (1 day)
-**Changes:** 2
+**Period:** 2026-07-02 to 2026-07-03 (1 day)
+**Changes:** 3
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (3)
+
+### [Enabled the delete options for the logged in user](https://gerrit.openbmc.org/c/91980)
+- **Change #:** 91980
+- **Author:** Lakshmana Kumar Velusamy
+- **Updated:** 2026-07-03 11:19:25.000000000
 
 ### [firmware: add update target dropdown to form](https://gerrit.openbmc.org/c/91863)
 - **Change #:** 91863
 - **Author:** Tan Siewert
-- **Updated:** 2026-07-02 10:41:03.000000000
+- **Updated:** 2026-07-02 11:38:15.000000000
 
 ### [Sort package.json dependencies alphabetically](https://gerrit.openbmc.org/c/91317)
 - **Change #:** 91317
@@ -25,30 +30,22 @@
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-07-01 to 2026-07-02 (1 day)
-**Changes:** 1
+**Period:** 2026-07-02 to 2026-07-03 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (1)
-
-### [Fix spelling error in dump entry header](https://gerrit.openbmc.org/c/91662)
-- **Change #:** 91662
-- **Author:** SonaN-7
-- **Changes:** +1 / -1 lines
-- **Updated:** 2026-07-01 10:33:30.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-07-01 to 2026-07-02 (1 day)
+**Period:** 2026-07-02 to 2026-07-03 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-07-01 to 2026-07-02 (1 day)
-**Changes:** 6
+**Period:** 2026-07-02 to 2026-07-03 (1 day)
+**Changes:** 5
 
 
 ## ✅ Merged MRs (1)
@@ -59,7 +56,7 @@
 - **Changes:** +50 / -47 lines
 - **Updated:** 2026-07-02 02:29:11.000000000
 
-## 🔍 Open MRs (4)
+## 🔍 Open MRs (2)
 
 ### [fix: Correct spelling issues reported by codespell](https://gerrit.openbmc.org/c/91944)
 - **Change #:** 91944
@@ -71,39 +68,106 @@
 - **Author:** Palaniappan Arunachalam
 - **Updated:** 2026-07-02 05:53:34.000000000
 
+## 🚧 Work In Progress (1)
+
 ### [log manager: enforce log policy on entry creation](https://gerrit.openbmc.org/c/91570)
 - **Change #:** 91570
 - **Author:** mahalakshmik-1
-- **Updated:** 2026-07-01 22:06:09.000000000
-
-### [PEL: Add failover failed msg reg entry](https://gerrit.openbmc.org/c/91925)
-- **Change #:** 91925
-- **Author:** Matt Spinler
-- **Updated:** 2026-07-01 18:55:06.000000000
+- **Updated:** 2026-07-03 11:26:11.000000000
 
 ## ❌ Abandoned MRs (1)
 
-### [phosphor-rsyslog-config: fix restore when first line is comment/blank](https://gerrit.openbmc.org/c/91392)
-- **Change #:** 91392
-- **Author:** Meghana Vangapandu
-- **Updated:** 2026-07-01 11:46:37.000000000
+### [elog_entry: initialize serialized fields in constructors](https://gerrit.openbmc.org/c/91978)
+- **Change #:** 91978
+- **Author:** mahalakshmik-1
+- **Updated:** 2026-07-03 09:18:02.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-07-01 to 2026-07-02 (1 day)
-**Changes:** 19
+**Period:** 2026-07-02 to 2026-07-03 (1 day)
+**Changes:** 21
 
 
 ## ✅ Merged MRs (1)
 
-### [Flag long lambdas](https://gerrit.openbmc.org/c/91593)
-- **Change #:** 91593
+### [Allow setting Mozilla modern](https://gerrit.openbmc.org/c/90549)
+- **Change #:** 90549
 - **Author:** Ed Tanous
-- **Changes:** +313 / -20 lines
-- **Updated:** 2026-07-01 17:33:28.000000000
+- **Changes:** +124 / -27 lines
+- **Updated:** 2026-07-02 18:30:22.000000000
 
-## 🔍 Open MRs (18)
+## 🔍 Open MRs (20)
+
+### [bmcweb: add ProcessorMetrics throttle durations](https://gerrit.openbmc.org/c/90566)
+- **Change #:** 90566
+- **Author:** Ender
+- **Updated:** 2026-07-03 07:53:41.000000000
+
+### [ethernet: fix VLAN RelatedInterfaces URL missing parent interface name](https://gerrit.openbmc.org/c/91971)
+- **Change #:** 91971
+- **Author:** rashidmp
+- **Updated:** 2026-07-03 06:30:09.000000000
+
+### [sensor: add frequency type support](https://gerrit.openbmc.org/c/91826)
+- **Change #:** 91826
+- **Author:** Vishnunithyasoundhar S
+- **Updated:** 2026-07-03 05:16:54.000000000
+
+### [redfish: Reject session for unmapped remote users](https://gerrit.openbmc.org/c/91970)
+- **Change #:** 91970
+- **Author:** Vijaysankar Ravi
+- **Updated:** 2026-07-03 05:01:51.000000000
+
+### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
+- **Change #:** 89319
+- **Author:** Jacky Huang
+- **Updated:** 2026-07-03 04:34:16.000000000
+
+### [Add PowerLimitWatts in EnvironmentMetrics](https://gerrit.openbmc.org/c/47300)
+- **Change #:** 47300
+- **Author:** Albert Zhang
+- **Updated:** 2026-07-03 03:52:38.000000000
+
+### [Add Location information for PCIeDevice](https://gerrit.openbmc.org/c/61739)
+- **Change #:** 61739
+- **Author:** Lakshmi Yadlapati
+- **Updated:** 2026-07-02 22:24:36.000000000
+
+### [Chassis: surface UUID and Min/MaxPowerWatts on Chassis](https://gerrit.openbmc.org/c/90463)
+- **Change #:** 90463
+- **Author:** Eric Liu
+- **Updated:** 2026-07-02 21:19:39.000000000
+
+### [Add unit tests for security headers](https://gerrit.openbmc.org/c/91848)
+- **Change #:** 91848
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-07-02 21:17:51.000000000
+
+### [Change cipher suite defaults to modern](https://gerrit.openbmc.org/c/91275)
+- **Change #:** 91275
+- **Author:** Ed Tanous
+- **Updated:** 2026-07-02 21:14:33.000000000
+
+### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
+- **Change #:** 91118
+- **Author:** Ravi Teja
+- **Updated:** 2026-07-02 20:24:17.000000000
+
+### [HTTP/2: enforce body limit in HttpBody::reader::put()](https://gerrit.openbmc.org/c/90580)
+- **Change #:** 90580
+- **Author:** 0xbinreaper
+- **Updated:** 2026-07-02 20:05:28.000000000
+
+### [Add Fuzz target](https://gerrit.openbmc.org/c/89858)
+- **Change #:** 89858
+- **Author:** Ed Tanous
+- **Updated:** 2026-07-02 19:24:39.000000000
+
+### [WIP: Replace all spirit parsers with boost.parsing](https://gerrit.openbmc.org/c/91610)
+- **Change #:** 91610
+- **Author:** Ed Tanous
+- **Updated:** 2026-07-02 18:35:39.000000000
 
 ### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
 - **Change #:** 71685
@@ -125,11 +189,6 @@
 - **Author:** garybeihl
 - **Updated:** 2026-07-02 09:58:46.000000000
 
-### [Add unit tests for security headers](https://gerrit.openbmc.org/c/91848)
-- **Change #:** 91848
-- **Author:** Joel P J
-- **Updated:** 2026-07-02 08:41:46.000000000
-
 ### [Fix DefaultGateway handling during DHCP and static IP transitions](https://gerrit.openbmc.org/c/91942)
 - **Change #:** 91942
 - **Author:** rashidmp
@@ -139,61 +198,6 @@
 - **Change #:** 90598
 - **Author:** Vijaysankar Ravi
 - **Updated:** 2026-07-02 02:06:24.000000000
-
-### [Add Location information for PCIeDevice](https://gerrit.openbmc.org/c/61739)
-- **Change #:** 61739
-- **Author:** Lakshmi Yadlapati
-- **Updated:** 2026-07-01 22:35:48.000000000
-
-### [Add PowerLimitWatts in EnvironmentMetrics](https://gerrit.openbmc.org/c/47300)
-- **Change #:** 47300
-- **Author:** Albert Zhang
-- **Updated:** 2026-07-01 20:32:49.000000000
-
-### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
-- **Change #:** 88644
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 10:07:54.000000000
-
-### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
-- **Change #:** 91903
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-07-01 09:59:40.000000000
-
-### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
-- **Change #:** 88947
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 09:43:43.000000000
-
-### [bmcweb: add GPU Processor Redfish properties](https://gerrit.openbmc.org/c/88594)
-- **Change #:** 88594
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 08:45:58.000000000
-
-### [bmcweb: add NetworkAdapter Location properties](https://gerrit.openbmc.org/c/90146)
-- **Change #:** 90146
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 07:47:33.000000000
-
-### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
-- **Change #:** 90169
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 07:21:47.000000000
-
-### [Chassis: add Assembly properties](https://gerrit.openbmc.org/c/88571)
-- **Change #:** 88571
-- **Author:** Eric Liu
-- **Updated:** 2026-07-01 07:13:37.000000000
-
-### [bmcweb: tolerate missing deprecated Software Purpose](https://gerrit.openbmc.org/c/91606)
-- **Change #:** 91606
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 03:26:02.000000000
-
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-07-01 03:26:02.000000000
 
 ---
 
