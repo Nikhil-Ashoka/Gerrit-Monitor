@@ -1,134 +1,49 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-07-04 10:50:08 UTC
+**Generated:** 2026-07-05 11:00:31 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 16
+**Total Changes:** 1
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-07-03 to 2026-07-04 (1 day)
-**Changes:** 2
+**Period:** 2026-07-04 to 2026-07-05 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (2)
-
-### [firmware: add update target dropdown to form](https://gerrit.openbmc.org/c/91863)
-- **Change #:** 91863
-- **Author:** Tan Siewert
-- **Updated:** 2026-07-03 13:59:52.000000000
-
-### [Enabled the delete options for the logged in user](https://gerrit.openbmc.org/c/91980)
-- **Change #:** 91980
-- **Author:** Lakshmana Kumar Velusamy
-- **Updated:** 2026-07-03 13:43:22.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-07-03 to 2026-07-04 (1 day)
+**Period:** 2026-07-04 to 2026-07-05 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-07-03 to 2026-07-04 (1 day)
+**Period:** 2026-07-04 to 2026-07-05 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-07-03 to 2026-07-04 (1 day)
-**Changes:** 2
+**Period:** 2026-07-04 to 2026-07-05 (1 day)
+**Changes:** 1
 
 
-## 🚧 Work In Progress (1)
+## 🔍 Open MRs (1)
 
 ### [log manager: enforce log policy on entry creation](https://gerrit.openbmc.org/c/91570)
 - **Change #:** 91570
 - **Author:** mahalakshmik-1
-- **Updated:** 2026-07-03 11:42:31.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [elog_entry: initialize serialized fields in constructors](https://gerrit.openbmc.org/c/91978)
-- **Change #:** 91978
-- **Author:** mahalakshmik-1
-- **Updated:** 2026-07-03 09:18:02.000000000
+- **Updated:** 2026-07-04 14:39:44.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-07-03 to 2026-07-04 (1 day)
-**Changes:** 12
+**Period:** 2026-07-04 to 2026-07-05 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (10)
-
-### [implement multi-host fan inventory](https://gerrit.openbmc.org/c/87061)
-- **Change #:** 87061
-- **Author:** Alexander
-- **Updated:** 2026-07-03 14:12:37.000000000
-
-### [redfish-core:multi-host: no link to log services](https://gerrit.openbmc.org/c/87082)
-- **Change #:** 87082
-- **Author:** Alexander
-- **Updated:** 2026-07-03 14:02:11.000000000
-
-### [Add headerCount method to Response class](https://gerrit.openbmc.org/c/91983)
-- **Change #:** 91983
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-07-03 13:32:10.000000000
-
-### [Add unit tests for security headers](https://gerrit.openbmc.org/c/91848)
-- **Change #:** 91848
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-07-03 13:12:42.000000000
-
-### [bmcweb: add ProcessorMetrics throttle durations](https://gerrit.openbmc.org/c/90566)
-- **Change #:** 90566
-- **Author:** Ender
-- **Updated:** 2026-07-03 07:53:41.000000000
-
-### [ethernet: fix VLAN RelatedInterfaces URL missing parent interface name](https://gerrit.openbmc.org/c/91971)
-- **Change #:** 91971
-- **Author:** rashidmp
-- **Updated:** 2026-07-03 06:30:09.000000000
-
-### [sensor: add frequency type support](https://gerrit.openbmc.org/c/91826)
-- **Change #:** 91826
-- **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-07-03 05:16:54.000000000
-
-### [redfish: Reject session for unmapped remote users](https://gerrit.openbmc.org/c/91970)
-- **Change #:** 91970
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-07-03 05:01:51.000000000
-
-### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
-- **Change #:** 89319
-- **Author:** Jacky Huang
-- **Updated:** 2026-07-03 04:34:16.000000000
-
-### [Add PowerLimitWatts in EnvironmentMetrics](https://gerrit.openbmc.org/c/47300)
-- **Change #:** 47300
-- **Author:** Albert Zhang
-- **Updated:** 2026-07-03 03:52:38.000000000
-
-## 🚧 Work In Progress (1)
-
-### [test: Add unit tests for session cookies](https://gerrit.openbmc.org/c/91986)
-- **Change #:** 91986
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-07-03 15:09:19.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [Update GenerateSecretKeyRequired response_code](https://gerrit.openbmc.org/c/87559)
-- **Change #:** 87559
-- **Author:** Jishnu C M
-- **Updated:** 2026-07-03 11:45:58.000000000
 
 ---
 
