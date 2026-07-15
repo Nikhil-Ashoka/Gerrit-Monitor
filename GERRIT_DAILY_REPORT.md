@@ -1,31 +1,46 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-07-14 10:39:27 UTC
+**Generated:** 2026-07-15 10:43:25 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 45
+**Total Changes:** 37
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-07-13 to 2026-07-14 (1 day)
-**Changes:** 2
+**Period:** 2026-07-14 to 2026-07-15 (1 day)
+**Changes:** 5
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (5)
 
 ### [build: Move @vue/vue3-jest to devDependencies](https://gerrit.openbmc.org/c/91791)
 - **Change #:** 91791
 - **Author:** Jason Westover
-- **Updated:** 2026-07-13 19:03:25.000000000
+- **Updated:** 2026-07-15 09:37:40.000000000
 
-### [docs: Rework webui-vue offline build/SBOM design](https://gerrit.openbmc.org/c/91790)
-- **Change #:** 91790
+### [Add openapi-ts codegen tooling scaffold](https://gerrit.openbmc.org/c/91407)
+- **Change #:** 91407
 - **Author:** Jason Westover
-- **Updated:** 2026-07-13 18:48:08.000000000
+- **Updated:** 2026-07-15 09:15:21.000000000
+
+### [Updated Reboot BMC Notification Messages](https://gerrit.openbmc.org/c/91086)
+- **Change #:** 91086
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-07-15 07:02:17.000000000
+
+### [Add Task Monitor page under Logs](https://gerrit.openbmc.org/c/92370)
+- **Change #:** 92370
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-07-15 06:47:53.000000000
+
+### [firmware: add update target dropdown to form](https://gerrit.openbmc.org/c/91863)
+- **Change #:** 91863
+- **Author:** Tan Siewert
+- **Updated:** 2026-07-14 17:45:14.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-07-13 to 2026-07-14 (1 day)
+**Period:** 2026-07-14 to 2026-07-15 (1 day)
 **Changes:** 1
 
 
@@ -39,78 +54,102 @@
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-07-13 to 2026-07-14 (1 day)
+**Period:** 2026-07-14 to 2026-07-15 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-07-13 to 2026-07-14 (1 day)
+**Period:** 2026-07-14 to 2026-07-15 (1 day)
 **Changes:** 4
 
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (4)
 
-### [log_manager: Evict resolved errors first on cap](https://gerrit.openbmc.org/c/92316)
-- **Change #:** 92316
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-07-14 09:11:22.000000000
+### [pel: Add RTC read failure registry entry](https://gerrit.openbmc.org/c/92369)
+- **Change #:** 92369
+- **Author:** Sachin8222
+- **Updated:** 2026-07-15 07:08:32.000000000
 
-### [fix: Correct spelling issues reported by codespell](https://gerrit.openbmc.org/c/91944)
-- **Change #:** 91944
-- **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-07-13 06:15:32.000000000
-
-### [log manager: enforce log policy on entry creation](https://gerrit.openbmc.org/c/91570)
-- **Change #:** 91570
-- **Author:** mahalakshmik-1
-- **Updated:** 2026-07-13 05:19:15.000000000
-
-## 🚧 Work In Progress (1)
+### [PEL: add new error messages for phal](https://gerrit.openbmc.org/c/92077)
+- **Change #:** 92077
+- **Author:** MARRI DEVENDER RAO
+- **Updated:** 2026-07-15 05:24:32.000000000
 
 ### [Replace std::bind with std::bind_front in callback registrations](https://gerrit.openbmc.org/c/92335)
 - **Change #:** 92335
 - **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-07-14 08:51:51.000000000
+- **Updated:** 2026-07-15 05:00:18.000000000
+
+### [log_manager: Evict resolved errors first on cap](https://gerrit.openbmc.org/c/92316)
+- **Change #:** 92316
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-07-14 18:22:11.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-07-13 to 2026-07-14 (1 day)
-**Changes:** 38
+**Period:** 2026-07-14 to 2026-07-15 (1 day)
+**Changes:** 27
 
 
-## ✅ Merged MRs (2)
-
-### [NetworkProtocol: IPMI readonly if no RMCP](https://gerrit.openbmc.org/c/92270)
-- **Change #:** 92270
-- **Author:** Crystal Huang
-- **Changes:** +2 / -0 lines
-- **Updated:** 2026-07-13 16:54:05.000000000
-
-### [ethernet: fix VLAN RelatedInterfaces URL missing parent interface name](https://gerrit.openbmc.org/c/91971)
-- **Change #:** 91971
-- **Author:** rashidmp
-- **Changes:** +1 / -1 lines
-- **Updated:** 2026-07-13 14:45:39.000000000
-
-## 🔍 Open MRs (33)
-
-### [redfish: Add Arm CPER decode support for FaultLog](https://gerrit.openbmc.org/c/92341)
-- **Change #:** 92341
-- **Author:** meghan1006
-- **Updated:** 2026-07-14 10:31:31.000000000
+## 🔍 Open MRs (25)
 
 ### [bmcweb: add unit tests for Fabric Switch PowerState handlers](https://gerrit.openbmc.org/c/92199)
 - **Change #:** 92199
 - **Author:** JY-Voon
-- **Updated:** 2026-07-14 10:01:18.000000000
+- **Updated:** 2026-07-15 05:31:32.000000000
+
+### [account_service: Rework RemoteRoleMapping PATCH](https://gerrit.openbmc.org/c/92363)
+- **Change #:** 92363
+- **Author:** kennyliu9535
+- **Updated:** 2026-07-15 03:08:54.000000000
+
+### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/92323)
+- **Change #:** 92323
+- **Author:** Ender
+- **Updated:** 2026-07-15 02:46:18.000000000
+
+### [Add Location information for PCIeDevice](https://gerrit.openbmc.org/c/61739)
+- **Change #:** 61739
+- **Author:** Lakshmi Yadlapati
+- **Updated:** 2026-07-14 21:26:38.000000000
+
+### [Fix EventService PATCH response handling](https://gerrit.openbmc.org/c/92304)
+- **Change #:** 92304
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-07-14 15:56:19.000000000
+
+### [bmcweb: add unit tests for processor FirmwareVersion handlers](https://gerrit.openbmc.org/c/92086)
+- **Change #:** 92086
+- **Author:** JY-Voon
+- **Updated:** 2026-07-14 14:53:49.000000000
 
 ### [bmcweb: add unit tests for ProcessorMetrics CoreVoltage handlers](https://gerrit.openbmc.org/c/92089)
 - **Change #:** 92089
 - **Author:** JY-Voon
-- **Updated:** 2026-07-14 09:30:57.000000000
+- **Updated:** 2026-07-14 14:53:41.000000000
+
+### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
+- **Change #:** 92112
+- **Author:** JY-Voon
+- **Updated:** 2026-07-14 14:53:31.000000000
+
+### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
+- **Change #:** 89120
+- **Author:** JY-Voon
+- **Updated:** 2026-07-14 11:39:01.000000000
+
+### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
+- **Change #:** 88644
+- **Author:** JY-Voon
+- **Updated:** 2026-07-14 11:30:25.000000000
+
+### [redfish: Add Arm CPER decode support for FaultLog](https://gerrit.openbmc.org/c/92341)
+- **Change #:** 92341
+- **Author:** meghan1006
+- **Updated:** 2026-07-14 10:59:29.000000000
 
 ### [Add logging for invalid SNMP Trap ID requests](https://gerrit.openbmc.org/c/92221)
 - **Change #:** 92221
@@ -122,25 +161,10 @@
 - **Author:** Joel Pullokaran Jesin
 - **Updated:** 2026-07-14 09:04:06.000000000
 
-### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/92323)
-- **Change #:** 92323
-- **Author:** Ender
-- **Updated:** 2026-07-14 08:57:18.000000000
-
-### [bmcweb: add unit tests for processor FirmwareVersion handlers](https://gerrit.openbmc.org/c/92086)
-- **Change #:** 92086
-- **Author:** JY-Voon
-- **Updated:** 2026-07-14 08:14:14.000000000
-
 ### [test: Add unit tests for session cookies](https://gerrit.openbmc.org/c/91986)
 - **Change #:** 91986
 - **Author:** Joel Pullokaran Jesin
 - **Updated:** 2026-07-14 07:53:52.000000000
-
-### [Fix EventService PATCH response handling](https://gerrit.openbmc.org/c/92304)
-- **Change #:** 92304
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-07-14 07:40:35.000000000
 
 ### [Add support for noauth with multi ports](https://gerrit.openbmc.org/c/92320)
 - **Change #:** 92320
@@ -161,11 +185,6 @@
 - **Change #:** 92321
 - **Author:** Adi Fogel
 - **Updated:** 2026-07-14 06:17:27.000000000
-
-### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
-- **Change #:** 92112
-- **Author:** JY-Voon
-- **Updated:** 2026-07-14 06:15:56.000000000
 
 ### [bmcweb: add clock speed support for Processors](https://gerrit.openbmc.org/c/87279)
 - **Change #:** 87279
@@ -201,73 +220,6 @@
 - **Change #:** 91606
 - **Author:** JY-Voon
 - **Updated:** 2026-07-14 02:22:10.000000000
-
-### [Add Location information for PCIeDevice](https://gerrit.openbmc.org/c/61739)
-- **Change #:** 61739
-- **Author:** Lakshmi Yadlapati
-- **Updated:** 2026-07-13 23:31:34.000000000
-
-### [storage: add PrettyName utility function](https://gerrit.openbmc.org/c/91706)
-- **Change #:** 91706
-- **Author:** AKash-A007
-- **Updated:** 2026-07-13 22:16:47.000000000
-
-### [Memory: add Memory MemoryMetrics ECC support](https://gerrit.openbmc.org/c/87169)
-- **Change #:** 87169
-- **Author:** Eric Liu
-- **Updated:** 2026-07-13 18:16:17.000000000
-
-### [Memory: add Processor MemorySummary ECCModeEnabled](https://gerrit.openbmc.org/c/90348)
-- **Change #:** 90348
-- **Author:** Eric Liu
-- **Updated:** 2026-07-13 18:15:48.000000000
-
-### [Memory: add CapacityUtilizationPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90363)
-- **Change #:** 90363
-- **Author:** Eric Liu
-- **Updated:** 2026-07-13 18:15:31.000000000
-
-### [HTTP/2: enforce body limit in HttpBody::reader::put()](https://gerrit.openbmc.org/c/90580)
-- **Change #:** 90580
-- **Author:** 0xbinreaper
-- **Updated:** 2026-07-13 17:16:07.000000000
-
-### [storage: use PrettyName for Drive Name field](https://gerrit.openbmc.org/c/90364)
-- **Change #:** 90364
-- **Author:** AKash-A007
-- **Updated:** 2026-07-13 15:36:40.000000000
-
-### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
-- **Change #:** 89357
-- **Author:** JY-Voon
-- **Updated:** 2026-07-13 14:57:58.000000000
-
-### [bmcweb: add unit tests for Processor EnvMetrics sensor handlers](https://gerrit.openbmc.org/c/92095)
-- **Change #:** 92095
-- **Author:** JY-Voon
-- **Updated:** 2026-07-13 09:20:18.000000000
-
-### [Implement Response header count](https://gerrit.openbmc.org/c/91983)
-- **Change #:** 91983
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-07-13 07:33:39.000000000
-
-### [update service: related item by association](https://gerrit.openbmc.org/c/82485)
-- **Change #:** 82485
-- **Author:** Alexander
-- **Updated:** 2026-07-13 03:15:19.000000000
-
-### [network_adapter: add NetworkAdapter.Reset POST action](https://gerrit.openbmc.org/c/89764)
-- **Change #:** 89764
-- **Author:** Eric Liu
-- **Updated:** 2026-07-13 02:40:58.000000000
-
-## 🚧 Work In Progress (1)
-
-### [Multi-host Storage Inventory](https://gerrit.openbmc.org/c/91643)
-- **Change #:** 91643
-- **Author:** bencenagy-9esec
-- **Updated:** 2026-07-13 15:46:44.000000000
 
 ## ❌ Abandoned MRs (2)
 
