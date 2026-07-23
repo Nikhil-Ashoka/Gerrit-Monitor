@@ -1,14 +1,28 @@
 # 📧 Gerrit Activity Report by Owner
 **Generated:** 2026-07-23 16:27:27 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-07-22 to 2026-07-23 (1 day)
-**Changes:** 0
+**Period:** 2026-07-16 to 2026-07-23 (7 days)
+**Changes:** 2
 
+
+## ❌ Abandoned MRs (2)
+
+### [WIP: Add range support](https://gerrit.openbmc.org/c/72821)
+- **Change #:** 72821
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-07-21 13:14:41.000000000
+
+### [WIP: Fix all reinterpret cast warnings](https://gerrit.openbmc.org/c/51612)
+- **Change #:** 51612
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-07-16 13:11:33.000000000
 
 ---
 
