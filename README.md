@@ -1,19 +1,21 @@
 # Gerrit Monitor
 
-Automated monitoring for Gerrit projects with support for markdown report generation, daily Slack notifications, and weekly email delivery through GitHub Actions or local execution.
+Automated monitoring for Gerrit projects and Gerrit user activity by email, with support for markdown report generation, daily Slack notifications, and weekly email delivery through GitHub Actions or local execution.
 
 ## Overview
 
-This repository provides an automated solution for monitoring Gerrit projects, collecting recent Gerrit activity, generating a markdown report, and distributing the results through Slack (daily) or email (weekly).
+This repository provides an automated solution for monitoring Gerrit projects and individual contributor activity by email address, collecting recent Gerrit activity, generating markdown reports, and distributing the results through Slack (daily) or email (weekly).
 
-The current configuration monitors [`openbmc/webui-vue`](https://gerrit.openbmc.org/q/project:openbmc/webui-vue). The monitor can be configured to work with any Gerrit projects by updating [`config.json`](config.json).
+The current configuration monitors [`openbmc/webui-vue`](https://gerrit.openbmc.org/q/project:openbmc/webui-vue) and a set of configured email owners. The monitor can be configured to work with any Gerrit projects or email addresses by updating [`config.json`](config.json).
 
 ### What it does
 
 - Monitors configurable Gerrit projects
+- Monitors Gerrit activity by contributor email address (owner-based tracking)
 - Fetches changes from a configurable time window
 - Categorizes results by status such as merged, open, work in progress, and abandoned
-- Generates a markdown activity report in the repository root
+- Generates a markdown project activity report ([`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md)) in the repository root
+- Generates a separate markdown email owner activity report (`GERRIT_EMAIL_REPORT.md`) when email targets are configured
 - Posts daily formatted notifications to Slack
 - Sends weekly email reports
 - Supports both GitHub Actions automation and local/manual execution
@@ -22,14 +24,16 @@ The current configuration monitors [`openbmc/webui-vue`](https://gerrit.openbmc.
 
 - No dedicated server required when using GitHub Actions
 - Simple configuration through [`config.json`](config.json) and environment variables
-- Easy to customize schedules, monitored project, reporting period, and notification behavior
+- Monitor both entire projects and individual contributor activity in a single run
+- Easy to customize schedules, monitored projects, email targets, reporting period, and notification behavior
 - Includes workflow automation and optional notification support
 
 ## Features
 
 - Daily Gerrit activity monitoring with Slack notifications
 - Weekly Gerrit activity monitoring with email reports
-- Markdown report generation in [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md)
+- Project-level monitoring with report saved to [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md)
+- Email owner-level monitoring with report saved to `GERRIT_EMAIL_REPORT.md`
 - Slack webhook notifications (daily workflow only)
 - Weekly HTML email reporting (weekly workflow only)
 - GitHub Actions workflows for automated execution
@@ -48,6 +52,8 @@ gerrit-monitor/
 ├── LICENSE
 ├── README.md
 ├── GERRIT_DAILY_REPORT.md
+├── GERRIT_EMAIL_REPORT.md
+├── SETUP_GUIDE.html
 └── .github/workflows/
     ├── daily-monitor.yml
     └── weekly-monitor.yml
@@ -71,9 +77,10 @@ gerrit-monitor/
    - Uses GitHub Secrets for sensitive values
    - Supports manual workflow execution
 
-4. **Report output** — [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md)
-   - Stores the generated markdown activity summary
-   - Can be committed by workflows and uploaded as an artifact
+4. **Report output** — [`GERRIT_DAILY_REPORT.md`](GERRIT_DAILY_REPORT.md), `GERRIT_EMAIL_REPORT.md`
+   - `GERRIT_DAILY_REPORT.md` stores the project-level markdown activity summary
+   - `GERRIT_EMAIL_REPORT.md` stores the email owner-level activity summary (generated when `emails` are configured)
+   - Both can be committed by workflows and uploaded as artifacts
 
 ## Architecture and Data Flow
 
@@ -164,6 +171,13 @@ Example (Multi-Project Configuration):
       "check_days": 2,
       "max_results": 100
     }
+  ],
+  "emails": [
+    {
+      "email": "team@example.com",
+      "check_days": 1,
+      "max_results": 100
+    }
   ]
 }
 ```
@@ -175,6 +189,10 @@ Example (Multi-Project Configuration):
   - `name`: Gerrit project path to monitor
   - `check_days`: Number of days to look back for this project
   - `max_results`: Maximum number of changes to fetch for this project
+- `emails` *(optional)*: Array of email targets for activity monitoring, each containing:
+  - `email`: Email address to monitor for Gerrit activity
+  - `check_days`: Number of days to look back for this email target
+  - `max_results`: Maximum number of changes to fetch for this email target
 
 ### Backward Compatibility
 
@@ -353,7 +371,7 @@ Recommended values documented by the existing setup materials:
 ### Test Gerrit API access quickly
 
 ```bash
-python -c "from monitor import GerritMonitor; m = GerritMonitor(); print(f'Found {len(m.fetch_changes())} changes')"
+python -c "from monitor import GerritMonitor; m = GerritMonitor(); changes = m.fetch_all_changes(); total = sum(len(v) for v in changes.values()); print(f'Found {total} changes')"
 ```
 
 ### Test a normal monitor run
@@ -417,12 +435,25 @@ Example - Adding a third project:
 
 ### Change the reporting period
 
-Edit [`config.json`](config.json):
+Edit the `check_days` value inside each project or email entry in [`config.json`](config.json):
 
 ```json
 {
-  "check_days": 14
+  "gerrit_url": "https://gerrit.openbmc.org",
+  "projects": [
+    {
+      "name": "openbmc/webui-vue",
+      "check_days": 14,
+      "max_results": 100
+    }
+  ]
 }
+```
+
+Alternatively, override for all targets at once using the `CHECK_DAYS` environment variable:
+
+```bash
+CHECK_DAYS=14 python monitor.py
 ```
 
 ### Change the schedule
@@ -431,7 +462,7 @@ For the daily workflow, edit [`.github/workflows/daily-monitor.yml`](.github/wor
 
 ```yaml
 schedule:
-  - cron: '5 7 * * *'
+  - cron: '0 9 * * *'
 ```
 
 For the weekly workflow, edit [`.github/workflows/weekly-monitor.yml`](.github/workflows/weekly-monitor.yml):

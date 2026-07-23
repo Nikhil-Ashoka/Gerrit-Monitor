@@ -43,6 +43,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add GERRIT_DAILY_REPORT.md
+          git add GERRIT_EMAIL_REPORT.md 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📊 Weekly Gerrit Activity Report - $(date +'%Y-%m-%d')"
           git push
       
@@ -50,7 +51,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gerrit-weekly-report
-          path: GERRIT_DAILY_REPORT.md
+          path: |
+            GERRIT_DAILY_REPORT.md
+            GERRIT_EMAIL_REPORT.md
           retention-days: 90
       
       - name: Upload logs on failure
