@@ -29,6 +29,7 @@ jobs:
       - name: Run Gerrit monitor
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          REPORT_MODE: daily
         run: |
           python monitor.py
       
@@ -36,7 +37,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add GERRIT_DAILY_REPORT.md
+          git add GERRIT_DAILY_PROJECTS_REPORT.md
+          git add GERRIT_DAILY_EMAIL_REPORT.md 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📊 Daily Gerrit Activity Report - $(date +'%Y-%m-%d')"
           git push
       
@@ -44,7 +46,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gerrit-daily-report
-          path: GERRIT_DAILY_REPORT.md
+          path: |
+            GERRIT_DAILY_PROJECTS_REPORT.md
+            GERRIT_DAILY_EMAIL_REPORT.md
           retention-days: 30
       
       - name: Upload logs on failure

@@ -1340,6 +1340,11 @@ def main():
     
     # Get Slack webhook URL from environment (optional)
     slack_webhook_url = os.getenv('SLACK_WEBHOOK_URL')
+
+    # Determine report mode: "daily" (default) or "weekly"
+    report_mode = os.getenv('REPORT_MODE', 'daily').lower()
+    projects_report_filename = f"GERRIT_{report_mode.upper()}_PROJECTS_REPORT.md"
+    email_report_filename = f"GERRIT_{report_mode.upper()}_EMAIL_REPORT.md"
     
     # Initialize monitor
     monitor = GerritMonitor()
@@ -1404,7 +1409,7 @@ def main():
         )
         
         # Save report to file
-        report_saved = report_generator.save_report(markdown_report)
+        report_saved = report_generator.save_report(markdown_report, projects_report_filename)
     
     # Generate and save email-based report if emails are configured
     email_report_saved = False
@@ -1417,21 +1422,21 @@ def main():
         )
         email_report_saved = report_generator.save_report(
             email_markdown_report,
-            "GERRIT_EMAIL_REPORT.md"
+            email_report_filename
         )
     
     # Log report generation status
     if monitor.projects:
         if report_saved:
             logger.info("✅ Multi-project report generated successfully!")
-            logger.info("📄 Report saved to: GERRIT_DAILY_REPORT.md")
+            logger.info(f"📄 Report saved to: {projects_report_filename}")
         else:
             logger.error("❌ Failed to generate project report")
             sys.exit(1)
     
     if email_report_saved:
         logger.info("✅ Email-based report generated successfully!")
-        logger.info("📄 Report saved to: GERRIT_EMAIL_REPORT.md")
+        logger.info(f"📄 Report saved to: {email_report_filename}")
     elif monitor.emails and not email_report_saved:
         logger.error("❌ Failed to generate email-based report")
         sys.exit(1)
