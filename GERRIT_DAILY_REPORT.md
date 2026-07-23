@@ -1,26 +1,31 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-07-23 11:03:25 UTC
+**Generated:** 2026-07-23 16:18:09 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 73
+**Total Changes:** 75
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
 **Period:** 2026-07-22 to 2026-07-23 (1 day)
-**Changes:** 3
+**Changes:** 4
 
 
-## 🔍 Open MRs (3)
-
-### [Add asset tag edit functionality to overview page](https://gerrit.openbmc.org/c/92419)
-- **Change #:** 92419
-- **Author:** Nishant Tiwari
-- **Updated:** 2026-07-22 09:08:07.000000000
+## 🔍 Open MRs (4)
 
 ### [Fix header checkbox select-all in View All mode](https://gerrit.openbmc.org/c/92473)
 - **Change #:** 92473
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-07-22 08:50:49.000000000
+- **Updated:** 2026-07-23 15:51:26.000000000
+
+### [firmware: add update target dropdown to form](https://gerrit.openbmc.org/c/91863)
+- **Change #:** 91863
+- **Author:** Tan Siewert
+- **Updated:** 2026-07-23 14:10:18.000000000
+
+### [Add asset tag edit functionality to overview page](https://gerrit.openbmc.org/c/92419)
+- **Change #:** 92419
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-07-23 13:20:11.000000000
 
 ### [Updated Reboot BMC Notification Messages](https://gerrit.openbmc.org/c/91086)
 - **Change #:** 91086
@@ -107,10 +112,16 @@
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
 **Period:** 2026-07-22 to 2026-07-23 (1 day)
-**Changes:** 60
+**Changes:** 61
 
 
-## ✅ Merged MRs (7)
+## ✅ Merged MRs (8)
+
+### [bmcweb: map PCIe Gen6 generation](https://gerrit.openbmc.org/c/92649)
+- **Change #:** 92649
+- **Author:** Ender
+- **Changes:** +5 / -0 lines
+- **Updated:** 2026-07-23 15:11:01.000000000
 
 ### [bmcweb: tolerate missing deprecated Software Purpose](https://gerrit.openbmc.org/c/91606)
 - **Change #:** 91606
@@ -155,6 +166,51 @@
 - **Updated:** 2026-07-22 13:00:21.000000000
 
 ## 🔍 Open MRs (46)
+
+### [redfish-core:multi-host: no link to log services](https://gerrit.openbmc.org/c/87082)
+- **Change #:** 87082
+- **Author:** Alexander
+- **Updated:** 2026-07-23 16:11:06.000000000
+
+### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/92323)
+- **Change #:** 92323
+- **Author:** Ender
+- **Updated:** 2026-07-23 16:01:26.000000000
+
+### [implement multi-chassis fan inventory](https://gerrit.openbmc.org/c/87061)
+- **Change #:** 87061
+- **Author:** Alexander
+- **Updated:** 2026-07-23 15:54:44.000000000
+
+### [http: add per-chunk deadline reset for file-body responses](https://gerrit.openbmc.org/c/92612)
+- **Change #:** 92612
+- **Author:** Abhilash Raju
+- **Updated:** 2026-07-23 15:19:31.000000000
+
+### [Implement SubProcessors core for processor](https://gerrit.openbmc.org/c/64982)
+- **Change #:** 64982
+- **Author:** George Liu
+- **Updated:** 2026-07-23 14:43:50.000000000
+
+### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
+- **Change #:** 89319
+- **Author:** Jacky Huang
+- **Updated:** 2026-07-23 12:27:02.000000000
+
+### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
+- **Change #:** 88644
+- **Author:** JY-Voon
+- **Updated:** 2026-07-23 11:25:58.000000000
+
+### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
+- **Change #:** 90171
+- **Author:** JY-Voon
+- **Updated:** 2026-07-23 11:25:57.000000000
+
+### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
+- **Change #:** 89120
+- **Author:** JY-Voon
+- **Updated:** 2026-07-23 11:25:56.000000000
 
 ### [Add bios settings Get and Patch support](https://gerrit.openbmc.org/c/91118)
 - **Change #:** 91118
@@ -201,26 +257,6 @@
 - **Author:** Ender
 - **Updated:** 2026-07-23 08:56:40.000000000
 
-### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
-- **Change #:** 90171
-- **Author:** JY-Voon
-- **Updated:** 2026-07-23 08:42:53.000000000
-
-### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
-- **Change #:** 89120
-- **Author:** JY-Voon
-- **Updated:** 2026-07-23 08:42:06.000000000
-
-### [bmcweb: add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
-- **Change #:** 88644
-- **Author:** JY-Voon
-- **Updated:** 2026-07-23 08:40:35.000000000
-
-### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/92323)
-- **Change #:** 92323
-- **Author:** Ender
-- **Updated:** 2026-07-23 08:40:18.000000000
-
 ### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
 - **Change #:** 90169
 - **Author:** JY-Voon
@@ -246,11 +282,6 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-07-23 07:30:48.000000000
 
-### [bmcweb: map PCIe Gen6 generation](https://gerrit.openbmc.org/c/92649)
-- **Change #:** 92649
-- **Author:** Ender
-- **Updated:** 2026-07-23 07:01:11.000000000
-
 ### [redfish/memory: fix type mismatches in getPersistentMemoryProperties](https://gerrit.openbmc.org/c/90940)
 - **Change #:** 90940
 - **Author:** Rython Cai
@@ -261,11 +292,6 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-07-23 06:16:54.000000000
 
-### [bmcweb: add Chassis Links/Processors support](https://gerrit.openbmc.org/c/89319)
-- **Change #:** 89319
-- **Author:** Jacky Huang
-- **Updated:** 2026-07-23 05:58:45.000000000
-
 ### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
 - **Change #:** 88947
 - **Author:** JY-Voon
@@ -275,11 +301,6 @@
 - **Change #:** 92089
 - **Author:** JY-Voon
 - **Updated:** 2026-07-23 05:34:35.000000000
-
-### [http: Cancel deadline timer for file body responses](https://gerrit.openbmc.org/c/92612)
-- **Change #:** 92612
-- **Author:** Abhilash Raju
-- **Updated:** 2026-07-23 04:50:11.000000000
 
 ### [Add ReadingAccuracy, move away from Accuracy](https://gerrit.openbmc.org/c/92392)
 - **Change #:** 92392
@@ -316,20 +337,10 @@
 - **Author:** Sandeep Akant Patil
 - **Updated:** 2026-07-22 18:24:20.000000000
 
-### [Implement SubProcessors core for processor](https://gerrit.openbmc.org/c/64982)
-- **Change #:** 64982
-- **Author:** George Liu
-- **Updated:** 2026-07-22 18:19:55.000000000
-
 ### [account-service: prevent deletion of own account](https://gerrit.openbmc.org/c/90332)
 - **Change #:** 90332
 - **Author:** Tan Siewert
 - **Updated:** 2026-07-22 18:19:54.000000000
-
-### [implement multi-host fan inventory](https://gerrit.openbmc.org/c/87061)
-- **Change #:** 87061
-- **Author:** Alexander
-- **Updated:** 2026-07-22 18:12:31.000000000
 
 ### [Add multi-host processor GET](https://gerrit.openbmc.org/c/83773)
 - **Change #:** 83773
