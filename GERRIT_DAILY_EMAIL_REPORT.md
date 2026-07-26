@@ -1,45 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-07-25 10:22:05 UTC
+**Generated:** 2026-07-26 10:38:40 UTC
 **Owner:** ed@tanous.net
-**Changes:** 4
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-07-24 to 2026-07-25 (1 day)
-**Changes:** 4
+**Period:** 2026-07-25 to 2026-07-26 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (3)
-
-### [Add Fuzz target](https://gerrit.openbmc.org/c/89858)
-- **Change #:** 89858
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +174 / -0 lines
-- **Updated:** 2026-07-24 17:31:51.000000000
-
-### [Remove final IWYU hints](https://gerrit.openbmc.org/c/92065)
-- **Change #:** 92065
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +1 / -9 lines
-- **Updated:** 2026-07-24 17:21:42.000000000
-
-### [Simplify json types on tasks](https://gerrit.openbmc.org/c/89335)
-- **Change #:** 89335
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +10 / -13 lines
-- **Updated:** 2026-07-24 16:49:25.000000000
-
-## 🔍 Open MRs (1)
-
-### [Refactor Task payload into its own file](https://gerrit.openbmc.org/c/89333)
-- **Change #:** 89333
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-07-24 17:43:13.000000000
 
 ---
 
