@@ -1,28 +1,53 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-07-23 16:35:32 UTC
+**Generated:** 2026-07-27 12:13:59 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 5
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-07-16 to 2026-07-23 (7 days)
-**Changes:** 2
+**Period:** 2026-07-20 to 2026-07-27 (7 days)
+**Changes:** 5
 
 
-## ❌ Abandoned MRs (2)
+## ✅ Merged MRs (3)
+
+### [Add Fuzz target](https://gerrit.openbmc.org/c/89858)
+- **Change #:** 89858
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Changes:** +174 / -0 lines
+- **Updated:** 2026-07-24 17:31:51.000000000
+
+### [Remove final IWYU hints](https://gerrit.openbmc.org/c/92065)
+- **Change #:** 92065
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Changes:** +1 / -9 lines
+- **Updated:** 2026-07-24 17:21:42.000000000
+
+### [Simplify json types on tasks](https://gerrit.openbmc.org/c/89335)
+- **Change #:** 89335
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Changes:** +10 / -13 lines
+- **Updated:** 2026-07-24 16:49:25.000000000
+
+## 🔍 Open MRs (1)
+
+### [Refactor Task payload into its own file](https://gerrit.openbmc.org/c/89333)
+- **Change #:** 89333
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-07-24 17:43:13.000000000
+
+## ❌ Abandoned MRs (1)
 
 ### [WIP: Add range support](https://gerrit.openbmc.org/c/72821)
 - **Change #:** 72821
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
 - **Updated:** 2026-07-21 13:14:41.000000000
-
-### [WIP: Fix all reinterpret cast warnings](https://gerrit.openbmc.org/c/51612)
-- **Change #:** 51612
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-07-16 13:11:33.000000000
 
 ---
 
