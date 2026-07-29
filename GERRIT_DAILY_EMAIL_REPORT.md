@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-07-28 11:10:18 UTC
+**Generated:** 2026-07-29 11:17:25 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-07-27 to 2026-07-28 (1 day)
-**Changes:** 0
+**Period:** 2026-07-28 to 2026-07-29 (1 day)
+**Changes:** 1
 
+
+## 🔍 Open MRs (1)
+
+### [Update security compiler flags](https://gerrit.openbmc.org/c/91173)
+- **Change #:** 91173
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-07-29 09:15:26.000000000
 
 ---
 
