@@ -1,28 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-02 10:28:09 UTC
+**Generated:** 2026-08-04 11:17:34 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-01 to 2026-08-02 (1 day)
-**Changes:** 2
+**Period:** 2026-08-03 to 2026-08-04 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (2)
-
-### [re-enable nrvo warning](https://gerrit.openbmc.org/c/80871)
-- **Change #:** 80871
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-01 23:39:04.000000000
-
-### [Update security compiler flags](https://gerrit.openbmc.org/c/91173)
-- **Change #:** 91173
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-01 21:44:28.000000000
 
 ---
 
