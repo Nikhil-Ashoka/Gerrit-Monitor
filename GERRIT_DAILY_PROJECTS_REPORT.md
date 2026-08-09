@@ -1,149 +1,68 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-08-08 09:30:31 UTC
+**Generated:** 2026-08-09 09:32:12 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 19
+**Total Changes:** 4
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-08-07 to 2026-08-08 (1 day)
-**Changes:** 2
+**Period:** 2026-08-08 to 2026-08-09 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (2)
-
-### [Add Task Monitor page under Logs](https://gerrit.openbmc.org/c/92370)
-- **Change #:** 92370
-- **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-08-07 11:17:59.000000000
-
-### [Replace v-model with :model-value in Policies](https://gerrit.openbmc.org/c/92502)
-- **Change #:** 92502
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-08-07 01:43:52.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-08-07 to 2026-08-08 (1 day)
+**Period:** 2026-08-08 to 2026-08-09 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-08-07 to 2026-08-08 (1 day)
+**Period:** 2026-08-08 to 2026-08-09 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-08-07 to 2026-08-08 (1 day)
-**Changes:** 5
+**Period:** 2026-08-08 to 2026-08-09 (1 day)
+**Changes:** 1
 
 
-## ✅ Merged MRs (1)
-
-### [pel: repurposed unused SBE vital attention registry entry](https://gerrit.openbmc.org/c/93162)
-- **Change #:** 93162
-- **Author:** Zane Shelley
-- **Changes:** +4 / -4 lines
-- **Updated:** 2026-08-07 14:56:35.000000000
-
-## 🔍 Open MRs (4)
-
-### [PEL: Registry callouts with AD and then system](https://gerrit.openbmc.org/c/93305)
-- **Change #:** 93305
-- **Author:** Matt Spinler
-- **Updated:** 2026-08-07 15:29:30.000000000
+## 🔍 Open MRs (1)
 
 ### [Fix typos identified by codespell](https://gerrit.openbmc.org/c/93295)
 - **Change #:** 93295
 - **Author:** SonaN-7
-- **Updated:** 2026-08-07 10:09:43.000000000
-
-### [log manager: enforce log policy on entry creation](https://gerrit.openbmc.org/c/91570)
-- **Change #:** 91570
-- **Author:** mahalakshmik-1
-- **Updated:** 2026-08-07 05:21:34.000000000
-
-### [PEL: Add DeviceTreeIntegrity Error](https://gerrit.openbmc.org/c/92869)
-- **Change #:** 92869
-- **Author:** shwetha-b
-- **Updated:** 2026-08-07 05:12:06.000000000
+- **Updated:** 2026-08-08 11:45:54.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-08-07 to 2026-08-08 (1 day)
-**Changes:** 12
+**Period:** 2026-08-08 to 2026-08-09 (1 day)
+**Changes:** 3
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (2)
 
-### [redfish-core:multi-host: no link to log services](https://gerrit.openbmc.org/c/87082)
-- **Change #:** 87082
-- **Author:** Alexander
-- **Changes:** +9 / -2 lines
-- **Updated:** 2026-08-07 11:58:21.000000000
+### [Add support for noauth with multi ports](https://gerrit.openbmc.org/c/92320)
+- **Change #:** 92320
+- **Author:** Adi Fogel
+- **Updated:** 2026-08-09 06:38:18.000000000
 
-## 🔍 Open MRs (11)
+### [Use enums for State and Health properties](https://gerrit.openbmc.org/c/93326)
+- **Change #:** 93326
+- **Author:** Vinothkumar Shanmugavel
+- **Updated:** 2026-08-08 23:56:34.000000000
 
-### [Fix OpenBMCManager FanZone schema validation](https://gerrit.openbmc.org/c/90980)
-- **Change #:** 90980
-- **Author:** Amy Chang
-- **Updated:** 2026-08-07 18:53:50.000000000
+## 🚧 Work In Progress (1)
 
-### [pcie: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
-- **Change #:** 88522
-- **Author:** Ender
-- **Updated:** 2026-08-07 17:16:55.000000000
-
-### [redfish: thermal: Remove TODO, fix error msg](https://gerrit.openbmc.org/c/93294)
-- **Change #:** 93294
-- **Author:** shivrajnt
-- **Updated:** 2026-08-07 17:07:25.000000000
-
-### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
-- **Change #:** 90333
-- **Author:** Tan Siewert
-- **Updated:** 2026-08-07 17:04:26.000000000
-
-### [ethernet: Expose FullDuplex property on Redfish](https://gerrit.openbmc.org/c/92873)
-- **Change #:** 92873
-- **Author:** rashidmp
-- **Updated:** 2026-08-07 16:59:44.000000000
-
-### [pcie: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
-- **Change #:** 88540
-- **Author:** Ender
-- **Updated:** 2026-08-07 10:06:44.000000000
-
-### [memory: add Chassis and Processors links](https://gerrit.openbmc.org/c/93075)
-- **Change #:** 93075
-- **Author:** Ender
-- **Updated:** 2026-08-07 09:17:24.000000000
-
-### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
-- **Change #:** 91903
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-08-07 07:36:27.000000000
-
-### [redfish-core: Refactor ThermalMetrics lambda](https://gerrit.openbmc.org/c/93284)
-- **Change #:** 93284
-- **Author:** shivrajnt
-- **Updated:** 2026-08-07 06:57:31.000000000
-
-### [pcie: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
-- **Change #:** 87995
-- **Author:** Ender
-- **Updated:** 2026-08-07 06:05:28.000000000
-
-### [redfish: Map Software Manager DBus Exceptions](https://gerrit.openbmc.org/c/93262)
-- **Change #:** 93262
-- **Author:** shivrajnt
-- **Updated:** 2026-08-07 05:29:33.000000000
+### [boot_options: Fix BootSourceOverrideTarget allowable values condition](https://gerrit.openbmc.org/c/92321)
+- **Change #:** 92321
+- **Author:** Adi Fogel
+- **Updated:** 2026-08-09 06:32:23.000000000
 
 ---
 
