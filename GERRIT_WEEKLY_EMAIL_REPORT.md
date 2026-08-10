@@ -1,28 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-03 12:14:33 UTC
+**Generated:** 2026-08-10 10:10:24 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-07-27 to 2026-08-03 (7 days)
-**Changes:** 2
+**Period:** 2026-08-03 to 2026-08-10 (7 days)
+**Changes:** 1
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
-### [re-enable nrvo warning](https://gerrit.openbmc.org/c/80871)
-- **Change #:** 80871
+### [WIP: Add USB Device discovery daemon](https://gerrit.openbmc.org/c/88076)
+- **Change #:** 88076
 - **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-01 23:39:04.000000000
-
-### [Update security compiler flags](https://gerrit.openbmc.org/c/91173)
-- **Change #:** 91173
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-01 21:44:28.000000000
+- **Project:** openbmc/entity-manager
+- **Updated:** 2026-08-06 08:17:25.000000000
 
 ---
 
