@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-09 09:32:12 UTC
+**Generated:** 2026-08-11 09:53:38 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-08 to 2026-08-09 (1 day)
-**Changes:** 0
+**Period:** 2026-08-10 to 2026-08-11 (1 day)
+**Changes:** 1
 
+
+## 🔍 Open MRs (1)
+
+### [WIP: Add USB Device discovery daemon](https://gerrit.openbmc.org/c/88076)
+- **Change #:** 88076
+- **Author:** Ed Tanous
+- **Project:** openbmc/entity-manager
+- **Updated:** 2026-08-11 04:15:04.000000000
 
 ---
 
