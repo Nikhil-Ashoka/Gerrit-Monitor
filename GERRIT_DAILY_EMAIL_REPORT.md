@@ -1,16 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-11 09:53:38 UTC
+**Generated:** 2026-08-12 09:54:44 UTC
 **Owner:** ed@tanous.net
-**Changes:** 1
+**Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-10 to 2026-08-11 (1 day)
-**Changes:** 1
+**Period:** 2026-08-11 to 2026-08-12 (1 day)
+**Changes:** 2
 
 
-## 🔍 Open MRs (1)
+## 🔍 Open MRs (2)
+
+### [Fix some missing error codes](https://gerrit.openbmc.org/c/89346)
+- **Change #:** 89346
+- **Author:** Ed Tanous
+- **Project:** openbmc/libcper
+- **Updated:** 2026-08-11 18:48:47.000000000
 
 ### [WIP: Add USB Device discovery daemon](https://gerrit.openbmc.org/c/88076)
 - **Change #:** 88076
