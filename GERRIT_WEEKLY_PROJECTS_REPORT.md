@@ -1,775 +1,755 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-08-10 10:10:24 UTC
+**Generated:** 2026-08-17 09:33:02 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 140
+**Total Changes:** 136
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-08-03 to 2026-08-10 (7 days)
-**Changes:** 4
+**Period:** 2026-08-10 to 2026-08-17 (7 days)
+**Changes:** 12
 
 
-## 🔍 Open MRs (3)
+## ✅ Merged MRs (3)
 
-### [Add Task Monitor page under Logs](https://gerrit.openbmc.org/c/92370)
-- **Change #:** 92370
+### [Fix header checkbox select-all in View All mode](https://gerrit.openbmc.org/c/92473)
+- **Change #:** 92473
 - **Author:** Aravinth Sri Krishna Raja Raghavan
-- **Updated:** 2026-08-07 11:17:59.000000000
+- **Changes:** +16 / -8 lines
+- **Updated:** 2026-08-14 04:40:01.000000000
+
+### [show specific error for duplicate SNMP alert destination](https://gerrit.openbmc.org/c/93409)
+- **Change #:** 93409
+- **Author:** Vijaysankar Ravi
+- **Changes:** +9 / -1 lines
+- **Updated:** 2026-08-12 13:44:58.000000000
 
 ### [Replace v-model with :model-value in Policies](https://gerrit.openbmc.org/c/92502)
 - **Change #:** 92502
 - **Author:** Nikhil Ashoka
-- **Updated:** 2026-08-07 01:43:52.000000000
+- **Changes:** +16 / -49 lines
+- **Updated:** 2026-08-12 13:31:34.000000000
 
-### [Add Chinese translation](https://gerrit.openbmc.org/c/92930)
-- **Change #:** 92930
-- **Author:** SKYCATV587
-- **Updated:** 2026-08-06 14:08:36.000000000
+## 🔍 Open MRs (9)
 
-## ❌ Abandoned MRs (1)
+### [Fix translation bugs and remove unused keys](https://gerrit.openbmc.org/c/93049)
+- **Change #:** 93049
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-08-17 09:28:55.000000000
 
-### [OWNERS: prune inactive members](https://gerrit.openbmc.org/c/92987)
-- **Change #:** 92987
-- **Author:** Patrick Williams
-- **Updated:** 2026-08-06 14:00:47.000000000
+### [Implemented Reboot BMC with TanStack Vue Query](https://gerrit.openbmc.org/c/92551)
+- **Change #:** 92551
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-08-17 07:21:03.000000000
+
+### [Pin floating package versions and add automated security audit](https://gerrit.openbmc.org/c/93490)
+- **Change #:** 93490
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-08-14 20:09:05.000000000
+
+### [Add Task Monitor page under Logs](https://gerrit.openbmc.org/c/92370)
+- **Change #:** 92370
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-08-14 10:59:48.000000000
+
+### [Add asset tag edit functionality to overview page](https://gerrit.openbmc.org/c/92419)
+- **Change #:** 92419
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-08-14 09:50:22.000000000
+
+### [Add AI PR review agent for webui-vue](https://gerrit.openbmc.org/c/93394)
+- **Change #:** 93394
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-08-14 05:55:05.000000000
+
+### [Add Socket Security CLI integration for supply-chain checks](https://gerrit.openbmc.org/c/92831)
+- **Change #:** 92831
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-08-13 06:16:50.000000000
+
+### [Updated Reboot BMC Notification Messages](https://gerrit.openbmc.org/c/91086)
+- **Change #:** 91086
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-08-13 06:12:23.000000000
+
+### [Implemented Sessions page with VueQuery and Composition API](https://gerrit.openbmc.org/c/91253)
+- **Change #:** 91253
+- **Author:** Vedangi Mittal
+- **Updated:** 2026-08-12 07:29:51.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-08-03 to 2026-08-10 (7 days)
-**Changes:** 1
+**Period:** 2026-08-10 to 2026-08-17 (7 days)
+**Changes:** 13
 
 
-## ❌ Abandoned MRs (1)
+## 🚧 Work In Progress (13)
 
-### [OpenPOWER: Serialization of system dump](https://gerrit.openbmc.org/c/47088)
-- **Change #:** 47088
-- **Author:** chirag sharma
-- **Updated:** 2026-08-05 13:20:27.000000000
+### [core: Retry dumps when manager restarts](https://gerrit.openbmc.org/c/77567)
+- **Change #:** 77567
+- **Author:** Swetha Parasa
+- **Updated:** 2026-08-17 07:20:16.000000000
+
+### [dreport: Add a packaging extension](https://gerrit.openbmc.org/c/71933)
+- **Change #:** 71933
+- **Author:** Gopichand Paturi
+- **Updated:** 2026-08-17 05:25:08.000000000
+
+### [OpenPOWER: Reject dumps disabled by policy](https://gerrit.openbmc.org/c/77558)
+- **Change #:** 77558
+- **Author:** Gopichand Paturi
+- **Updated:** 2026-08-17 05:24:52.000000000
+
+### [OpenPOWER: Add Hostboot dump entry support](https://gerrit.openbmc.org/c/71409)
+- **Change #:** 71409
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:15:37.000000000
+
+### [OpenPOWER: Add support for non-disruptive system dumps](https://gerrit.openbmc.org/c/71408)
+- **Change #:** 71408
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:15:33.000000000
+
+### [OpenPOWER: Move system dump entry to factory](https://gerrit.openbmc.org/c/71406)
+- **Change #:** 71406
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:15:31.000000000
+
+### [OpenPOWER: Use file-backed system and resource entries](https://gerrit.openbmc.org/c/93572)
+- **Change #:** 93572
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:15:28.000000000
+
+### [OpenPOWER: Remove host-memory cleanup service](https://gerrit.openbmc.org/c/71783)
+- **Change #:** 71783
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:11:31.000000000
+
+### [OpenPOWER: Restore serialized dump entries](https://gerrit.openbmc.org/c/71732)
+- **Change #:** 71732
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:09:59.000000000
+
+### [OpenPOWER: Memory Buffer SBE dump support](https://gerrit.openbmc.org/c/71728)
+- **Change #:** 71728
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:09:34.000000000
+
+### [OpenPOWER: Add SBE dump entry support](https://gerrit.openbmc.org/c/71410)
+- **Change #:** 71410
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:09:11.000000000
+
+### [OpenPOWER: Move resource dump entry to factory](https://gerrit.openbmc.org/c/71407)
+- **Change #:** 71407
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:07:07.000000000
+
+### [OpenPOWER: Introduce unified dump manager](https://gerrit.openbmc.org/c/71405)
+- **Change #:** 71405
+- **Author:** Dhruvaraj S
+- **Updated:** 2026-08-17 05:06:27.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-08-03 to 2026-08-10 (7 days)
-**Changes:** 2
+**Period:** 2026-08-10 to 2026-08-17 (7 days)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [fix(manager): correct typo in signal callback comment](https://gerrit.openbmc.org/c/93254)
-- **Change #:** 93254
-- **Author:** SonaN-7
-- **Updated:** 2026-08-06 10:29:45.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [fix(manager): correct typo in signal callback comment](https://gerrit.openbmc.org/c/93252)
-- **Change #:** 93252
-- **Author:** SonaN-7
-- **Updated:** 2026-08-06 11:27:07.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-08-03 to 2026-08-10 (7 days)
-**Changes:** 35
+**Period:** 2026-08-10 to 2026-08-17 (7 days)
+**Changes:** 41
 
 
-## ✅ Merged MRs (2)
+## ✅ Merged MRs (3)
 
-### [pel: repurposed unused SBE vital attention registry entry](https://gerrit.openbmc.org/c/93162)
-- **Change #:** 93162
-- **Author:** Zane Shelley
-- **Changes:** +4 / -4 lines
-- **Updated:** 2026-08-07 14:56:35.000000000
+### [PEL: Add DeviceTreeIntegrity Error](https://gerrit.openbmc.org/c/92869)
+- **Change #:** 92869
+- **Author:** shwetha-b
+- **Changes:** +27 / -0 lines
+- **Updated:** 2026-08-13 15:54:26.000000000
 
-### [log to lg2 migration](https://gerrit.openbmc.org/c/92748)
-- **Change #:** 92748
+### [README: Fix ninja build command](https://gerrit.openbmc.org/c/93344)
+- **Change #:** 93344
 - **Author:** Palaniappan Arunachalam
-- **Changes:** +6 / -4 lines
-- **Updated:** 2026-08-04 21:50:57.000000000
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-08-12 03:44:51.000000000
 
-## 🔍 Open MRs (32)
+### [test:openpower-pels: propagate extension dependencies](https://gerrit.openbmc.org/c/92010)
+- **Change #:** 92010
+- **Author:** Jayanth Othayoth
+- **Changes:** +1 / -0 lines
+- **Updated:** 2026-08-11 01:57:31.000000000
+
+## 🔍 Open MRs (34)
+
+### [OWNERS: add myself as a reviewer](https://gerrit.openbmc.org/c/93574)
+- **Change #:** 93574
+- **Author:** Palaniappan Arunachalam
+- **Updated:** 2026-08-17 06:53:40.000000000
+
+### [logging:plugin add descriptor generation support](https://gerrit.openbmc.org/c/93215)
+- **Change #:** 93215
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-15 00:32:00.000000000
+
+### [logging:plugin add manager support](https://gerrit.openbmc.org/c/93212)
+- **Change #:** 93212
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-15 00:27:20.000000000
+
+### [config: Add meson option for runtime metadata](https://gerrit.openbmc.org/c/93537)
+- **Change #:** 93537
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-15 00:11:06.000000000
+
+### [logging:plugin add  metadata support to EventInfo](https://gerrit.openbmc.org/c/93264)
+- **Change #:** 93264
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 23:29:06.000000000
+
+### [plugin: Add extension payload builder support](https://gerrit.openbmc.org/c/93538)
+- **Change #:** 93538
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 23:27:44.000000000
+
+### [logging:plugin add CPER descriptor](https://gerrit.openbmc.org/c/93208)
+- **Change #:** 93208
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 20:49:46.000000000
+
+### [lg2: replace extractEvent tuple with EventInfo](https://gerrit.openbmc.org/c/93204)
+- **Change #:** 93204
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 18:07:22.000000000
+
+### [README: Test Gerrit review](https://gerrit.openbmc.org/c/93544)
+- **Change #:** 93544
+- **Author:** Abhijeet Singh
+- **Updated:** 2026-08-14 13:33:52.000000000
+
+### [extensions: add initial AEL infrastructure](https://gerrit.openbmc.org/c/90626)
+- **Change #:** 90626
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:31:17.000000000
+
+### [logging:plugin add extension hook support](https://gerrit.openbmc.org/c/93417)
+- **Change #:** 93417
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:30:36.000000000
+
+### [plugin: Add CPER extension payload support](https://gerrit.openbmc.org/c/93539)
+- **Change #:** 93539
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:28:17.000000000
+
+### [amd-event-log: add AEL reverse LUT codegen support](https://gerrit.openbmc.org/c/92619)
+- **Change #:** 92619
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:28:04.000000000
+
+### [logging: defer entry object-added signal emission](https://gerrit.openbmc.org/c/93217)
+- **Change #:** 93217
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:27:45.000000000
+
+### [logging: create log plugins from extension metadata](https://gerrit.openbmc.org/c/93218)
+- **Change #:** 93218
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:27:43.000000000
+
+### [logging:plugin add CPER request support](https://gerrit.openbmc.org/c/93216)
+- **Change #:** 93216
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:27:25.000000000
+
+### [logging: integrate runtime plugin infrastructure](https://gerrit.openbmc.org/c/93214)
+- **Change #:** 93214
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:27:21.000000000
+
+### [extensions: amd-event-log: add AEL runtime metadata](https://gerrit.openbmc.org/c/92620)
+- **Change #:** 92620
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:23:59.000000000
+
+### [logging: add runtime metadata provider support](https://gerrit.openbmc.org/c/93418)
+- **Change #:** 93418
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:23:18.000000000
+
+### [logging:plugin introduce factory interface](https://gerrit.openbmc.org/c/93209)
+- **Change #:** 93209
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 12:02:04.000000000
+
+### [logging:plugin introduce factory interface](https://gerrit.openbmc.org/c/93210)
+- **Change #:** 93210
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 11:58:26.000000000
+
+### [PEL: Multi-chassis support in message registry for dynamic chassis](https://gerrit.openbmc.org/c/91032)
+- **Change #:** 91032
+- **Author:** Riya Sabu
+- **Updated:** 2026-08-14 11:41:54.000000000
+
+### [PEL: Multi-chassis support in message registry for static chassis number](https://gerrit.openbmc.org/c/90840)
+- **Change #:** 90840
+- **Author:** Riya Sabu
+- **Updated:** 2026-08-14 11:41:39.000000000
+
+### [PEL: Multi-chassis support in JSON FFDC callout](https://gerrit.openbmc.org/c/90806)
+- **Change #:** 90806
+- **Author:** Riya Sabu
+- **Updated:** 2026-08-14 11:37:36.000000000
+
+### [logging:plugin add CPER support](https://gerrit.openbmc.org/c/93213)
+- **Change #:** 93213
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-14 09:50:30.000000000
+
+### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
+- **Change #:** 90338
+- **Author:** Riya Sabu
+- **Updated:** 2026-08-14 00:09:24.000000000
+
+### [test:openpower-pels: sync extension build settings](https://gerrit.openbmc.org/c/92618)
+- **Change #:** 92618
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-13 16:30:01.000000000
+
+### [log_manager: add option to stop persisting Cereal](https://gerrit.openbmc.org/c/93483)
+- **Change #:** 93483
+- **Author:** Palaniappan Arunachalam
+- **Updated:** 2026-08-13 05:59:18.000000000
+
+### [logging:plugin introduce descriptor framework](https://gerrit.openbmc.org/c/93207)
+- **Change #:** 93207
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-12 19:57:02.000000000
+
+### [logging:plugin introduce runtime interfaces](https://gerrit.openbmc.org/c/93206)
+- **Change #:** 93206
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-12 19:56:45.000000000
+
+### [log_manager: Evict resolved errors first on cap](https://gerrit.openbmc.org/c/92316)
+- **Change #:** 92316
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-08-12 15:52:51.000000000
+
+### [logging:plugin add registry support](https://gerrit.openbmc.org/c/93211)
+- **Change #:** 93211
+- **Author:** Jayanth Othayoth
+- **Updated:** 2026-08-11 15:53:48.000000000
+
+### [log_manager: do not reset entryId on eraseAll](https://gerrit.openbmc.org/c/92920)
+- **Change #:** 92920
+- **Author:** Jagpal S Gill
+- **Updated:** 2026-08-11 00:35:25.000000000
 
 ### [log_manager: use Entry::Level in g_errLevelMap](https://gerrit.openbmc.org/c/93353)
 - **Change #:** 93353
 - **Author:** Palaniappan Arunachalam
 - **Updated:** 2026-08-10 09:34:28.000000000
 
-### [README: Fix ninja build command](https://gerrit.openbmc.org/c/93344)
-- **Change #:** 93344
-- **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-08-10 06:49:39.000000000
+## 🚧 Work In Progress (1)
 
-### [Fix typos identified by codespell](https://gerrit.openbmc.org/c/93295)
-- **Change #:** 93295
-- **Author:** SonaN-7
-- **Updated:** 2026-08-08 11:45:54.000000000
+### [Add support for finding entries by additional data fields](https://gerrit.openbmc.org/c/90231)
+- **Change #:** 90231
+- **Author:** Amithash Prasad
+- **Updated:** 2026-08-11 08:59:37.000000000
 
-### [PEL: Registry callouts with AD and then system](https://gerrit.openbmc.org/c/93305)
-- **Change #:** 93305
-- **Author:** Matt Spinler
-- **Updated:** 2026-08-07 15:29:30.000000000
-
-### [log manager: enforce log policy on entry creation](https://gerrit.openbmc.org/c/91570)
-- **Change #:** 91570
-- **Author:** mahalakshmik-1
-- **Updated:** 2026-08-07 05:21:34.000000000
-
-### [PEL: Add DeviceTreeIntegrity Error](https://gerrit.openbmc.org/c/92869)
-- **Change #:** 92869
-- **Author:** shwetha-b
-- **Updated:** 2026-08-07 05:12:06.000000000
-
-### [log_manager: Evict resolved errors first on cap](https://gerrit.openbmc.org/c/92316)
-- **Change #:** 92316
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-08-06 21:28:15.000000000
-
-### [log_manager: do not reset entryId on eraseAll](https://gerrit.openbmc.org/c/92920)
-- **Change #:** 92920
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-08-06 21:21:01.000000000
-
-### [PEL: Multi-chassis support in JSON FFDC callout](https://gerrit.openbmc.org/c/90806)
-- **Change #:** 90806
-- **Author:** Riya Sabu
-- **Updated:** 2026-08-06 19:41:12.000000000
-
-### [PEL: Multi-chassis support in message registry for static chassis number](https://gerrit.openbmc.org/c/90840)
-- **Change #:** 90840
-- **Author:** Riya Sabu
-- **Updated:** 2026-08-06 18:19:03.000000000
-
-### [PEL: Multi-chassis support in message registry for dynamic chassis](https://gerrit.openbmc.org/c/91032)
-- **Change #:** 91032
-- **Author:** Riya Sabu
-- **Updated:** 2026-08-06 18:17:51.000000000
-
-### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
-- **Change #:** 90338
-- **Author:** Riya Sabu
-- **Updated:** 2026-08-06 16:27:55.000000000
-
-### [logging:plugin introduce descriptor framework](https://gerrit.openbmc.org/c/93207)
-- **Change #:** 93207
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:21:56.000000000
-
-### [logging:plugin introduce runtime interfaces](https://gerrit.openbmc.org/c/93206)
-- **Change #:** 93206
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:18:15.000000000
-
-### [test:openpower-pels: sync extension build settings](https://gerrit.openbmc.org/c/92618)
-- **Change #:** 92618
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:18:10.000000000
-
-### [lg2: replace extractEvent tuple with EventInfo](https://gerrit.openbmc.org/c/93204)
-- **Change #:** 93204
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:17:56.000000000
+## ❌ Abandoned MRs (3)
 
 ### [openpower-pels: Make getBMCUptime() static](https://gerrit.openbmc.org/c/91390)
 - **Change #:** 91390
 - **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:17:52.000000000
+- **Updated:** 2026-08-11 15:40:50.000000000
 
-### [logging:plugin add  metadata support to EventInfo](https://gerrit.openbmc.org/c/93264)
-- **Change #:** 93264
+### [logging: enable CPER diagnostic metadata on entries](https://gerrit.openbmc.org/c/91353)
+- **Change #:** 91353
 - **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:15:29.000000000
+- **Updated:** 2026-08-11 15:12:08.000000000
 
-### [test:openpower-pels: propagate extension dependencies](https://gerrit.openbmc.org/c/92010)
-- **Change #:** 92010
+### [logging: add OEM properties support in Entry](https://gerrit.openbmc.org/c/90968)
+- **Change #:** 90968
 - **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:14:29.000000000
-
-### [logging: create log plugins from extension metadata](https://gerrit.openbmc.org/c/93218)
-- **Change #:** 93218
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:13:56.000000000
-
-### [logging:plugin add registry support](https://gerrit.openbmc.org/c/93211)
-- **Change #:** 93211
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:12:28.000000000
-
-### [logging:plugin introduce factory interface](https://gerrit.openbmc.org/c/93210)
-- **Change #:** 93210
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:12:18.000000000
-
-### [logging:plugin add CPER request support](https://gerrit.openbmc.org/c/93216)
-- **Change #:** 93216
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:42.000000000
-
-### [logging: defer entry object-added signal emission](https://gerrit.openbmc.org/c/93217)
-- **Change #:** 93217
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:37.000000000
-
-### [logging: integrate runtime plugin infrastructure](https://gerrit.openbmc.org/c/93214)
-- **Change #:** 93214
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:34.000000000
-
-### [logging:plugin add descriptor generation support](https://gerrit.openbmc.org/c/93215)
-- **Change #:** 93215
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:31.000000000
-
-### [logging:plugin add manager support](https://gerrit.openbmc.org/c/93212)
-- **Change #:** 93212
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:28.000000000
-
-### [logging:plugin add CPER descriptor](https://gerrit.openbmc.org/c/93208)
-- **Change #:** 93208
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:17.000000000
-
-### [logging:plugin add CPER support](https://gerrit.openbmc.org/c/93213)
-- **Change #:** 93213
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-06 15:11:02.000000000
-
-### [logging:plugin add metadata support to EventInfo](https://gerrit.openbmc.org/c/93205)
-- **Change #:** 93205
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-05 16:34:43.000000000
-
-### [logging:plugin introduce factory interface](https://gerrit.openbmc.org/c/93209)
-- **Change #:** 93209
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-08-05 16:27:38.000000000
-
-### [lg2: commit: Allow users to provide additional data](https://gerrit.openbmc.org/c/88675)
-- **Change #:** 88675
-- **Author:** Amithash Prasad
-- **Updated:** 2026-08-05 05:58:30.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [phosphor-logging: use j.value instead of j.at in JSON deserialization](https://gerrit.openbmc.org/c/91750)
-- **Change #:** 91750
-- **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-08-06 09:43:57.000000000
+- **Updated:** 2026-08-11 14:27:37.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-08-03 to 2026-08-10 (7 days)
-**Changes:** 98
+**Period:** 2026-08-10 to 2026-08-17 (7 days)
+**Changes:** 70
 
 
-## ✅ Merged MRs (7)
+## ✅ Merged MRs (5)
 
-### [redfish-core:multi-host: no link to log services](https://gerrit.openbmc.org/c/87082)
-- **Change #:** 87082
-- **Author:** Alexander
-- **Changes:** +9 / -2 lines
-- **Updated:** 2026-08-07 11:58:21.000000000
-
-### [Fix Manager EventLog ClearLog Accept handling](https://gerrit.openbmc.org/c/92805)
-- **Change #:** 92805
-- **Author:** Rex Fu
-- **Changes:** +0 / -6 lines
-- **Updated:** 2026-08-06 03:43:03.000000000
-
-### [systems: Prevent empty UUID and SubModel](https://gerrit.openbmc.org/c/93193)
-- **Change #:** 93193
-- **Author:** Vinothkumar Shanmugavel
-- **Changes:** +2 / -2 lines
-- **Updated:** 2026-08-06 03:37:08.000000000
-
-### [OpenBmc org BiosReset](https://gerrit.openbmc.org/c/88227)
-- **Change #:** 88227
-- **Author:** Oliver Brewka
-- **Changes:** +2 / -1 lines
-- **Updated:** 2026-08-05 13:53:55.000000000
-
-### [Install Fabric](https://gerrit.openbmc.org/c/93125)
-- **Change #:** 93125
-- **Author:** Gunnar Mills
-- **Changes:** +2 / -0 lines
-- **Updated:** 2026-08-05 13:48:56.000000000
-
-### [AccountService: fix PATCH error-path response handling](https://gerrit.openbmc.org/c/90478)
-- **Change #:** 90478
-- **Author:** Sandeep Akant Patil
-- **Changes:** +11 / -1 lines
-- **Updated:** 2026-08-04 14:39:59.000000000
-
-### [Reject invalid HTTPBasicAuth PATCH values](https://gerrit.openbmc.org/c/92936)
-- **Change #:** 92936
-- **Author:** guytonde
-- **Changes:** +3 / -2 lines
-- **Updated:** 2026-08-03 19:35:56.000000000
-
-## 🔍 Open MRs (79)
-
-### [Managers: Fix ResetToDefaults missing parameter](https://gerrit.openbmc.org/c/93350)
-- **Change #:** 93350
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-10 09:21:48.000000000
-
-### [redfish-core: Refactor ThermalMetrics lambda](https://gerrit.openbmc.org/c/93284)
-- **Change #:** 93284
+### [redfish: thermal: Remove TODO, fix error msg](https://gerrit.openbmc.org/c/93294)
+- **Change #:** 93294
 - **Author:** shivrajnt
-- **Updated:** 2026-08-10 09:12:09.000000000
+- **Changes:** +1 / -2 lines
+- **Updated:** 2026-08-14 09:43:09.000000000
 
 ### [ethernet: Expose FullDuplex property on Redfish](https://gerrit.openbmc.org/c/92873)
 - **Change #:** 92873
 - **Author:** rashidmp
-- **Updated:** 2026-08-10 09:11:05.000000000
+- **Changes:** +11 / -0 lines
+- **Updated:** 2026-08-12 14:28:16.000000000
+
+### [Use enums for State and Health properties](https://gerrit.openbmc.org/c/93326)
+- **Change #:** 93326
+- **Author:** Vinothkumar Shanmugavel
+- **Changes:** +28 / -26 lines
+- **Updated:** 2026-08-11 15:38:11.000000000
+
+### [redfish-core: Refactor ThermalMetrics lambda](https://gerrit.openbmc.org/c/93284)
+- **Change #:** 93284
+- **Author:** shivrajnt
+- **Changes:** +16 / -13 lines
+- **Updated:** 2026-08-11 14:28:22.000000000
+
+### [snmp: Handle duplicate client creation](https://gerrit.openbmc.org/c/93102)
+- **Change #:** 93102
+- **Author:** Vijaysankar Ravi
+- **Changes:** +10 / -0 lines
+- **Updated:** 2026-08-11 01:30:42.000000000
+
+## 🔍 Open MRs (59)
+
+### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
+- **Change #:** 90333
+- **Author:** Tan Siewert
+- **Updated:** 2026-08-17 05:26:50.000000000
+
+### [processor: add DataSourceUri to clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-08-17 02:30:04.000000000
+
+### [pcie: share PCIe port property decoders](https://gerrit.openbmc.org/c/92654)
+- **Change #:** 92654
+- **Author:** Ender
+- **Updated:** 2026-08-17 02:29:51.000000000
+
+### [Use enum for watchdog timeout action property](https://gerrit.openbmc.org/c/93561)
+- **Change #:** 93561
+- **Author:** Vinothkumar Shanmugavel
+- **Updated:** 2026-08-16 05:12:26.000000000
+
+### [Storage Drives Collection fix for the chassis](https://gerrit.openbmc.org/c/93422)
+- **Change #:** 93422
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-08-15 11:17:49.000000000
+
+### [Storage Drive Items fix for the chassis](https://gerrit.openbmc.org/c/93509)
+- **Change #:** 93509
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-08-15 11:15:26.000000000
+
+### [EventService: fix message filtering](https://gerrit.openbmc.org/c/93549)
+- **Change #:** 93549
+- **Author:** John Chung
+- **Updated:** 2026-08-14 23:19:22.000000000
+
+### [sessions: disable basic auth by default](https://gerrit.openbmc.org/c/92993)
+- **Change #:** 92993
+- **Author:** guytonde
+- **Updated:** 2026-08-14 22:28:07.000000000
+
+### [Cable: Add Status.Health](https://gerrit.openbmc.org/c/78685)
+- **Change #:** 78685
+- **Author:** Myung Bae
+- **Updated:** 2026-08-14 22:19:52.000000000
+
+### [storage: add PrettyName utility function](https://gerrit.openbmc.org/c/91706)
+- **Change #:** 91706
+- **Author:** AKash-A007
+- **Updated:** 2026-08-14 17:05:00.000000000
+
+### [Storage Drives link fix for the chassis](https://gerrit.openbmc.org/c/93414)
+- **Change #:** 93414
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-08-14 13:24:13.000000000
+
+### [Detect keep-alive connections closed while idle](https://gerrit.openbmc.org/c/93543)
+- **Change #:** 93543
+- **Author:** Igor Kanyuka
+- **Updated:** 2026-08-14 11:56:51.000000000
+
+### [hypervisor: cleanup ResetType parameter handling](https://gerrit.openbmc.org/c/93363)
+- **Change #:** 93363
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-08-14 09:42:39.000000000
+
+### [bmcweb: add unit tests for Processor EnvMetrics sensor handlers](https://gerrit.openbmc.org/c/92095)
+- **Change #:** 92095
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:40:54.000000000
+
+### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
+- **Change #:** 89152
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:23:34.000000000
+
+### [bmcweb: add unit tests for Fabric Switch PowerState handlers](https://gerrit.openbmc.org/c/92199)
+- **Change #:** 92199
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:22:01.000000000
+
+### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
+- **Change #:** 90171
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:21:12.000000000
+
+### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
+- **Change #:** 92112
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:19:50.000000000
+
+### [bmcweb: add NetworkAdapter Location properties](https://gerrit.openbmc.org/c/90146)
+- **Change #:** 90146
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 07:05:24.000000000
+
+### [Fix ComputerSystem.Reset error reporting](https://gerrit.openbmc.org/c/93522)
+- **Change #:** 93522
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-08-14 06:48:11.000000000
+
+### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 05:30:16.000000000
+
+### [http: add ranged file-body support with send-limit enforcement](https://gerrit.openbmc.org/c/92729)
+- **Change #:** 92729
+- **Author:** Abhilash Raju
+- **Updated:** 2026-08-14 05:21:54.000000000
+
+### [sensors: preserve Redfish error payload on failures](https://gerrit.openbmc.org/c/93488)
+- **Change #:** 93488
+- **Author:** shivrajnt
+- **Updated:** 2026-08-14 05:05:46.000000000
+
+### [Fix dynamic storageId for controller routes](https://gerrit.openbmc.org/c/93194)
+- **Change #:** 93194
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-08-14 04:52:27.000000000
+
+### [Fix hardcoded Storage/1 to Dynamic Instance](https://gerrit.openbmc.org/c/92605)
+- **Change #:** 92605
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-08-14 04:40:30.000000000
+
+### [redfish: map DBus property-set errors to Redfish](https://gerrit.openbmc.org/c/93071)
+- **Change #:** 93071
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-08-14 04:38:24.000000000
+
+### [bmcweb: add PCIeDevice UUID property](https://gerrit.openbmc.org/c/90169)
+- **Change #:** 90169
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 03:26:26.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-08-14 03:26:22.000000000
+
+### [Redfish: Validate aggregated Members array](https://gerrit.openbmc.org/c/93147)
+- **Change #:** 93147
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-08-13 15:54:36.000000000
+
+### [port: look up port metrics through a table](https://gerrit.openbmc.org/c/93495)
+- **Change #:** 93495
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:42:04.000000000
+
+### [pcie: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
+- **Change #:** 88522
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:34:58.000000000
+
+### [pcie: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
+- **Change #:** 88540
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:34:41.000000000
+
+### [pcie: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
+- **Change #:** 87995
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:34:27.000000000
+
+### [pcie: extract shared PCIe interface helper](https://gerrit.openbmc.org/c/92506)
+- **Change #:** 92506
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:25:01.000000000
+
+### [utils: Map Available to UnavailableOffline and utility function](https://gerrit.openbmc.org/c/92845)
+- **Change #:** 92845
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-13 14:22:56.000000000
+
+### [state: Add Available state to Memory](https://gerrit.openbmc.org/c/93371)
+- **Change #:** 93371
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-13 14:20:45.000000000
+
+### [bmcweb: add unit tests for ProcessorMetrics CoreVoltage handlers](https://gerrit.openbmc.org/c/92089)
+- **Change #:** 92089
+- **Author:** JY-Voon
+- **Updated:** 2026-08-13 13:10:53.000000000
+
+### [Ethernet Port: Add LLDP port schema to interfaces](https://gerrit.openbmc.org/c/76569)
+- **Change #:** 76569
+- **Author:** Abhilash Raju
+- **Updated:** 2026-08-13 11:15:14.000000000
+
+### [Add support for noauth with multi ports](https://gerrit.openbmc.org/c/92320)
+- **Change #:** 92320
+- **Author:** Adi Fogel
+- **Updated:** 2026-08-13 07:30:46.000000000
+
+### [Add chassis state/inventory association](https://gerrit.openbmc.org/c/93461)
+- **Change #:** 93461
+- **Author:** Crystal Huang
+- **Updated:** 2026-08-12 21:03:22.000000000
+
+### [storage: use PrettyName for Drive Name field](https://gerrit.openbmc.org/c/90364)
+- **Change #:** 90364
+- **Author:** AKash-A007
+- **Updated:** 2026-08-12 20:22:34.000000000
+
+### [re-enable nrvo warning](https://gerrit.openbmc.org/c/80871)
+- **Change #:** 80871
+- **Author:** Ed Tanous
+- **Updated:** 2026-08-12 17:20:00.000000000
+
+### [state: Add Available mapping for Fabric Adapters](https://gerrit.openbmc.org/c/93368)
+- **Change #:** 93368
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-12 17:16:11.000000000
+
+### [state: Add Available mapping for Fabric Ports](https://gerrit.openbmc.org/c/93369)
+- **Change #:** 93369
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-12 17:15:58.000000000
+
+### [state: Add Available mapping for Assembly](https://gerrit.openbmc.org/c/93370)
+- **Change #:** 93370
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-12 17:15:44.000000000
+
+### [Reject session for unmapped remote users](https://gerrit.openbmc.org/c/91970)
+- **Change #:** 91970
+- **Author:** Vijaysankar Ravi
+- **Updated:** 2026-08-12 14:06:54.000000000
+
+### [UpdateService: support ForceUpdate in multipart push](https://gerrit.openbmc.org/c/92596)
+- **Change #:** 92596
+- **Author:** Dhruv Rathi
+- **Updated:** 2026-08-12 12:57:49.000000000
+
+### [utils: optimize chassis_utils and fix duplicates](https://gerrit.openbmc.org/c/93442)
+- **Change #:** 93442
+- **Author:** shivrajnt
+- **Updated:** 2026-08-12 12:44:22.000000000
+
+### [http: add per-chunk deadline reset for file-body responses](https://gerrit.openbmc.org/c/92612)
+- **Change #:** 92612
+- **Author:** Abhilash Raju
+- **Updated:** 2026-08-12 03:59:44.000000000
+
+### [state: Add Available mapping for Power Supply](https://gerrit.openbmc.org/c/93373)
+- **Change #:** 93373
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-11 16:33:00.000000000
+
+### [state: Add Available mapping for Fan](https://gerrit.openbmc.org/c/92846)
+- **Change #:** 92846
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-11 14:29:42.000000000
+
+### [state: Add Available mapping for PCIe](https://gerrit.openbmc.org/c/92847)
+- **Change #:** 92847
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-11 14:29:20.000000000
+
+### [implement multi-chassis fan inventory](https://gerrit.openbmc.org/c/87061)
+- **Change #:** 87061
+- **Author:** Alexander
+- **Updated:** 2026-08-11 13:58:03.000000000
 
 ### [update_service: RelatedItem based on association](https://gerrit.openbmc.org/c/85831)
 - **Change #:** 85831
 - **Author:** Harshit Aghera
-- **Updated:** 2026-08-10 08:22:00.000000000
+- **Updated:** 2026-08-11 13:44:50.000000000
+
+### [AccountService: Return 204 for auth methods PATCH](https://gerrit.openbmc.org/c/86782)
+- **Change #:** 86782
+- **Author:** Ramya Sivakumar
+- **Updated:** 2026-08-11 11:34:34.000000000
+
+### [Managers: Fix ResetToDefaults missing parameter](https://gerrit.openbmc.org/c/93350)
+- **Change #:** 93350
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-08-11 09:44:30.000000000
+
+### [state: Add Available state to Processors and Accelerators](https://gerrit.openbmc.org/c/93372)
+- **Change #:** 93372
+- **Author:** Justin Nguyen
+- **Updated:** 2026-08-10 18:54:31.000000000
+
+### [query_param: add $expand payload budget to MultiAsyncResp](https://gerrit.openbmc.org/c/93328)
+- **Change #:** 93328
+- **Author:** Chandra Harkude
+- **Updated:** 2026-08-10 18:13:41.000000000
 
 ### [update_service: add Manufacturer, NIC RelatedItem](https://gerrit.openbmc.org/c/90393)
 - **Change #:** 90393
 - **Author:** Eric Liu
 - **Updated:** 2026-08-10 08:15:49.000000000
 
-### [utils: Map Available to UnavailableOffline and utility function](https://gerrit.openbmc.org/c/92845)
-- **Change #:** 92845
-- **Author:** Justin Nguyen
-- **Updated:** 2026-08-10 03:52:38.000000000
-
-### [Use enums for State and Health properties](https://gerrit.openbmc.org/c/93326)
-- **Change #:** 93326
-- **Author:** Vinothkumar Shanmugavel
-- **Updated:** 2026-08-10 03:49:34.000000000
-
-### [account-service: return proper error on deletion](https://gerrit.openbmc.org/c/90333)
-- **Change #:** 90333
-- **Author:** Tan Siewert
-- **Updated:** 2026-08-10 02:57:33.000000000
-
-### [query_param: add $expand payload budget to MultiAsyncResp](https://gerrit.openbmc.org/c/93328)
-- **Change #:** 93328
-- **Author:** Chandra Harkude
-- **Updated:** 2026-08-09 14:00:50.000000000
-
-### [query_param: propagate session in processOnly](https://gerrit.openbmc.org/c/92710)
-- **Change #:** 92710
-- **Author:** Chandra Harkude
-- **Updated:** 2026-08-09 13:39:31.000000000
-
-### [Add support for noauth with multi ports](https://gerrit.openbmc.org/c/92320)
-- **Change #:** 92320
-- **Author:** Adi Fogel
-- **Updated:** 2026-08-09 06:38:18.000000000
-
-### [Fix OpenBMCManager FanZone schema validation](https://gerrit.openbmc.org/c/90980)
-- **Change #:** 90980
-- **Author:** Amy Chang
-- **Updated:** 2026-08-07 18:53:50.000000000
-
-### [pcie: add Port endpoints to Processor](https://gerrit.openbmc.org/c/88522)
-- **Change #:** 88522
-- **Author:** Ender
-- **Updated:** 2026-08-07 17:16:55.000000000
-
-### [redfish: thermal: Remove TODO, fix error msg](https://gerrit.openbmc.org/c/93294)
-- **Change #:** 93294
-- **Author:** shivrajnt
-- **Updated:** 2026-08-07 17:07:25.000000000
-
-### [pcie: add Processors Port Metrics endpoint](https://gerrit.openbmc.org/c/88540)
-- **Change #:** 88540
-- **Author:** Ender
-- **Updated:** 2026-08-07 10:06:44.000000000
-
-### [memory: add Chassis and Processors links](https://gerrit.openbmc.org/c/93075)
-- **Change #:** 93075
-- **Author:** Ender
-- **Updated:** 2026-08-07 09:17:24.000000000
-
-### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
-- **Change #:** 91903
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-08-07 07:36:27.000000000
-
-### [pcie: add PCIe SystemInterface to Processor](https://gerrit.openbmc.org/c/87995)
-- **Change #:** 87995
-- **Author:** Ender
-- **Updated:** 2026-08-07 06:05:28.000000000
-
-### [redfish: Map Software Manager DBus Exceptions](https://gerrit.openbmc.org/c/93262)
-- **Change #:** 93262
-- **Author:** shivrajnt
-- **Updated:** 2026-08-07 05:29:33.000000000
-
-### [Cable: Add Status.Health](https://gerrit.openbmc.org/c/78685)
-- **Change #:** 78685
-- **Author:** Myung Bae
-- **Updated:** 2026-08-06 21:12:21.000000000
-
-### [implement multi-chassis fan inventory](https://gerrit.openbmc.org/c/87061)
-- **Change #:** 87061
-- **Author:** Alexander
-- **Updated:** 2026-08-06 21:07:22.000000000
-
-### [dbus_privileges: Map EHOSTUNREACH to HTTP 503](https://gerrit.openbmc.org/c/93248)
-- **Change #:** 93248
-- **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-08-06 16:13:40.000000000
-
-### [AccountService: Return 204 for auth methods PATCH](https://gerrit.openbmc.org/c/86782)
-- **Change #:** 86782
-- **Author:** Ramya Sivakumar
-- **Updated:** 2026-08-06 05:09:18.000000000
-
-### [redfish-core: Fix hardcoded Storage/1 in Drive URI](https://gerrit.openbmc.org/c/92605)
-- **Change #:** 92605
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-08-06 03:59:06.000000000
-
-### [parsing: increase maxValues to 5000 for telemetry](https://gerrit.openbmc.org/c/93014)
-- **Change #:** 93014
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-08-06 03:46:38.000000000
-
-### [redfish: map DBus property-set errors to Redfish](https://gerrit.openbmc.org/c/93071)
-- **Change #:** 93071
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-08-06 03:35:06.000000000
-
-### [ethernet: block disabling active bond slave](https://gerrit.openbmc.org/c/93107)
-- **Change #:** 93107
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-08-06 03:33:52.000000000
-
-### [Router: Disambiguate 404/405 via GET probe](https://gerrit.openbmc.org/c/92416)
-- **Change #:** 92416
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-08-06 03:32:58.000000000
-
-### [system: Correct Chassis Links in ComputerSystem](https://gerrit.openbmc.org/c/60793)
-- **Change #:** 60793
-- **Author:** ChauLy-Vietnam
-- **Updated:** 2026-08-05 16:16:40.000000000
-
-### [Chassis: surface UUID and Min/MaxPowerWatts](https://gerrit.openbmc.org/c/90463)
-- **Change #:** 90463
-- **Author:** Eric Liu
-- **Updated:** 2026-08-05 13:06:54.000000000
-
-### [redfish: parameterize storage controller routes](https://gerrit.openbmc.org/c/93194)
-- **Change #:** 93194
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-08-05 13:06:24.000000000
-
-### [account_service: Restrict remote user LDAP disable](https://gerrit.openbmc.org/c/88242)
-- **Change #:** 88242
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-08-05 10:56:55.000000000
-
-### [processor: add TotalMemorySizeMiB to MemorySummary](https://gerrit.openbmc.org/c/88035)
-- **Change #:** 88035
-- **Author:** Eric Liu
-- **Updated:** 2026-08-05 10:43:12.000000000
-
-### [account_service: PasswordChangeRequired support](https://gerrit.openbmc.org/c/90598)
-- **Change #:** 90598
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-08-05 10:27:43.000000000
-
-### [Reject session for unmapped remote users](https://gerrit.openbmc.org/c/91970)
-- **Change #:** 91970
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-08-05 10:24:40.000000000
-
-### [Chassis: wire PartLocation via device daemon](https://gerrit.openbmc.org/c/90837)
-- **Change #:** 90837
-- **Author:** Eric Liu
-- **Updated:** 2026-08-05 08:46:17.000000000
-
-### [snmp: Handle duplicate client creation](https://gerrit.openbmc.org/c/93102)
-- **Change #:** 93102
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-08-05 06:37:40.000000000
-
-### [Chassis: surface SKU on Chassis](https://gerrit.openbmc.org/c/90468)
-- **Change #:** 90468
-- **Author:** Eric Liu
-- **Updated:** 2026-08-05 04:34:26.000000000
-
-### [bmcweb: add ProcessorMetrics throttle durations](https://gerrit.openbmc.org/c/90566)
-- **Change #:** 90566
-- **Author:** Ender
-- **Updated:** 2026-08-05 02:26:01.000000000
-
-### [Redfish: Validate aggregated Members array](https://gerrit.openbmc.org/c/93147)
-- **Change #:** 93147
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-04 13:15:17.000000000
-
-### [network_adapter: add InfiniBand port metrics](https://gerrit.openbmc.org/c/92534)
-- **Change #:** 92534
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 11:30:51.000000000
-
-### [Memory: add CapacityUtilizationPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90363)
-- **Change #:** 90363
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 11:01:36.000000000
-
-### [Memory: add Processor Settings for ECC mode](https://gerrit.openbmc.org/c/90349)
-- **Change #:** 90349
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:59:11.000000000
-
-### [memory: add OperatingSpeedMHz to MemoryMetrics](https://gerrit.openbmc.org/c/88011)
-- **Change #:** 88011
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:58:07.000000000
-
-### [Memory: add GPU DRAM memory support](https://gerrit.openbmc.org/c/87974)
-- **Change #:** 87974
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:57:04.000000000
-
-### [Memory: add MemorySummary MemoryMetrics ECC](https://gerrit.openbmc.org/c/87185)
-- **Change #:** 87185
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:52:47.000000000
-
-### [Memory: add Memory MemoryMetrics ECC support](https://gerrit.openbmc.org/c/87169)
-- **Change #:** 87169
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:51:34.000000000
-
-### [network_adapter: add Reset action](https://gerrit.openbmc.org/c/89764)
-- **Change #:** 89764
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:46:26.000000000
-
-### [NetworkDevice: add NetworkDeviceFunctions support](https://gerrit.openbmc.org/c/88776)
-- **Change #:** 88776
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:44:14.000000000
-
-### [state: Add Available mapping for PCIe](https://gerrit.openbmc.org/c/92847)
-- **Change #:** 92847
-- **Author:** Justin Nguyen
-- **Updated:** 2026-08-04 10:43:09.000000000
-
-### [state: Add Available mapping for Fan](https://gerrit.openbmc.org/c/92846)
-- **Change #:** 92846
-- **Author:** Justin Nguyen
-- **Updated:** 2026-08-04 10:42:54.000000000
-
-### [Add ProcessorMetrics ECC error counts support](https://gerrit.openbmc.org/c/86977)
-- **Change #:** 86977
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 09:34:31.000000000
-
-### [memory: add BandwidthPercent to MemoryMetrics](https://gerrit.openbmc.org/c/90323)
-- **Change #:** 90323
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 09:02:02.000000000
-
-### [Memory: add Processor MemorySummary ECCModeEnabled](https://gerrit.openbmc.org/c/90348)
-- **Change #:** 90348
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 08:38:17.000000000
-
-### [redfish: Expose OEM boot progress state](https://gerrit.openbmc.org/c/92395)
-- **Change #:** 92395
-- **Author:** meghan1006
-- **Updated:** 2026-08-04 08:31:36.000000000
-
-### [bmcweb: add unit tests for Fabric Switch PowerState handlers](https://gerrit.openbmc.org/c/92199)
-- **Change #:** 92199
-- **Author:** JY-Voon
-- **Updated:** 2026-08-04 03:56:03.000000000
-
-### [bmcweb: add PowerState to Fabric Switch GET](https://gerrit.openbmc.org/c/90171)
-- **Change #:** 90171
-- **Author:** JY-Voon
-- **Updated:** 2026-08-04 03:56:01.000000000
-
-### [bmcweb: add unit tests for ProcessorMetrics CoreVoltage handlers](https://gerrit.openbmc.org/c/92089)
-- **Change #:** 92089
-- **Author:** JY-Voon
-- **Updated:** 2026-08-04 03:25:59.000000000
-
-### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
-- **Change #:** 88947
-- **Author:** JY-Voon
-- **Updated:** 2026-08-04 03:09:22.000000000
-
-### [pcie: extract shared PCIe interface helper](https://gerrit.openbmc.org/c/92506)
-- **Change #:** 92506
-- **Author:** Ender
-- **Updated:** 2026-08-04 03:02:10.000000000
-
-### [bmcweb: add OperatingSpeedMHz to ProcessorMetrics](https://gerrit.openbmc.org/c/87802)
-- **Change #:** 87802
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 02:58:25.000000000
-
-### [bmcweb: add BandwidthPercent to ProcessorMetrics](https://gerrit.openbmc.org/c/91608)
-- **Change #:** 91608
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 01:11:15.000000000
-
-### [update_service: Handle uploadImageFile errors](https://gerrit.openbmc.org/c/93045)
-- **Change #:** 93045
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-03 21:05:19.000000000
-
-### [pcie: map FunctionType and DeviceClass through generated enum types](https://gerrit.openbmc.org/c/89751)
-- **Change #:** 89751
-- **Author:** AKash-A007
-- **Updated:** 2026-08-03 20:45:59.000000000
-
-### [HTTP/2: bound HttpBody::reader body size to match HTTP/1.1](https://gerrit.openbmc.org/c/90580)
-- **Change #:** 90580
-- **Author:** 0xbinreaper
-- **Updated:** 2026-08-03 20:34:34.000000000
-
-### [memory: add unit tests for Memory links handlers](https://gerrit.openbmc.org/c/93084)
-- **Change #:** 93084
-- **Author:** Ender
-- **Updated:** 2026-08-03 16:40:34.000000000
-
-### [Add multi-host processor GET](https://gerrit.openbmc.org/c/83773)
-- **Change #:** 83773
-- **Author:** Christopher Meis
-- **Updated:** 2026-08-03 13:38:08.000000000
-
-### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
-- **Change #:** 92112
-- **Author:** JY-Voon
-- **Updated:** 2026-08-03 13:10:36.000000000
-
-### [Multi-host support for LogServiceCollection](https://gerrit.openbmc.org/c/85600)
-- **Change #:** 85600
-- **Author:** Oliver Brewka
-- **Updated:** 2026-08-03 12:32:39.000000000
-
-### [Add ReadingAccuracy, move away from Accuracy](https://gerrit.openbmc.org/c/92392)
-- **Change #:** 92392
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-03 08:57:58.000000000
-
-### [test(privileges): add privilege evaluation tests](https://gerrit.openbmc.org/c/93062)
-- **Change #:** 93062
-- **Author:** shivrajnt
-- **Updated:** 2026-08-03 08:10:23.000000000
-
-### [test: Add unit tests for session cookies](https://gerrit.openbmc.org/c/91986)
-- **Change #:** 91986
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-03 07:13:11.000000000
-
-### [test: add EventServiceManager test utilities](https://gerrit.openbmc.org/c/93067)
-- **Change #:** 93067
-- **Author:** shivrajnt
-- **Updated:** 2026-08-03 06:26:02.000000000
-
-### [test(redfish): add boot progress parameter tests](https://gerrit.openbmc.org/c/92529)
-- **Change #:** 92529
-- **Author:** shivrajnt
-- **Updated:** 2026-08-03 05:32:21.000000000
-
-### [pcie: share PCIe port property decoders](https://gerrit.openbmc.org/c/92654)
-- **Change #:** 92654
-- **Author:** Ender
-- **Updated:** 2026-08-03 03:41:41.000000000
-
-### [processor: add DataSourceUri to clock range](https://gerrit.openbmc.org/c/88783)
-- **Change #:** 88783
-- **Author:** Ender
-- **Updated:** 2026-08-03 02:54:19.000000000
-
-### [control: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
-- **Change #:** 87387
-- **Author:** Ender
-- **Updated:** 2026-08-03 02:53:35.000000000
-
-### [processor: support PATCH for clock speed](https://gerrit.openbmc.org/c/90503)
-- **Change #:** 90503
-- **Author:** Ender
-- **Updated:** 2026-08-03 02:51:17.000000000
-
-### [processor: add clock speed support](https://gerrit.openbmc.org/c/87279)
-- **Change #:** 87279
-- **Author:** Ender
-- **Updated:** 2026-08-03 02:38:54.000000000
-
-## 🚧 Work In Progress (9)
+## 🚧 Work In Progress (4)
 
 ### [EventLog: Treat empty ClearLog as success](https://gerrit.openbmc.org/c/93189)
 - **Change #:** 93189
 - **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-10 10:04:30.000000000
+- **Updated:** 2026-08-14 18:15:59.000000000
 
-### [boot_options: Fix BootSourceOverrideTarget allowable values condition](https://gerrit.openbmc.org/c/92321)
-- **Change #:** 92321
-- **Author:** Adi Fogel
-- **Updated:** 2026-08-09 06:32:23.000000000
-
-### [NetworkDevice: add InfiniBand NDF support](https://gerrit.openbmc.org/c/92524)
-- **Change #:** 92524
-- **Author:** Eric Liu
-- **Updated:** 2026-08-04 10:49:45.000000000
-
-### [[WIP] Rework hostlogger logservice](https://gerrit.openbmc.org/c/78786)
-- **Change #:** 78786
-- **Author:** Oliver Brewka
-- **Updated:** 2026-08-04 09:37:43.000000000
-
-### [[WIP] Add common parser base class](https://gerrit.openbmc.org/c/92885)
-- **Change #:** 92885
-- **Author:** Oliver Brewka
-- **Updated:** 2026-08-03 12:41:49.000000000
-
-### [[WIP] Allow array meson options](https://gerrit.openbmc.org/c/92883)
-- **Change #:** 92883
-- **Author:** Oliver Brewka
-- **Updated:** 2026-08-03 12:41:39.000000000
-
-### [[WIP] Move collection helpers to common log utils](https://gerrit.openbmc.org/c/92884)
-- **Change #:** 92884
-- **Author:** Oliver Brewka
-- **Updated:** 2026-08-03 12:41:11.000000000
-
-### [pcie: add NVLink support to Processor Ports](https://gerrit.openbmc.org/c/92389)
-- **Change #:** 92389
-- **Author:** Ender
-- **Updated:** 2026-08-03 03:42:44.000000000
+### [Multi-host Storage Inventory](https://gerrit.openbmc.org/c/91643)
+- **Change #:** 91643
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-08-14 16:26:17.000000000
 
 ### [pcie: add NVLink Port Metrics](https://gerrit.openbmc.org/c/92412)
 - **Change #:** 92412
 - **Author:** Ender
-- **Updated:** 2026-08-03 03:41:21.000000000
+- **Updated:** 2026-08-13 15:48:52.000000000
 
-## ❌ Abandoned MRs (3)
+### [pcie: add NVLink support to Processor Ports](https://gerrit.openbmc.org/c/92389)
+- **Change #:** 92389
+- **Author:** Ender
+- **Updated:** 2026-08-13 15:34:54.000000000
 
-### [Add empty PCIe Slots to PCIeDevice Collection](https://gerrit.openbmc.org/c/62073)
-- **Change #:** 62073
-- **Author:** Lakshmi Yadlapati
-- **Updated:** 2026-08-09 21:16:14.000000000
+## ❌ Abandoned MRs (2)
 
-### [refactor Rsyslog EventLog iteration](https://gerrit.openbmc.org/c/89820)
-- **Change #:** 89820
-- **Author:** Alexander
-- **Updated:** 2026-08-06 14:19:09.000000000
+### [boot_options: Fix BootSourceOverrideTarget allowable values condition](https://gerrit.openbmc.org/c/92321)
+- **Change #:** 92321
+- **Author:** Adi Fogel
+- **Updated:** 2026-08-17 07:56:45.000000000
 
-### [metadata: Serve XML schemas dynamically to reduce RAM usage](https://gerrit.openbmc.org/c/89173)
-- **Change #:** 89173
-- **Author:** Vinoth Kumar Shanmugavel
-- **Updated:** 2026-08-06 03:37:55.000000000
+### [Use enums for State and Health properties](https://gerrit.openbmc.org/c/93391)
+- **Change #:** 93391
+- **Author:** Vinothkumar Shanmugavel
+- **Updated:** 2026-08-11 05:10:11.000000000
 
 ---
 
