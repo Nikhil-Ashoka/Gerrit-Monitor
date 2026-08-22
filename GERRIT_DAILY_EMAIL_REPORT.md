@@ -1,28 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-21 09:28:53 UTC
+**Generated:** 2026-08-22 09:19:38 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-20 to 2026-08-21 (1 day)
-**Changes:** 2
+**Period:** 2026-08-21 to 2026-08-22 (1 day)
+**Changes:** 0
 
-
-## ❌ Abandoned MRs (2)
-
-### [WIP: Convert redfish to cpp script](https://gerrit.openbmc.org/c/82939)
-- **Change #:** 82939
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-20 21:22:54.000000000
-
-### [WIP: Move redfish files to cpp](https://gerrit.openbmc.org/c/82940)
-- **Change #:** 82940
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-20 21:22:48.000000000
 
 ---
 
