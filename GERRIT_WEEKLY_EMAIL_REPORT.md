@@ -1,34 +1,28 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-17 09:33:02 UTC
+**Generated:** 2026-08-24 09:38:17 UTC
 **Owner:** ed@tanous.net
-**Changes:** 3
+**Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-10 to 2026-08-17 (7 days)
-**Changes:** 3
+**Period:** 2026-08-17 to 2026-08-24 (7 days)
+**Changes:** 2
 
 
-## 🔍 Open MRs (3)
+## ❌ Abandoned MRs (2)
 
-### [re-enable nrvo warning](https://gerrit.openbmc.org/c/80871)
-- **Change #:** 80871
+### [WIP: Convert redfish to cpp script](https://gerrit.openbmc.org/c/82939)
+- **Change #:** 82939
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-12 17:20:00.000000000
+- **Updated:** 2026-08-20 21:22:54.000000000
 
-### [Fix some missing error codes](https://gerrit.openbmc.org/c/89346)
-- **Change #:** 89346
+### [WIP: Move redfish files to cpp](https://gerrit.openbmc.org/c/82940)
+- **Change #:** 82940
 - **Author:** Ed Tanous
-- **Project:** openbmc/libcper
-- **Updated:** 2026-08-11 18:48:47.000000000
-
-### [WIP: Add USB Device discovery daemon](https://gerrit.openbmc.org/c/88076)
-- **Change #:** 88076
-- **Author:** Ed Tanous
-- **Project:** openbmc/entity-manager
-- **Updated:** 2026-08-11 04:15:04.000000000
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-08-20 21:22:48.000000000
 
 ---
 
