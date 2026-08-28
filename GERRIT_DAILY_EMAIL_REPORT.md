@@ -1,22 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-27 19:21:51 UTC
+**Generated:** 2026-08-28 20:34:29 UTC
 **Owner:** ed@tanous.net
 **Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-26 to 2026-08-27 (1 day)
+**Period:** 2026-08-27 to 2026-08-28 (1 day)
 **Changes:** 1
 
 
 ## ❌ Abandoned MRs (1)
 
-### [WIP: Rename crow-> bmcweb stage 2](https://gerrit.openbmc.org/c/75193)
-- **Change #:** 75193
+### [WIP: Break out SensorsAsyncResp](https://gerrit.openbmc.org/c/82936)
+- **Change #:** 82936
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-26 21:26:48.000000000
+- **Updated:** 2026-08-27 21:27:31.000000000
 
 ---
 
