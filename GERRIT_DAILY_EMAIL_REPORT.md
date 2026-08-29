@@ -1,22 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-28 20:34:29 UTC
+**Generated:** 2026-08-29 14:06:15 UTC
 **Owner:** ed@tanous.net
 **Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-27 to 2026-08-28 (1 day)
+**Period:** 2026-08-28 to 2026-08-29 (1 day)
 **Changes:** 1
 
 
 ## ❌ Abandoned MRs (1)
 
-### [WIP: Break out SensorsAsyncResp](https://gerrit.openbmc.org/c/82936)
-- **Change #:** 82936
+### [WIP: Fix Coverity warnings](https://gerrit.openbmc.org/c/81720)
+- **Change #:** 81720
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-27 21:27:31.000000000
+- **Updated:** 2026-08-28 21:27:46.000000000
 
 ---
 
