@@ -1,60 +1,37 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-08-29 14:06:15 UTC
+**Generated:** 2026-08-30 14:12:47 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 52
+**Total Changes:** 32
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-08-28 to 2026-08-29 (1 day)
-**Changes:** 1
+**Period:** 2026-08-29 to 2026-08-30 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (1)
-
-### [Fix form conditions that test nonexistent properties](https://gerrit.openbmc.org/c/94011)
-- **Change #:** 94011
-- **Author:** BillChanJabil
-- **Changes:** +9 / -11 lines
-- **Updated:** 2026-08-28 03:19:32.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-08-28 to 2026-08-29 (1 day)
-**Changes:** 1
+**Period:** 2026-08-29 to 2026-08-30 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [elog: collect elog details in user dumps](https://gerrit.openbmc.org/c/93976)
-- **Change #:** 93976
-- **Author:** MARRI DEVENDER RAO
-- **Updated:** 2026-08-28 10:29:02.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-08-28 to 2026-08-29 (1 day)
+**Period:** 2026-08-29 to 2026-08-30 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-08-28 to 2026-08-29 (1 day)
-**Changes:** 36
+**Period:** 2026-08-29 to 2026-08-30 (1 day)
+**Changes:** 30
 
 
-## ✅ Merged MRs (1)
-
-### [Return object path in CreateWithFFDCFiles](https://gerrit.openbmc.org/c/94044)
-- **Change #:** 94044
-- **Author:** Matt Spinler
-- **Changes:** +3 / -3 lines
-- **Updated:** 2026-08-28 13:40:48.000000000
-
-## 🔍 Open MRs (34)
+## 🔍 Open MRs (30)
 
 ### [plugin:cper:processed add persistence support](https://gerrit.openbmc.org/c/94088)
 - **Change #:** 94088
@@ -206,119 +183,26 @@
 - **Author:** Jayanth Othayoth
 - **Updated:** 2026-08-29 12:35:54.000000000
 
-### [log-create: add --extend to attach extension data to events](https://gerrit.openbmc.org/c/94082)
-- **Change #:** 94082
-- **Author:** Patrick Williams
-- **Updated:** 2026-08-28 22:30:03.000000000
-
-### [Fix typos identified by codespell](https://gerrit.openbmc.org/c/93295)
-- **Change #:** 93295
-- **Author:** SonaN-7
-- **Updated:** 2026-08-28 21:51:25.000000000
-
-### [PEL: Remove deprecated InvokeWithoutArgs](https://gerrit.openbmc.org/c/94074)
-- **Change #:** 94074
-- **Author:** Matt Spinler
-- **Updated:** 2026-08-28 14:37:37.000000000
-
-### [PEL: Add RBMC local CFAM errors](https://gerrit.openbmc.org/c/93989)
-- **Change #:** 93989
-- **Author:** Matt Spinler
-- **Updated:** 2026-08-28 13:52:19.000000000
-
-## 🚧 Work In Progress (1)
-
-### [log-manager: fix restore fallback and avoid orphan JSONs](https://gerrit.openbmc.org/c/93698)
-- **Change #:** 93698
-- **Author:** Corinne-wiwynn
-- **Updated:** 2026-08-28 03:13:11.000000000
-
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-08-28 to 2026-08-29 (1 day)
-**Changes:** 14
+**Period:** 2026-08-29 to 2026-08-30 (1 day)
+**Changes:** 2
 
 
-## ✅ Merged MRs (2)
+## 🔍 Open MRs (1)
 
-### [Add unit tests for security headers](https://gerrit.openbmc.org/c/91848)
-- **Change #:** 91848
-- **Author:** Joel Pullokaran Jesin
-- **Changes:** +157 / -0 lines
-- **Updated:** 2026-08-28 15:36:23.000000000
-
-### [state: Add Available to Processors and Accelerator](https://gerrit.openbmc.org/c/93372)
-- **Change #:** 93372
-- **Author:** Justin Nguyen
-- **Changes:** +27 / -65 lines
-- **Updated:** 2026-08-28 14:32:58.000000000
-
-## 🔍 Open MRs (10)
-
-### [redfish/processor: add tests for helpers](https://gerrit.openbmc.org/c/92617)
-- **Change #:** 92617
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-28 11:21:14.000000000
-
-### [AccountService: Return 403 for ConfigureSelf](https://gerrit.openbmc.org/c/94019)
-- **Change #:** 94019
-- **Author:** Palaniappan Arunachalam
-- **Updated:** 2026-08-28 11:02:39.000000000
-
-### [systems: Combine boot progress property reads](https://gerrit.openbmc.org/c/94066)
-- **Change #:** 94066
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-08-28 10:27:52.000000000
-
-### [bios: support PUT of the BIOS attribute table by the host](https://gerrit.openbmc.org/c/94041)
-- **Change #:** 94041
+### [ssl_key_handler: fix TOCTOU crash on cert path](https://gerrit.openbmc.org/c/93845)
+- **Change #:** 93845
 - **Author:** Dhruv Goyal
-- **Updated:** 2026-08-28 09:52:09.000000000
-
-### [update_service: add Manufacturer, NIC RelatedItem](https://gerrit.openbmc.org/c/90393)
-- **Change #:** 90393
-- **Author:** Eric Liu
-- **Updated:** 2026-08-28 08:53:00.000000000
-
-### [update_service: RelatedItem based on association](https://gerrit.openbmc.org/c/85831)
-- **Change #:** 85831
-- **Author:** Harshit Aghera
-- **Updated:** 2026-08-28 08:52:46.000000000
-
-### [bmcweb: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
-- **Change #:** 89357
-- **Author:** JY-Voon
-- **Updated:** 2026-08-28 08:07:08.000000000
-
-### [sensor: add ReadingTime to sensor responses](https://gerrit.openbmc.org/c/93642)
-- **Change #:** 93642
-- **Author:** Ender
-- **Updated:** 2026-08-28 07:47:42.000000000
-
-### [Fix internalError when protocol service absent](https://gerrit.openbmc.org/c/94012)
-- **Change #:** 94012
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-08-28 04:36:38.000000000
-
-### [Fix argument order in Redfish error messages](https://gerrit.openbmc.org/c/93926)
-- **Change #:** 93926
-- **Author:** BillChanJabil
-- **Updated:** 2026-08-28 02:58:26.000000000
+- **Updated:** 2026-08-30 08:36:37.000000000
 
 ## 🚧 Work In Progress (1)
 
-### [LogEntry: Add support for parsing and presenting CPER interface data](https://gerrit.openbmc.org/c/93952)
-- **Change #:** 93952
+### [LogEntry: Add support for parsing and presenting CPER interface data](https://gerrit.openbmc.org/c/94090)
+- **Change #:** 94090
 - **Author:** sandeepsanku
-- **Updated:** 2026-08-28 03:23:54.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [WIP: Fix Coverity warnings](https://gerrit.openbmc.org/c/81720)
-- **Change #:** 81720
-- **Author:** Ed Tanous
-- **Updated:** 2026-08-28 21:27:46.000000000
+- **Updated:** 2026-08-29 20:59:14.000000000
 
 ---
 
