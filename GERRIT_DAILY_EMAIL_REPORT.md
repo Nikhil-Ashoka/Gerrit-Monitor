@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-30 14:12:47 UTC
+**Generated:** 2026-08-31 16:35:48 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-29 to 2026-08-30 (1 day)
-**Changes:** 0
+**Period:** 2026-08-30 to 2026-08-31 (1 day)
+**Changes:** 1
 
+
+## 🔍 Open MRs (1)
+
+### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
+- **Change #:** 94118
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-08-31 16:23:36.000000000
 
 ---
 
