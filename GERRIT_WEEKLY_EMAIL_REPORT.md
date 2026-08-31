@@ -1,28 +1,51 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-24 09:38:17 UTC
+**Generated:** 2026-08-31 16:34:55 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 5
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-17 to 2026-08-24 (7 days)
-**Changes:** 2
+**Period:** 2026-08-24 to 2026-08-31 (7 days)
+**Changes:** 5
 
 
-## ❌ Abandoned MRs (2)
+## ✅ Merged MRs (1)
 
-### [WIP: Convert redfish to cpp script](https://gerrit.openbmc.org/c/82939)
-- **Change #:** 82939
+### [Update security compiler flags](https://gerrit.openbmc.org/c/91173)
+- **Change #:** 91173
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-20 21:22:54.000000000
+- **Changes:** +37 / -1 lines
+- **Updated:** 2026-08-24 17:26:53.000000000
 
-### [WIP: Move redfish files to cpp](https://gerrit.openbmc.org/c/82940)
-- **Change #:** 82940
+## 🔍 Open MRs (1)
+
+### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
+- **Change #:** 94118
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-20 21:22:48.000000000
+- **Updated:** 2026-08-31 16:23:36.000000000
+
+## ❌ Abandoned MRs (3)
+
+### [WIP: Fix Coverity warnings](https://gerrit.openbmc.org/c/81720)
+- **Change #:** 81720
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-08-28 21:27:46.000000000
+
+### [WIP: Break out SensorsAsyncResp](https://gerrit.openbmc.org/c/82936)
+- **Change #:** 82936
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-08-27 21:27:31.000000000
+
+### [WIP: Rename crow-> bmcweb stage 2](https://gerrit.openbmc.org/c/75193)
+- **Change #:** 75193
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-08-26 21:26:48.000000000
 
 ---
 
