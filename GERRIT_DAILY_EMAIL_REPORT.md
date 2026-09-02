@@ -1,22 +1,28 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-09-01 13:50:42 UTC
+**Generated:** 2026-09-02 13:08:27 UTC
 **Owner:** ed@tanous.net
-**Changes:** 1
+**Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-31 to 2026-09-01 (1 day)
-**Changes:** 1
+**Period:** 2026-09-01 to 2026-09-02 (1 day)
+**Changes:** 2
 
 
-## 🔍 Open MRs (1)
+## 🔍 Open MRs (2)
+
+### [Move CPUSensor to uring](https://gerrit.openbmc.org/c/56483)
+- **Change #:** 56483
+- **Author:** Ed Tanous
+- **Project:** openbmc/dbus-sensors
+- **Updated:** 2026-09-02 05:50:39.000000000
 
 ### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
 - **Change #:** 94118
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-31 19:56:56.000000000
+- **Updated:** 2026-09-01 14:03:02.000000000
 
 ---
 
