@@ -1,16 +1,16 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-09-02 13:08:27 UTC
+**Generated:** 2026-09-03 13:09:41 UTC
 **Owner:** ed@tanous.net
 **Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-09-01 to 2026-09-02 (1 day)
+**Period:** 2026-09-02 to 2026-09-03 (1 day)
 **Changes:** 2
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (1)
 
 ### [Move CPUSensor to uring](https://gerrit.openbmc.org/c/56483)
 - **Change #:** 56483
@@ -18,11 +18,13 @@
 - **Project:** openbmc/dbus-sensors
 - **Updated:** 2026-09-02 05:50:39.000000000
 
-### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
-- **Change #:** 94118
+## ❌ Abandoned MRs (1)
+
+### [Add TOTP function](https://gerrit.openbmc.org/c/74063)
+- **Change #:** 74063
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-09-01 14:03:02.000000000
+- **Updated:** 2026-09-02 21:30:08.000000000
 
 ---
 
