@@ -1,22 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-09-05 12:15:42 UTC
+**Generated:** 2026-09-06 12:30:51 UTC
 **Owner:** ed@tanous.net
 **Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-09-04 to 2026-09-05 (1 day)
+**Period:** 2026-09-05 to 2026-09-06 (1 day)
 **Changes:** 1
 
 
 ## ❌ Abandoned MRs (1)
 
-### [WIP: Convert redfish to cpp](https://gerrit.openbmc.org/c/82944)
-- **Change #:** 82944
+### [Cache user role in session object](https://gerrit.openbmc.org/c/66292)
+- **Change #:** 66292
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-09-04 21:31:04.000000000
+- **Updated:** 2026-09-05 21:31:42.000000000
 
 ---
 
