@@ -1,51 +1,48 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-08-31 16:34:55 UTC
+**Generated:** 2026-09-07 14:39:08 UTC
 **Owner:** ed@tanous.net
 **Changes:** 5
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-08-24 to 2026-08-31 (7 days)
+**Period:** 2026-08-31 to 2026-09-07 (7 days)
 **Changes:** 5
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (2)
 
-### [Update security compiler flags](https://gerrit.openbmc.org/c/91173)
-- **Change #:** 91173
+### [Move CPUSensor to uring](https://gerrit.openbmc.org/c/56483)
+- **Change #:** 56483
 - **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +37 / -1 lines
-- **Updated:** 2026-08-24 17:26:53.000000000
-
-## 🔍 Open MRs (1)
+- **Project:** openbmc/dbus-sensors
+- **Updated:** 2026-09-02 05:50:39.000000000
 
 ### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
 - **Change #:** 94118
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-31 16:23:36.000000000
+- **Updated:** 2026-09-01 14:03:02.000000000
 
 ## ❌ Abandoned MRs (3)
 
-### [WIP: Fix Coverity warnings](https://gerrit.openbmc.org/c/81720)
-- **Change #:** 81720
+### [Cache user role in session object](https://gerrit.openbmc.org/c/66292)
+- **Change #:** 66292
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-28 21:27:46.000000000
+- **Updated:** 2026-09-05 21:31:42.000000000
 
-### [WIP: Break out SensorsAsyncResp](https://gerrit.openbmc.org/c/82936)
-- **Change #:** 82936
+### [WIP: Convert redfish to cpp](https://gerrit.openbmc.org/c/82944)
+- **Change #:** 82944
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-27 21:27:31.000000000
+- **Updated:** 2026-09-04 21:31:04.000000000
 
-### [WIP: Rename crow-> bmcweb stage 2](https://gerrit.openbmc.org/c/75193)
-- **Change #:** 75193
+### [Add TOTP function](https://gerrit.openbmc.org/c/74063)
+- **Change #:** 74063
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-08-26 21:26:48.000000000
+- **Updated:** 2026-09-02 21:30:08.000000000
 
 ---
 
