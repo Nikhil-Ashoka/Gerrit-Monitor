@@ -1,16 +1,26 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-09-08 13:12:38 UTC
+**Generated:** 2026-09-09 13:17:56 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 70
+**Total Changes:** 77
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-09-07 to 2026-09-08 (1 day)
-**Changes:** 5
+**Period:** 2026-09-08 to 2026-09-09 (1 day)
+**Changes:** 4
 
 
-## 🔍 Open MRs (5)
+## 🔍 Open MRs (4)
+
+### [Implemented Reboot BMC with TanStack Vue Query](https://gerrit.openbmc.org/c/92551)
+- **Change #:** 92551
+- **Author:** Nikhil Ashoka
+- **Updated:** 2026-09-09 13:09:49.000000000
+
+### [Add Socket Firewall workflow for supply-chain checks](https://gerrit.openbmc.org/c/92831)
+- **Change #:** 92831
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-09-09 09:35:09.000000000
 
 ### [firmware: add update target dropdown to form](https://gerrit.openbmc.org/c/91863)
 - **Change #:** 91863
@@ -22,50 +32,48 @@
 - **Author:** Vedangi Mittal
 - **Updated:** 2026-09-08 09:56:46.000000000
 
-### [Implemented Reboot BMC with TanStack Vue Query](https://gerrit.openbmc.org/c/92551)
-- **Change #:** 92551
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-09-08 06:04:12.000000000
-
-### [Added automated security audit](https://gerrit.openbmc.org/c/93490)
-- **Change #:** 93490
-- **Author:** Nikhil Ashoka
-- **Updated:** 2026-09-07 16:52:21.000000000
-
-### [Add Socket Firewall workflow for supply-chain checks](https://gerrit.openbmc.org/c/92831)
-- **Change #:** 92831
-- **Author:** Nishant Tiwari
-- **Updated:** 2026-09-07 06:24:55.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-09-07 to 2026-09-08 (1 day)
-**Changes:** 1
+**Period:** 2026-09-08 to 2026-09-09 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [dreport: capture CreateDump D-Bus parameters in dump archive](https://gerrit.openbmc.org/c/94153)
-- **Change #:** 94153
-- **Author:** MARRI DEVENDER RAO
-- **Updated:** 2026-09-07 06:45:21.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-09-07 to 2026-09-08 (1 day)
+**Period:** 2026-09-08 to 2026-09-09 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-09-07 to 2026-09-08 (1 day)
+**Period:** 2026-09-08 to 2026-09-09 (1 day)
 **Changes:** 11
 
 
 ## 🔍 Open MRs (7)
+
+### [log-manager: fix restore fallback and avoid orphan JSONs](https://gerrit.openbmc.org/c/93698)
+- **Change #:** 93698
+- **Author:** Corinne-wiwynn
+- **Updated:** 2026-09-09 07:51:41.000000000
+
+### [Fix typos identified by codespell](https://gerrit.openbmc.org/c/93295)
+- **Change #:** 93295
+- **Author:** SonaN-7
+- **Updated:** 2026-09-09 04:47:03.000000000
+
+### [log_manager: guard restore() against bad log filenames](https://gerrit.openbmc.org/c/94144)
+- **Change #:** 94144
+- **Author:** Palaniappan Arunachalam
+- **Updated:** 2026-09-08 21:53:41.000000000
+
+### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
+- **Change #:** 90338
+- **Author:** Riya Sabu
+- **Updated:** 2026-09-08 14:35:05.000000000
 
 ### [logging: add runtime extension enrichment support](https://gerrit.openbmc.org/c/94340)
 - **Change #:** 94340
@@ -81,26 +89,6 @@
 - **Change #:** 90806
 - **Author:** Riya Sabu
 - **Updated:** 2026-09-08 02:57:58.000000000
-
-### [log-manager: fix restore fallback and avoid orphan JSONs](https://gerrit.openbmc.org/c/93698)
-- **Change #:** 93698
-- **Author:** Corinne-wiwynn
-- **Updated:** 2026-09-08 02:40:03.000000000
-
-### [PEL: Multi-chassis support in message registry for static chassis number](https://gerrit.openbmc.org/c/90840)
-- **Change #:** 90840
-- **Author:** Riya Sabu
-- **Updated:** 2026-09-07 18:28:48.000000000
-
-### [PEL: Multi-chassis support in message registry for dynamic chassis](https://gerrit.openbmc.org/c/91032)
-- **Change #:** 91032
-- **Author:** Riya Sabu
-- **Updated:** 2026-09-07 18:28:18.000000000
-
-### [PEL: Add Multi-chassis callout support doc](https://gerrit.openbmc.org/c/90338)
-- **Change #:** 90338
-- **Author:** Riya Sabu
-- **Updated:** 2026-09-07 01:44:15.000000000
 
 ## 🚧 Work In Progress (4)
 
@@ -127,36 +115,221 @@
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-09-07 to 2026-09-08 (1 day)
-**Changes:** 53
+**Period:** 2026-09-08 to 2026-09-09 (1 day)
+**Changes:** 62
 
 
-## 🔍 Open MRs (40)
+## 🔍 Open MRs (50)
+
+### [account_service: Rework RemoteRoleMapping PATCH](https://gerrit.openbmc.org/c/92363)
+- **Change #:** 92363
+- **Author:** kennyliu9535
+- **Updated:** 2026-09-09 12:33:30.000000000
+
+### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
+- **Change #:** 92112
+- **Author:** JY-Voon
+- **Updated:** 2026-09-09 11:44:30.000000000
+
+### [test: cover leak detection and sensor PATCH](https://gerrit.openbmc.org/c/94266)
+- **Change #:** 94266
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 10:53:41.000000000
+
+### [processor: refactor OperatingConfig lambdas](https://gerrit.openbmc.org/c/94376)
+- **Change #:** 94376
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 10:45:59.000000000
+
+### [leak_detection: add LeakDetection and detectors](https://gerrit.openbmc.org/c/94207)
+- **Change #:** 94207
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 10:44:51.000000000
+
+### [Handle all dump progress statuses explicitly](https://gerrit.openbmc.org/c/94347)
+- **Change #:** 94347
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 10:41:30.000000000
+
+### [Deduplicate code in dump_utils](https://gerrit.openbmc.org/c/94196)
+- **Change #:** 94196
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 10:40:31.000000000
+
+### [sensors: support PATCH for Thresholds](https://gerrit.openbmc.org/c/94206)
+- **Change #:** 94206
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 10:38:01.000000000
+
+### [Add unit tests for dump_utils](https://gerrit.openbmc.org/c/93884)
+- **Change #:** 93884
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 10:17:31.000000000
+
+### [Make dumpType an enum class](https://gerrit.openbmc.org/c/93883)
+- **Change #:** 93883
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 10:15:26.000000000
+
+### [led: refactor setSystemLocationIndicatorActive lambda](https://gerrit.openbmc.org/c/94373)
+- **Change #:** 94373
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 09:37:56.000000000
+
+### [led: refactor getSystemLocationIndicatorActive lambdas](https://gerrit.openbmc.org/c/94371)
+- **Change #:** 94371
+- **Author:** Eric Liu
+- **Updated:** 2026-09-09 09:28:29.000000000
+
+### [redfish: Map Software Manager DBus Exceptions](https://gerrit.openbmc.org/c/93262)
+- **Change #:** 93262
+- **Author:** shivrajnt
+- **Updated:** 2026-09-09 07:45:35.000000000
+
+### [redfish-core: Refactor TelemetryService lambda](https://gerrit.openbmc.org/c/94329)
+- **Change #:** 94329
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-09 06:01:38.000000000
+
+### [Fix createDump progress logic](https://gerrit.openbmc.org/c/94346)
+- **Change #:** 94346
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 05:31:03.000000000
+
+### [Fix lambdas for postcode log service](https://gerrit.openbmc.org/c/92766)
+- **Change #:** 92766
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 05:27:07.000000000
+
+### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
+- **Change #:** 89152
+- **Author:** JY-Voon
+- **Updated:** 2026-09-09 05:22:39.000000000
+
+### [Reject Malformed Update Parameters](https://gerrit.openbmc.org/c/94322)
+- **Change #:** 94322
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-09-09 03:47:54.000000000
+
+### [Consistent naming in dump log service](https://gerrit.openbmc.org/c/93882)
+- **Change #:** 93882
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 03:23:37.000000000
+
+### [Refactor remaining lambdas in dump utility](https://gerrit.openbmc.org/c/93881)
+- **Change #:** 93881
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-09 03:23:21.000000000
+
+### [systems: Combine boot progress property reads](https://gerrit.openbmc.org/c/94066)
+- **Change #:** 94066
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-09-09 03:22:43.000000000
+
+### [Use enums for boot override properties](https://gerrit.openbmc.org/c/93865)
+- **Change #:** 93865
+- **Author:** Vinothkumar Shanmugavel
+- **Updated:** 2026-09-09 03:22:14.000000000
+
+### [bmcweb: add unit tests for ProcessorMetrics CoreVoltage handlers](https://gerrit.openbmc.org/c/92089)
+- **Change #:** 92089
+- **Author:** JY-Voon
+- **Updated:** 2026-09-09 03:16:47.000000000
+
+### [port: look up port metrics through a table](https://gerrit.openbmc.org/c/93495)
+- **Change #:** 93495
+- **Author:** Ender
+- **Updated:** 2026-09-09 03:16:39.000000000
+
+### [bmcweb: add Switch Port LinkStatus](https://gerrit.openbmc.org/c/93894)
+- **Change #:** 93894
+- **Author:** JY-Voon
+- **Updated:** 2026-09-09 02:31:37.000000000
+
+### [Report JSON values in errors, not quoted strings](https://gerrit.openbmc.org/c/93927)
+- **Change #:** 93927
+- **Author:** BillChanJabil
+- **Updated:** 2026-09-08 22:00:24.000000000
+
+### [Refactor createDump function](https://gerrit.openbmc.org/c/93878)
+- **Change #:** 93878
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-08 20:36:02.000000000
+
+### [Multi-host support for LogServiceCollection](https://gerrit.openbmc.org/c/85600)
+- **Change #:** 85600
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-08 17:22:09.000000000
+
+### [Multi-host support for PostCodes LogService](https://gerrit.openbmc.org/c/76320)
+- **Change #:** 76320
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-08 17:21:51.000000000
 
 ### [Hide LDAP config details when service disabled](https://gerrit.openbmc.org/c/94342)
 - **Change #:** 94342
 - **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 13:08:30.000000000
+- **Updated:** 2026-09-08 16:50:35.000000000
+
+### [Inline dump util function](https://gerrit.openbmc.org/c/93880)
+- **Change #:** 93880
+- **Author:** Oliver Brewka
+- **Updated:** 2026-09-08 16:22:53.000000000
+
+### [redfish: aggregator: cache EM satellites via D-Bus signals](https://gerrit.openbmc.org/c/92257)
+- **Change #:** 92257
+- **Author:** Abhilash Raju
+- **Updated:** 2026-09-08 14:31:46.000000000
+
+### [subprocessor: Add Status.State/Health to cores](https://gerrit.openbmc.org/c/92439)
+- **Change #:** 92439
+- **Author:** Myung Bae
+- **Updated:** 2026-09-08 14:31:07.000000000
+
+### [Add dual SSL context for satellite authentication](https://gerrit.openbmc.org/c/87711)
+- **Change #:** 87711
+- **Author:** priyair
+- **Updated:** 2026-09-08 14:26:13.000000000
+
+### [http: Add SSL context factory support](https://gerrit.openbmc.org/c/89586)
+- **Change #:** 89586
+- **Author:** Abhilash Raju
+- **Updated:** 2026-09-08 14:25:05.000000000
+
+### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
+- **Change #:** 71685
+- **Author:** Abhilash Raju
+- **Updated:** 2026-09-08 14:19:34.000000000
+
+### [redfish-core: Refactor ThermalSubsystem Head](https://gerrit.openbmc.org/c/94330)
+- **Change #:** 94330
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-08 13:43:38.000000000
+
+### [webserver_cli: Refactor setLogLevel lambda](https://gerrit.openbmc.org/c/94331)
+- **Change #:** 94331
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-08 13:43:16.000000000
+
+### [http: Refactor handleMessage lambda](https://gerrit.openbmc.org/c/94333)
+- **Change #:** 94333
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-08 13:41:40.000000000
+
+### [redfish-core: Refactor StorageController lambda](https://gerrit.openbmc.org/c/94327)
+- **Change #:** 94327
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-08 13:40:35.000000000
+
+### [redfish-core: Refactor EnvironmentMetrics Head](https://gerrit.openbmc.org/c/93755)
+- **Change #:** 93755
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-09-08 13:27:33.000000000
 
 ### [Add support for noauth with multi ports](https://gerrit.openbmc.org/c/92320)
 - **Change #:** 92320
 - **Author:** Adi Fogel
 - **Updated:** 2026-09-08 11:42:26.000000000
-
-### [redfish-core: Refactor ThermalSubsystem Head](https://gerrit.openbmc.org/c/94330)
-- **Change #:** 94330
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 11:42:20.000000000
-
-### [webserver_cli: Refactor setLogLevel lambda](https://gerrit.openbmc.org/c/94331)
-- **Change #:** 94331
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 11:33:59.000000000
-
-### [http: Refactor handleMessage lambda](https://gerrit.openbmc.org/c/94333)
-- **Change #:** 94333
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 11:31:54.000000000
 
 ### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
 - **Change #:** 88947
@@ -178,11 +351,6 @@
 - **Author:** Eric Liu
 - **Updated:** 2026-09-08 09:50:10.000000000
 
-### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
-- **Change #:** 89152
-- **Author:** JY-Voon
-- **Updated:** 2026-09-08 09:25:13.000000000
-
 ### [Restrict bootStrap accounts to specific sockets](https://gerrit.openbmc.org/c/82855)
 - **Change #:** 82855
 - **Author:** Thu Nguyen
@@ -193,152 +361,22 @@
 - **Author:** JY-Voon
 - **Updated:** 2026-09-08 07:51:14.000000000
 
-### [redfish-core: Refactor TelemetryService lambda](https://gerrit.openbmc.org/c/94329)
-- **Change #:** 94329
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 07:32:55.000000000
-
-### [redfish-core: Refactor StorageController lambda](https://gerrit.openbmc.org/c/94327)
-- **Change #:** 94327
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-08 07:11:43.000000000
-
 ### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
 - **Change #:** 89120
 - **Author:** JY-Voon
 - **Updated:** 2026-09-08 07:03:33.000000000
-
-### [Reject Malformed Update Parameters](https://gerrit.openbmc.org/c/94322)
-- **Change #:** 94322
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-09-08 06:40:01.000000000
-
-### [Report JSON values in errors, not quoted strings](https://gerrit.openbmc.org/c/93927)
-- **Change #:** 93927
-- **Author:** BillChanJabil
-- **Updated:** 2026-09-08 02:47:15.000000000
 
 ### [Fix argument order in Redfish error messages](https://gerrit.openbmc.org/c/93926)
 - **Change #:** 93926
 - **Author:** BillChanJabil
 - **Updated:** 2026-09-08 02:35:12.000000000
 
-### [Manage user account expiration via REST](https://gerrit.openbmc.org/c/94121)
-- **Change #:** 94121
-- **Author:** Ivan Mikhaylov
-- **Updated:** 2026-09-07 17:57:41.000000000
+## 🚧 Work In Progress (12)
 
-### [UpdateService: support ForceUpdate in multipart push](https://gerrit.openbmc.org/c/92596)
-- **Change #:** 92596
-- **Author:** Dhruv Rathi
-- **Updated:** 2026-09-07 17:16:02.000000000
-
-### [account_service: Restrict remote user LDAP disable](https://gerrit.openbmc.org/c/88242)
-- **Change #:** 88242
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-09-07 14:16:37.000000000
-
-### [Reject unmapped remote users across all auth paths](https://gerrit.openbmc.org/c/91970)
-- **Change #:** 91970
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-09-07 14:12:16.000000000
-
-### [account_service: PasswordChangeRequired support](https://gerrit.openbmc.org/c/90598)
-- **Change #:** 90598
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-09-07 14:11:20.000000000
-
-### [Map LocalAccountAuth to LoginPriority property](https://gerrit.openbmc.org/c/91363)
-- **Change #:** 91363
-- **Author:** Vijaysankar Ravi
-- **Updated:** 2026-09-07 14:06:44.000000000
-
-### [Align VM websocket buffers with NBD cap](https://gerrit.openbmc.org/c/93785)
-- **Change #:** 93785
-- **Author:** tsankowx
-- **Updated:** 2026-09-07 13:18:59.000000000
-
-### [Refactor installCertificate lambda](https://gerrit.openbmc.org/c/94314)
-- **Change #:** 94314
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-07 12:46:32.000000000
-
-### [redfish-core: Refactor getSnmpTrapClient lambda](https://gerrit.openbmc.org/c/94313)
-- **Change #:** 94313
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-07 12:33:42.000000000
-
-### [redfish-core: Refactor PowerSubsystem Head](https://gerrit.openbmc.org/c/94312)
-- **Change #:** 94312
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-07 12:29:37.000000000
-
-### [Refactor startAsyncWaitForSignal lambda](https://gerrit.openbmc.org/c/94310)
-- **Change #:** 94310
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-09-07 12:27:25.000000000
-
-### [Add unit tests for dump_utils](https://gerrit.openbmc.org/c/93884)
-- **Change #:** 93884
-- **Author:** Oliver Brewka
-- **Updated:** 2026-09-07 12:11:36.000000000
-
-### [rhi: Support Redfish Hostinterface schema](https://gerrit.openbmc.org/c/82853)
-- **Change #:** 82853
-- **Author:** Thu Nguyen
-- **Updated:** 2026-09-07 11:07:48.000000000
-
-### [Use the privilege entry that matches the route](https://gerrit.openbmc.org/c/93931)
-- **Change #:** 93931
-- **Author:** BillChanJabil
-- **Updated:** 2026-09-07 09:39:46.000000000
-
-### [Do not echo credentials in aggregation errors](https://gerrit.openbmc.org/c/93930)
-- **Change #:** 93930
-- **Author:** BillChanJabil
-- **Updated:** 2026-09-07 09:37:33.000000000
-
-### [Report rejected action values with ValueNotInList](https://gerrit.openbmc.org/c/93929)
-- **Change #:** 93929
-- **Author:** BillChanJabil
-- **Updated:** 2026-09-07 09:35:39.000000000
-
-### [Report the property the request actually failed on](https://gerrit.openbmc.org/c/93928)
-- **Change #:** 93928
-- **Author:** BillChanJabil
-- **Updated:** 2026-09-07 09:30:43.000000000
-
-### [Enable BIOS Password change action](https://gerrit.openbmc.org/c/79342)
-- **Change #:** 79342
-- **Author:** Prithvi Pai
-- **Updated:** 2026-09-07 08:12:30.000000000
-
-### [query_param: add $expand payload budget to MultiAsyncResp](https://gerrit.openbmc.org/c/93328)
-- **Change #:** 93328
-- **Author:** Chandra Harkude
-- **Updated:** 2026-09-07 06:31:34.000000000
-
-### [pcie: Check systemName in PCIeFunctionCollection](https://gerrit.openbmc.org/c/94277)
-- **Change #:** 94277
-- **Author:** Lucio Chen
-- **Updated:** 2026-09-07 06:31:00.000000000
-
-### [bmcweb: use Item.PCIeFunction for PCIeFunction GET](https://gerrit.openbmc.org/c/92323)
-- **Change #:** 92323
-- **Author:** Ender
-- **Updated:** 2026-09-07 03:13:26.000000000
-
-### [bmcweb: add Switch Status.Health](https://gerrit.openbmc.org/c/93962)
-- **Change #:** 93962
-- **Author:** JY-Voon
-- **Updated:** 2026-09-07 03:05:22.000000000
-
-## 🚧 Work In Progress (13)
-
-### [bmcweb: add Switch Port LinkStatus](https://gerrit.openbmc.org/c/93894)
-- **Change #:** 93894
-- **Author:** JY-Voon
-- **Updated:** 2026-09-08 10:48:24.000000000
+### [[WIP] Add OpenSSL 4.0 support](https://gerrit.openbmc.org/c/94362)
+- **Change #:** 94362
+- **Author:** Tan Siewert
+- **Updated:** 2026-09-08 23:49:06.000000000
 
 ### [network_adapter: add InfiniBand port metrics](https://gerrit.openbmc.org/c/92534)
 - **Change #:** 92534
@@ -394,11 +432,6 @@
 - **Change #:** 88035
 - **Author:** Eric Liu
 - **Updated:** 2026-09-08 04:44:55.000000000
-
-### [update_service: Handle uploadImageFile errors](https://gerrit.openbmc.org/c/93045)
-- **Change #:** 93045
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-09-07 06:36:58.000000000
 
 ---
 
