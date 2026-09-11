@@ -1,22 +1,23 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-09-10 13:15:12 UTC
+**Generated:** 2026-09-11 13:09:09 UTC
 **Owner:** ed@tanous.net
 **Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-09-09 to 2026-09-10 (1 day)
+**Period:** 2026-09-10 to 2026-09-11 (1 day)
 **Changes:** 1
 
 
-## ❌ Abandoned MRs (1)
+## ✅ Merged MRs (1)
 
-### [Inline a string and fix dbus path](https://gerrit.openbmc.org/c/82934)
-- **Change #:** 82934
+### [Prevent error level prints on disconnect of http2](https://gerrit.openbmc.org/c/94118)
+- **Change #:** 94118
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-09-09 21:33:06.000000000
+- **Changes:** +3 / -1 lines
+- **Updated:** 2026-09-10 19:50:56.000000000
 
 ---
 
