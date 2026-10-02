@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-01 15:53:17 UTC
+**Generated:** 2026-10-02 15:14:22 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-09-30 to 2026-10-01 (1 day)
-**Changes:** 0
+**Period:** 2026-10-01 to 2026-10-02 (1 day)
+**Changes:** 1
 
+
+## 🔍 Open MRs (1)
+
+### [Start enforcing fru probes](https://gerrit.openbmc.org/c/88104)
+- **Change #:** 88104
+- **Author:** Ed Tanous
+- **Project:** openbmc/entity-manager
+- **Updated:** 2026-10-02 10:55:16.000000000
 
 ---
 
