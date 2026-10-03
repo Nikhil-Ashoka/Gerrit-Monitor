@@ -1,13 +1,13 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-02 15:14:22 UTC
+**Generated:** 2026-10-03 14:05:47 UTC
 **Owner:** ed@tanous.net
-**Changes:** 1
+**Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-01 to 2026-10-02 (1 day)
-**Changes:** 1
+**Period:** 2026-10-02 to 2026-10-03 (1 day)
+**Changes:** 2
 
 
 ## 🔍 Open MRs (1)
@@ -17,6 +17,14 @@
 - **Author:** Ed Tanous
 - **Project:** openbmc/entity-manager
 - **Updated:** 2026-10-02 10:55:16.000000000
+
+## ❌ Abandoned MRs (1)
+
+### [WIP: Move pam into its own daemon](https://gerrit.openbmc.org/c/65401)
+- **Change #:** 65401
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-10-03 10:37:37.000000000
 
 ---
 
