@@ -1,23 +1,38 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-10-08 16:00:42 UTC
+**Generated:** 2026-10-09 15:42:40 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 75
+**Total Changes:** 73
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-10-07 to 2026-10-08 (1 day)
-**Changes:** 2
+**Period:** 2026-10-08 to 2026-10-09 (1 day)
+**Changes:** 5
 
 
-## 🔍 Open MRs (1)
+## 🔍 Open MRs (3)
+
+### [Restore ESLint recommended and Prettier rules](https://gerrit.openbmc.org/c/94886)
+- **Change #:** 94886
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-10-09 11:05:30.000000000
+
+### [Fix identify LED toggle error handling](https://gerrit.openbmc.org/c/95475)
+- **Change #:** 95475
+- **Author:** Aravinth Sri Krishna Raja Raghavan
+- **Updated:** 2026-10-09 11:03:34.000000000
 
 ### [Overview: Show active interface in network card](https://gerrit.openbmc.org/c/95322)
 - **Change #:** 95322
 - **Author:** Vijaysankar Ravi
 - **Updated:** 2026-10-08 15:15:37.000000000
 
-## ❌ Abandoned MRs (1)
+## ❌ Abandoned MRs (2)
+
+### [Poll firmware update task, show the progress on loading bar](https://gerrit.openbmc.org/c/73618)
+- **Change #:** 73618
+- **Author:** Jackie14
+- **Updated:** 2026-10-09 08:39:43.000000000
 
 ### [Show error toast on failed save](https://gerrit.openbmc.org/c/94783)
 - **Change #:** 94783
@@ -27,16 +42,26 @@
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-10-07 to 2026-10-08 (1 day)
-**Changes:** 5
+**Period:** 2026-10-08 to 2026-10-09 (1 day)
+**Changes:** 6
 
 
-## 🔍 Open MRs (5)
+## 🔍 Open MRs (6)
 
 ### [faultlog: Implement FaultLog D-Bus interface](https://gerrit.openbmc.org/c/95105)
 - **Change #:** 95105
 - **Author:** Vishnunithyasoundhar S
-- **Updated:** 2026-10-08 15:51:33.000000000
+- **Updated:** 2026-10-09 10:00:56.000000000
+
+### [dreport: capture CreateDump D-Bus parameters in dump archive](https://gerrit.openbmc.org/c/94153)
+- **Change #:** 94153
+- **Author:** MARRI DEVENDER RAO
+- **Updated:** 2026-10-09 05:44:03.000000000
+
+### [faultlog: Use PrimaryLogId as faultlog file for CPER](https://gerrit.openbmc.org/c/91083)
+- **Change #:** 91083
+- **Author:** meghan1006
+- **Updated:** 2026-10-09 05:22:09.000000000
 
 ### [bmc-dump: validate dump ids parsed from names](https://gerrit.openbmc.org/c/95395)
 - **Change #:** 95395
@@ -53,33 +78,47 @@
 - **Author:** Suvedha Balamurali
 - **Updated:** 2026-10-08 09:32:16.000000000
 
-### [faultlog: Use PrimaryLogId as faultlog file for CPER](https://gerrit.openbmc.org/c/91083)
-- **Change #:** 91083
-- **Author:** meghan1006
-- **Updated:** 2026-10-08 07:54:20.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-10-07 to 2026-10-08 (1 day)
+**Period:** 2026-10-08 to 2026-10-09 (1 day)
 **Changes:** 1
 
 
-## 🔍 Open MRs (1)
+## ✅ Merged MRs (1)
 
-### [clang-format: update latest spec and reformat with clang-21](https://gerrit.openbmc.org/c/95377)
+### [clang-format: update latest spec and reformat with clang-23](https://gerrit.openbmc.org/c/95377)
 - **Change #:** 95377
 - **Author:** Patrick Williams
-- **Updated:** 2026-10-08 09:34:18.000000000
+- **Changes:** +6 / -1 lines
+- **Updated:** 2026-10-08 19:46:43.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-10-07 to 2026-10-08 (1 day)
-**Changes:** 9
+**Period:** 2026-10-08 to 2026-10-09 (1 day)
+**Changes:** 15
 
 
 ## ✅ Merged MRs (4)
+
+### [amd-event-log: add Redfish projection support](https://gerrit.openbmc.org/c/94411)
+- **Change #:** 94411
+- **Author:** Jayanth Othayoth
+- **Changes:** +389 / -32 lines
+- **Updated:** 2026-10-08 22:52:42.000000000
+
+### [amd-event-log: add runtime AFID integration](https://gerrit.openbmc.org/c/94410)
+- **Change #:** 94410
+- **Author:** Jayanth Othayoth
+- **Changes:** +362 / -0 lines
+- **Updated:** 2026-10-08 22:14:01.000000000
+
+### [PEL: update RTCReadFailure message in registry json](https://gerrit.openbmc.org/c/95400)
+- **Change #:** 95400
+- **Author:** Sachin8222
+- **Changes:** +2 / -2 lines
+- **Updated:** 2026-10-08 21:59:50.000000000
 
 ### [clang-format: update latest spec and reformat with clang-21](https://gerrit.openbmc.org/c/95379)
 - **Change #:** 95379
@@ -87,59 +126,91 @@
 - **Changes:** +1 / -1 lines
 - **Updated:** 2026-10-08 15:00:58.000000000
 
-### [log_manager: do not reset entryId on eraseAll](https://gerrit.openbmc.org/c/92920)
-- **Change #:** 92920
-- **Author:** Jagpal S Gill
-- **Changes:** +16 / -12 lines
-- **Updated:** 2026-10-07 21:54:11.000000000
-
-### [amd-event-log: Add AFID lookup infrastructure](https://gerrit.openbmc.org/c/94409)
-- **Change #:** 94409
-- **Author:** Jayanth Othayoth
-- **Changes:** +1448 / -1 lines
-- **Updated:** 2026-10-07 03:24:52.000000000
-
-### [logging: add runtime extension enrichment support](https://gerrit.openbmc.org/c/94340)
-- **Change #:** 94340
-- **Author:** Jayanth Othayoth
-- **Changes:** +322 / -10 lines
-- **Updated:** 2026-10-07 03:24:38.000000000
-
-## 🔍 Open MRs (5)
-
-### [amd-event-log: add Redfish projection support](https://gerrit.openbmc.org/c/94411)
-- **Change #:** 94411
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-10-08 09:31:34.000000000
-
-### [amd-event-log: add runtime AFID integration](https://gerrit.openbmc.org/c/94410)
-- **Change #:** 94410
-- **Author:** Jayanth Othayoth
-- **Updated:** 2026-10-08 09:31:07.000000000
+## 🔍 Open MRs (10)
 
 ### [lg2: Do not convert string literal values to header_str](https://gerrit.openbmc.org/c/95126)
 - **Change #:** 95126
 - **Author:** bvanassche
-- **Updated:** 2026-10-08 01:40:05.000000000
+- **Updated:** 2026-10-09 13:50:48.000000000
+
+### [test: Request D-Bus service name before starting server thread](https://gerrit.openbmc.org/c/95482)
+- **Change #:** 95482
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:41.000000000
+
+### [lg2: Fix static initialization order problem in lg2_logger.cpp](https://gerrit.openbmc.org/c/95446)
+- **Change #:** 95446
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:38.000000000
+
+### [lg2: Constrain header_str constructor to string literal arrays](https://gerrit.openbmc.org/c/95443)
+- **Change #:** 95443
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:36.000000000
+
+### [lg2: Return header_str by value from header_str_conversion](https://gerrit.openbmc.org/c/95447)
+- **Change #:** 95447
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:27.000000000
+
+### [lg2: Do not read past the end of string_view values](https://gerrit.openbmc.org/c/95445)
+- **Change #:** 95445
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:11.000000000
+
+### [test: Do not construct gmock mocks during static initialization](https://gerrit.openbmc.org/c/95444)
+- **Change #:** 95444
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:07.000000000
+
+### [test: Verify that misuse of the lg2 API fails to compile](https://gerrit.openbmc.org/c/95442)
+- **Change #:** 95442
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:50:00.000000000
+
+### [test: Add baseline unit tests for lg2 flags, headers, and logging](https://gerrit.openbmc.org/c/95441)
+- **Change #:** 95441
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:49:46.000000000
 
 ### [test: Add unit tests for lg2 flags, header conversion, and logging](https://gerrit.openbmc.org/c/95127)
 - **Change #:** 95127
 - **Author:** bvanassche
-- **Updated:** 2026-10-08 01:33:34.000000000
+- **Updated:** 2026-10-08 23:51:58.000000000
 
-### [log_manager: Evict resolved errors first on cap](https://gerrit.openbmc.org/c/92316)
-- **Change #:** 92316
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-10-07 22:17:47.000000000
+## ❌ Abandoned MRs (1)
+
+### [lg2: Add missing namespace comment in level.hpp](https://gerrit.openbmc.org/c/95448)
+- **Change #:** 95448
+- **Author:** bvanassche
+- **Updated:** 2026-10-09 13:03:11.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-10-07 to 2026-10-08 (1 day)
-**Changes:** 58
+**Period:** 2026-10-08 to 2026-10-09 (1 day)
+**Changes:** 46
 
 
 ## ✅ Merged MRs (5)
+
+### [redfish: Refactor FabricAdapter lambda](https://gerrit.openbmc.org/c/95320)
+- **Change #:** 95320
+- **Author:** Yuvakumar Selvamani
+- **Changes:** +19 / -17 lines
+- **Updated:** 2026-10-09 10:43:51.000000000
+
+### [Refactor chassis_utils getValidChassisPath lambda](https://gerrit.openbmc.org/c/93611)
+- **Change #:** 93611
+- **Author:** Yuvakumar Selvamani
+- **Changes:** +40 / -27 lines
+- **Updated:** 2026-10-08 16:34:36.000000000
+
+### [OWNERS: add myself as a reviewer](https://gerrit.openbmc.org/c/95326)
+- **Change #:** 95326
+- **Author:** Vinothkumar Shanmugavel
+- **Changes:** +1 / -0 lines
+- **Updated:** 2026-10-08 16:09:27.000000000
 
 ### [redfish/processor: add tests for helpers](https://gerrit.openbmc.org/c/92617)
 - **Change #:** 92617
@@ -153,252 +224,174 @@
 - **Changes:** +53 / -52 lines
 - **Updated:** 2026-10-08 01:10:18.000000000
 
-### [Add OpenSSL 4.0 support](https://gerrit.openbmc.org/c/94362)
-- **Change #:** 94362
-- **Author:** Tan Siewert
-- **Changes:** +103 / -47 lines
-- **Updated:** 2026-10-07 15:44:16.000000000
+## 🔍 Open MRs (25)
 
-### [Redfish: Return correct EventDestination errors](https://gerrit.openbmc.org/c/93757)
-- **Change #:** 93757
-- **Author:** Joel Pullokaran Jesin
-- **Changes:** +5 / -4 lines
-- **Updated:** 2026-10-07 05:20:40.000000000
+### [clang-tidy: fix readability-container-contains and identifier-naming](https://gerrit.openbmc.org/c/95454)
+- **Change #:** 95454
+- **Author:** Patrick Williams
+- **Updated:** 2026-10-09 15:39:24.000000000
 
-### [sensor: add ReadingTime to sensor responses](https://gerrit.openbmc.org/c/93642)
-- **Change #:** 93642
-- **Author:** Ender
-- **Changes:** +12 / -1 lines
-- **Updated:** 2026-10-07 04:51:22.000000000
+### [clang-tidy: remove deprecated test](https://gerrit.openbmc.org/c/95414)
+- **Change #:** 95414
+- **Author:** Patrick Williams
+- **Updated:** 2026-10-09 15:39:19.000000000
 
-## 🔍 Open MRs (44)
+### [meson: disable clang-23 experimental lifetime safety warnings](https://gerrit.openbmc.org/c/95426)
+- **Change #:** 95426
+- **Author:** Patrick Williams
+- **Updated:** 2026-10-09 15:39:12.000000000
+
+### [clang-format: update latest spec and reformat with clang-23](https://gerrit.openbmc.org/c/95367)
+- **Change #:** 95367
+- **Author:** Patrick Williams
+- **Updated:** 2026-10-09 15:39:08.000000000
 
 ### [implement multi-chassis fan inventory](https://gerrit.openbmc.org/c/87061)
 - **Change #:** 87061
 - **Author:** Alexander
-- **Updated:** 2026-10-08 14:50:31.000000000
+- **Updated:** 2026-10-09 15:35:41.000000000
 
-### [memory: add Chassis and Processors links](https://gerrit.openbmc.org/c/93075)
-- **Change #:** 93075
-- **Author:** Ender
-- **Updated:** 2026-10-08 14:32:53.000000000
+### [http: Fix clang-format-23 CI failure](https://gerrit.openbmc.org/c/95479)
+- **Change #:** 95479
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-10-09 12:41:38.000000000
 
-### [OWNERS: add myself as a reviewer](https://gerrit.openbmc.org/c/95326)
-- **Change #:** 95326
-- **Author:** Vinothkumar Shanmugavel
-- **Updated:** 2026-10-08 13:58:05.000000000
+### [Redfish: Reuse mapper subtree data for fan lookup](https://gerrit.openbmc.org/c/95119)
+- **Change #:** 95119
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-10-09 11:58:59.000000000
 
 ### [Fix wrong property name in SNMPv2c conflict error](https://gerrit.openbmc.org/c/95383)
 - **Change #:** 95383
 - **Author:** shivrajnt
-- **Updated:** 2026-10-08 13:41:34.000000000
+- **Updated:** 2026-10-09 11:51:56.000000000
 
-### [redfish: Refactor FabricAdapter lambda](https://gerrit.openbmc.org/c/95320)
-- **Change #:** 95320
+### [redfish: Refactor Processor lambdas](https://gerrit.openbmc.org/c/95324)
+- **Change #:** 95324
 - **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-08 13:28:17.000000000
+- **Updated:** 2026-10-08 23:06:51.000000000
 
-### [Refactor chassis_utils getValidChassisPath lambda](https://gerrit.openbmc.org/c/93611)
-- **Change #:** 93611
+### [redfish-core: Refactor PostCodes lambdas](https://gerrit.openbmc.org/c/95315)
+- **Change #:** 95315
 - **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-08 13:27:02.000000000
+- **Updated:** 2026-10-08 23:03:15.000000000
 
-### [chassis: Add chassis state/inventory association](https://gerrit.openbmc.org/c/93461)
-- **Change #:** 93461
-- **Author:** Crystal Huang
-- **Updated:** 2026-10-08 13:17:16.000000000
+### [redfish: Refactor fabric port path/head lambdas](https://gerrit.openbmc.org/c/95323)
+- **Change #:** 95323
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-10-08 23:03:03.000000000
+
+### [redfish: Refactor Thermal route lambdas](https://gerrit.openbmc.org/c/95325)
+- **Change #:** 95325
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-10-08 23:02:50.000000000
+
+### [power_supply: populate PowerCapacityWatts from inventory](https://gerrit.openbmc.org/c/95285)
+- **Change #:** 95285
+- **Author:** Jim Fang
+- **Updated:** 2026-10-08 19:40:56.000000000
+
+### [Return 404 for missing FabricAdapter](https://gerrit.openbmc.org/c/95242)
+- **Change #:** 95242
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-10-08 19:05:08.000000000
 
 ### [Redfish: Include Details in VirtualMedia 404s](https://gerrit.openbmc.org/c/95386)
 - **Change #:** 95386
 - **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-10-08 12:01:21.000000000
+- **Updated:** 2026-10-08 18:54:41.000000000
+
+### [chassis: Add chassis state/inventory association](https://gerrit.openbmc.org/c/93461)
+- **Change #:** 93461
+- **Author:** Crystal Huang
+- **Updated:** 2026-10-08 18:52:05.000000000
+
+### [memory: add Chassis and Processors links](https://gerrit.openbmc.org/c/93075)
+- **Change #:** 93075
+- **Author:** Ender
+- **Updated:** 2026-10-08 18:45:48.000000000
+
+### [registries: generate registries_selector.hpp](https://gerrit.openbmc.org/c/78539)
+- **Change #:** 78539
+- **Author:** Patrick Williams
+- **Updated:** 2026-10-08 18:43:32.000000000
+
+### [redfish-core: Refactor LED IndicatorLED lambdas](https://gerrit.openbmc.org/c/95307)
+- **Change #:** 95307
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-10-08 18:18:22.000000000
+
+### [task: Omit empty JsonBody from Task payload](https://gerrit.openbmc.org/c/94588)
+- **Change #:** 94588
+- **Author:** shivrajnt
+- **Updated:** 2026-10-08 17:57:44.000000000
+
+### [LogEntry: Add support for CPER interfaces](https://gerrit.openbmc.org/c/93952)
+- **Change #:** 93952
+- **Author:** sandeepsanku
+- **Updated:** 2026-10-08 17:02:17.000000000
+
+### [redfish-core: Add chassis_utils unit tests](https://gerrit.openbmc.org/c/94904)
+- **Change #:** 94904
+- **Author:** Yuvakumar Selvamani
+- **Updated:** 2026-10-08 16:12:42.000000000
 
 ### [account_service: PasswordChangeRequired support](https://gerrit.openbmc.org/c/90598)
 - **Change #:** 90598
 - **Author:** Vijaysankar Ravi
 - **Updated:** 2026-10-08 10:03:38.000000000
 
-### [clang-format: update latest spec and reformat with clang-21](https://gerrit.openbmc.org/c/95367)
-- **Change #:** 95367
-- **Author:** Patrick Williams
-- **Updated:** 2026-10-08 09:33:06.000000000
-
 ### [Fix dynamic storageId for controller routes](https://gerrit.openbmc.org/c/93194)
 - **Change #:** 93194
 - **Author:** Yuvakumar Selvamani
 - **Updated:** 2026-10-08 08:58:20.000000000
-
-### [Return 404 for missing FabricAdapter](https://gerrit.openbmc.org/c/95242)
-- **Change #:** 95242
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-10-08 07:33:36.000000000
 
 ### [pcie: Check systemName in PCIeFunctionCollection](https://gerrit.openbmc.org/c/94277)
 - **Change #:** 94277
 - **Author:** Lucio Chen
 - **Updated:** 2026-10-08 06:56:23.000000000
 
-### [redfish: Refactor fabric port path/head lambdas](https://gerrit.openbmc.org/c/95323)
-- **Change #:** 95323
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-08 01:20:34.000000000
+## 🚧 Work In Progress (12)
 
-### [power_supply: populate PowerCapacityWatts from inventory](https://gerrit.openbmc.org/c/95285)
-- **Change #:** 95285
-- **Author:** Jim Fang
-- **Updated:** 2026-10-07 20:45:14.000000000
+### [fix broken ci](https://gerrit.openbmc.org/c/95488)
+- **Change #:** 95488
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:14:25.000000000
 
-### [redfish-core: Add sensor_utils purpose tests](https://gerrit.openbmc.org/c/95031)
-- **Change #:** 95031
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 16:04:51.000000000
+### [Multi-host Storage Item Get](https://gerrit.openbmc.org/c/95026)
+- **Change #:** 95026
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:12:34.000000000
 
-### [Fix OemSubRoute payload handling and test cases](https://gerrit.openbmc.org/c/82487)
-- **Change #:** 82487
-- **Author:** Myung Bae
-- **Updated:** 2026-10-07 16:00:24.000000000
+### [Enable multi-host storage URI](https://gerrit.openbmc.org/c/95025)
+- **Change #:** 95025
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:12:17.000000000
 
-### [test: cover EventServiceManager subscriber counts](https://gerrit.openbmc.org/c/93067)
-- **Change #:** 93067
-- **Author:** shivrajnt
-- **Updated:** 2026-10-07 15:45:33.000000000
+### [Multi-host Storage Collection Get](https://gerrit.openbmc.org/c/91643)
+- **Change #:** 91643
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:12:11.000000000
 
-### [redfish: Refactor Thermal route lambdas](https://gerrit.openbmc.org/c/95325)
-- **Change #:** 95325
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 12:38:26.000000000
+### [Multi-host Systems Storage Drives Get](https://gerrit.openbmc.org/c/95028)
+- **Change #:** 95028
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:09:34.000000000
 
-### [redfish: Refactor Processor lambdas](https://gerrit.openbmc.org/c/95324)
-- **Change #:** 95324
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 12:26:40.000000000
+### [Multi-host Storage Controller Get](https://gerrit.openbmc.org/c/95027)
+- **Change #:** 95027
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-10-09 15:09:26.000000000
 
-### [redfish-core: Refactor PostCodes lambdas](https://gerrit.openbmc.org/c/95315)
-- **Change #:** 95315
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 11:08:47.000000000
+### [update-service: complete Staged tasks](https://gerrit.openbmc.org/c/95483)
+- **Change #:** 95483
+- **Author:** ABHIST CHAUHAN
+- **Updated:** 2026-10-09 14:16:25.000000000
 
-### [Controls: Initial implementation for the schema](https://gerrit.openbmc.org/c/86196)
-- **Change #:** 86196
-- **Author:** Aditya Kurdunkar
-- **Updated:** 2026-10-07 10:42:37.000000000
-
-### [redfish-core: Refactor Assembly get/HEAD lambdas](https://gerrit.openbmc.org/c/95312)
-- **Change #:** 95312
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 09:57:45.000000000
-
-### [redfish-core: Refactor Fan collection lambdas](https://gerrit.openbmc.org/c/95314)
-- **Change #:** 95314
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 09:53:52.000000000
-
-### [redfish-core: Refactor LED IndicatorLED lambdas](https://gerrit.openbmc.org/c/95307)
-- **Change #:** 95307
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 09:35:51.000000000
-
-### [control: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
-- **Change #:** 87387
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:38:50.000000000
-
-### [processor: support PATCH for clock speed](https://gerrit.openbmc.org/c/90503)
-- **Change #:** 90503
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:38:41.000000000
-
-### [test: cover asset_utils asset property extraction](https://gerrit.openbmc.org/c/95308)
-- **Change #:** 95308
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:38:02.000000000
-
-### [pcie: treat an empty SlotType as unset](https://gerrit.openbmc.org/c/95309)
-- **Change #:** 95309
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:30:07.000000000
-
-### [memory: add unit tests for Memory links handlers](https://gerrit.openbmc.org/c/93084)
-- **Change #:** 93084
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:27:53.000000000
-
-### [test: cover sw_utils activation mapping](https://gerrit.openbmc.org/c/95310)
-- **Change #:** 95310
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:22:36.000000000
-
-### [processor: add DataSourceUri to clock range](https://gerrit.openbmc.org/c/88783)
-- **Change #:** 88783
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:19:49.000000000
-
-### [processor: add clock speed support](https://gerrit.openbmc.org/c/87279)
-- **Change #:** 87279
-- **Author:** Ender
-- **Updated:** 2026-10-07 08:15:18.000000000
-
-### [sensors: support PATCH for Thresholds](https://gerrit.openbmc.org/c/94206)
-- **Change #:** 94206
-- **Author:** Eric Liu
-- **Updated:** 2026-10-07 08:10:34.000000000
-
-### [test: cover leak detection handlers](https://gerrit.openbmc.org/c/94266)
-- **Change #:** 94266
-- **Author:** Eric Liu
-- **Updated:** 2026-10-07 08:01:09.000000000
-
-### [leak_detection: add LeakDetection and detectors](https://gerrit.openbmc.org/c/94207)
-- **Change #:** 94207
-- **Author:** Eric Liu
-- **Updated:** 2026-10-07 07:44:35.000000000
-
-### [redfish-core: Add chassis_utils unit tests](https://gerrit.openbmc.org/c/94904)
-- **Change #:** 94904
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 07:27:30.000000000
-
-### [location_utils: return the LocationType enum](https://gerrit.openbmc.org/c/95299)
-- **Change #:** 95299
-- **Author:** Ender
-- **Updated:** 2026-10-07 07:16:22.000000000
-
-### [bmcweb: add NetworkAdapter Location properties](https://gerrit.openbmc.org/c/90146)
-- **Change #:** 90146
-- **Author:** JY-Voon
-- **Updated:** 2026-10-07 06:32:13.000000000
-
-### [virtual_media: refactor vm_websocker Handler](https://gerrit.openbmc.org/c/95279)
-- **Change #:** 95279
-- **Author:** Myung Bae
-- **Updated:** 2026-10-07 05:36:21.000000000
-
-### [test: cover ReadingTime on a sensor response](https://gerrit.openbmc.org/c/95293)
-- **Change #:** 95293
-- **Author:** Ender
-- **Updated:** 2026-10-07 04:36:44.000000000
-
-### [bmcweb: add unit tests for NetworkAdapter Location handlers](https://gerrit.openbmc.org/c/92112)
-- **Change #:** 92112
-- **Author:** JY-Voon
-- **Updated:** 2026-10-07 03:03:51.000000000
-
-### [pcie: Use GetSubTree for PCIe GET lookup](https://gerrit.openbmc.org/c/94250)
-- **Change #:** 94250
+### [Redfish: Validate PowerSupply chassis](https://gerrit.openbmc.org/c/94894)
+- **Change #:** 94894
 - **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-10-07 03:00:57.000000000
-
-### [led: add unit tests](https://gerrit.openbmc.org/c/94531)
-- **Change #:** 94531
-- **Author:** Eric Liu
-- **Updated:** 2026-10-07 01:16:18.000000000
-
-## 🚧 Work In Progress (6)
-
-### [Redfish: Reuse mapper subtree data for fan lookup](https://gerrit.openbmc.org/c/95119)
-- **Change #:** 95119
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-10-08 10:43:15.000000000
+- **Updated:** 2026-10-09 12:23:02.000000000
 
 ### [NetworkAdapter: Return 404 for bad chassis](https://gerrit.openbmc.org/c/94630)
 - **Change #:** 94630
@@ -420,12 +413,17 @@
 - **Author:** Yuvakumar Selvamani
 - **Updated:** 2026-10-08 01:43:59.000000000
 
-### [redfish: Refactor SNMP trap client lambda](https://gerrit.openbmc.org/c/95318)
-- **Change #:** 95318
-- **Author:** Yuvakumar Selvamani
-- **Updated:** 2026-10-07 10:28:33.000000000
+## ❌ Abandoned MRs (4)
 
-## ❌ Abandoned MRs (3)
+### [registries: Add FirmwareUpdateAwaitingActivation message](https://gerrit.openbmc.org/c/93801)
+- **Change #:** 93801
+- **Author:** ABHIST CHAUHAN
+- **Updated:** 2026-10-09 13:48:18.000000000
+
+### [LogEntry: Add support for parsing and presenting CPER interface data](https://gerrit.openbmc.org/c/94090)
+- **Change #:** 94090
+- **Author:** sandeepsanku
+- **Updated:** 2026-10-08 16:39:34.000000000
 
 ### [WIP: Allow JsonSchema to be removed](https://gerrit.openbmc.org/c/54029)
 - **Change #:** 54029
@@ -436,11 +434,6 @@
 - **Change #:** 75119
 - **Author:** Ed Tanous
 - **Updated:** 2026-10-08 08:38:42.000000000
-
-### [HTTP/2: bound HttpBody::reader body size to match HTTP/1.1](https://gerrit.openbmc.org/c/90580)
-- **Change #:** 90580
-- **Author:** 0xbinreaper
-- **Updated:** 2026-10-07 15:49:39.000000000
 
 ---
 
