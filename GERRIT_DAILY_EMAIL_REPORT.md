@@ -1,31 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-16 13:40:27 UTC
+**Generated:** 2026-10-17 12:36:59 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-15 to 2026-10-16 (1 day)
-**Changes:** 2
+**Period:** 2026-10-16 to 2026-10-17 (1 day)
+**Changes:** 0
 
-
-## ✅ Merged MRs (1)
-
-### [Disallow matching of single hostnames](https://gerrit.openbmc.org/c/91337)
-- **Change #:** 91337
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +46 / -23 lines
-- **Updated:** 2026-10-15 15:41:22.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [Fix header](https://gerrit.openbmc.org/c/95888)
-- **Change #:** 95888
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-10-15 15:47:32.000000000
 
 ---
 
