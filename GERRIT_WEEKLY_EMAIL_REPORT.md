@@ -1,28 +1,31 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-12 18:26:43 UTC
+**Generated:** 2026-10-19 16:04:01 UTC
 **Owner:** ed@tanous.net
 **Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-05 to 2026-10-12 (7 days)
+**Period:** 2026-10-12 to 2026-10-19 (7 days)
 **Changes:** 2
 
 
-## ❌ Abandoned MRs (2)
+## ✅ Merged MRs (1)
 
-### [WIP: Allow JsonSchema to be removed](https://gerrit.openbmc.org/c/54029)
-- **Change #:** 54029
+### [Disallow matching of single hostnames](https://gerrit.openbmc.org/c/91337)
+- **Change #:** 91337
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-10-08 08:38:44.000000000
+- **Changes:** +46 / -23 lines
+- **Updated:** 2026-10-15 15:41:22.000000000
 
-### [WIP: Remove redundant namespace](https://gerrit.openbmc.org/c/75119)
-- **Change #:** 75119
+## ❌ Abandoned MRs (1)
+
+### [Fix header](https://gerrit.openbmc.org/c/95888)
+- **Change #:** 95888
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-10-08 08:38:42.000000000
+- **Updated:** 2026-10-15 15:47:32.000000000
 
 ---
 
