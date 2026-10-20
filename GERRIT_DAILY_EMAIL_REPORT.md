@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-19 16:04:38 UTC
+**Generated:** 2026-10-20 14:00:41 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-18 to 2026-10-19 (1 day)
-**Changes:** 0
+**Period:** 2026-10-19 to 2026-10-20 (1 day)
+**Changes:** 1
 
+
+## ❌ Abandoned MRs (1)
+
+### [WIP: Refactor Payload for type safety](https://gerrit.openbmc.org/c/57601)
+- **Change #:** 57601
+- **Author:** Ed Tanous
+- **Project:** openbmc/bmcweb
+- **Updated:** 2026-10-20 00:04:39.000000000
 
 ---
 
