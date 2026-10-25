@@ -1,42 +1,57 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-10-24 13:04:23 UTC
+**Generated:** 2026-10-25 13:28:53 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 0
+**Total Changes:** 2
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-10-23 to 2026-10-24 (1 day)
+**Period:** 2026-10-24 to 2026-10-25 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-10-23 to 2026-10-24 (1 day)
+**Period:** 2026-10-24 to 2026-10-25 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-10-23 to 2026-10-24 (1 day)
+**Period:** 2026-10-24 to 2026-10-25 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-10-23 to 2026-10-24 (1 day)
+**Period:** 2026-10-24 to 2026-10-25 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-10-23 to 2026-10-24 (1 day)
-**Changes:** 0
+**Period:** 2026-10-24 to 2026-10-25 (1 day)
+**Changes:** 2
 
+
+## ✅ Merged MRs (1)
+
+### [test: add unit tests for ThermalMetrics handlers](https://gerrit.openbmc.org/c/95846)
+- **Change #:** 95846
+- **Author:** JY-Voon
+- **Changes:** +228 / -9 lines
+- **Updated:** 2026-10-24 05:19:18.000000000
+
+## 🔍 Open MRs (1)
+
+### [test: add unit tests for NetworkAdapter Location](https://gerrit.openbmc.org/c/92112)
+- **Change #:** 92112
+- **Author:** JY-Voon
+- **Updated:** 2026-10-24 10:14:16.000000000
 
 ---
 
