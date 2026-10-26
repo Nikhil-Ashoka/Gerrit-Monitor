@@ -1,31 +1,30 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-19 16:04:01 UTC
+**Generated:** 2026-10-26 15:40:59 UTC
 **Owner:** ed@tanous.net
 **Changes:** 2
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-12 to 2026-10-19 (7 days)
+**Period:** 2026-10-19 to 2026-10-26 (7 days)
 **Changes:** 2
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (1)
 
-### [Disallow matching of single hostnames](https://gerrit.openbmc.org/c/91337)
-- **Change #:** 91337
+### [Document AI coding assistant policy](https://gerrit.openbmc.org/c/89452)
+- **Change #:** 89452
 - **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Changes:** +46 / -23 lines
-- **Updated:** 2026-10-15 15:41:22.000000000
+- **Project:** openbmc/docs
+- **Updated:** 2026-10-23 18:20:04.000000000
 
 ## ❌ Abandoned MRs (1)
 
-### [Fix header](https://gerrit.openbmc.org/c/95888)
-- **Change #:** 95888
+### [WIP: Refactor Payload for type safety](https://gerrit.openbmc.org/c/57601)
+- **Change #:** 57601
 - **Author:** Ed Tanous
 - **Project:** openbmc/bmcweb
-- **Updated:** 2026-10-15 15:47:32.000000000
+- **Updated:** 2026-10-20 00:04:39.000000000
 
 ---
 
