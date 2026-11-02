@@ -1,30 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-10-26 15:40:59 UTC
+**Generated:** 2026-11-02 19:00:07 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-10-19 to 2026-10-26 (7 days)
-**Changes:** 2
+**Period:** 2026-10-26 to 2026-11-02 (7 days)
+**Changes:** 0
 
-
-## 🔍 Open MRs (1)
-
-### [Document AI coding assistant policy](https://gerrit.openbmc.org/c/89452)
-- **Change #:** 89452
-- **Author:** Ed Tanous
-- **Project:** openbmc/docs
-- **Updated:** 2026-10-23 18:20:04.000000000
-
-## ❌ Abandoned MRs (1)
-
-### [WIP: Refactor Payload for type safety](https://gerrit.openbmc.org/c/57601)
-- **Change #:** 57601
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-10-20 00:04:39.000000000
 
 ---
 
