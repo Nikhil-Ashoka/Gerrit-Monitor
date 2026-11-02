@@ -1,83 +1,145 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-01 15:39:33 UTC
+**Generated:** 2026-11-02 19:01:04 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 8
+**Total Changes:** 20
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-10-31 to 2026-11-01 (1 day)
-**Changes:** 0
+**Period:** 2026-11-01 to 2026-11-02 (1 day)
+**Changes:** 1
 
+
+## ❌ Abandoned MRs (1)
+
+### [Add support for SimpleUpdate in firmware update](https://gerrit.openbmc.org/c/73116)
+- **Change #:** 73116
+- **Author:** Jackie14
+- **Updated:** 2026-11-02 00:08:18.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-10-31 to 2026-11-01 (1 day)
-**Changes:** 4
+**Period:** 2026-11-01 to 2026-11-02 (1 day)
+**Changes:** 5
 
 
-## 🔍 Open MRs (4)
+## 🔍 Open MRs (5)
+
+### [dump: remove unused cereal serialization from elog watch](https://gerrit.openbmc.org/c/96655)
+- **Change #:** 96655
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-02 15:59:20.000000000
+
+### [dreport: enforce size limit across plugin subshells](https://gerrit.openbmc.org/c/96654)
+- **Change #:** 96654
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-02 12:38:00.000000000
+
+### [dump: report fault log file path on open failure](https://gerrit.openbmc.org/c/96624)
+- **Change #:** 96624
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-01 15:56:18.000000000
+
+### [dump: remove unreachable return after elog](https://gerrit.openbmc.org/c/96623)
+- **Change #:** 96623
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-01 15:42:53.000000000
 
 ### [system-dump-manager: fix stale entry delete iteration](https://gerrit.openbmc.org/c/96510)
 - **Change #:** 96510
 - **Author:** Manoj Kumar Prabakaran
 - **Updated:** 2026-11-01 02:45:53.000000000
 
-### [dump offload: only remove the socket this call creates](https://gerrit.openbmc.org/c/95727)
-- **Change #:** 95727
-- **Author:** Alex Chen
-- **Updated:** 2026-10-31 18:35:51.000000000
-
-### [dreport: capture CreateDump D-Bus parameters in dump archive](https://gerrit.openbmc.org/c/94153)
-- **Change #:** 94153
-- **Author:** MARRI DEVENDER RAO
-- **Updated:** 2026-10-31 18:02:34.000000000
-
-### [bmc dump: validate the CreateDump FilePath](https://gerrit.openbmc.org/c/95728)
-- **Change #:** 95728
-- **Author:** Alex Chen
-- **Updated:** 2026-10-31 16:37:04.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-10-31 to 2026-11-01 (1 day)
+**Period:** 2026-11-01 to 2026-11-02 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-10-31 to 2026-11-01 (1 day)
+**Period:** 2026-11-01 to 2026-11-02 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-10-31 to 2026-11-01 (1 day)
-**Changes:** 4
+**Period:** 2026-11-01 to 2026-11-02 (1 day)
+**Changes:** 14
 
 
-## 🔍 Open MRs (3)
+## 🔍 Open MRs (12)
+
+### [Uniform unit test file naming](https://gerrit.openbmc.org/c/95167)
+- **Change #:** 95167
+- **Author:** Oliver Brewka
+- **Updated:** 2026-11-02 18:34:36.000000000
+
+### [led: add unit tests](https://gerrit.openbmc.org/c/94531)
+- **Change #:** 94531
+- **Author:** Eric Liu
+- **Updated:** 2026-11-02 17:03:51.000000000
+
+### [chassis: Use association for Chassis.Reset Action](https://gerrit.openbmc.org/c/96296)
+- **Change #:** 96296
+- **Author:** Janet Adkins
+- **Updated:** 2026-11-02 16:10:50.000000000
+
+### [error_messages: take string_view value arguments](https://gerrit.openbmc.org/c/95853)
+- **Change #:** 95853
+- **Author:** Dhruv Goyal
+- **Updated:** 2026-11-02 16:00:41.000000000
+
+### [Add Redfish ComponentIntegrity resource](https://gerrit.openbmc.org/c/88828)
+- **Change #:** 88828
+- **Author:** garybeihl
+- **Updated:** 2026-11-02 15:48:48.000000000
+
+### [bmcweb: Omit empty SPDM action public key](https://gerrit.openbmc.org/c/95260)
+- **Change #:** 95260
+- **Author:** Florian Sorin
+- **Updated:** 2026-11-02 15:26:23.000000000
+
+### [Fix system dump task completion Location](https://gerrit.openbmc.org/c/96388)
+- **Change #:** 96388
+- **Author:** shivrajnt
+- **Updated:** 2026-11-02 14:53:33.000000000
+
+### [EventService: fix MessageIds validation](https://gerrit.openbmc.org/c/96204)
+- **Change #:** 96204
+- **Author:** shivrajnt
+- **Updated:** 2026-11-02 09:09:41.000000000
+
+### [rhi: Support Redfish Hostinterface schema](https://gerrit.openbmc.org/c/82853)
+- **Change #:** 82853
+- **Author:** Thu Nguyen
+- **Updated:** 2026-11-02 05:53:05.000000000
+
+### [test: add unit tests for Cable handlers](https://gerrit.openbmc.org/c/95845)
+- **Change #:** 95845
+- **Author:** JY-Voon
+- **Updated:** 2026-11-02 04:30:49.000000000
 
 ### [test: add unit tests for PCIeSlots handlers](https://gerrit.openbmc.org/c/95847)
 - **Change #:** 95847
 - **Author:** JY-Voon
-- **Updated:** 2026-10-31 19:28:19.000000000
+- **Updated:** 2026-11-02 04:30:43.000000000
 
-### [led: Check for an empty LED group service map](https://gerrit.openbmc.org/c/96495)
-- **Change #:** 96495
-- **Author:** Eric Liu
-- **Updated:** 2026-10-31 19:26:54.000000000
+### [fix(session): return 204 on SessionService PATCH](https://gerrit.openbmc.org/c/96496)
+- **Change #:** 96496
+- **Author:** kennyliu9535
+- **Updated:** 2026-11-02 02:07:11.000000000
 
-### [http_body: enforce accumulated body limit](https://gerrit.openbmc.org/c/96200)
-- **Change #:** 96200
-- **Author:** Alex Chen
-- **Updated:** 2026-10-31 17:42:43.000000000
+## 🚧 Work In Progress (2)
 
-## 🚧 Work In Progress (1)
+### [parse_registries: Add Device message registry](https://gerrit.openbmc.org/c/96399)
+- **Change #:** 96399
+- **Author:** Eric Yang
+- **Updated:** 2026-11-02 06:42:11.000000000
 
 ### [bios: add the BiosAttributeRegistry resource](https://gerrit.openbmc.org/c/94788)
 - **Change #:** 94788
