@@ -1,48 +1,75 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-04 16:43:55 UTC
+**Generated:** 2026-11-05 17:00:08 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 52
+**Total Changes:** 48
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-03 to 2026-11-04 (1 day)
+**Period:** 2026-11-04 to 2026-11-05 (1 day)
 **Changes:** 1
 
 
 ## 🔍 Open MRs (1)
 
-### [Fail CI if npm rewrites package-lock.json](https://gerrit.openbmc.org/c/95592)
-- **Change #:** 95592
-- **Author:** Jason Westover
-- **Updated:** 2026-11-03 07:03:31.000000000
+### [Dumps: Show size in GB, MB or KB based on magnitude](https://gerrit.openbmc.org/c/96820)
+- **Change #:** 96820
+- **Author:** Vedangi Mittal
+- **Updated:** 2026-11-05 16:09:36.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-03 to 2026-11-04 (1 day)
-**Changes:** 21
+**Period:** 2026-11-04 to 2026-11-05 (1 day)
+**Changes:** 17
 
 
-## ✅ Merged MRs (1)
+## 🔍 Open MRs (16)
 
-### [bmc-dump: exit child with _exit() when execl fails](https://gerrit.openbmc.org/c/95363)
-- **Change #:** 95363
+### [test: add BMC dump manager unit tests](https://gerrit.openbmc.org/c/96057)
+- **Change #:** 96057
 - **Author:** Suvedha Balamurali
-- **Changes:** +3 / -1 lines
-- **Updated:** 2026-11-03 12:19:58.000000000
+- **Updated:** 2026-11-05 16:37:11.000000000
 
-## 🔍 Open MRs (19)
+### [dump: share create dump helper between monitors](https://gerrit.openbmc.org/c/96151)
+- **Change #:** 96151
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-05 09:30:27.000000000
+
+### [dreport: preserve create_archive return status](https://gerrit.openbmc.org/c/95935)
+- **Change #:** 95935
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-05 07:00:41.000000000
+
+### [dump: free PLDM instance id when openPLDM fails](https://gerrit.openbmc.org/c/96498)
+- **Change #:** 96498
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-05 05:20:03.000000000
+
+### [test: add unit tests for ramoops manager](https://gerrit.openbmc.org/c/96088)
+- **Change #:** 96088
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-05 05:16:08.000000000
+
+### [bmc-dump: validate the FilePath parameter of CreateDump](https://gerrit.openbmc.org/c/96769)
+- **Change #:** 96769
+- **Author:** bvanassche
+- **Updated:** 2026-11-05 00:26:18.000000000
+
+### [bmc-dump: restrict the core and ramoops dump paths](https://gerrit.openbmc.org/c/96770)
+- **Change #:** 96770
+- **Author:** bvanassche
+- **Updated:** 2026-11-05 00:26:15.000000000
+
+### [dreport: prevent option and command injection via the elog path](https://gerrit.openbmc.org/c/96768)
+- **Change #:** 96768
+- **Author:** bvanassche
+- **Updated:** 2026-11-05 00:24:43.000000000
 
 ### [test: add OpenPOWER dump manager notify tests](https://gerrit.openbmc.org/c/96380)
 - **Change #:** 96380
 - **Author:** Suvedha Balamurali
 - **Updated:** 2026-11-04 12:14:09.000000000
-
-### [test: add unit tests for ramoops manager](https://gerrit.openbmc.org/c/96088)
-- **Change #:** 96088
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-04 11:58:58.000000000
 
 ### [dump: fix use after free when replacing a stale system dump entry](https://gerrit.openbmc.org/c/96390)
 - **Change #:** 96390
@@ -79,56 +106,6 @@
 - **Author:** Suvedha Balamurali
 - **Updated:** 2026-11-04 04:50:29.000000000
 
-### [bmc dump: validate the CreateDump FilePath](https://gerrit.openbmc.org/c/95728)
-- **Change #:** 95728
-- **Author:** Alex Chen
-- **Updated:** 2026-11-03 22:55:44.000000000
-
-### [dump: free PLDM instance id when openPLDM fails](https://gerrit.openbmc.org/c/96498)
-- **Change #:** 96498
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 16:36:54.000000000
-
-### [watch: align the inotify buffer and bound-check events](https://gerrit.openbmc.org/c/96273)
-- **Change #:** 96273
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 16:18:39.000000000
-
-### [dump: share create dump helper between monitors](https://gerrit.openbmc.org/c/96151)
-- **Change #:** 96151
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 15:13:24.000000000
-
-### [dreport: preserve create_archive return status](https://gerrit.openbmc.org/c/95935)
-- **Change #:** 95935
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 15:08:01.000000000
-
-### [pldm: validate EID value read from file](https://gerrit.openbmc.org/c/96530)
-- **Change #:** 96530
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 14:37:23.000000000
-
-### [dump: remove unused bus in system dump createDump](https://gerrit.openbmc.org/c/96516)
-- **Change #:** 96516
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 13:58:50.000000000
-
-### [dreport: harden check_size error handling](https://gerrit.openbmc.org/c/96004)
-- **Change #:** 96004
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 13:02:35.000000000
-
-### [core-monitor: dump core files left from before startup](https://gerrit.openbmc.org/c/96069)
-- **Change #:** 96069
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 12:54:23.000000000
-
-### [test: add BMC dump manager unit tests](https://gerrit.openbmc.org/c/96057)
-- **Change #:** 96057
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-03 12:32:15.000000000
-
 ## ❌ Abandoned MRs (1)
 
 ### [dump: don't abort on elog id list read or write errors](https://gerrit.openbmc.org/c/96284)
@@ -139,90 +116,54 @@
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-03 to 2026-11-04 (1 day)
+**Period:** 2026-11-04 to 2026-11-05 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-03 to 2026-11-04 (1 day)
-**Changes:** 11
+**Period:** 2026-11-04 to 2026-11-05 (1 day)
+**Changes:** 5
 
 
-## ✅ Merged MRs (7)
-
-### [lg2: Return header_str by value from header_str_conversion](https://gerrit.openbmc.org/c/95447)
-- **Change #:** 95447
-- **Author:** bvanassche
-- **Changes:** +6 / -1 lines
-- **Updated:** 2026-11-03 23:43:22.000000000
-
-### [lg2: Fix static initialization order problem in lg2_logger.cpp](https://gerrit.openbmc.org/c/95446)
-- **Change #:** 95446
-- **Author:** bvanassche
-- **Changes:** +71 / -7 lines
-- **Updated:** 2026-11-03 23:43:22.000000000
-
-### [lg2: Do not read past the end of string_view values](https://gerrit.openbmc.org/c/95445)
-- **Change #:** 95445
-- **Author:** bvanassche
-- **Changes:** +31 / -4 lines
-- **Updated:** 2026-11-03 23:43:22.000000000
-
-### [lg2: Constrain header_str constructor to string literal arrays](https://gerrit.openbmc.org/c/95443)
-- **Change #:** 95443
-- **Author:** bvanassche
-- **Changes:** +18 / -3 lines
-- **Updated:** 2026-11-03 23:43:22.000000000
-
-### [test: Verify that misuse of the lg2 API fails to compile](https://gerrit.openbmc.org/c/95442)
-- **Change #:** 95442
-- **Author:** bvanassche
-- **Changes:** +52 / -0 lines
-- **Updated:** 2026-11-03 23:43:22.000000000
-
-### [meson: Honor prefix when installing systemd service files](https://gerrit.openbmc.org/c/96193)
-- **Change #:** 96193
-- **Author:** bvanassche
-- **Changes:** +1 / -0 lines
-- **Updated:** 2026-11-03 15:53:41.000000000
-
-### [cper: Disable cper-processor by default](https://gerrit.openbmc.org/c/96361)
-- **Change #:** 96361
-- **Author:** bvanassche
-- **Changes:** +1 / -0 lines
-- **Updated:** 2026-11-03 14:21:50.000000000
-
-## 🔍 Open MRs (3)
-
-### [lg2: Document and test string literal values](https://gerrit.openbmc.org/c/96668)
-- **Change #:** 96668
-- **Author:** bvanassche
-- **Updated:** 2026-11-03 07:02:31.000000000
-
-### [lg2: Do not convert string literal values to header_str](https://gerrit.openbmc.org/c/95126)
-- **Change #:** 95126
-- **Author:** bvanassche
-- **Updated:** 2026-11-03 07:02:15.000000000
+## ✅ Merged MRs (1)
 
 ### [lg2: Add is_log_flag type trait](https://gerrit.openbmc.org/c/96667)
 - **Change #:** 96667
 - **Author:** bvanassche
-- **Updated:** 2026-11-03 01:34:29.000000000
+- **Changes:** +57 / -0 lines
+- **Updated:** 2026-11-04 23:15:54.000000000
 
-## ❌ Abandoned MRs (1)
+## 🔍 Open MRs (3)
 
-### [cper: default disable CPER processing](https://gerrit.openbmc.org/c/96677)
-- **Change #:** 96677
-- **Author:** Patrick Williams
-- **Updated:** 2026-11-03 05:08:32.000000000
+### [phalnext: enable guard and deconfigure](https://gerrit.openbmc.org/c/96815)
+- **Change #:** 96815
+- **Author:** serasusan
+- **Updated:** 2026-11-05 15:20:44.000000000
+
+### [lg2: Document and test string literal values](https://gerrit.openbmc.org/c/96668)
+- **Change #:** 96668
+- **Author:** bvanassche
+- **Updated:** 2026-11-04 23:05:36.000000000
+
+### [lg2: Do not convert string literal values to header_str](https://gerrit.openbmc.org/c/95126)
+- **Change #:** 95126
+- **Author:** bvanassche
+- **Updated:** 2026-11-04 22:53:10.000000000
+
+## 🚧 Work In Progress (1)
+
+### [PEL: Add GPIO SRCS](https://gerrit.openbmc.org/c/96750)
+- **Change #:** 96750
+- **Author:** Brendan Singer
+- **Updated:** 2026-11-04 22:15:18.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-03 to 2026-11-04 (1 day)
-**Changes:** 19
+**Period:** 2026-11-04 to 2026-11-05 (1 day)
+**Changes:** 25
 
 
 ## ✅ Merged MRs (1)
@@ -233,32 +174,77 @@
 - **Changes:** +1 / -2 lines
 - **Updated:** 2026-11-04 06:00:26.000000000
 
-## 🔍 Open MRs (15)
+## 🔍 Open MRs (19)
 
 ### [telemetry: handle sdbusplus generated events](https://gerrit.openbmc.org/c/96724)
 - **Change #:** 96724
 - **Author:** Patrick Williams
-- **Updated:** 2026-11-04 13:59:36.000000000
+- **Updated:** 2026-11-05 14:41:43.000000000
+
+### [UpdateService: support ForceUpdate in multipart push](https://gerrit.openbmc.org/c/92596)
+- **Change #:** 92596
+- **Author:** DHRUV RATHI
+- **Updated:** 2026-11-05 11:11:54.000000000
+
+### [port: add NIC, PCIe link and transceiver metrics](https://gerrit.openbmc.org/c/96675)
+- **Change #:** 96675
+- **Author:** andychung113
+- **Updated:** 2026-11-05 10:59:21.000000000
+
+### [test: add unit tests for PCIeSlots handlers](https://gerrit.openbmc.org/c/95847)
+- **Change #:** 95847
+- **Author:** JY-Voon
+- **Updated:** 2026-11-05 10:53:44.000000000
+
+### [test: add unit tests for Cable handlers](https://gerrit.openbmc.org/c/95845)
+- **Change #:** 95845
+- **Author:** JY-Voon
+- **Updated:** 2026-11-05 10:52:13.000000000
+
+### [task: Add unit tests for task eviction](https://gerrit.openbmc.org/c/94586)
+- **Change #:** 94586
+- **Author:** shivrajnt
+- **Updated:** 2026-11-05 10:44:07.000000000
+
+### [control: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-11-05 10:42:17.000000000
+
+### [pcie: add PCIeFunction BusNumber](https://gerrit.openbmc.org/c/96674)
+- **Change #:** 96674
+- **Author:** andychung113
+- **Updated:** 2026-11-05 10:18:23.000000000
+
+### [port: add SFP and link properties](https://gerrit.openbmc.org/c/96676)
+- **Change #:** 96676
+- **Author:** andychung113
+- **Updated:** 2026-11-05 09:56:08.000000000
+
+### [Fix typos using typos tool](https://gerrit.openbmc.org/c/96789)
+- **Change #:** 96789
+- **Author:** George Liu
+- **Updated:** 2026-11-05 07:22:49.000000000
 
 ### [http: address clang-tidy warnings on ARM32](https://gerrit.openbmc.org/c/96719)
 - **Change #:** 96719
 - **Author:** vijays51
-- **Updated:** 2026-11-04 12:13:57.000000000
+- **Updated:** 2026-11-05 01:20:17.000000000
 
-### [Redfish: Reject malformed pagination values](https://gerrit.openbmc.org/c/96735)
-- **Change #:** 96735
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-04 11:52:02.000000000
+### [Add null and empty guards before dereference](https://gerrit.openbmc.org/c/96275)
+- **Change #:** 96275
+- **Author:** Ishita Agarwal
+- **Updated:** 2026-11-04 22:39:41.000000000
+
+### [Multi-host support for Managers](https://gerrit.openbmc.org/c/85599)
+- **Change #:** 85599
+- **Author:** Oliver Brewka
+- **Updated:** 2026-11-04 22:29:37.000000000
 
 ### [led: add unit tests](https://gerrit.openbmc.org/c/94531)
 - **Change #:** 94531
 - **Author:** Eric Liu
 - **Updated:** 2026-11-04 11:44:02.000000000
-
-### [port: add SFP and link properties](https://gerrit.openbmc.org/c/96676)
-- **Change #:** 96676
-- **Author:** andychung113
-- **Updated:** 2026-11-04 11:27:18.000000000
 
 ### [Redfish: Reuse mapper results for Switch GETs](https://gerrit.openbmc.org/c/94729)
 - **Change #:** 94729
@@ -269,11 +255,6 @@
 - **Change #:** 96491
 - **Author:** Joel Pullokaran Jesin
 - **Updated:** 2026-11-04 09:56:40.000000000
-
-### [pcie: add PCIeFunction BusNumber](https://gerrit.openbmc.org/c/96674)
-- **Change #:** 96674
-- **Author:** andychung113
-- **Updated:** 2026-11-04 09:32:17.000000000
 
 ### [parse_registries: add additional registries](https://gerrit.openbmc.org/c/94454)
 - **Change #:** 94454
@@ -290,27 +271,24 @@
 - **Author:** Oliver Brewka
 - **Updated:** 2026-11-04 06:02:09.000000000
 
-### [UpdateService: support ForceUpdate in multipart push](https://gerrit.openbmc.org/c/92596)
-- **Change #:** 92596
-- **Author:** DHRUV RATHI
-- **Updated:** 2026-11-03 15:06:14.000000000
+## 🚧 Work In Progress (3)
 
-### [add null and empty-container guards before dereference](https://gerrit.openbmc.org/c/96275)
-- **Change #:** 96275
-- **Author:** Ishita Agarwal
-- **Updated:** 2026-11-03 14:50:04.000000000
+### [Storage: Unpack Drive properties by type](https://gerrit.openbmc.org/c/95783)
+- **Change #:** 95783
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-11-05 05:55:47.000000000
 
-### [Fix int overflow, uninit, and SSL error handling](https://gerrit.openbmc.org/c/96274)
-- **Change #:** 96274
-- **Author:** Ishita Agarwal
-- **Updated:** 2026-11-03 09:47:44.000000000
+### [Redfish: Reject malformed pagination values](https://gerrit.openbmc.org/c/96735)
+- **Change #:** 96735
+- **Author:** Joel Pullokaran Jesin
+- **Updated:** 2026-11-05 04:54:26.000000000
 
-### [port: add NIC, PCIe link and transceiver metrics](https://gerrit.openbmc.org/c/96675)
-- **Change #:** 96675
-- **Author:** andychung113
-- **Updated:** 2026-11-03 08:42:51.000000000
+### [Minimize usage of Inventory.Decorator.ManagedHost](https://gerrit.openbmc.org/c/87160)
+- **Change #:** 87160
+- **Author:** Oliver Brewka
+- **Updated:** 2026-11-04 19:01:26.000000000
 
-## ❌ Abandoned MRs (3)
+## ❌ Abandoned MRs (2)
 
 ### [bmcweb: Validate SPDM action nonce](https://gerrit.openbmc.org/c/95259)
 - **Change #:** 95259
@@ -321,11 +299,6 @@
 - **Change #:** 95260
 - **Author:** Florian Sorin
 - **Updated:** 2026-11-04 14:50:30.000000000
-
-### [add null and empty-container guards before dereference](https://gerrit.openbmc.org/c/96289)
-- **Change #:** 96289
-- **Author:** Ishita Agarwal
-- **Updated:** 2026-11-03 09:47:58.000000000
 
 ---
 
