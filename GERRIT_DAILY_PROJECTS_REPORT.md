@@ -1,86 +1,135 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-08 15:42:06 UTC
+**Generated:** 2026-11-09 19:24:11 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 8
+**Total Changes:** 17
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-07 to 2026-11-08 (1 day)
+**Period:** 2026-11-08 to 2026-11-09 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-07 to 2026-11-08 (1 day)
-**Changes:** 0
+**Period:** 2026-11-08 to 2026-11-09 (1 day)
+**Changes:** 3
 
+
+## 🔍 Open MRs (3)
+
+### [dreport: prevent option and command injection via the elog path](https://gerrit.openbmc.org/c/96768)
+- **Change #:** 96768
+- **Author:** bvanassche
+- **Updated:** 2026-11-09 14:11:44.000000000
+
+### [bmc dump: validate the CreateDump FilePath](https://gerrit.openbmc.org/c/95728)
+- **Change #:** 95728
+- **Author:** Alex Chen
+- **Updated:** 2026-11-09 12:08:09.000000000
+
+### [core-monitor: dump core files left from before startup](https://gerrit.openbmc.org/c/96069)
+- **Change #:** 96069
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-09 09:18:43.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-07 to 2026-11-08 (1 day)
+**Period:** 2026-11-08 to 2026-11-09 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-07 to 2026-11-08 (1 day)
+**Period:** 2026-11-08 to 2026-11-09 (1 day)
 **Changes:** 1
 
 
 ## 🔍 Open MRs (1)
 
-### [log_manager: stage artifacts too, keep kept-entry files safe](https://gerrit.openbmc.org/c/96897)
-- **Change #:** 96897
+### [log_manager: remove cleared entry files in the background](https://gerrit.openbmc.org/c/96896)
+- **Change #:** 96896
 - **Author:** aasaitha0219
-- **Updated:** 2026-11-07 00:37:12.000000000
+- **Updated:** 2026-11-09 06:43:40.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-07 to 2026-11-08 (1 day)
-**Changes:** 7
+**Period:** 2026-11-08 to 2026-11-09 (1 day)
+**Changes:** 13
 
 
-## 🔍 Open MRs (7)
-
-### [test: add unit tests for OperatingConfig handlers](https://gerrit.openbmc.org/c/95842)
-- **Change #:** 95842
-- **Author:** JY-Voon
-- **Updated:** 2026-11-07 14:07:03.000000000
+## 🔍 Open MRs (12)
 
 ### [test: add unit tests for PCIeSlots handlers](https://gerrit.openbmc.org/c/95847)
 - **Change #:** 95847
 - **Author:** JY-Voon
-- **Updated:** 2026-11-07 14:07:01.000000000
+- **Updated:** 2026-11-09 17:24:50.000000000
 
-### [routing: authorize before moving upgrade socket](https://gerrit.openbmc.org/c/96575)
-- **Change #:** 96575
-- **Author:** Alex Chen
-- **Updated:** 2026-11-07 01:45:04.000000000
-
-### [http2: apply logged-out body limit before auth](https://gerrit.openbmc.org/c/96474)
-- **Change #:** 96474
-- **Author:** Alex Chen
-- **Updated:** 2026-11-07 01:20:51.000000000
-
-### [http_body: enforce accumulated body limit](https://gerrit.openbmc.org/c/96200)
-- **Change #:** 96200
-- **Author:** Alex Chen
-- **Updated:** 2026-11-07 01:04:58.000000000
-
-### [NetworkProtocol: report SSH for OpenSSH too](https://gerrit.openbmc.org/c/96917)
-- **Change #:** 96917
-- **Author:** aasaitha0219
-- **Updated:** 2026-11-07 00:47:13.000000000
-
-### [telemetry: match dot-delimited children in InvalidArgs handling](https://gerrit.openbmc.org/c/96908)
-- **Change #:** 96908
+### [Match D-Bus errors by errName instead of string literals](https://gerrit.openbmc.org/c/96857)
+- **Change #:** 96857
 - **Author:** Patrick Williams
-- **Updated:** 2026-11-07 00:09:10.000000000
+- **Updated:** 2026-11-09 16:38:27.000000000
+
+### [Align VM websocket buffers with NBD cap](https://gerrit.openbmc.org/c/93785)
+- **Change #:** 93785
+- **Author:** tsankowx
+- **Updated:** 2026-11-09 13:46:06.000000000
+
+### [port: add SFP and link properties](https://gerrit.openbmc.org/c/96676)
+- **Change #:** 96676
+- **Author:** andychung113
+- **Updated:** 2026-11-09 10:04:29.000000000
+
+### [port: add NIC, PCIe link and transceiver metrics](https://gerrit.openbmc.org/c/96675)
+- **Change #:** 96675
+- **Author:** andychung113
+- **Updated:** 2026-11-09 10:04:04.000000000
+
+### [control: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
+- **Change #:** 89357
+- **Author:** JY-Voon
+- **Updated:** 2026-11-09 10:02:08.000000000
+
+### [Return 404 for OperatingConfigs of unknown CPU](https://gerrit.openbmc.org/c/96924)
+- **Change #:** 96924
+- **Author:** JY-Voon
+- **Updated:** 2026-11-09 07:36:57.000000000
+
+### [test: add unit tests for OperatingConfig handlers](https://gerrit.openbmc.org/c/95842)
+- **Change #:** 95842
+- **Author:** JY-Voon
+- **Updated:** 2026-11-09 07:00:47.000000000
+
+### [control: add Chassis Controls for ClockLimit](https://gerrit.openbmc.org/c/87387)
+- **Change #:** 87387
+- **Author:** Ender
+- **Updated:** 2026-11-09 04:39:19.000000000
+
+### [processor: support PATCH for clock speed](https://gerrit.openbmc.org/c/90503)
+- **Change #:** 90503
+- **Author:** Ender
+- **Updated:** 2026-11-09 04:39:16.000000000
+
+### [processor: add DataSourceUri to clock range](https://gerrit.openbmc.org/c/88783)
+- **Change #:** 88783
+- **Author:** Ender
+- **Updated:** 2026-11-09 04:39:14.000000000
+
+### [processor: add clock speed support](https://gerrit.openbmc.org/c/87279)
+- **Change #:** 87279
+- **Author:** Ender
+- **Updated:** 2026-11-09 03:51:13.000000000
+
+## 🚧 Work In Progress (1)
+
+### [HostLogger rework](https://gerrit.openbmc.org/c/78786)
+- **Change #:** 78786
+- **Author:** Oliver Brewka
+- **Updated:** 2026-11-09 17:27:19.000000000
 
 ---
 
