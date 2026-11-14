@@ -1,40 +1,33 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-13 16:52:42 UTC
+**Generated:** 2026-11-14 15:26:38 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 33
+**Total Changes:** 20
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-12 to 2026-11-13 (1 day)
+**Period:** 2026-11-13 to 2026-11-14 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-12 to 2026-11-13 (1 day)
-**Changes:** 1
+**Period:** 2026-11-13 to 2026-11-14 (1 day)
+**Changes:** 0
 
-
-## 🚧 Work In Progress (1)
-
-### [bmc-dump: expose and persist dump trigger type](https://gerrit.openbmc.org/c/97212)
-- **Change #:** 97212
-- **Author:** Suvedha Balamurali
-- **Updated:** 2026-11-12 12:47:16.000000000
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-12 to 2026-11-13 (1 day)
+**Period:** 2026-11-13 to 2026-11-14 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-12 to 2026-11-13 (1 day)
+**Period:** 2026-11-13 to 2026-11-14 (1 day)
 **Changes:** 2
 
 
@@ -53,11 +46,44 @@
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-12 to 2026-11-13 (1 day)
-**Changes:** 30
+**Period:** 2026-11-13 to 2026-11-14 (1 day)
+**Changes:** 18
 
 
-## 🔍 Open MRs (23)
+## ✅ Merged MRs (1)
+
+### [Fix typos using typos tool](https://gerrit.openbmc.org/c/96789)
+- **Change #:** 96789
+- **Author:** George Liu
+- **Changes:** +10 / -10 lines
+- **Updated:** 2026-11-13 23:39:39.000000000
+
+## 🔍 Open MRs (13)
+
+### [EventService: snapshot subscribers before dispatch](https://gerrit.openbmc.org/c/97318)
+- **Change #:** 97318
+- **Author:** Aditya Gupta
+- **Updated:** 2026-11-14 08:43:46.000000000
+
+### [SessionService: filter session collection by owner](https://gerrit.openbmc.org/c/97317)
+- **Change #:** 97317
+- **Author:** Aditya Gupta
+- **Updated:** 2026-11-14 06:45:22.000000000
+
+### [test: add unit tests for SubProcessor handlers](https://gerrit.openbmc.org/c/95841)
+- **Change #:** 95841
+- **Author:** JY-Voon
+- **Updated:** 2026-11-13 18:12:53.000000000
+
+### [test: add unit tests for OperatingConfig handlers](https://gerrit.openbmc.org/c/95842)
+- **Change #:** 95842
+- **Author:** JY-Voon
+- **Updated:** 2026-11-13 18:02:38.000000000
+
+### [Return 404 for OperatingConfigs of unknown CPU](https://gerrit.openbmc.org/c/96924)
+- **Change #:** 96924
+- **Author:** JY-Voon
+- **Updated:** 2026-11-13 17:50:34.000000000
 
 ### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
 - **Change #:** 71685
@@ -99,81 +125,6 @@
 - **Author:** Ender
 - **Updated:** 2026-11-13 02:44:29.000000000
 
-### [test: add unit tests for SubProcessor handlers](https://gerrit.openbmc.org/c/95841)
-- **Change #:** 95841
-- **Author:** JY-Voon
-- **Updated:** 2026-11-13 01:58:28.000000000
-
-### [test: add unit tests for OperatingConfig handlers](https://gerrit.openbmc.org/c/95842)
-- **Change #:** 95842
-- **Author:** JY-Voon
-- **Updated:** 2026-11-13 01:58:19.000000000
-
-### [update service: related item by association](https://gerrit.openbmc.org/c/82485)
-- **Change #:** 82485
-- **Author:** Alexander
-- **Updated:** 2026-11-12 23:34:53.000000000
-
-### [http: end mutual TLS sessions with their connection](https://gerrit.openbmc.org/c/97214)
-- **Change #:** 97214
-- **Author:** Ana Bobillo
-- **Updated:** 2026-11-12 15:29:23.000000000
-
-### [sessions: close websockets and SSE when a user loses access](https://gerrit.openbmc.org/c/97213)
-- **Change #:** 97213
-- **Author:** Ana Bobillo
-- **Updated:** 2026-11-12 15:13:00.000000000
-
-### [dbus_privileges: reject mTLS requests from disabled accounts](https://gerrit.openbmc.org/c/96177)
-- **Change #:** 96177
-- **Author:** Ana Bobillo
-- **Updated:** 2026-11-12 14:49:23.000000000
-
-### [control: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
-- **Change #:** 89357
-- **Author:** JY-Voon
-- **Updated:** 2026-11-12 13:04:36.000000000
-
-### [storage: Improve drive diagnostics](https://gerrit.openbmc.org/c/97207)
-- **Change #:** 97207
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-12 12:03:53.000000000
-
-### [dbus_utility: add string map variant alternative](https://gerrit.openbmc.org/c/91273)
-- **Change #:** 91273
-- **Author:** Jagpal S Gill
-- **Updated:** 2026-11-12 11:54:02.000000000
-
-### [Storage: Unpack Drive properties by type](https://gerrit.openbmc.org/c/95783)
-- **Change #:** 95783
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-12 11:10:19.000000000
-
-### [Multi-host Storage Controller Collection Get](https://gerrit.openbmc.org/c/95027)
-- **Change #:** 95027
-- **Author:** bencenagy-9esec
-- **Updated:** 2026-11-12 08:41:32.000000000
-
-### [Add null and empty guards before dereference](https://gerrit.openbmc.org/c/96275)
-- **Change #:** 96275
-- **Author:** Ishita Agarwal
-- **Updated:** 2026-11-12 08:32:18.000000000
-
-### [Return 404 for OperatingConfigs of unknown CPU](https://gerrit.openbmc.org/c/96924)
-- **Change #:** 96924
-- **Author:** JY-Voon
-- **Updated:** 2026-11-12 05:06:02.000000000
-
-### [managers: derive managed chassis from BMC item](https://gerrit.openbmc.org/c/97073)
-- **Change #:** 97073
-- **Author:** EricChiangQuanta
-- **Updated:** 2026-11-12 04:07:27.000000000
-
-### [SSL: Add support for PQC](https://gerrit.openbmc.org/c/96168)
-- **Change #:** 96168
-- **Author:** Mayank Metha
-- **Updated:** 2026-11-12 02:52:48.000000000
-
 ## 🚧 Work In Progress (4)
 
 ### [port: support PATCH of Processor Port settings](https://gerrit.openbmc.org/c/96092)
@@ -195,23 +146,6 @@
 - **Change #:** 97258
 - **Author:** Eric Liu
 - **Updated:** 2026-11-13 05:10:54.000000000
-
-## ❌ Abandoned MRs (3)
-
-### [storage: Clarify unknown drive warning messages](https://gerrit.openbmc.org/c/97206)
-- **Change #:** 97206
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-12 10:46:20.000000000
-
-### [Recommended fixes by crypto review team](https://gerrit.openbmc.org/c/97098)
-- **Change #:** 97098
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-11-12 10:17:25.000000000
-
-### [Use chip id-based UUID for Service Root.](https://gerrit.openbmc.org/c/97097)
-- **Change #:** 97097
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-11-12 10:14:24.000000000
 
 ---
 
