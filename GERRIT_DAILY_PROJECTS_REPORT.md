@@ -1,64 +1,62 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-14 15:26:38 UTC
+**Generated:** 2026-11-15 15:59:57 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 20
+**Total Changes:** 5
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-13 to 2026-11-14 (1 day)
+**Period:** 2026-11-14 to 2026-11-15 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-13 to 2026-11-14 (1 day)
+**Period:** 2026-11-14 to 2026-11-15 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-13 to 2026-11-14 (1 day)
+**Period:** 2026-11-14 to 2026-11-15 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-13 to 2026-11-14 (1 day)
-**Changes:** 2
+**Period:** 2026-11-14 to 2026-11-15 (1 day)
+**Changes:** 0
 
-
-## 🔍 Open MRs (2)
-
-### [PEL: Changes to support phal_next (#136)](https://gerrit.openbmc.org/c/96904)
-- **Change #:** 96904
-- **Author:** serasusan
-- **Updated:** 2026-11-13 08:36:40.000000000
-
-### [PEL: enable guard and deconfigure](https://gerrit.openbmc.org/c/96815)
-- **Change #:** 96815
-- **Author:** serasusan
-- **Updated:** 2026-11-13 01:12:25.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-13 to 2026-11-14 (1 day)
-**Changes:** 18
+**Period:** 2026-11-14 to 2026-11-15 (1 day)
+**Changes:** 5
 
 
 ## ✅ Merged MRs (1)
 
-### [Fix typos using typos tool](https://gerrit.openbmc.org/c/96789)
-- **Change #:** 96789
-- **Author:** George Liu
-- **Changes:** +10 / -10 lines
-- **Updated:** 2026-11-13 23:39:39.000000000
+### [test: add unit tests for SubProcessor handlers](https://gerrit.openbmc.org/c/95841)
+- **Change #:** 95841
+- **Author:** JY-Voon
+- **Changes:** +270 / -0 lines
+- **Updated:** 2026-11-15 06:28:48.000000000
 
-## 🔍 Open MRs (13)
+## 🔍 Open MRs (4)
+
+### [Storage Drives link fix for the chassis](https://gerrit.openbmc.org/c/93414)
+- **Change #:** 93414
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-11-15 12:39:03.000000000
+
+### [Enforce noauth on additional ports](https://gerrit.openbmc.org/c/92320)
+- **Change #:** 92320
+- **Author:** Adi Fogel
+- **Updated:** 2026-11-15 07:46:26.000000000
 
 ### [EventService: snapshot subscribers before dispatch](https://gerrit.openbmc.org/c/97318)
 - **Change #:** 97318
@@ -69,83 +67,6 @@
 - **Change #:** 97317
 - **Author:** Aditya Gupta
 - **Updated:** 2026-11-14 06:45:22.000000000
-
-### [test: add unit tests for SubProcessor handlers](https://gerrit.openbmc.org/c/95841)
-- **Change #:** 95841
-- **Author:** JY-Voon
-- **Updated:** 2026-11-13 18:12:53.000000000
-
-### [test: add unit tests for OperatingConfig handlers](https://gerrit.openbmc.org/c/95842)
-- **Change #:** 95842
-- **Author:** JY-Voon
-- **Updated:** 2026-11-13 18:02:38.000000000
-
-### [Return 404 for OperatingConfigs of unknown CPU](https://gerrit.openbmc.org/c/96924)
-- **Change #:** 96924
-- **Author:** JY-Voon
-- **Updated:** 2026-11-13 17:50:34.000000000
-
-### [redfish_aggregator: Mutual aggregation support](https://gerrit.openbmc.org/c/71685)
-- **Change #:** 71685
-- **Author:** Abhilash Raju
-- **Updated:** 2026-11-13 14:45:06.000000000
-
-### [redfish: aggregator: cache EM satellites via D-Bus signals](https://gerrit.openbmc.org/c/92257)
-- **Change #:** 92257
-- **Author:** Abhilash Raju
-- **Updated:** 2026-11-13 13:09:53.000000000
-
-### [docs: document settings resource usage](https://gerrit.openbmc.org/c/97269)
-- **Change #:** 97269
-- **Author:** Ender
-- **Updated:** 2026-11-13 12:39:19.000000000
-
-### [redfish_aggregator: Support MTLS AuthType for satellite BMCs](https://gerrit.openbmc.org/c/97276)
-- **Change #:** 97276
-- **Author:** Abhilash Raju
-- **Updated:** 2026-11-13 11:28:06.000000000
-
-### [Fix collection schema link](https://gerrit.openbmc.org/c/97275)
-- **Change #:** 97275
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-13 11:18:07.000000000
-
-### [settings: add helper for reset-applied settings](https://gerrit.openbmc.org/c/97268)
-- **Change #:** 97268
-- **Author:** Ender
-- **Updated:** 2026-11-13 10:36:19.000000000
-
-### [redfish: enforce session owner check on GET](https://gerrit.openbmc.org/c/95150)
-- **Change #:** 95150
-- **Author:** Shahriyar Jalayeri
-- **Updated:** 2026-11-13 04:58:50.000000000
-
-### [processor: support PATCH for clock speed](https://gerrit.openbmc.org/c/90503)
-- **Change #:** 90503
-- **Author:** Ender
-- **Updated:** 2026-11-13 02:44:29.000000000
-
-## 🚧 Work In Progress (4)
-
-### [port: support PATCH of Processor Port settings](https://gerrit.openbmc.org/c/96092)
-- **Change #:** 96092
-- **Author:** Ender
-- **Updated:** 2026-11-13 10:20:06.000000000
-
-### [port: add Processor Port settings resource](https://gerrit.openbmc.org/c/96091)
-- **Change #:** 96091
-- **Author:** Ender
-- **Updated:** 2026-11-13 10:07:42.000000000
-
-### [chassis: fill in from the contained processor](https://gerrit.openbmc.org/c/90463)
-- **Change #:** 90463
-- **Author:** Eric Liu
-- **Updated:** 2026-11-13 05:31:32.000000000
-
-### [chassis: report how the part is attached](https://gerrit.openbmc.org/c/97258)
-- **Change #:** 97258
-- **Author:** Eric Liu
-- **Updated:** 2026-11-13 05:10:54.000000000
 
 ---
 
