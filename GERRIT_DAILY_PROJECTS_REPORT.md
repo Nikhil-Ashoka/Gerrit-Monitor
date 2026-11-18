@@ -1,40 +1,53 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-17 18:01:20 UTC
+**Generated:** 2026-11-18 17:43:04 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 45
+**Total Changes:** 49
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-16 to 2026-11-17 (1 day)
-**Changes:** 2
+**Period:** 2026-11-17 to 2026-11-18 (1 day)
+**Changes:** 6
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (6)
+
+### [Add Traditional Chinese (zh-TW) locale](https://gerrit.openbmc.org/c/97431)
+- **Change #:** 97431
+- **Author:** mjieyu404-arch
+- **Updated:** 2026-11-18 15:23:51.000000000
+
+### [Dumps: Show size in GB, MB or KB based on magnitude](https://gerrit.openbmc.org/c/96820)
+- **Change #:** 96820
+- **Author:** Vedangi Mittal
+- **Updated:** 2026-11-18 12:05:47.000000000
+
+### [Fix EventLog attachment download after bmcweb JSON change](https://gerrit.openbmc.org/c/97111)
+- **Change #:** 97111
+- **Author:** meghan1006
+- **Updated:** 2026-11-18 05:28:33.000000000
+
+### [webui-vue: Fix EventLog attachment download](https://gerrit.openbmc.org/c/97114)
+- **Change #:** 97114
+- **Author:** meghan1006
+- **Updated:** 2026-11-18 05:27:42.000000000
+
+### [webui-vue: Fix EventLog attachment download](https://gerrit.openbmc.org/c/97112)
+- **Change #:** 97112
+- **Author:** meghan1006
+- **Updated:** 2026-11-18 05:27:14.000000000
 
 ### [Overview: Add unit tests for network card](https://gerrit.openbmc.org/c/95768)
 - **Change #:** 95768
 - **Author:** Vijaysankar Ravi
 - **Updated:** 2026-11-17 05:39:54.000000000
 
-### [Dumps: Show size in GB, MB or KB based on magnitude](https://gerrit.openbmc.org/c/96820)
-- **Change #:** 96820
-- **Author:** Vedangi Mittal
-- **Updated:** 2026-11-16 18:57:43.000000000
-
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-16 to 2026-11-17 (1 day)
-**Changes:** 2
+**Period:** 2026-11-17 to 2026-11-18 (1 day)
+**Changes:** 1
 
-
-## 🔍 Open MRs (1)
-
-### [faultlog: Use PrimaryLogId as faultlog file for CPER](https://gerrit.openbmc.org/c/91083)
-- **Change #:** 91083
-- **Author:** meghan1006
-- **Updated:** 2026-11-16 12:28:38.000000000
 
 ## 🚧 Work In Progress (1)
 
@@ -46,37 +59,49 @@
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-16 to 2026-11-17 (1 day)
+**Period:** 2026-11-17 to 2026-11-18 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-16 to 2026-11-17 (1 day)
+**Period:** 2026-11-17 to 2026-11-18 (1 day)
 **Changes:** 2
 
 
 ## 🔍 Open MRs (2)
 
-### [PEL: Changes to support phal_next (#136)](https://gerrit.openbmc.org/c/96904)
-- **Change #:** 96904
-- **Author:** serasusan
-- **Updated:** 2026-11-17 09:57:17.000000000
-
 ### [PEL: enable guard and deconfigure](https://gerrit.openbmc.org/c/96815)
 - **Change #:** 96815
 - **Author:** serasusan
-- **Updated:** 2026-11-17 08:34:02.000000000
+- **Updated:** 2026-11-18 07:02:37.000000000
+
+### [PEL: Changes to support phal_next (#136)](https://gerrit.openbmc.org/c/96904)
+- **Change #:** 96904
+- **Author:** serasusan
+- **Updated:** 2026-11-18 07:01:50.000000000
 
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-16 to 2026-11-17 (1 day)
-**Changes:** 39
+**Period:** 2026-11-17 to 2026-11-18 (1 day)
+**Changes:** 40
 
 
 ## ✅ Merged MRs (5)
+
+### [openssl: add OpenSSL 4.1 support](https://gerrit.openbmc.org/c/97364)
+- **Change #:** 97364
+- **Author:** Patrick Williams
+- **Changes:** +35 / -4 lines
+- **Updated:** 2026-11-17 21:30:10.000000000
+
+### [Fix collection schema link](https://gerrit.openbmc.org/c/97275)
+- **Change #:** 97275
+- **Author:** Joel Pullokaran Jesin
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-11-17 19:09:17.000000000
 
 ### [account_service: Refactor AccountPolicy lambda](https://gerrit.openbmc.org/c/96214)
 - **Change #:** 96214
@@ -96,84 +121,127 @@
 - **Changes:** +277 / -7 lines
 - **Updated:** 2026-11-17 01:37:39.000000000
 
-### [parse_registries: add additional registries](https://gerrit.openbmc.org/c/94454)
-- **Change #:** 94454
-- **Author:** Patrick Williams
-- **Changes:** +6 / -0 lines
-- **Updated:** 2026-11-16 22:40:55.000000000
+## 🔍 Open MRs (28)
 
-### [Match D-Bus errors by errName instead of string literals](https://gerrit.openbmc.org/c/96857)
-- **Change #:** 96857
-- **Author:** Patrick Williams
-- **Changes:** +15 / -6 lines
-- **Updated:** 2026-11-16 19:27:08.000000000
+### [EventService: Update subscriber count on SSE close](https://gerrit.openbmc.org/c/97443)
+- **Change #:** 97443
+- **Author:** shivrajnt
+- **Updated:** 2026-11-18 12:48:53.000000000
 
-## 🔍 Open MRs (27)
+### [redfish_aggregator: Symmetric aggregation support](https://gerrit.openbmc.org/c/71685)
+- **Change #:** 71685
+- **Author:** Abhilash Raju
+- **Updated:** 2026-11-18 11:34:00.000000000
 
-### [http: end mTLS sessions with their connection](https://gerrit.openbmc.org/c/97214)
-- **Change #:** 97214
-- **Author:** Ana Bobillo
-- **Updated:** 2026-11-17 17:58:29.000000000
+### [certificate_service: keep separators inside DN values](https://gerrit.openbmc.org/c/94546)
+- **Change #:** 94546
+- **Author:** Eric Liu
+- **Updated:** 2026-11-18 06:48:07.000000000
 
-### [sessions: close websockets and SSE on access loss](https://gerrit.openbmc.org/c/97213)
-- **Change #:** 97213
-- **Author:** Ana Bobillo
-- **Updated:** 2026-11-17 17:39:17.000000000
+### [SSL: Update ciphersuite to Mozilla v6.0 guidelines](https://gerrit.openbmc.org/c/96168)
+- **Change #:** 96168
+- **Author:** Mayank Metha
+- **Updated:** 2026-11-18 06:34:48.000000000
 
-### [openssl: add OpenSSL 4.1 support](https://gerrit.openbmc.org/c/97364)
-- **Change #:** 97364
-- **Author:** Patrick Williams
-- **Updated:** 2026-11-17 15:28:10.000000000
+### [Manage user account expiration via REST](https://gerrit.openbmc.org/c/94121)
+- **Change #:** 94121
+- **Author:** Ivan Mikhaylov
+- **Updated:** 2026-11-18 06:11:31.000000000
+
+### [bmcweb: add BandwidthPercent to ProcessorMetrics](https://gerrit.openbmc.org/c/91608)
+- **Change #:** 91608
+- **Author:** Eric Liu
+- **Updated:** 2026-11-18 05:52:01.000000000
 
 ### [Map LocalAccountAuth to LoginPriority property](https://gerrit.openbmc.org/c/91363)
 - **Change #:** 91363
 - **Author:** Vijaysankar Ravi
-- **Updated:** 2026-11-17 14:03:34.000000000
+- **Updated:** 2026-11-18 04:02:00.000000000
+
+### [bmcweb: add unit tests for Processor EnvMetrics sensor handlers](https://gerrit.openbmc.org/c/92095)
+- **Change #:** 92095
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:18:43.000000000
+
+### [bmcweb: add Processor Links/Memory](https://gerrit.openbmc.org/c/89120)
+- **Change #:** 89120
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:17:58.000000000
+
+### [Port: Map remaining Port LinkStatus values](https://gerrit.openbmc.org/c/95832)
+- **Change #:** 95832
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:17:35.000000000
+
+### [bmcweb: add sensor metrics to Processor EnvMetrics](https://gerrit.openbmc.org/c/89152)
+- **Change #:** 89152
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:16:08.000000000
+
+### [test: add unit tests for NetworkAdapter Location](https://gerrit.openbmc.org/c/92112)
+- **Change #:** 92112
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:15:13.000000000
+
+### [bmcweb: add NetworkAdapter Location properties](https://gerrit.openbmc.org/c/90146)
+- **Change #:** 90146
+- **Author:** JY-Voon
+- **Updated:** 2026-11-18 03:13:07.000000000
+
+### [sessions: close websockets and SSE on access loss](https://gerrit.openbmc.org/c/97213)
+- **Change #:** 97213
+- **Author:** Ana Bobillo
+- **Updated:** 2026-11-17 21:18:23.000000000
+
+### [http: end mTLS sessions with their connection](https://gerrit.openbmc.org/c/97214)
+- **Change #:** 97214
+- **Author:** Ana Bobillo
+- **Updated:** 2026-11-17 21:15:17.000000000
+
+### [fix(session): return 204 on SessionService PATCH](https://gerrit.openbmc.org/c/96496)
+- **Change #:** 96496
+- **Author:** kennyliu9535
+- **Updated:** 2026-11-17 20:58:08.000000000
+
+### [redfish_aggregator: Support MTLS AuthType for satellite BMCs](https://gerrit.openbmc.org/c/97276)
+- **Change #:** 97276
+- **Author:** Abhilash Raju
+- **Updated:** 2026-11-17 19:31:17.000000000
+
+### [sensor: derive PhysicalContext from inventory](https://gerrit.openbmc.org/c/96099)
+- **Change #:** 96099
+- **Author:** Eric Liu
+- **Updated:** 2026-11-17 19:27:46.000000000
+
+### [SessionService: filter session collection by owner](https://gerrit.openbmc.org/c/97317)
+- **Change #:** 97317
+- **Author:** Aditya Gupta
+- **Updated:** 2026-11-17 19:25:20.000000000
+
+### [EventService: snapshot subscribers before dispatch](https://gerrit.openbmc.org/c/97318)
+- **Change #:** 97318
+- **Author:** Aditya Gupta
+- **Updated:** 2026-11-17 19:24:18.000000000
+
+### [redfish: enforce session owner check on GET](https://gerrit.openbmc.org/c/95150)
+- **Change #:** 95150
+- **Author:** Shahriyar Jalayeri
+- **Updated:** 2026-11-17 19:21:12.000000000
+
+### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
+- **Change #:** 91903
+- **Author:** Jayaprakash Mutyala
+- **Updated:** 2026-11-17 19:19:38.000000000
+
+### [Add null and empty guards before dereference](https://gerrit.openbmc.org/c/96275)
+- **Change #:** 96275
+- **Author:** Ishita Agarwal
+- **Updated:** 2026-11-17 19:12:37.000000000
 
 ### [account_service: PasswordChangeRequired support](https://gerrit.openbmc.org/c/90598)
 - **Change #:** 90598
 - **Author:** Vijaysankar Ravi
 - **Updated:** 2026-11-17 13:39:54.000000000
-
-### [auth: Respect TLS settings for client certificates](https://gerrit.openbmc.org/c/97411)
-- **Change #:** 97411
-- **Author:** KennethCompal
-- **Updated:** 2026-11-17 13:38:56.000000000
-
-### [Fix collection schema link](https://gerrit.openbmc.org/c/97275)
-- **Change #:** 97275
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-17 11:03:08.000000000
-
-### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
-- **Change #:** 91903
-- **Author:** Jayaprakash Mutyala
-- **Updated:** 2026-11-17 10:50:37.000000000
-
-### [redfish: enforce session owner check on GET](https://gerrit.openbmc.org/c/95150)
-- **Change #:** 95150
-- **Author:** Shahriyar Jalayeri
-- **Updated:** 2026-11-17 09:31:31.000000000
-
-### [EventService: snapshot subscribers before dispatch](https://gerrit.openbmc.org/c/97318)
-- **Change #:** 97318
-- **Author:** Aditya Gupta
-- **Updated:** 2026-11-17 09:31:30.000000000
-
-### [SessionService: filter session collection by owner](https://gerrit.openbmc.org/c/97317)
-- **Change #:** 97317
-- **Author:** Aditya Gupta
-- **Updated:** 2026-11-17 09:31:30.000000000
-
-### [sensor: derive PhysicalContext from inventory](https://gerrit.openbmc.org/c/96099)
-- **Change #:** 96099
-- **Author:** Eric Liu
-- **Updated:** 2026-11-17 07:27:33.000000000
-
-### [redfish_aggregator: Support MTLS AuthType for satellite BMCs](https://gerrit.openbmc.org/c/97276)
-- **Change #:** 97276
-- **Author:** Abhilash Raju
-- **Updated:** 2026-11-17 07:16:59.000000000
 
 ### [Move collection helpers to common log utils](https://gerrit.openbmc.org/c/92884)
 - **Change #:** 92884
@@ -195,57 +263,17 @@
 - **Author:** Ender
 - **Updated:** 2026-11-17 03:55:09.000000000
 
-### [fix(session): return 204 on SessionService PATCH](https://gerrit.openbmc.org/c/96496)
-- **Change #:** 96496
-- **Author:** kennyliu9535
-- **Updated:** 2026-11-17 03:21:05.000000000
+## 🚧 Work In Progress (5)
 
-### [Add Attributes property under Bios routes](https://gerrit.openbmc.org/c/79698)
-- **Change #:** 79698
-- **Author:** Prithvi Pai
-- **Updated:** 2026-11-16 18:42:18.000000000
+### [storage: Use contained_by association for Drive chassis link](https://gerrit.openbmc.org/c/95055)
+- **Change #:** 95055
+- **Author:** Zane Li
+- **Updated:** 2026-11-18 08:23:11.000000000
 
-### [bios: report Bios schema version v1_2_0](https://gerrit.openbmc.org/c/94040)
-- **Change #:** 94040
-- **Author:** Dhruv Goyal
-- **Updated:** 2026-11-16 18:40:35.000000000
-
-### [Manage user account expiration via REST](https://gerrit.openbmc.org/c/94121)
-- **Change #:** 94121
-- **Author:** Ivan Mikhaylov
-- **Updated:** 2026-11-16 17:47:19.000000000
-
-### [redfish: Expose Asset SKU property](https://gerrit.openbmc.org/c/97100)
-- **Change #:** 97100
-- **Author:** meghan1006
-- **Updated:** 2026-11-16 17:31:30.000000000
-
-### [telemetry: match dot-delimited children in InvalidArgs handling](https://gerrit.openbmc.org/c/96908)
-- **Change #:** 96908
-- **Author:** Patrick Williams
-- **Updated:** 2026-11-16 12:04:51.000000000
-
-### [telemetry: handle sdbusplus generated events](https://gerrit.openbmc.org/c/96724)
-- **Change #:** 96724
-- **Author:** Patrick Williams
-- **Updated:** 2026-11-16 12:04:22.000000000
-
-### [secure_boot: add PATCH support](https://gerrit.openbmc.org/c/94120)
-- **Change #:** 94120
-- **Author:** Dhruv Goyal
-- **Updated:** 2026-11-16 04:38:17.000000000
-
-### [bios: support PUT of the BIOS attribute table](https://gerrit.openbmc.org/c/94041)
-- **Change #:** 94041
-- **Author:** Dhruv Goyal
-- **Updated:** 2026-11-16 04:38:17.000000000
-
-### [bmcweb: registries: expose SensorEvent in registries_selector.hpp](https://gerrit.openbmc.org/c/97328)
-- **Change #:** 97328
-- **Author:** Sean Lee
-- **Updated:** 2026-11-16 04:03:09.000000000
-
-## 🚧 Work In Progress (4)
+### [auth: Respect TLS settings for client certificates](https://gerrit.openbmc.org/c/97411)
+- **Change #:** 97411
+- **Author:** KennethCompal
+- **Updated:** 2026-11-18 08:10:06.000000000
 
 ### [control: add ResetToDefaults action for Controls](https://gerrit.openbmc.org/c/89357)
 - **Change #:** 89357
@@ -262,27 +290,17 @@
 - **Author:** Ender
 - **Updated:** 2026-11-17 03:53:55.000000000
 
-### [chassis: fill in from the contained processor](https://gerrit.openbmc.org/c/90463)
-- **Change #:** 90463
-- **Author:** Eric Liu
-- **Updated:** 2026-11-16 07:04:11.000000000
+## ❌ Abandoned MRs (2)
 
-## ❌ Abandoned MRs (3)
+### [Chassis: add Assembly properties](https://gerrit.openbmc.org/c/88571)
+- **Change #:** 88571
+- **Author:** Eric Liu
+- **Updated:** 2026-11-18 05:35:42.000000000
 
 ### [add liquidcooling events](https://gerrit.openbmc.org/c/97040)
 - **Change #:** 97040
 - **Author:** Jayaprakash Mutyala
 - **Updated:** 2026-11-17 12:23:47.000000000
-
-### [AccountService: Return 204 for auth methods PATCH](https://gerrit.openbmc.org/c/86782)
-- **Change #:** 86782
-- **Author:** Ramya Sivakumar
-- **Updated:** 2026-11-16 06:52:35.000000000
-
-### [Chassis: surface SKU on Chassis](https://gerrit.openbmc.org/c/90468)
-- **Change #:** 90468
-- **Author:** Eric Liu
-- **Updated:** 2026-11-16 03:03:14.000000000
 
 ---
 
