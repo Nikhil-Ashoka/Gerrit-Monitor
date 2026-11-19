@@ -1,14 +1,22 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-11-18 17:43:04 UTC
+**Generated:** 2026-11-19 17:53:06 UTC
 **Owner:** ed@tanous.net
-**Changes:** 0
+**Changes:** 1
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-11-17 to 2026-11-18 (1 day)
-**Changes:** 0
+**Period:** 2026-11-18 to 2026-11-19 (1 day)
+**Changes:** 1
 
+
+## ❌ Abandoned MRs (1)
+
+### [RFC: Add helper functions](https://gerrit.openbmc.org/c/84471)
+- **Change #:** 84471
+- **Author:** Ed Tanous
+- **Project:** openbmc/entity-manager
+- **Updated:** 2026-11-19 08:02:30.000000000
 
 ---
 
