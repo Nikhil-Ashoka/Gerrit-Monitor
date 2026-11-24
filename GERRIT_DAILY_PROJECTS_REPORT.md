@@ -1,26 +1,26 @@
 # 📊 Gerrit Activity Report
-**Generated:** 2026-11-23 20:46:21 UTC
+**Generated:** 2026-11-24 19:50:39 UTC
 **Projects:** openbmc/webui-vue, openbmc/phosphor-debug-collector, openbmc/phosphor-inventory-manager, openbmc/phosphor-logging, openbmc/bmcweb
-**Total Changes:** 75
+**Total Changes:** 81
 
 ---
 
 ## Project: [openbmc/webui-vue](https://gerrit.openbmc.org/q/project:openbmc/webui-vue)
-**Period:** 2026-11-22 to 2026-11-23 (1 day)
+**Period:** 2026-11-23 to 2026-11-24 (1 day)
 **Changes:** 4
 
 
 ## 🔍 Open MRs (2)
 
-### [Fix policy toggles not reverting on error](https://gerrit.openbmc.org/c/97534)
-- **Change #:** 97534
-- **Author:** Vedangi Mittal
-- **Updated:** 2026-11-22 14:11:43.000000000
+### [Remove unused ServerLedStore module](https://gerrit.openbmc.org/c/97668)
+- **Change #:** 97668
+- **Author:** Nishant Tiwari
+- **Updated:** 2026-11-24 12:30:17.000000000
 
-### [Dumps: Show size in GB, MB, KB or bytes](https://gerrit.openbmc.org/c/96820)
-- **Change #:** 96820
+### [Lock table columns and fix Event Logs buttons](https://gerrit.openbmc.org/c/94432)
+- **Change #:** 94432
 - **Author:** Vedangi Mittal
-- **Updated:** 2026-11-22 13:45:20.000000000
+- **Updated:** 2026-11-24 08:07:21.000000000
 
 ## ❌ Abandoned MRs (2)
 
@@ -37,11 +37,16 @@
 ---
 
 ## Project: [openbmc/phosphor-debug-collector](https://gerrit.openbmc.org/q/project:openbmc/phosphor-debug-collector)
-**Period:** 2026-11-22 to 2026-11-23 (1 day)
-**Changes:** 3
+**Period:** 2026-11-23 to 2026-11-24 (1 day)
+**Changes:** 4
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (3)
+
+### [dump: share CreateDump parameter construction](https://gerrit.openbmc.org/c/96151)
+- **Change #:** 96151
+- **Author:** Suvedha Balamurali
+- **Updated:** 2026-11-24 17:53:13.000000000
 
 ### [dump: separate error log dump selection from signal handling](https://gerrit.openbmc.org/c/97604)
 - **Change #:** 97604
@@ -63,18 +68,28 @@
 ---
 
 ## Project: [openbmc/phosphor-inventory-manager](https://gerrit.openbmc.org/q/project:openbmc/phosphor-inventory-manager)
-**Period:** 2026-11-22 to 2026-11-23 (1 day)
+**Period:** 2026-11-23 to 2026-11-24 (1 day)
 **Changes:** 0
 
 
 ---
 
 ## Project: [openbmc/phosphor-logging](https://gerrit.openbmc.org/q/project:openbmc/phosphor-logging)
-**Period:** 2026-11-22 to 2026-11-23 (1 day)
-**Changes:** 2
+**Period:** 2026-11-23 to 2026-11-24 (1 day)
+**Changes:** 4
 
 
-## 🔍 Open MRs (2)
+## 🔍 Open MRs (4)
+
+### [lg2: Document and test string literal values](https://gerrit.openbmc.org/c/96668)
+- **Change #:** 96668
+- **Author:** bvanassche
+- **Updated:** 2026-11-24 00:39:16.000000000
+
+### [lg2: Do not convert string literal values to header_str](https://gerrit.openbmc.org/c/95126)
+- **Change #:** 95126
+- **Author:** bvanassche
+- **Updated:** 2026-11-24 00:36:08.000000000
 
 ### [log_manager: remove cleared entry files in the background](https://gerrit.openbmc.org/c/96896)
 - **Change #:** 96896
@@ -89,11 +104,23 @@
 ---
 
 ## Project: [openbmc/bmcweb](https://gerrit.openbmc.org/q/project:openbmc/bmcweb)
-**Period:** 2026-11-22 to 2026-11-23 (1 day)
-**Changes:** 66
+**Period:** 2026-11-23 to 2026-11-24 (1 day)
+**Changes:** 69
 
 
-## ✅ Merged MRs (1)
+## ✅ Merged MRs (3)
+
+### [EventService: Fix subscription link formatting](https://gerrit.openbmc.org/c/97621)
+- **Change #:** 97621
+- **Author:** Joel Pullokaran Jesin
+- **Changes:** +1 / -1 lines
+- **Updated:** 2026-11-24 04:45:10.000000000
+
+### [test: check InternalError response body](https://gerrit.openbmc.org/c/96493)
+- **Change #:** 96493
+- **Author:** Eric Liu
+- **Changes:** +63 / -2 lines
+- **Updated:** 2026-11-24 04:40:08.000000000
 
 ### [sensors: add unit tests for inventory item data](https://gerrit.openbmc.org/c/94548)
 - **Change #:** 94548
@@ -101,27 +128,107 @@
 - **Changes:** +401 / -0 lines
 - **Updated:** 2026-11-23 02:41:06.000000000
 
-## 🔍 Open MRs (52)
+## 🔍 Open MRs (51)
+
+### [Storage Drives link fix for the chassis](https://gerrit.openbmc.org/c/93414)
+- **Change #:** 93414
+- **Author:** bencenagy-9esec
+- **Updated:** 2026-11-24 18:26:34.000000000
+
+### [SSL: Update ciphersuite to Mozilla v6.0 guidelines](https://gerrit.openbmc.org/c/96168)
+- **Change #:** 96168
+- **Author:** Mayank Metha
+- **Updated:** 2026-11-24 17:21:20.000000000
 
 ### [pcie: Validate PCIeFunction enum properties](https://gerrit.openbmc.org/c/97634)
 - **Change #:** 97634
 - **Author:** shivrajnt
-- **Updated:** 2026-11-23 16:25:00.000000000
+- **Updated:** 2026-11-24 17:12:18.000000000
 
 ### [network_adapter: Add asset properties](https://gerrit.openbmc.org/c/97633)
 - **Change #:** 97633
 - **Author:** shivrajnt
-- **Updated:** 2026-11-23 16:05:42.000000000
-
-### [redfish: Expose Asset SKU property](https://gerrit.openbmc.org/c/97100)
-- **Change #:** 97100
-- **Author:** meghan1006
-- **Updated:** 2026-11-23 16:05:12.000000000
+- **Updated:** 2026-11-24 17:07:01.000000000
 
 ### [implement multi-chassis fan inventory](https://gerrit.openbmc.org/c/87061)
 - **Change #:** 87061
 - **Author:** Alexander
-- **Updated:** 2026-11-23 15:32:20.000000000
+- **Updated:** 2026-11-24 16:39:18.000000000
+
+### [sensor_utils: Treat shutdown alarms as Critical](https://gerrit.openbmc.org/c/97672)
+- **Change #:** 97672
+- **Author:** shivrajnt
+- **Updated:** 2026-11-24 16:22:05.000000000
+
+### [storage: Use contained_by association for Drive chassis link](https://gerrit.openbmc.org/c/95055)
+- **Change #:** 95055
+- **Author:** Zane Li
+- **Updated:** 2026-11-24 10:38:37.000000000
+
+### [chassis: use handleDbusError helper](https://gerrit.openbmc.org/c/97666)
+- **Change #:** 97666
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 10:24:27.000000000
+
+### [Add GPU Processor Links properties](https://gerrit.openbmc.org/c/88644)
+- **Change #:** 88644
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 10:23:45.000000000
+
+### [bmcweb: add unit tests for ProcessorMetrics CoreVoltage handlers](https://gerrit.openbmc.org/c/92089)
+- **Change #:** 92089
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 10:16:04.000000000
+
+### [bmcweb: add CoreVoltage to ProcessorMetrics](https://gerrit.openbmc.org/c/88947)
+- **Change #:** 88947
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 10:11:55.000000000
+
+### [processor: use handleDbusError helper](https://gerrit.openbmc.org/c/97664)
+- **Change #:** 97664
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 09:54:42.000000000
+
+### [systems: use handleDbusError helper](https://gerrit.openbmc.org/c/97663)
+- **Change #:** 97663
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 09:51:03.000000000
+
+### [dbus_utils: add handleDbusError helper](https://gerrit.openbmc.org/c/97662)
+- **Change #:** 97662
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 09:48:52.000000000
+
+### [redfish: Expose Asset SKU property](https://gerrit.openbmc.org/c/97100)
+- **Change #:** 97100
+- **Author:** meghan1006
+- **Updated:** 2026-11-24 09:23:38.000000000
+
+### [switch_port: Fix Connector.Port property mapping](https://gerrit.openbmc.org/c/97502)
+- **Change #:** 97502
+- **Author:** shivrajnt
+- **Updated:** 2026-11-24 08:58:55.000000000
+
+### [fabric: test the Switch chassis and device links](https://gerrit.openbmc.org/c/94426)
+- **Change #:** 94426
+- **Author:** Ender
+- **Updated:** 2026-11-24 08:09:16.000000000
+
+### [fabric: add chassis and PCIeDevice links to Switch](https://gerrit.openbmc.org/c/88428)
+- **Change #:** 88428
+- **Author:** Ender
+- **Updated:** 2026-11-24 07:51:54.000000000
+
+### [manager_logservices: Return on bad Accept header](https://gerrit.openbmc.org/c/97628)
+- **Change #:** 97628
+- **Author:** shivrajnt
+- **Updated:** 2026-11-24 07:26:53.000000000
+
+### [led: add unit tests](https://gerrit.openbmc.org/c/94531)
+- **Change #:** 94531
+- **Author:** Eric Liu
+- **Updated:** 2026-11-24 03:09:52.000000000
 
 ### [Storage Drives Collection fix for the chassis](https://gerrit.openbmc.org/c/93422)
 - **Change #:** 93422
@@ -133,30 +240,10 @@
 - **Author:** bencenagy-9esec
 - **Updated:** 2026-11-23 15:28:03.000000000
 
-### [Storage Drives link fix for the chassis](https://gerrit.openbmc.org/c/93414)
-- **Change #:** 93414
-- **Author:** bencenagy-9esec
-- **Updated:** 2026-11-23 15:26:35.000000000
-
-### [manager_logservices: Return on bad Accept header](https://gerrit.openbmc.org/c/97628)
-- **Change #:** 97628
-- **Author:** shivrajnt
-- **Updated:** 2026-11-23 12:50:31.000000000
-
-### [fabric: test the Switch chassis and device links](https://gerrit.openbmc.org/c/94426)
-- **Change #:** 94426
-- **Author:** Ender
-- **Updated:** 2026-11-23 12:49:12.000000000
-
 ### [bios: add the BiosAttributeRegistry resource](https://gerrit.openbmc.org/c/94788)
 - **Change #:** 94788
 - **Author:** Dhruv Goyal
 - **Updated:** 2026-11-23 11:34:16.000000000
-
-### [EventService: Fix subscription link formatting](https://gerrit.openbmc.org/c/97621)
-- **Change #:** 97621
-- **Author:** Joel Pullokaran Jesin
-- **Updated:** 2026-11-23 10:23:05.000000000
 
 ### [memory: add Chassis link](https://gerrit.openbmc.org/c/93075)
 - **Change #:** 93075
@@ -248,11 +335,6 @@
 - **Author:** Ender
 - **Updated:** 2026-11-23 05:03:41.000000000
 
-### [fabric: add chassis and PCIeDevice links to Switch](https://gerrit.openbmc.org/c/88428)
-- **Change #:** 88428
-- **Author:** Ender
-- **Updated:** 2026-11-23 05:03:18.000000000
-
 ### [pcie: extract shared PCIe interface helper](https://gerrit.openbmc.org/c/92506)
 - **Change #:** 92506
 - **Author:** Ender
@@ -298,72 +380,12 @@
 - **Author:** Ender
 - **Updated:** 2026-11-23 04:52:25.000000000
 
-### [test: check InternalError response body](https://gerrit.openbmc.org/c/96493)
-- **Change #:** 96493
-- **Author:** Eric Liu
-- **Updated:** 2026-11-23 04:34:18.000000000
-
-### [led: add unit tests](https://gerrit.openbmc.org/c/94531)
-- **Change #:** 94531
-- **Author:** Eric Liu
-- **Updated:** 2026-11-23 04:15:01.000000000
-
-### [SSL: Update ciphersuite to Mozilla v6.0 guidelines](https://gerrit.openbmc.org/c/96168)
-- **Change #:** 96168
-- **Author:** Mayank Metha
-- **Updated:** 2026-11-23 04:02:58.000000000
-
 ### [led: Check for an empty LED group service map](https://gerrit.openbmc.org/c/96495)
 - **Change #:** 96495
 - **Author:** Eric Liu
 - **Updated:** 2026-11-23 03:59:47.000000000
 
-### [secure_boot: add PATCH support](https://gerrit.openbmc.org/c/94120)
-- **Change #:** 94120
-- **Author:** Dhruv Goyal
-- **Updated:** 2026-11-22 20:29:45.000000000
-
-### [Enable SecureBoot GET routes](https://gerrit.openbmc.org/c/80070)
-- **Change #:** 80070
-- **Author:** Prithvi Pai
-- **Updated:** 2026-11-22 20:09:17.000000000
-
-### [Enable BIOS Password change action](https://gerrit.openbmc.org/c/79342)
-- **Change #:** 79342
-- **Author:** Prithvi Pai
-- **Updated:** 2026-11-22 20:00:07.000000000
-
-### [Add Attributes property under Bios routes](https://gerrit.openbmc.org/c/79698)
-- **Change #:** 79698
-- **Author:** Prithvi Pai
-- **Updated:** 2026-11-22 17:45:52.000000000
-
-### [bios: support PUT of the BIOS attribute table](https://gerrit.openbmc.org/c/94041)
-- **Change #:** 94041
-- **Author:** Dhruv Goyal
-- **Updated:** 2026-11-22 17:33:26.000000000
-
-### [Restrict bootStrap accounts to specific sockets](https://gerrit.openbmc.org/c/82855)
-- **Change #:** 82855
-- **Author:** Thu Nguyen
-- **Updated:** 2026-11-22 17:17:31.000000000
-
-### [rhi: Support Redfish Hostinterface schema](https://gerrit.openbmc.org/c/82853)
-- **Change #:** 82853
-- **Author:** Thu Nguyen
-- **Updated:** 2026-11-22 16:31:34.000000000
-
-### [rhi: Support patch the CredentialBootstrapping properties](https://gerrit.openbmc.org/c/83966)
-- **Change #:** 83966
-- **Author:** Thu Nguyen
-- **Updated:** 2026-11-22 16:15:51.000000000
-
-### [power_subsystem: populate CapacityWatts from power supplies](https://gerrit.openbmc.org/c/97538)
-- **Change #:** 97538
-- **Author:** Jim Fang
-- **Updated:** 2026-11-22 14:41:48.000000000
-
-## 🚧 Work In Progress (9)
+## 🚧 Work In Progress (8)
 
 ### [memory: add unit tests for the Processors link](https://gerrit.openbmc.org/c/97624)
 - **Change #:** 97624
@@ -374,11 +396,6 @@
 - **Change #:** 97623
 - **Author:** Ender
 - **Updated:** 2026-11-23 10:34:59.000000000
-
-### [storage: Use contained_by association for Drive chassis link](https://gerrit.openbmc.org/c/95055)
-- **Change #:** 95055
-- **Author:** Zane Li
-- **Updated:** 2026-11-23 06:55:30.000000000
 
 ### [port: support PATCH of Processor Port settings](https://gerrit.openbmc.org/c/96092)
 - **Change #:** 96092
@@ -410,7 +427,22 @@
 - **Author:** Ender
 - **Updated:** 2026-11-23 04:51:09.000000000
 
-## ❌ Abandoned MRs (4)
+## ❌ Abandoned MRs (7)
+
+### [meson: Require OpenSSL 3.5.0 or later](https://gerrit.openbmc.org/c/97561)
+- **Change #:** 97561
+- **Author:** Jayaprakash Mutyala
+- **Updated:** 2026-11-24 11:00:20.000000000
+
+### [redfish: Fix EventLog MessageId version mismatch](https://gerrit.openbmc.org/c/91903)
+- **Change #:** 91903
+- **Author:** Jayaprakash Mutyala
+- **Updated:** 2026-11-24 10:52:43.000000000
+
+### [Port: Map remaining Port LinkStatus values](https://gerrit.openbmc.org/c/95832)
+- **Change #:** 95832
+- **Author:** JY-Voon
+- **Updated:** 2026-11-24 08:57:10.000000000
 
 ### [bios: report Bios schema version v1_2_0](https://gerrit.openbmc.org/c/94040)
 - **Change #:** 94040
