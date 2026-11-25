@@ -1,28 +1,14 @@
 # 📧 Gerrit Activity Report by Owner
-**Generated:** 2026-11-24 19:50:39 UTC
+**Generated:** 2026-11-25 18:55:26 UTC
 **Owner:** ed@tanous.net
-**Changes:** 2
+**Changes:** 0
 
 ---
 
 ## Owner: ed@tanous.net
-**Period:** 2026-11-23 to 2026-11-24 (1 day)
-**Changes:** 2
+**Period:** 2026-11-24 to 2026-11-25 (1 day)
+**Changes:** 0
 
-
-## ❌ Abandoned MRs (2)
-
-### [WIP: New tidy checks](https://gerrit.openbmc.org/c/76003)
-- **Change #:** 76003
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-11-23 08:03:51.000000000
-
-### [WIP: Simplify sensor api](https://gerrit.openbmc.org/c/75786)
-- **Change #:** 75786
-- **Author:** Ed Tanous
-- **Project:** openbmc/bmcweb
-- **Updated:** 2026-11-23 08:03:50.000000000
 
 ---
 
